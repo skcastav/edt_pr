@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7a6f877-b4db-4223-bbd0-641b96a7a3bf">
+  <producedTypes>
+    <objectType typeId="766736c8-43c4-441b-a0c0-0350bd16a51b" valueTypeId="48704d1e-21ea-4cf3-80db-c68e574ff54c"/>
+    <managerType typeId="072d7bb7-50ec-420b-b6e1-117d8959bd23" valueTypeId="974a4eaa-ab9b-4ba6-8b5d-a1f151097e5b"/>
+  </producedTypes>
+  <name>РасширенныйПоискМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенный поиск материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасширенныйПоискМатериалов.Form.Форма</defaultForm>
+  <attributes uuid="b8858281-fb48-47c5-932d-770fa7d3a545">
+    <name>ГруппаМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа материалов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  </attributes>
+  <attributes uuid="ba3b0c0c-0293-449c-8fee-f2f1cf774521">
+    <name>СтрокаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка поиска (не зависит от регистра)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="6aa34262-2189-4fc5-921e-f4f5e88c385f">
+    <producedTypes>
+      <objectType typeId="667f5e82-f651-4d9d-960a-ae042576f0f0" valueTypeId="bb567e92-4ac7-42c5-9ba6-86a7aa593ff4"/>
+      <rowType typeId="3a75dc16-8c52-46f8-98c1-4919194dc5c1" valueTypeId="6fc5a746-1cbd-4fd5-b8fd-e8774b607834"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bb3f0cf4-19b6-4064-b23f-35833c2a55ae">
+      <name>МПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a3cd59d1-ff76-4fe6-95a9-fa2389da4b40">
+      <name>НайденнаяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Найденная строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1c334ed4-91e4-4675-8315-bcccebe65184">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

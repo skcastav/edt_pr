@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f10bfa02-92f2-476d-9881-8ccb40c82d4c">
+  <producedTypes>
+    <objectType typeId="31a152a4-298f-43fe-8589-a35f1562eaff" valueTypeId="05b74c42-c09c-4c1a-a57e-6c2048737737"/>
+    <managerType typeId="79a69593-bb67-4f19-b1e4-b2d4483c6abb" valueTypeId="f0997bce-efc9-4da5-a207-b5ab2cb5dae5"/>
+  </producedTypes>
+  <name>СозданиеПоступленияПрочегоИзЛО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание поступления прочего из льготной очереди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеПоступленияПрочегоИзЛО.Form.Форма</defaultForm>
+  <forms uuid="b471736d-5340-4c51-8d8c-673df9ae5e6b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

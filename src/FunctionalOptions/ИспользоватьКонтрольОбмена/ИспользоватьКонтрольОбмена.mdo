@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee86cefb-408a-47ca-ba3b-2a26618e9dc2">
+  <name>ИспользоватьКонтрольОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль обмена</value>
+  </synonym>
+  <location>Constant.ИспользоватьКонтрольОбмена</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

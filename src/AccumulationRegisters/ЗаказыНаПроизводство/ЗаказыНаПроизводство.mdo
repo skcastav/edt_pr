@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58908e7b-7993-44af-85f2-53afc7920e7c">
+  <producedTypes>
+    <selectionType typeId="4ab29ffa-0242-44ef-9fc5-d20b53fd229e" valueTypeId="7262abd5-1891-41c0-b68c-9abaad746f20"/>
+    <listType typeId="f69129eb-7715-427d-b54e-8aed2ac3f616" valueTypeId="96879e19-901d-42c5-99c9-cae718e1b74b"/>
+    <managerType typeId="6e266156-3e0e-4f44-b90e-0c660bdb997d" valueTypeId="df34a0fb-5f34-499b-9bc2-e893bbd88b10"/>
+    <recordSetType typeId="9eb17802-2ccf-4244-b3f0-a1e5ba926fc3" valueTypeId="2e7239ec-03d8-4555-b256-45d3e4369700"/>
+    <recordKeyType typeId="d0365e74-9eb3-461b-9f6a-9350bb5b4669" valueTypeId="f3dd98fc-3ad1-423f-9cbe-f5c83d2a06c4"/>
+    <recordType typeId="d64297b7-1978-4690-a336-d58411ac10e7" valueTypeId="523a4606-ecbb-4a66-a025-c97ad1f47823"/>
+  </producedTypes>
+  <name>ЗаказыНаПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы на производство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c781246d-acee-4489-8819-b0aac015e1b3">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a6d3ffbd-7d7d-4395-a360-f5ffbf898d2f">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="439d97b0-0227-4d46-be4c-dc2ac86cd8f8">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

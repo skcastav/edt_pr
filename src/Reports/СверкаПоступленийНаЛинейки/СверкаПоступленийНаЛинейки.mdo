@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdc742d1-951a-46d6-b171-27f352675aaf">
+  <producedTypes>
+    <objectType typeId="aa194873-235e-447c-9bf4-969e3ded5b9a" valueTypeId="3f508552-8f03-42fd-ac49-88e348b858a9"/>
+    <managerType typeId="d7a542ca-5be9-4f53-bf7a-f3855f2cde53" valueTypeId="ecc0fa48-34a3-4b5d-8dc6-ff664d5e1eb3"/>
+  </producedTypes>
+  <name>СверкаПоступленийНаЛинейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка поступлений на линейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СверкаПоступленийНаЛинейки.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="9cf78f02-a8fb-4ef3-b59e-bcfa343cc3f3">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="19e2063a-9412-42ae-ab59-5633333ebfbc">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6b8a25b7-2b74-4ec3-b525-98976763f97c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ac241ee8-db70-4af7-8d55-9fd828fd615b">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

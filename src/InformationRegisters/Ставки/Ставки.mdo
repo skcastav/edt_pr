@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac09cbd3-3eab-4b9c-8126-035827d38e96">
+  <producedTypes>
+    <selectionType typeId="3f933866-6289-4e29-b71b-ca39b245b4de" valueTypeId="062eaf09-bd3c-4949-9f35-6b7869cdc7c5"/>
+    <listType typeId="bf0a5fcc-c1f0-48d3-9c5b-1ea677c12e5a" valueTypeId="24d7da27-a67d-4c3e-9732-a2248255a8f5"/>
+    <managerType typeId="9817b94a-79c9-4236-a324-c91eac2448e0" valueTypeId="fad436c4-990e-4957-86b4-68754153a6f1"/>
+    <recordSetType typeId="4871064f-218e-4528-bf07-ffba90abe7ea" valueTypeId="ddbf1ac1-300b-413f-9d47-7847d3d1fe89"/>
+    <recordKeyType typeId="0eeb989c-538f-4a0e-bcb8-5261899359a5" valueTypeId="366017f4-98eb-4f7e-ae7a-79cbe18f12ea"/>
+    <recordType typeId="48415165-041e-4c68-9e37-27a016a3c99f" valueTypeId="75361a42-0ea0-4b78-afb3-96065ee84047"/>
+    <recordManagerType typeId="cd56e227-5e2f-4a57-b4d1-d37065f4239e" valueTypeId="93cec66e-6c76-44bd-912d-fcad52a0d25d"/>
+  </producedTypes>
+  <name>Ставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0435e17a-1726-46a8-a12f-abe1fca89f2d">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкиНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="df7c5b40-e72a-4fa3-9e4d-fe5348a45cd5">
+    <name>МПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МПЗ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

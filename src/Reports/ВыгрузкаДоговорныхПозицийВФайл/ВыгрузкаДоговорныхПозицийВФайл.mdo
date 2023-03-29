@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c59bf40b-069d-44d7-8b53-c22939d3fd53">
+  <producedTypes>
+    <objectType typeId="355b83ca-253f-442f-b5e8-8b8a4eb85359" valueTypeId="2b6e33e1-da4a-41fc-8450-4bc1c6a23fb3"/>
+    <managerType typeId="3ffc543d-4ed9-4779-9dc2-e62c32a5ae3c" valueTypeId="7b17063a-84df-4c14-9f20-5ef90570f148"/>
+  </producedTypes>
+  <name>ВыгрузкаДоговорныхПозицийВФайл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка договорных позиций в файл</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВыгрузкаДоговорныхПозицийВФайл.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="d7c8126e-e0c7-4c1b-b293-35fcbe27a77c">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f3b5217e-8065-4ba3-94a0-5c7b4ebf3feb">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6586b430-f9cb-4854-8954-682dacf84289">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

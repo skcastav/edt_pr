@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32a19021-de30-415c-b779-2105f47b30a0">
+  <producedTypes>
+    <listType typeId="5082ce9b-d483-46a2-b702-36c3863e456e" valueTypeId="6c48606e-6fb0-4627-89ba-1c34904abd89"/>
+    <managerType typeId="41f164ef-90dc-4102-acb9-2b2b5c10dd82" valueTypeId="b87902b3-ed9e-40db-9458-04de16b6b1c0"/>
+  </producedTypes>
+  <name>ПрименениеГруппРабочихМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применение групп рабочих мест</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ГруппыРабочихМест</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.РабочиеМестаЛинеек.Attribute.ГруппаРабочихМест</content>
+  <defaultForm>FilterCriterion.ПрименениеГруппРабочихМест.Form.ФормаСписка</defaultForm>
+  <forms uuid="accc744a-27a5-4e29-b030-8b9d6d926306">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

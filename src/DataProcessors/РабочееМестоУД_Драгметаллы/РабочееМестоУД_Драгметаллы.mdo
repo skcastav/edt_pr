@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f463c31e-ab56-437d-a090-d7a9a0f9c451">
+  <producedTypes>
+    <objectType typeId="b03bd86a-17c5-4f9a-9223-1326af6dc803" valueTypeId="d5a5e615-ef88-44c1-ba4f-deb8ffa98061"/>
+    <managerType typeId="7091525c-82ad-46d9-9213-0def2029d6a5" valueTypeId="231de471-96ec-4698-a8d1-6b98a659a95f"/>
+  </producedTypes>
+  <name>РабочееМестоУД_Драгметаллы</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ УД Драгметаллы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоУД_Драгметаллы.Form.Форма</defaultForm>
+  <attributes uuid="d3bca33d-f7ed-4141-929c-a3cc8bdd4599">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="10ae53c4-fba9-40ed-9ecc-787c18d81a25">
+    <producedTypes>
+      <objectType typeId="cc10658e-c443-4155-b01e-b8003b8d6a1c" valueTypeId="7762dc3c-f912-460a-b002-330c11ed5b6a"/>
+      <rowType typeId="357e468a-32b1-4ab3-918d-8c11fe37796d" valueTypeId="35a6af34-196c-4e42-88f3-6de914edc8f4"/>
+    </producedTypes>
+    <name>ТаблицаПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица ПЗ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="badde95a-7166-4004-8e50-a424d3dd2804">
+      <name>ПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПЗ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПроизводственноеЗадание</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="56bc9358-98fb-4117-b286-dc5003e16f2b">
+      <name>ДМ1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес платины</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7190d2b0-f992-4436-89f4-bd15ef3850ef">
+      <name>ДМ2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес платина-родия/серебра</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="911085f6-5329-46ea-af92-9f9c8f550a47">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e632ab0a-c03b-4140-87af-1c3c4d9cdcb6">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="44e5c949-e211-4160-be7a-361a73764932">
+    <name>Бирка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бирка</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

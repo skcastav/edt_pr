@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="635eef4e-7653-4586-ac88-76cb0256b034">
+  <producedTypes>
+    <objectType typeId="d155f5c8-3249-4bc0-bfe2-a4b0805e9f6d" valueTypeId="48056c96-a6f6-443a-ba0a-169111130206"/>
+    <managerType typeId="6981b1a5-ae2f-4602-acc6-c92dba41d1db" valueTypeId="bed761cc-e58a-46c4-9b40-c8d4c53c261d"/>
+  </producedTypes>
+  <name>ЗатратыМатериаловНаПродукциюИСписанияПоСтатьям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты материалов на продукцию и списания по статьям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЗатратыМатериаловНаПродукциюИСписанияПоСтатьям.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="ddb357f8-e208-4477-8616-252103b11e17">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="e5366bf1-7f33-420e-a9c8-70d15ac70872">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1ec776a4-074f-4f1f-a951-7675f36542be">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="c42fc9a5-0200-4f08-a6d8-334f73591448">
+    <name>АнализДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ движений</value>
+    </synonym>
+  </templates>
+  <templates uuid="bc7ab609-8dc1-410d-96f3-60d8c77d1230">
+    <name>АнализСписаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ списаний</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

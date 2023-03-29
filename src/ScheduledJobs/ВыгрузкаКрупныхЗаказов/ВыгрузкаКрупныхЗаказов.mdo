@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a50765c-24bd-46fb-b1c4-c86d4bad916b">
+  <name>ВыгрузкаКрупныхЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка крупных заказов</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ВыгрузкаКрупныхЗаказов</methodName>
+  <description>Выгрузка крупных заказов</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

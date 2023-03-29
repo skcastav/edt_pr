@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afce23fd-edb8-4b22-a452-74b46c3734bb">
+  <producedTypes>
+    <objectType typeId="2071e341-9167-4192-99a1-1f259557f12b" valueTypeId="98823bbc-6c56-4220-aa7c-ede84230d241"/>
+    <managerType typeId="be78112a-1177-4907-b169-eae988944ebe" valueTypeId="e1f4f7c9-d7c1-4019-8277-dc209351849a"/>
+  </producedTypes>
+  <name>ОтчетПоВыполнениюПланаЛинейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по выполнению плана линейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоВыполнениюПланаЛинейки.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="8ed4b475-36bf-40ce-b7df-cbf96cab3a6a">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b5998b01-fa37-428a-9c3d-c5b33c5fe370">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="dff2560b-2c18-47a0-8e8e-1fbfe44969a4">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="83b06134-2e48-4add-bdb9-9b3885da74d7">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

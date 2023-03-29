@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f02da3d1-c36f-4cdb-b478-09842d19cbd2">
+  <producedTypes>
+    <selectionType typeId="90fa54e3-309e-4e9c-84fd-2ab001f7652b" valueTypeId="28c318ec-bc47-42e9-a36e-7a8d83a00a14"/>
+    <listType typeId="7c88eb68-a502-4150-9c75-9838339df06c" valueTypeId="f1ec9e92-bfe5-4e90-bb29-1bcfdd15c02c"/>
+    <managerType typeId="6bf7d139-0e44-4f23-a0b7-b87b272ddb03" valueTypeId="86dc7ab6-2fe9-4437-9201-a894854a0ecc"/>
+    <recordSetType typeId="c8baa132-24be-400d-ad21-e56fa816b9c6" valueTypeId="606b27ff-0bd2-4a76-a762-e621f5ee1180"/>
+    <recordKeyType typeId="f29b2787-6e73-4ed9-a99f-720beeedfcc6" valueTypeId="9f39de4a-28a8-40d1-a2cb-528c47f8be7e"/>
+    <recordType typeId="e10717e6-5c18-4fcc-889d-1d08b68b34af" valueTypeId="4a8e913d-c69c-4dd5-bb14-b312789b8fe9"/>
+    <recordManagerType typeId="2d73441b-633b-4b3e-b29d-b3c2f9053d18" valueTypeId="8b8820aa-a1a0-409d-9017-d7bea73f13b3"/>
+  </producedTypes>
+  <name>Себестоимость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Себестоимость</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2181b3db-4ad2-47cb-8807-471d9b174fc5">
+    <name>ЗарплатнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплатная часть</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3d465e13-2164-4c36-8398-efd9eeb62388">
+    <name>СебестоимостьПолная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7f9e8101-a57e-4c97-b7aa-58a0a664e547">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9bb44825-c0ba-44cb-9488-33edd03188b2">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="55d48faa-92b4-4d77-a68c-e7c1e136a851">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

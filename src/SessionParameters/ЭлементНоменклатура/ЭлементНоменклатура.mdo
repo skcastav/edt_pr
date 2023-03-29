@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0fee52a-9180-4c3b-9611-34e3c7373730">
+  <name>ЭлементНоменклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элемент номенклатура</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03f75c4e-d251-4314-a2b3-0f0920d653a7">
+  <producedTypes>
+    <refType typeId="0225c84c-e91b-4e73-9539-3cdfeecf2663" valueTypeId="0a41e862-b28c-45b0-bc4f-161a5d55cf68"/>
+    <listType typeId="8186bcdb-3157-454a-a279-9c4e6500ef54" valueTypeId="ae530841-9a52-4929-8599-73f2f161658e"/>
+    <objectType typeId="18db8388-566a-4b5a-82eb-018ab192cb75" valueTypeId="67e2061a-5a80-4a22-9224-04b2758d9e0f"/>
+    <managerType typeId="e0d49fe0-2f02-4605-8e7b-8cf4fda521e7" valueTypeId="9f5787a6-8594-4f66-94a4-72a4e6d872a5"/>
+    <recordManagerType typeId="25ba00c2-c3f3-41b1-bae1-59b0b2daf215" valueTypeId="cb7d409d-8d5c-4915-8e8a-aef1eed9631a"/>
+    <recordSetType typeId="f274d60c-8457-4ece-b0cb-253eca2e5af3" valueTypeId="2b91d98a-4643-4b9c-85e6-9e7c008bc2b8"/>
+    <recordType typeId="68d8238d-917d-4a69-9733-7e2f2e4a54de" valueTypeId="6e67c84d-9406-4a83-831d-11cf5a80f2a5"/>
+    <recordKeyType typeId="74885cf5-7988-4611-a4cd-b07d2530a9fb" valueTypeId="e191e55a-09a1-43ec-9446-20f7327f3e38"/>
+  </producedTypes>
+  <name>ЗаказКлиента</name>
+  <parentDataSource>ExternalDataSource.БазаСбыта</parentDataSource>
+  <nameInDataSource>Sales.dbo._Document331</nameInDataSource>
+  <keyFields>ExternalDataSource.БазаСбыта.Table.ЗаказКлиента.Field._IDRRef</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="35c29417-6313-4430-a831-2142fb975b71">
+    <name>_IDRRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_IDRRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="489cb64c-0414-4527-be7c-e9a0803bf110">
+    <name>_Marked</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Marked</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7724ab1d-7f77-442b-abdc-2b85818e5845">
+    <name>_Date_Time</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>_Date_Time</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7a9ab3e5-e22a-4e0b-bf5f-9a8746f43e7a">
+    <name>_Number</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Number</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c779aebd-5208-41fd-9db8-18cdff796a72">
+    <name>_Posted</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Posted</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="3760aaee-0e02-4114-80fd-3154d5d21522">
+    <name>Контрагент</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Fld8687RRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="85f67cc7-4688-48c7-af4a-d8eb5d900786">
+    <name>Менеджер</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Fld8698RRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="d2fa6771-fb73-4dcf-a6cd-4d76c7427866">
+    <name>Склад</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Fld8696RRef</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2511f6c1-d92a-45f8-b2ad-9db244d7e363">
+  <producedTypes>
+    <objectType typeId="fac84abf-3a1b-4ef5-85b8-401adbb4b224" valueTypeId="55fd7a62-65a7-470c-9ff3-9b36ba0bddc6"/>
+    <managerType typeId="f9c43356-2247-4091-99b8-8d9c311c081f" valueTypeId="59944f29-f2b1-45db-bc2f-d90607a56e22"/>
+  </producedTypes>
+  <name>СозданиеЭтаповМТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание этапов МТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеЭтаповМТК.Form.Форма</defaultForm>
+  <tabularSections uuid="b6c6f1b9-21c1-4b4d-ad72-95d5c1ac8d33">
+    <producedTypes>
+      <objectType typeId="67bda7d2-4721-48ab-841b-479f3b8dbc19" valueTypeId="36e7e01c-6bcf-475f-9d0b-b228b6353387"/>
+      <rowType typeId="358589fb-fb61-4c9d-900f-f641651d5b31" valueTypeId="74f29765-0db5-41fb-81fd-7c71b20fd43c"/>
+    </producedTypes>
+    <name>Этапы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этапы</value>
+    </synonym>
+    <attributes uuid="6a4e0f13-ffe3-4d40-9765-cdab6d92ab44">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="14b65bcf-6403-4567-aca3-eb69162fda33">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="24760817-58eb-423c-b0bf-886cab8be094">
+      <name>Спецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спецификация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="372441a5-4e8a-4ba8-8198-72aa438fd700">
+      <name>ВидКанбана</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид канбана</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКанбанов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="27accd97-160a-4393-8725-0c93a20d44f4">
+      <name>МТК</name>
+      <synonym>
+        <key>ru</key>
+        <value>МТК</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.МаршрутнаяКарта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f7e56680-0089-40f3-98c9-28ea614081de">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ec72b39f-74d1-4fd2-9524-c0a3c66cb60f">
+      <name>ОсновнойЭтап</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основной этап</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="73ee5617-9a9f-41a5-9119-8072fd98f4cd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

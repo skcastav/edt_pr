@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="569d9e57-912d-41fb-8d68-6b9df3604955">
+  <name>ГрупповаяОбработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая обработка</value>
+  </synonym>
+  <group>FormNavigationPanelSeeAlso</group>
+  <commandParameterType>
+    <types>CatalogRef.ТехОснастка</types>
+    <types>CatalogRef.Документация</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ТехОперации</types>
+    <types>CatalogRef.Материалы</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.CustomExpression</picture>
+  </picture>
+  <shortcut>Alt+G</shortcut>
+</mdclass:CommonCommand>

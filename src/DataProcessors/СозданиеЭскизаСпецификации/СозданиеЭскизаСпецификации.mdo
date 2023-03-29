@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="041f4cd4-ce65-4d44-aae0-036eb77e9b58">
+  <producedTypes>
+    <objectType typeId="7a39c8d0-90df-4633-9e10-771d46fd629c" valueTypeId="5a58fb19-4671-4afb-a048-6a94fc01fa84"/>
+    <managerType typeId="13d9722b-7931-4b35-81f7-0538b8647925" valueTypeId="3b15a7a9-7080-4ee0-91e6-0b05f0b1cfb8"/>
+  </producedTypes>
+  <name>СозданиеЭскизаСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание эскиза спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеЭскизаСпецификации.Form.Форма</defaultForm>
+  <forms uuid="0c0f2c19-3d3d-4194-a144-8e5c63df2da5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a2f0550-7c54-4213-bbb2-7babb1e9c836">
+    <name>ФормаВыбораИсполнений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора исполнений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1bb66e4b-7cf7-4b2f-be71-cee10264f16f">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="c50c4635-35a6-4b85-b583-5b88290ba36c">
+    <name>Остатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки</value>
+    </synonym>
+  </templates>
+  <templates uuid="0ad959c9-f73e-44a4-8d96-09a8d0aeafb0">
+    <name>ЗакупочнаяВедомостьСводная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупочная ведомость сводная</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

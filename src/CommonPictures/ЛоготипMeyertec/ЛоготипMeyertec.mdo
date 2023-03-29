@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b32a798-d408-4dbf-8cd1-d9d5474a91ba">
+  <name>ЛоготипMeyertec</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип Meyertec</value>
+  </synonym>
+</mdclass:CommonPicture>

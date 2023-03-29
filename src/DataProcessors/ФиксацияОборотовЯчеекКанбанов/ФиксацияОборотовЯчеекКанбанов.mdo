@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33cf656b-859d-4145-9c6f-245dace84b26">
+  <producedTypes>
+    <objectType typeId="68358ee7-f875-4a7c-a8fe-28ed0f59e479" valueTypeId="704fc97e-85a1-4f7a-9dbd-375e85ccd3cc"/>
+    <managerType typeId="1b3ff011-396f-4db0-95dc-f27fd9aabbac" valueTypeId="41095398-cacc-455b-80bd-88ff1185c62c"/>
+  </producedTypes>
+  <name>ФиксацияОборотовЯчеекКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксация оборотов ячеек канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ФиксацияОборотовЯчеекКанбанов.Form.Форма</defaultForm>
+  <forms uuid="2b25df93-aa46-4cb1-9db9-2b03d7af9fda">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

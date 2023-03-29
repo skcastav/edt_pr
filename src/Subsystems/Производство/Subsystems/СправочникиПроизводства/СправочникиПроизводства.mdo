@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bf1e6a0-5b75-4fa5-9c5a-e43ae18ede88">
+  <name>СправочникиПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники производства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Подразделения</content>
+  <content>Role.Администратор</content>
+  <content>Enum.ПричиныПВ</content>
+  <content>Enum.ВидыМПЗ</content>
+  <content>Catalog.МестаХранения</content>
+  <content>Catalog.СтандартныеКомментарии</content>
+  <content>Enum.СтатусыРемонта</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.НумераторГрупповыхУпаковок</content>
+  <content>Catalog.ТехОперации</content>
+  <content>Catalog.ТехОснастка</content>
+  <content>Catalog.ГруппыАктивов</content>
+  <content>Catalog.НумераторГрупповыхУпаковокDanfoss</content>
+  <content>Catalog.ПричиныУвеличенияСроковПоставки</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

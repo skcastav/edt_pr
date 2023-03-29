@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b92166de-e53e-4fb7-9b48-31aa7cccd6eb">
+  <producedTypes>
+    <selectionType typeId="3af542f0-e941-414e-b342-cf4e97de4b9f" valueTypeId="205bd2c3-88bf-455b-a2df-74c0ea907c04"/>
+    <listType typeId="add757f5-7fa1-4a99-8769-8c0c90b38c84" valueTypeId="505765c7-8a83-406a-86cc-72c8d9f702a8"/>
+    <managerType typeId="b4b97248-2c44-46da-b904-2b5612a658de" valueTypeId="88058567-1e6d-4352-acd6-5d7b9a101db7"/>
+    <recordSetType typeId="2beacb6f-f303-432b-ad62-1107bcba7c26" valueTypeId="5cd9d702-b4a2-45d1-ad6e-10853009891d"/>
+    <recordKeyType typeId="4faff4af-c261-4800-ba4f-10d4d1955f5a" valueTypeId="6e077136-207a-43c0-bf60-776ce0304485"/>
+    <recordType typeId="37c53170-dc3c-436b-8bee-0120e41eec34" valueTypeId="14fade4d-5b82-4c35-b5f2-c38f7ca52c4c"/>
+  </producedTypes>
+  <name>БракПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брак производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f450fcc4-4cc7-4130-9d4d-d70e90ad0adf">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="739754e1-8e88-45c3-8bd0-f09ffebd1bdb">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="463a8552-aea0-4375-953f-5d78fa6a3d66">
+    <name>ПроизводственноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ba9fced5-d5c5-4682-b8ad-db2f5846a270">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="581a0d97-bd97-4268-bb61-7917cb2d928f">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="18e94c1f-2cfa-402a-9c10-8bfa39e041eb">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изделие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b55d8c8c-552e-4b22-a1c0-6dec618a1491">
+    <name>ВидБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид брака</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КомментарииНеисправностей</types>
+      <types>CatalogRef.ВидыБрака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fc841d88-d489-4f67-b575-22710b5febc0">
+    <name>ЭтапЖизненногоЦикла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап жизненного цикла</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭтапыЖизненногоЦикла</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="254907e9-e56f-4266-a59e-0c38092d5ba1">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ДвижениеМПЗ</types>
+      <types>DocumentRef.ВыпускПродукцииКанбан</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

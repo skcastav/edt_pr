@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab573ca8-0cb8-4ab3-9a4c-0e06cd25a3c0">
+  <producedTypes>
+    <objectType typeId="66b91709-c26a-4381-84c9-21495bd42516" valueTypeId="268898fd-f63c-4c93-a293-8c54a7f1ab37"/>
+    <managerType typeId="7ef7ab82-2f28-46dc-9121-0ea58c2b36ee" valueTypeId="1373d492-2ed4-4e88-9f4f-2629c9c658e0"/>
+  </producedTypes>
+  <name>ЗагрузкаПараметровНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка параметров номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПараметровНоменклатуры.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2da858ae-3e95-47ba-a2aa-976be5be03e8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

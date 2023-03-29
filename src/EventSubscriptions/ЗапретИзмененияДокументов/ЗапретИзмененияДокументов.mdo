@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36f6fd5a-a5b4-4701-b7fd-cbdba0567d4c">
+  <name>ЗапретИзмененияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет изменения документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбщийМодульСозданиеДокументов.ИзменениеДокументовПередЗаписью</handler>
+</mdclass:EventSubscription>

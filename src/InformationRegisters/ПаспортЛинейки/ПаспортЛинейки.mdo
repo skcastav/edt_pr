@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b07574b6-6a4e-4849-9ede-88f86ca96f1a">
+  <producedTypes>
+    <selectionType typeId="05035c48-0ade-4492-a3f6-a7e21a4a3f65" valueTypeId="f00a9a46-8bb1-4023-8121-0d6b19971ac1"/>
+    <listType typeId="631477de-589c-436c-82ef-5f91125ced09" valueTypeId="5d809f9d-5454-4051-a12e-4d9819780e05"/>
+    <managerType typeId="33b61b43-fdda-46ed-9766-aa0a9e0e9e33" valueTypeId="8b80f577-812f-492f-b2a1-fb6d295c99bc"/>
+    <recordSetType typeId="01c681c8-42cf-4567-a1c9-36e989c18735" valueTypeId="5cb31a15-5979-433c-8f15-4ea41a3ebbdb"/>
+    <recordKeyType typeId="62065dde-a947-4d88-8d2e-c68d787ef13e" valueTypeId="164a1d0b-d75a-4265-ab18-6e53ddb66d56"/>
+    <recordType typeId="505099ee-5a45-4fe4-9d70-1325af71b4c1" valueTypeId="a9c213ff-9c93-4a3e-a6b8-e16e1950a252"/>
+    <recordManagerType typeId="338b4370-116f-4e14-8743-1775d23a9131" valueTypeId="17ec5951-cfe8-472b-817d-fabcdaa1d372"/>
+  </producedTypes>
+  <name>ПаспортЛинейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паспорт линейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПаспортЛинейки.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f7eed2c4-499f-4de7-b7c6-eaffc983f936">
+    <name>ВремяТактаМаксимальное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время такта (max), мин.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f101fca3-bb04-4f50-95b7-36a10eb9930d">
+    <name>ВремяТактаМинимальное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время такта (min), мин.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="203a1473-12e6-41e9-a60d-108af7aed8be">
+    <name>ВремяТактаРасчётное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время такта расчётное, мин.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="10ae6f87-b35f-4496-9ba0-2875e01a3946">
+    <name>ВыпускЗаДеньРасчётный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выпуск за день расчётный</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="18b913d1-4708-45fd-bbc2-a3df7c3ee816">
+    <name>Мастер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="748044dc-6c12-4af6-ac77-91b72b72640c">
+    <name>ТехническийЛидер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технический лидер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f5f9fb12-769a-4335-ab2f-9c66df55b90c">
+    <name>Смена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смена, мин.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="88f27038-f7a0-4b2e-a46e-b9eee4dc48d2">
+    <name>ПроцентПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент премии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b1eeffce-8738-4ca4-a1d2-800db27c2a99">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c638bf06-68d9-470a-8a58-1fe565d48ce5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

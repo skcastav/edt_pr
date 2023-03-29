@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="288e5b6e-f1bd-4d85-893f-9d8aae88782e">
+  <producedTypes>
+    <refType typeId="d81b48da-71c2-4c4e-9822-9cefa7f21ddf" valueTypeId="4e9f96c8-28dd-4bc7-8250-d277e8b4d88e"/>
+    <listType typeId="64162afb-2c77-41e3-a9e6-c270570ea7d1" valueTypeId="3c27cd5a-2f0c-4421-a463-b51f4fbc8567"/>
+    <objectType typeId="a00968a6-377a-472b-bc36-8b6b8f564e97" valueTypeId="68586b79-d7e2-4dc0-98e0-4b0974680800"/>
+    <managerType typeId="9e83a75b-2169-47ea-be98-f3d8ebb3f71e" valueTypeId="916a3a87-e89d-47c1-b7b3-72895e015d05"/>
+    <recordManagerType typeId="03cdeaeb-1a2e-4786-8ada-b0392aae0a0b" valueTypeId="68563d12-383b-40e3-8612-7bd5bd90f171"/>
+    <recordSetType typeId="e52e860f-0552-4e08-85bb-1ed78876db7a" valueTypeId="5efda1cd-205a-4cc6-81b2-9a29893d152a"/>
+    <recordType typeId="a39ca652-e83c-499e-abd6-ebe41188ffd6" valueTypeId="fac22f7f-95a5-4533-90d6-2cc43cd5e39c"/>
+    <recordKeyType typeId="080ba5aa-d3f0-4082-9a63-2f80f3f89a5a" valueTypeId="bc8f677e-a0e2-411a-80eb-3b4dd9bb6938"/>
+  </producedTypes>
+  <name>Реализация_ТЧ</name>
+  <parentDataSource>ExternalDataSource.БазаСбыта</parentDataSource>
+  <nameInDataSource>Sales.dbo._Document404_VT12315</nameInDataSource>
+  <keyFields>ExternalDataSource.БазаСбыта.Table.Реализация_ТЧ.Field._KeyField</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="a9fc9329-eb3f-427d-b6b6-ff3a992e591b">
+    <name>_Document404_IDRRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Document404_IDRRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ce6a78f1-e073-48d9-bfec-b2e061f873f8">
+    <name>_KeyField</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>4</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_KeyField</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="f2e26fea-f923-4b5c-891f-757b4b9f33a8">
+    <name>Номенклатура</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Fld12317RRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="c1398d8f-75dd-4e3d-9491-a2a2806339e8">
+    <name>Количество</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>_Fld12322</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35472398-8b49-4574-be69-4d6633a450dc">
+  <producedTypes>
+    <objectType typeId="a84d0dc4-2dd5-4714-8cf9-bbfcbbc56e90" valueTypeId="597de13f-afeb-4740-bf65-b3249864a04f"/>
+    <managerType typeId="32d27d24-03fd-48e6-a879-026a2da1d193" valueTypeId="026cb2c6-75a0-4a6b-b6e8-c912cce60c0c"/>
+  </producedTypes>
+  <name>ПоискМатериаловПоКорневымХарактеристикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск материалов по корневым характеристикам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПоискМатериаловПоКорневымХарактеристикам.Form.ФормаОтчета</defaultForm>
+  <forms uuid="d7b67ad4-554b-4661-b528-c27ac72093bc">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

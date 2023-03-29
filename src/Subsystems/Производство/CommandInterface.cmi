@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.Визуализация.StandardCommand.Open</commands>
+      <commands>Report.ВизуализацияСводная.StandardCommand.Open</commands>
+      <commands>Report.ВизуализацияЗаказовНаПроизводство.StandardCommand.Open</commands>
+      <commands>Report.ВыпускПродукцииПоВремени.StandardCommand.Open</commands>
+      <commands>Report.ВыпускиПоКодамDanfoss.StandardCommand.Open</commands>
+      <commands>Report.ОтчетПоСменнымЗаданиям.StandardCommand.Open</commands>
+      <commands>Report.ОтчетПоВыработкеВЛинейках.StandardCommand.Open</commands>
+      <commands>Report.ОтчетПоВыработкеНаСтендеСводный.StandardCommand.Open</commands>
+      <commands>Report.ОтчетПоВыработкеНаСтендеДДСводный.StandardCommand.Open</commands>
+      <commands>Report.ОтчётПоГрупповойУпаковке.StandardCommand.Open</commands>
+      <commands>Report.ОтчетПоПрименениюТехнологическойОснастки.StandardCommand.Open</commands>
+      <commands>Report.ОтчетПоДрагоценнымМеталлам.StandardCommand.Open</commands>
+      <commands>Report.ОтчётПоПодчиненнымМТК.StandardCommand.Open</commands>
+      <commands>Report.ОтчётПоИспытаниям.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Производство.Subsystem.СправочникиПроизводства</subsystems>
+    <subsystems>Subsystem.Производство.Subsystem.СправочникиЛинеек</subsystems>
+    <subsystems>Subsystem.Производство.Subsystem.СправочникиБарКодов</subsystems>
+    <subsystems>Subsystem.Производство.Subsystem.Документы</subsystems>
+    <subsystems>Subsystem.Производство.Subsystem.УД</subsystems>
+    <subsystems>Subsystem.Производство.Subsystem.УД_ДД</subsystems>
+    <subsystems>Subsystem.Производство.Subsystem.УПЭА</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

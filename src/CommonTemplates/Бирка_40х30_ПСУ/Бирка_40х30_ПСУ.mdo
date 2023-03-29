@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aef6ba5a-884c-40a1-8f84-16829dc9af2a">
+  <name>Бирка_40х30_ПСУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бирка 40х30 ПСУ</value>
+  </synonym>
+</mdclass:CommonTemplate>

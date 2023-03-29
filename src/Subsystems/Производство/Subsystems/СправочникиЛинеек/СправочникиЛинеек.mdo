@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3809de5-2bdc-4844-bdad-bd0ae8412004">
+  <name>СправочникиЛинеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники линеек</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РабочиеМестаЛинеек</content>
+  <content>Catalog.Линейки</content>
+  <content>Catalog.Стенды</content>
+  <content>Catalog.ПричиныОстановок</content>
+  <content>Catalog.Проекты</content>
+  <content>Catalog.ГруппыРабочихМест</content>
+  <content>DataProcessor.ГрупповаяОбработкаТехОпераций</content>
+  <content>DataProcessor.ГрупповаяОбработкаТехОперацийДД</content>
+  <content>DataProcessor.ГрупповоеВнесениеТехОпераций</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

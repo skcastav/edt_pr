@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c90b19c3-cc40-4745-8aea-d5cd5ff926f1">
+  <producedTypes>
+    <refType typeId="085e8405-4928-4c9e-81e5-d4c993a0688e" valueTypeId="54ac349f-055d-446e-9e78-aec8e0a67bd0"/>
+    <listType typeId="cbfad4b6-ceb8-4386-80f8-79fdb1accb61" valueTypeId="6e304f1d-eb2a-4061-af5c-11dfdb963e3d"/>
+    <objectType typeId="3c469c3f-d946-4c27-b0aa-24118d80d420" valueTypeId="11e383d9-8dc1-4add-9cf5-54113eeb9091"/>
+    <managerType typeId="16d8942a-c268-41cc-85d4-6aef0fc3227d" valueTypeId="c43121c0-d4c2-4aaa-94cf-228d5024ba08"/>
+    <recordManagerType typeId="6bdc0ad1-69c1-4b6a-9cc9-7362cb57dd5c" valueTypeId="a2188700-edc5-4ecb-8358-22874081ae00"/>
+    <recordSetType typeId="2bfbe217-89e2-49ec-8cd7-91777329e6f2" valueTypeId="dbd9a2ac-329f-4f59-b302-642f98c5489b"/>
+    <recordType typeId="1e8a6b02-eb82-49f4-ab27-746de3947e2c" valueTypeId="9e450fc0-3fd4-4b5e-a149-992d19b0a33c"/>
+    <recordKeyType typeId="0bdd2333-c6da-4fab-95de-545c74e9da49" valueTypeId="8fa905f5-1284-4a32-90df-56f61b9e1b3d"/>
+  </producedTypes>
+  <name>СнятиеСРезерва</name>
+  <parentDataSource>ExternalDataSource.БазаСбыта</parentDataSource>
+  <nameInDataSource>Sales.dbo._Document18854</nameInDataSource>
+  <keyFields>ExternalDataSource.БазаСбыта.Table.СнятиеСРезерва.Field._IDRRef</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="a57cebce-97bf-4c1f-9e4c-decba965a7a2">
+    <name>_IDRRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_IDRRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="89d04aee-91a5-49df-a9de-b3b74b6d53f5">
+    <name>_Date_Time</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>_Date_Time</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="743347d9-73ce-463b-baf7-b4f3c5be8c54">
+    <name>_Number</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Number</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8ef08fc-e462-41d8-abc7-36243078b4df">
+  <name>ЭтикеткаНаУпаковку_105х57_Meyertec</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетка на упаковку 105х57 Meyertec</value>
+  </synonym>
+</mdclass:CommonTemplate>

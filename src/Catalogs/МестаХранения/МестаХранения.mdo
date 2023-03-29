@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ab78f65-174f-4246-ae1d-d7a5aafbb5e2">
+  <producedTypes>
+    <objectType typeId="d19af0fd-de8e-4f79-adce-5bc3f6177111" valueTypeId="1e65ff07-f04f-44b1-87af-95a3d5c24c44"/>
+    <refType typeId="47252644-4daa-46c6-ac76-9c9bc53464f7" valueTypeId="b469ced5-65ff-4432-a4e0-09c02a7a6afe"/>
+    <selectionType typeId="385c8fd2-13c4-45c4-8856-63cb792934c0" valueTypeId="ffbb9f6c-0bc0-4bff-8196-135591dfcee2"/>
+    <listType typeId="f6d688c3-2ffc-4dcd-9ea3-dc4408821051" valueTypeId="8c16b946-6a16-43cc-b7c6-d73d1f633677"/>
+    <managerType typeId="a4ec8cd4-a9c2-428a-b37c-3bb4d067757d" valueTypeId="4a7ae2a6-4b7e-4fdb-a5cc-62aceab2eb03"/>
+  </producedTypes>
+  <name>МестаХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестаХранения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МестаХранения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МестаХранения.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f19a9f77-5272-413b-a5d0-6ae9f48bf0e9">
+    <name>МОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материально ответственное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ecb13997-abea-43a7-81c0-9569a8e9c610">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="caffd94c-eb2a-42e7-a17c-d95370a8c204">
+    <name>СоздаватьПередачуНаЛинейкуПотребитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать передачу на линейку-потребитель</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85dcee34-8ab0-44c2-a627-9eaa93bc8b20">
+    <name>ГруппаАктивов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа активов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыАктивов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ae8fb1fe-3262-4a20-a8e9-44dfb2b6f519">
+    <name>ВыгружатьСвободныеОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать свободные остатки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cdd49e2-7847-4575-bd10-125eaeae65fc">
+    <name>КодВБухБазе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код в бух. базе</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="75f259d5-18db-4d76-9a10-e3022e836813">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

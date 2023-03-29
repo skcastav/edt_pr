@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45c945ae-7c73-4b1b-bc1d-8a208149b182">
+  <producedTypes>
+    <objectType typeId="0a4ebbb7-8d2c-4af6-879d-2448fd502e82" valueTypeId="34e2c1df-515a-4bb3-9390-cffd14caf794"/>
+    <managerType typeId="99fdf336-6f05-4ef4-9564-12583f5e89ee" valueTypeId="5a6d4a00-2cb2-4816-baf6-d6604625b3f9"/>
+  </producedTypes>
+  <name>ОтчётПоРегиструИзменениеДатыОтгрузкиОбещанной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по регистру изменение обещанной даты отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоРегиструИзменениеДатыОтгрузкиОбещанной.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="78f47320-a2e4-45d0-a67d-556b79ff73e1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

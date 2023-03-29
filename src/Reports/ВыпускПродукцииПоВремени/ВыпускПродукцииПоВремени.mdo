@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8f7202e-be62-4d90-973a-cb9516dfcd2a">
+  <producedTypes>
+    <objectType typeId="bbfe36af-ef64-426f-98ce-9b3bbcada0da" valueTypeId="d2ad4ccb-bae4-412e-abba-a7f554226476"/>
+    <managerType typeId="c1fb47c4-4924-481c-80f1-dd98c3aad7b2" valueTypeId="c46b8bc5-a18e-4ebf-998d-e3097d5da0b6"/>
+  </producedTypes>
+  <name>ВыпускПродукцииПоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск продукции по времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВыпускПродукцииПоВремени.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="76612465-35fa-4e6f-9c88-4f02de2bd65f">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="0d6be232-43d2-455a-8dfd-1f4912b40552">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="b09e4c1e-b167-45ec-a5e3-b4818f5232b7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="72f75fcc-4d65-42be-9ca8-7fbb30d58f7c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="dddac176-e58e-4a59-bf37-2a7afee72f79">
+    <name>МакетДляПЭО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет для ПЭО</value>
+    </synonym>
+  </templates>
+  <templates uuid="9eade9b3-22bf-4e48-bf63-bfdca1838116">
+    <name>МакетExcel</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет excel</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

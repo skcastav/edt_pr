@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1f62122-f677-4cda-a09b-7b84f74393c8">
+  <producedTypes>
+    <objectType typeId="7227367f-036c-42a3-a15c-81a2defb557a" valueTypeId="a274287d-fc64-4db9-a338-dc54ba274ab2"/>
+    <managerType typeId="f558beca-f115-44bd-8ee4-d82e76186f71" valueTypeId="7abc4f34-b217-4153-bd37-7486014d981b"/>
+  </producedTypes>
+  <name>ОтчётПоПоказаниямНапряженияБатареек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по показаниям напряжения батареек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоПоказаниямНапряженияБатареек.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2443263e-8db3-4b9e-8263-e2a9a56c344a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

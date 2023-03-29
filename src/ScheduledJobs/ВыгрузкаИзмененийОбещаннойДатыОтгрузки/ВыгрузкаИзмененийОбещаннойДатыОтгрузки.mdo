@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29e467d0-3560-44c0-afa3-872a8a4c3636">
+  <name>ВыгрузкаИзмененийОбещаннойДатыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка изменений обещанной даты отгрузки по СХ в БД Харьков</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ВыгрузкаИзмененийОбещаннойДатыОтгрузки</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b13591d6-4086-492e-9f50-9edb9334854a">
+  <producedTypes>
+    <objectType typeId="1c848f65-42ee-41bc-9c22-e3dd6446aafa" valueTypeId="5ae41100-4f56-4656-9ee8-26a41644b8ee"/>
+    <managerType typeId="2c684582-ad6c-4e1e-8832-f8c07a9bfab7" valueTypeId="9567ddb9-b0a4-42da-a680-02af63195bd0"/>
+  </producedTypes>
+  <name>ГрупповаяОбработкаТоварныхГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая обработка товарных групп</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповаяОбработкаТоварныхГрупп.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="b9a08d23-4b41-4163-b5b6-11d61f6e295f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6dc0bbfa-324e-45a9-89e9-b912ec024767">
+    <name>ГрупповаяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая обработка</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ТоварныеГруппы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

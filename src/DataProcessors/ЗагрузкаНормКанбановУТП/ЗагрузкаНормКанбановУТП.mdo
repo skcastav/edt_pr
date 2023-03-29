@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee75e7e6-f36f-4366-b78a-61cd65bb515f">
+  <producedTypes>
+    <objectType typeId="8a4f779e-6d71-48ac-886a-30b7e8b40c1c" valueTypeId="d8c0fd49-561c-40cd-9771-5aaa2d5d6838"/>
+    <managerType typeId="93840a9f-6374-48dd-9b74-86377141a787" valueTypeId="d3bed4d0-954d-4df6-a7c9-3e8fd12ae3cb"/>
+  </producedTypes>
+  <name>ЗагрузкаНормКанбановУТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка норм канбанов УТП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаНормКанбановУТП.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="ff91dbab-19ba-4012-b5ea-e4032be2e753">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4f70beda-ecf9-4931-8f15-21d87da7c0c6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

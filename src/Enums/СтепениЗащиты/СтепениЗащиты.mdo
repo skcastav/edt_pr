@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8aac23ba-c75e-40f1-b6e4-f98508ad003b">
+  <producedTypes>
+    <refType typeId="721fa236-22c2-4df6-9ea2-c2f1c7987db9" valueTypeId="096cc244-7a18-4faf-9bf1-73cea8ee4569"/>
+    <listType typeId="77c948a2-8cde-4ec0-b4d5-49fab7e1e526" valueTypeId="f349b8f4-9756-4a69-a76b-a88ebf8f446d"/>
+    <managerType typeId="1e36d1c9-c1a9-4ef9-b3a0-ade18421908f" valueTypeId="59d99a0b-6155-49a7-a3b1-2987692aff5d"/>
+  </producedTypes>
+  <name>СтепениЗащиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Степени защиты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b3ee5db-9d2b-44c0-915c-10392530a938">
+    <name>IP00</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP00</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9daa5c4-240d-4fa8-8e25-5cc68b58a69f">
+    <name>IP20</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP20</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58eea37f-2566-4e1b-a3a4-e34080aebd17">
+    <name>IP54</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP54</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9fd88089-11d9-4054-a053-bc2078e04086">
+    <name>IP65</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP65</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77f42e93-c8c8-4c9d-98c2-3438baa41947">
+    <name>IP67</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP67</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

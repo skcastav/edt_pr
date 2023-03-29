@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="436d99d7-1e42-4a1d-b018-ca9fd6e829b7">
+  <producedTypes>
+    <listType typeId="e4c3c1b4-183f-4a02-b086-d8927a3b96e2" valueTypeId="92009611-344c-48f7-8fae-b0b660aeba60"/>
+    <managerType typeId="6c79080a-1b0c-4316-8ff8-aa0788159ef0" valueTypeId="b7f17445-ef5b-43d5-abd3-226cbab9f091"/>
+  </producedTypes>
+  <name>ПрименениеВидовБрака</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применение видов брака</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыБрака</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.Материалы.Attribute.ВидБрака</content>
+  <content>Catalog.Номенклатура.Attribute.ВидБрака</content>
+</mdclass:FilterCriterion>

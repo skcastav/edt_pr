@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияДанных</dataPath>
+			<field>ВерсияДанных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерОчереди</dataPath>
+			<field>НомерОчереди</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проведен</dataPath>
+			<field>Проведен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЯчейки</dataPath>
+			<field>НомерЯчейки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналоги.Ссылка</dataPath>
+			<field>Аналоги.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтандартныйКомментарий</dataPath>
+			<field>СтандартныйКомментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Линейка</dataPath>
+			<field>Линейка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТехОперации.Ссылка</dataPath>
+			<field>ТехОперации.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счёт</dataPath>
+			<field>Счёт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛинейкаИнициатор</dataPath>
+			<field>ЛинейкаИнициатор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналоги.НомерСтроки</dataPath>
+			<field>Аналоги.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоХраненияПотребитель</dataPath>
+			<field>МестоХраненияПотребитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проект</dataPath>
+			<field>Проект</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ремонт</dataPath>
+			<field>Ремонт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОтгрузки</dataPath>
+			<field>ДатаОтгрузки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выгружено</dataPath>
+			<field>Выгружено</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Аналоги</dataPath>
+			<field>Аналоги</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналоги.Спецификация</dataPath>
+			<field>Аналоги.Спецификация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналоги.НормаРасходов</dataPath>
+			<field>Аналоги.НормаРасходов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Аналоги.АналогНормыРасходов</dataPath>
+			<field>Аналоги.АналогНормыРасходов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТехОперации.НомерСтроки</dataPath>
+			<field>ТехОперации.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТехОперации.ТехОперация</dataPath>
+			<field>ТехОперации.ТехОперация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТехОперации.Спецификация</dataPath>
+			<field>ТехОперации.Спецификация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТехОперации.Количество</dataPath>
+			<field>ТехОперации.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТехОперации.Исполнитель</dataPath>
+			<field>ТехОперации.Исполнитель</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>ТехОперации</dataPath>
+			<field>ТехОперации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МоментВремени</dataPath>
+			<field>МоментВремени</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.НомерСтроки</dataPath>
+			<field>Остановки.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Остановки</dataPath>
+			<field>Остановки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.Причина</dataPath>
+			<field>Остановки.Причина</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Причина</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.ДатаОкончания</dataPath>
+			<field>Остановки.ДатаОкончания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.Ссылка</dataPath>
+			<field>Остановки.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.ДатаНачала</dataPath>
+			<field>Остановки.ДатаНачала</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.ДатаОкончанияПредполагаемая</dataPath>
+			<field>Остановки.ДатаОкончанияПредполагаемая</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата окончания предполагаемая</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.МПЗ</dataPath>
+			<field>Остановки.МПЗ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>МПЗ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.Инициатор</dataPath>
+			<field>Остановки.Инициатор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Инициатор</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.РабочееМесто</dataPath>
+			<field>Остановки.РабочееМесто</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рабочее место</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановки.Комментарий</dataPath>
+			<field>Остановки.Комментарий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	МаршрутнаяКарта.Ссылка КАК Ссылка,
+	МаршрутнаяКарта.ВерсияДанных КАК ВерсияДанных,
+	МаршрутнаяКарта.ПометкаУдаления КАК ПометкаУдаления,
+	МаршрутнаяКарта.Номер КАК Номер,
+	МаршрутнаяКарта.Дата КАК Дата,
+	МаршрутнаяКарта.Проведен КАК Проведен,
+	МаршрутнаяКарта.ДокументОснование КАК ДокументОснование,
+	МаршрутнаяКарта.Статус КАК Статус,
+	МаршрутнаяКарта.НомерОчереди КАК НомерОчереди,
+	МаршрутнаяКарта.Линейка КАК Линейка,
+	МаршрутнаяКарта.ЛинейкаИнициатор КАК ЛинейкаИнициатор,
+	МаршрутнаяКарта.МестоХраненияПотребитель КАК МестоХраненияПотребитель,
+	МаршрутнаяКарта.НомерЯчейки КАК НомерЯчейки,
+	МаршрутнаяКарта.Номенклатура КАК Номенклатура,
+	МаршрутнаяКарта.Количество КАК Количество,
+	МаршрутнаяКарта.Проект КАК Проект,
+	МаршрутнаяКарта.Счёт КАК Счёт,
+	МаршрутнаяКарта.Ремонт КАК Ремонт,
+	МаршрутнаяКарта.ДатаОтгрузки КАК ДатаОтгрузки,
+	МаршрутнаяКарта.СтандартныйКомментарий КАК СтандартныйКомментарий,
+	МаршрутнаяКарта.Выгружено КАК Выгружено,
+	МаршрутнаяКарта.Подразделение КАК Подразделение,
+	МаршрутнаяКарта.Автор КАК Автор,
+	МаршрутнаяКарта.Комментарий КАК Комментарий,
+	МаршрутнаяКарта.Аналоги.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Спецификация КАК Спецификация,
+		НормаРасходов КАК НормаРасходов,
+		АналогНормыРасходов КАК АналогНормыРасходов
+	) КАК Аналоги,
+	МаршрутнаяКарта.ТехОперации.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ТехОперация КАК ТехОперация,
+		Спецификация КАК Спецификация,
+		Количество КАК Количество,
+		Исполнитель КАК Исполнитель
+	) КАК ТехОперации,
+	МаршрутнаяКарта.Представление КАК Представление,
+	МаршрутнаяКарта.МоментВремени КАК МоментВремени,
+	МаршрутнаяКарта.Остановки.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ДатаНачала КАК ДатаНачала,
+		ДатаОкончанияПредполагаемая КАК ДатаОкончанияПредполагаемая,
+		ДатаОкончания КАК ДатаОкончания,
+		Причина КАК Причина,
+		МПЗ КАК МПЗ,
+		Инициатор КАК Инициатор,
+		РабочееМесто КАК РабочееМесто,
+		Комментарий КАК Комментарий
+	) КАК Остановки
+ИЗ
+	Документ.МаршрутнаяКарта КАК МаршрутнаяКарта
+ГДЕ
+	МаршрутнаяКарта.Остановки.ДатаОкончания = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>ВОстановке</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>В остановке</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:field>Остановки</dcsset:field>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Остановки.Причина</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Остановки.Комментарий</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Остановки.Инициатор</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Остановки.ДатаНачала</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Остановки.ДатаОкончанияПредполагаемая</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Остановки.МПЗ</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Остановки.РабочееМесто</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Линейка</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>55e74153-0dc7-45a0-8994-f3ee8d9cac92</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Статус</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">2</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					<dcsset:userSettingID>e3084e64-1c0c-4dcc-8662-ecbb5415e4f1</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Ссылка.Номер</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

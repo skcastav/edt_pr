@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ac195b1-1525-448f-b6e5-3591d2670e6b">
+  <producedTypes>
+    <refType typeId="279fe31b-535d-49ae-b820-6f50e481ef3c" valueTypeId="08d84475-05ff-4d66-85d5-1acfc14b41c6"/>
+    <listType typeId="3278170a-a050-4e1a-9e20-bcb8778c315d" valueTypeId="e2c9bbde-0100-4226-8ab7-bd2646e86b1d"/>
+    <managerType typeId="21879556-7932-4c57-96bc-c9dd3d08042b" valueTypeId="8a96ebc2-0cb4-481d-a434-49e93a0d339a"/>
+  </producedTypes>
+  <name>СтатусыСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы спецификаций</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8459bba0-3c1f-416c-b590-e0c4a8208884">
+    <name>Серийная</name>
+    <synonym>
+      <key>ru</key>
+      <value>А</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea62801e-b865-42ca-88af-e64fa3699075">
+    <name>Предсерийная</name>
+    <synonym>
+      <key>ru</key>
+      <value>О2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77803b03-8964-4fc1-933d-5cb021571bdf">
+    <name>Опытная1</name>
+    <synonym>
+      <key>ru</key>
+      <value>О1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="113b1034-0ef3-4689-8062-73aac08f649c">
+    <name>Опытная</name>
+    <synonym>
+      <key>ru</key>
+      <value>О</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc96f578-7b68-4d7b-953d-edcbb16e6207">
+    <name>ОНР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОНР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb4ec36b-bdf9-4c1f-b07c-823a191239ae">
+    <name>ДоИсчерпанияЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВРМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="048307f8-98c4-4699-89b0-10dd9a2e1af1">
+    <name>Аналог</name>
+    <synonym>
+      <key>ru</key>
+      <value>АН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3468ecc8-830b-459c-9870-d59966ce049c">
+    <name>Запрещённая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Х</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

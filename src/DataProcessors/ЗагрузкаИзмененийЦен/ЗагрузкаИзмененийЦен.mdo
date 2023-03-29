@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="590d4cb9-da50-4f9d-bc67-20a8587a4e10">
+  <producedTypes>
+    <objectType typeId="aa56790f-49ab-4ba3-b11b-5b41277dee04" valueTypeId="17ddef0f-cdda-4fc7-8eeb-af9e0a1b0303"/>
+    <managerType typeId="c080a27c-4c2f-46f9-a4fb-e594589ca7a2" valueTypeId="d05dd626-8cf6-4009-b016-a4860bb88697"/>
+  </producedTypes>
+  <name>ЗагрузкаИзмененийЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка изменений цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаИзмененийЦен.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="cbdb7ec1-9b4b-441d-ad87-dfb2db9f4fc3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

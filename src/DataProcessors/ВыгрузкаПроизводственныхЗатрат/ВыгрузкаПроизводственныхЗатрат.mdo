@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee16a2cb-2f50-44ac-b7d7-35d3727bf102">
+  <producedTypes>
+    <objectType typeId="b4945b8f-8203-4eba-a013-0af58ec73777" valueTypeId="c08141e8-aba3-4533-a759-d7746309f793"/>
+    <managerType typeId="7b18e009-281e-4c4d-b6b7-c63335056a2a" valueTypeId="607383b5-d782-48dd-9c7d-2b8a904e669b"/>
+  </producedTypes>
+  <name>ВыгрузкаПроизводственныхЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка производственных затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаПроизводственныхЗатрат.Form.Форма</defaultForm>
+  <attributes uuid="8042bd5f-7058-4e8e-b278-e59420ea8461">
+    <name>БазаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>База данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбменДанными</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="acae44c3-9e19-4d48-90f7-81873778e18e">
+    <name>ГруппаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="389ced7e-6f27-457c-9b3f-13e71aa4e3ec">
+    <name>ГруппаНоменклатурыКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="58df7222-3773-4020-a517-d0b1139bc9d1">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="4e2d330c-8969-4275-9006-87e98d69f11e">
+    <name>МестоХраненияКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="468a74b3-630d-4540-a0e2-e593cd7d6e11">
+    <name>НоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="003f9f51-f8e5-4cc7-b412-92935e3127d6">
+    <name>НоменклатурнаяГруппаКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурная группа код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ebece4a0-e487-473d-896e-1f82fea1da55">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="6c16e880-f564-41d8-91dd-99d07d0846b4">
+    <name>ПодразделениеЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение затрат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="8397bbda-f680-4208-8d3d-d080b10a7b27">
+    <name>ПодразделениеЗатратКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение затрат код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a7845011-4a8c-4bea-ab64-8d4b6dfaf47e">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ad8c136d-931e-4ee8-a80c-bdb7b3ba55eb">
+    <name>СтатьяЗатратКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="9e7fb6cb-57d0-4620-80e3-ee67c3a411aa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

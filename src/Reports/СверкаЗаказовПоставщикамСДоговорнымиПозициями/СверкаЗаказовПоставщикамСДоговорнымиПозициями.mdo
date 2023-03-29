@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79d3c4b1-3913-49c0-b4d0-180b511e67e0">
+  <producedTypes>
+    <objectType typeId="8c5ea4a2-fe76-4452-8b7f-0b93ba8d25b9" valueTypeId="72ac2362-8b72-4849-864c-484551478448"/>
+    <managerType typeId="e441e432-52de-42c7-b7a7-d5f3d3ba892f" valueTypeId="2764072d-8c43-4edf-8eaa-dfe796b70b8a"/>
+  </producedTypes>
+  <name>СверкаЗаказовПоставщикамСДоговорнымиПозициями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка заказов поставщикам с договорными позициями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СверкаЗаказовПоставщикамСДоговорнымиПозициями.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="d79f02b7-02f7-40f3-8e03-5e69049c29e1">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf6e1f21-724b-41dd-892a-8a7fae54d3aa">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c6258a73-2b32-45d4-ae07-cbfabbaf796a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1612de4a-1a48-4927-9df5-496df87eb3c5">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

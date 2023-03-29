@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93e000cb-b853-4abe-a7b8-639c8cab3fab">
+  <name>ЭлементДокументация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элемент документация</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Документация</types>
+  </type>
+</mdclass:SessionParameter>

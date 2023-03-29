@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4148eda5-eace-4513-940b-58258bf60fee">
+  <producedTypes>
+    <objectType typeId="d8d8cf23-25f4-485f-a336-14a483872db9" valueTypeId="6af295bd-91a6-4f43-b94f-90ef634b0391"/>
+    <refType typeId="03b2bf33-a5eb-4121-a59d-c2edbae6a10d" valueTypeId="45f97cc1-f535-484d-92d9-a2acf150a9fe"/>
+    <selectionType typeId="ba6a238b-69ef-4e8c-90c0-ae1e953e59b5" valueTypeId="e6803cb3-aad1-4924-9077-042e5e6b92a4"/>
+    <listType typeId="59e044b1-8aa8-4fc0-b35d-195579dbedf7" valueTypeId="a0bc288c-9b2d-4d47-9729-716bb77f2590"/>
+    <managerType typeId="e7c9d3a6-ba0a-4d00-8c9c-777b12cbcb0b" valueTypeId="102b5035-4d53-4234-9c16-f394a141f121"/>
+  </producedTypes>
+  <name>СтандартныеКомментарии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные комментарии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтандартныеКомментарии.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтандартныеКомментарии.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4bcd841a-3310-4408-9150-6853e106613d">
+    <name>Показывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="87488d96-ff02-4a59-8ef2-95ef25befe7d">
+    <name>НеВыгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать в базу сбыта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5849774-3ae5-44be-8255-d0f55e827561">
+    <name>ОсобаяОтметка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особая отметка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="df5fac58-037e-4335-954a-5058c968f174">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

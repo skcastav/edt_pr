@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9bb4b457-2e21-4255-a2b5-7a4847d8071b">
+  <producedTypes>
+    <objectType typeId="7406e1e1-50f0-46d0-83bb-211490cc311a" valueTypeId="83438ae9-bc84-4307-8458-bff59a9041ca"/>
+    <managerType typeId="c87c0d24-9b34-4d7a-838d-c3897fe1a71a" valueTypeId="c0204eee-9558-4929-828d-34f3f9fbc509"/>
+  </producedTypes>
+  <name>ЛазернаяГравировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лазерная гравировка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЛазернаяГравировка.Form.Форма</defaultForm>
+  <attributes uuid="38664954-30ff-4dd4-a1ad-314d5a513f2e">
+    <name>СписокШаблонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7593f597-6199-4e02-a240-e31e151e09cc">
+    <name>СписокБарКодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бар-коды</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6602ff25-9102-498b-a80d-cd3ae0aecd71">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Перепрогон</types>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+      <types>DocumentRef.МаршрутнаяКарта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="ee7290ec-2b07-471c-b9c6-1f0c1d6b36a5">
+    <producedTypes>
+      <objectType typeId="f246363a-86b1-4407-a086-fd6084e5adfd" valueTypeId="9874c5cf-37e2-4807-a1d2-87687372826c"/>
+      <rowType typeId="c36ec6d5-9c5c-46aa-b5cf-9b08b63486b6" valueTypeId="9f7f459d-11af-4751-8480-aef08e2a197d"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <attributes uuid="16d78e17-e7b1-4b96-8343-7e2c8531a4d2">
+      <name>НомерПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер параметра</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bdfae20d-78d9-451a-b232-7f010de7e13b">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7b51ff3c-4986-4390-ad70-f05f703fb684">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d0af1a40-1a81-4cb7-b64c-f62b9bcaa14c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dd6dcf2-4784-442b-a0e2-a6ccd9c4662f">
+  <producedTypes>
+    <refType typeId="ff312848-e3f3-43c3-b500-0140866d946a" valueTypeId="65ef6d0d-40c6-4eb4-a452-1034d00c6f42"/>
+    <listType typeId="132c2958-3d42-4efb-982c-948f7cb57173" valueTypeId="33c0d62a-8202-4f8e-bfce-ac684a10f587"/>
+    <managerType typeId="b461db0d-0c45-47b2-9367-e7d5b14fce85" valueTypeId="0604ed9b-6018-43cd-95ba-0b9f57571361"/>
+  </producedTypes>
+  <name>ФорматыПринтеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы принтеров</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a39b9efa-815d-4b6d-a30b-671ef39ec74a">
+    <name>А3</name>
+    <synonym>
+      <key>ru</key>
+      <value>А3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2779ed07-9f04-47d9-8d41-78c252e31ecb">
+    <name>А4</name>
+    <synonym>
+      <key>ru</key>
+      <value>А4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d27361b-ad5f-4272-abd9-88c23e28bf77">
+    <name>Zebra</name>
+    <synonym>
+      <key>ru</key>
+      <value>Zebra</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

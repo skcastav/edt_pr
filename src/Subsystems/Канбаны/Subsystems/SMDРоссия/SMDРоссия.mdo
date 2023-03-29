@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05ab49f2-cdb2-4ae8-ace8-5e86d6fc7b41">
+  <name>SMDРоссия</name>
+  <synonym>
+    <key>ru</key>
+    <value>SMDРоссия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.РабочееМестоКанбанSMD_ГСС</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Диспетчер</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Линия</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Мастер</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_ОптическийТест</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Промывка</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Электроконтроль</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Комплектация</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Переналадка</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Подготовка</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_МастерНовый</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Линия_Новый</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_ОптическийТест_Новый</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Контроль</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Инженер</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_УправлениеСкладом</content>
+  <parentSubsystem>Subsystem.Канбаны</parentSubsystem>
+</mdclass:Subsystem>

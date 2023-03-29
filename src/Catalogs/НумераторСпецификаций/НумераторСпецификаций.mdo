@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26dabf9d-f7b5-4cfc-b7b4-82f16ca2d909">
+  <producedTypes>
+    <objectType typeId="cbd48bec-5415-4eb3-8730-eb2b5385bea4" valueTypeId="626ed71a-8015-46a5-827b-bcb07c7ec219"/>
+    <refType typeId="c50fed69-a2d9-4e65-a23b-e76609ef6e56" valueTypeId="20a37df9-2a08-42aa-be1a-7e40e5f9e033"/>
+    <selectionType typeId="8e7ed857-0293-4ee9-aae2-b5f587a28884" valueTypeId="e13254ad-b91c-4f22-8ce5-5fded1890384"/>
+    <listType typeId="2309d5c9-dabe-4bf7-858e-2559a4a9409c" valueTypeId="aea0e05d-c3db-4535-a092-bb75978db262"/>
+    <managerType typeId="8cdd95b1-9e50-4bcc-bc20-60f723b4de93" valueTypeId="88df87a4-74a2-4479-834a-4ed9020cdeb5"/>
+  </producedTypes>
+  <name>НумераторСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумератор спецификаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НумераторСпецификаций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НумераторСпецификаций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.НумераторСпецификаций.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="12daab75-169f-4c44-90df-4890da1a0843">
+    <name>СледующийНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Следующий номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bc46e3c6-d5f0-4d0a-a43e-472f621f6311">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

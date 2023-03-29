@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="430b49fd-9fef-480c-baf4-1ffeb7df4e13">
+  <producedTypes>
+    <objectType typeId="5fc4f891-f570-4081-a734-11ccf7c2ec78" valueTypeId="de21013d-c00d-4e08-b0c5-66415a17d46d"/>
+    <managerType typeId="58eed686-53e1-4366-8150-8b6280186590" valueTypeId="641ca183-4c8c-46c5-b0bc-25cc11f6091a"/>
+  </producedTypes>
+  <name>ОтчетПоНормамКанбановСтарый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по нормам, расценкам и трудоёмкости канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоНормамКанбановСтарый.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="24e2f333-69b3-46a7-9fee-7ee4f2b8c3ef">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f2e98377-6ae7-420b-ae58-ece3865fe3c4">
+    <name>ВидКанбана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид канбана</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКанбанов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f6e3d85b-6846-4044-8d7c-4dd43bcf8f14">
+    <name>ТехОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех. операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9594df23-350f-4a61-af8c-5d98491dedd9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="45d2f6b1-3d00-411e-8504-cdf5a86967dd">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

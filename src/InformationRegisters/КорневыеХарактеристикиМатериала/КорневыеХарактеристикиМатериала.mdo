@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9bd1e6b-b105-43fc-98fa-7ce979a09c2e">
+  <producedTypes>
+    <selectionType typeId="86b3ffb8-f7eb-450e-b0d6-eaba262c34ab" valueTypeId="c55339aa-74f6-44c4-929b-4eb221308022"/>
+    <listType typeId="f504e16c-0593-4405-811a-253105f61699" valueTypeId="c04ee325-576b-4982-871d-3b590f4b13c9"/>
+    <managerType typeId="0cf2de98-6725-464f-9be5-ebcd8dbdfc11" valueTypeId="5885adfd-3efc-4c7c-93be-3903ff44e670"/>
+    <recordSetType typeId="0fb92b55-a837-4277-acf6-855b52af63b5" valueTypeId="402a926c-6c2a-4bb5-accb-c96c2d3f0d37"/>
+    <recordKeyType typeId="0d7b61ce-e39e-431b-803c-2c77271dfffe" valueTypeId="cab7ea76-8fc8-4e10-8035-37295c7ca5e3"/>
+    <recordType typeId="aed51923-7aef-4454-98a9-341b4041859b" valueTypeId="05bf0428-3932-4725-be88-eb274670a8c6"/>
+    <recordManagerType typeId="065086c1-482b-4ee4-92f8-ec61db5019ad" valueTypeId="c0cab661-f0a8-492e-ad57-58093f704f10"/>
+  </producedTypes>
+  <name>КорневыеХарактеристикиМатериала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корневые характеристики материала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КорневыеХарактеристикиМатериала.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="159fa7b9-1426-42ff-bc44-8f3fa8c4fa24">
+    <name>Значение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение1</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыМатериалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>ПараметрМатериала</name>
+      <field>InformationRegister.КорневыеХарактеристикиМатериала.Dimension.ПараметрМатериала</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.КорневыеХарактеристикиМатериала.Dimension.ПараметрМатериала</field>
+    </linkByType>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9dd8beaf-4fda-4ff4-afcf-d5d0fb1ae5d1">
+    <name>Значение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение2</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыМатериалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>ПараметрМатериала</name>
+      <field>InformationRegister.КорневыеХарактеристикиМатериала.Dimension.ПараметрМатериала</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.КорневыеХарактеристикиМатериала.Dimension.ПараметрМатериала</field>
+    </linkByType>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e84a4201-eacb-4091-9ef7-9d5cbd00dd86">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="51466877-7275-476c-9616-653d9a09d25b">
+    <name>ПараметрМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр материала</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПараметрыМатериалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="76c9ae72-2163-4e63-b38a-bc955d86d9ff">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

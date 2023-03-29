@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b7eb509-dfaf-47aa-bbe8-51fb1384d1d8">
+  <producedTypes>
+    <listType typeId="b1dfc2a5-1631-49a8-9419-3dc138aeb833" valueTypeId="81ff9d23-1c03-4072-8c6c-270eff282481"/>
+    <managerType typeId="0df4acdc-cc5d-49e7-ab28-546940226c68" valueTypeId="69975989-cd31-41ff-a242-eb0fa9d0bf4a"/>
+  </producedTypes>
+  <name>ПрименениеШаблонаПечатногоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применение шаблона</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШаблоныПечатныхДокументов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ТоварныеГруппы.TabularSection.ШаблоныПечатныхДокументов.Attribute.Шаблон</content>
+</mdclass:FilterCriterion>

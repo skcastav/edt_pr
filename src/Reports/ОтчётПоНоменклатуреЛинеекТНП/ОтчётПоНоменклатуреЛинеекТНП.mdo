@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e131d25-2ca8-42f2-936b-466196cbad6b">
+  <producedTypes>
+    <objectType typeId="e44234a2-604c-41db-a06e-852207c229a2" valueTypeId="61a1e7e1-41ad-4856-9abb-f1b92978ed2e"/>
+    <managerType typeId="575bbae5-0cc0-4b98-8240-994d82815cc0" valueTypeId="21bbb6d7-7dd1-4e14-baea-8518117636f2"/>
+  </producedTypes>
+  <name>ОтчётПоНоменклатуреЛинеекТНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по номенклатуре линеек ТНП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоНоменклатуреЛинеекТНП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c6e4a4a2-7d51-4dc3-b387-bee95866ff5f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

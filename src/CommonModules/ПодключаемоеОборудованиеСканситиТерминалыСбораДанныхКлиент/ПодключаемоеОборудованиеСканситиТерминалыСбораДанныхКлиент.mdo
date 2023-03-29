@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a4b86a5-87b2-49eb-8c87-9e129b91208e">
+  <name>ПодключаемоеОборудованиеСканситиТерминалыСбораДанныхКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик драйвера &quot;Скансити: Терминалы сбора данных&quot;</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

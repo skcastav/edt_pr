@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0c3d19e-34b1-48a7-84cf-e7b75e09e5a4">
+  <producedTypes>
+    <objectType typeId="fc7e47bf-d3f0-4016-84c4-7d19a503d73d" valueTypeId="e49d1b16-6ce6-4f7a-a152-95fe367eb94f"/>
+    <refType typeId="7fe9d4a0-2bde-438f-ac38-0f2b5a6e1811" valueTypeId="eb4386a2-7f88-4a6d-9ccc-4ed061d999dc"/>
+    <selectionType typeId="6c1000fa-cc3a-4a65-abfe-6431d012f0c8" valueTypeId="45d984b6-90ba-447b-a231-e59cbf79e01f"/>
+    <listType typeId="e2145fcf-62cf-49af-a8c5-2f956a904f27" valueTypeId="864c94b1-c803-4f8a-9df4-b6b3d20c2e67"/>
+    <managerType typeId="ac672d58-bbc6-4228-8c6f-5dd831dc6cc3" valueTypeId="788544b7-93f6-4731-878d-8bbe2fb4f639"/>
+  </producedTypes>
+  <name>ОбщиеПараметрыДатчиковТемпературы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие параметры датчиков температуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОбщиеПараметрыДатчиковТемпературы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОбщиеПараметрыДатчиковТемпературы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>10</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d8c3af4f-66af-44cd-a916-4355244852b4">
+    <name>НСХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НСХ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НСХ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90c67ce7-cca5-49b0-b87c-099c42619099">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d79e294-9746-42d1-ba06-1dd4e4c1272c">
+    <name>ДиапазонТемператур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон температур</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

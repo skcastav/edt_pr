@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfb6adf4-169e-452b-a060-a4666f729e31">
+  <producedTypes>
+    <managerType typeId="468da5c4-2fa3-43d1-a5b8-4e5c1c46d8b5" valueTypeId="4e885c26-3b30-4abd-96c4-3b6971b69831"/>
+    <valueManagerType typeId="4b7caa40-69ab-4c7f-a3c6-f7237883b523" valueTypeId="db713625-eacd-481b-8232-95e376d50c65"/>
+    <valueKeyType typeId="6fd8356a-c3a8-5000-ae8d-cf9889cb164e" valueTypeId="066336b6-3770-5554-8acb-9b1290095e43"/>
+  </producedTypes>
+  <name>МестоХраненияНеликвидов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Место хранения неликвидов</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.МестаХранения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НастройкиОбщихМестХранения</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

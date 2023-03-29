@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a749333-fc58-41c0-8a6c-4ae534dee6ec">
+  <producedTypes>
+    <objectType typeId="2dea8aa0-81c1-4472-90fc-82ee49027bc6" valueTypeId="56dbbccf-5ae3-472b-8e42-0f51a750090f"/>
+    <managerType typeId="44caaf7e-0a17-4fb4-a2f9-b58ee3d677ec" valueTypeId="bd0e259c-7bf5-464f-a238-dd5aabaf662a"/>
+  </producedTypes>
+  <name>ПринятиеПустыхКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принятие пустых канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПринятиеПустыхКанбанов.Form.Форма</defaultForm>
+  <forms uuid="76d6257e-1b7f-4093-a349-d7d05f2d65ce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

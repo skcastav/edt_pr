@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72cc733d-7318-4772-b128-2455a8692e3f">
+  <producedTypes>
+    <objectType typeId="8ac14062-9a5d-46b1-97ac-afa812e952b3" valueTypeId="e9da4ef3-eb9b-4d76-892c-4f1989be53e1"/>
+    <managerType typeId="12f77a4a-f4d5-4b4c-b54b-cfc0b06b584c" valueTypeId="c1fb6924-0b38-43c8-ba34-9194a2c2ffdd"/>
+  </producedTypes>
+  <name>ОбработкаПустыхКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка пустых канбанов поставщиками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаПустыхКанбанов.Form.Форма</defaultForm>
+  <attributes uuid="d92d0b46-775f-460a-8b98-346154a139aa">
+    <name>ИнтервалОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал обновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0d2a7cb9-fdf2-40a8-ac34-4481aa6e42f5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="23482c61-f195-4f47-b737-62321675255c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

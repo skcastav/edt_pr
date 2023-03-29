@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04661984-b5e4-4569-b802-09e97b836fcb">
+  <producedTypes>
+    <refType typeId="556a05ad-1b1d-4a01-9a00-edc741c611a1" valueTypeId="55db31a5-7a63-4700-b0a7-e23bf88b43e9"/>
+    <listType typeId="e6bd4cbb-a4c3-4e5b-ba1b-cd2bd377416a" valueTypeId="6cd22fc3-38a2-4a8e-bee0-07e6f41a7525"/>
+    <managerType typeId="efa25924-928c-464e-9371-64f8b715dd97" valueTypeId="df64dbef-bf78-4f28-a0f1-25f87aff665f"/>
+  </producedTypes>
+  <name>ВидыЛинеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды линеек</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="455f6d3f-d366-43e2-89cc-d2358ac24d86">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4344a0c7-5a8b-47c3-bd35-c11fa5e66619">
+    <name>Канбан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канбан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eae4e66c-c880-4923-b81e-3cc863d83c8f">
+    <name>Переупаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переупаковка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

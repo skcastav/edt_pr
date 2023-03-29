@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="274e3364-6f53-4686-84c4-a4a5d2747d94">
+  <producedTypes>
+    <objectType typeId="8366d0d0-4d7d-4791-9960-3bad10310ab7" valueTypeId="318e8661-1e60-4ed2-9ebe-178d58287a7d"/>
+    <managerType typeId="bc4261db-3f8b-4353-b283-fa5364cfd54e" valueTypeId="970a9081-33d6-466f-9f95-ca6498299169"/>
+  </producedTypes>
+  <name>ОтчётПоГрупповойУпаковке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по групповой упаковке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоГрупповойУпаковке.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="b6d5ebb3-ea90-4394-857a-d0139ac5bb10">
+    <name>ДатаНач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f4a7f5fe-6adc-4057-a6ee-86b87274d0d5">
+    <name>ДатаКон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="03f731d3-2376-403f-bb52-1356b63a27c9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3463ec0f-ad33-4eca-96fc-ce9e9931218a">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

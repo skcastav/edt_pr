@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffb59669-2842-456e-9c2d-4a44014df3ec">
+  <producedTypes>
+    <objectType typeId="9a1c4f5b-3f94-4f3f-8fba-7874ada98f39" valueTypeId="6eaf561c-61fc-491b-b6f9-38b9ce4374f1"/>
+    <managerType typeId="af3fdd6d-d202-46d2-8fcb-14705f42d227" valueTypeId="5f54d457-6a57-4bfd-9f16-40ed1f9c5aef"/>
+  </producedTypes>
+  <name>ЗагрузкаВидовРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка видов работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаВидовРабот.Form.Форма</defaultForm>
+  <forms uuid="3d64b9f5-0971-4647-81f5-6dc0ca48adf0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

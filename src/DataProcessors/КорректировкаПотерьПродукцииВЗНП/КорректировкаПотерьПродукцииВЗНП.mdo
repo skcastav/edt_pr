@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86e76dee-494e-40dd-9671-d4d50a67f726">
+  <producedTypes>
+    <objectType typeId="ccd4c48e-7abd-4a16-9bec-d9324367a377" valueTypeId="8ea60e56-9d87-4b08-8742-526bef15ea16"/>
+    <managerType typeId="23d01097-d708-444d-a1ed-d9c66d425948" valueTypeId="258ff1c2-e35c-4daa-8725-a669e54f05e5"/>
+  </producedTypes>
+  <name>КорректировкаПотерьПродукцииВЗНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка потерь продукции в ЗНП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КорректировкаПотерьПродукцииВЗНП.Form.Форма</defaultForm>
+  <forms uuid="79105501-5452-4981-bd07-e1ca8ae426e1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

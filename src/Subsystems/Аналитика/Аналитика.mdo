@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36af923f-2732-4b0a-bb7d-476feef92371">
+  <name>Аналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Аналитика</picture>
+  </picture>
+  <content>Report.ПроизводственныеПоказатели</content>
+  <content>Report.ОтчетПоТактамНаАРМ</content>
+  <content>Report.ОтчетПоВременнымПромежуткамОпераций</content>
+  <content>CommonPicture.Аналитика</content>
+  <content>Report.ОтчетПоВыполнениюПланаЛинейкиПоДатам</content>
+  <content>Report.ОтчётПоБракуАналитический</content>
+  <content>Report.ОтчетПоРаботеЛинейкиЗаДеньСводный</content>
+  <content>Report.ОтчётПоПричинамПростоя</content>
+  <content>Report.ОтчетПоЛьготнойОчередиЛинеек</content>
+  <content>Report.ОтчетПоВыполнениюПланаЛинеекСводныйПоДатам</content>
+  <content>Report.ОтчетПоТекущейЛьготнойОчередиУправленческий</content>
+  <content>Report.ВыпускПродукцииПоПериодам</content>
+  <content>Report.ОтчетПоЛьготнойОчередиСквозной</content>
+  <content>Report.ОтчетПоПроектнымЛинейкам</content>
+  <content>Report.ОтчетПоВремениИзготовленияНаЛинейках</content>
+  <content>Report.ОтчетПоПроизводственнымЗаданиямСводный</content>
+  <content>Report.ОтчетПоПроизводственнымЗаданиямСводныйИстория</content>
+  <content>Report.ОтчетПоВыполнениюПланаЛинейки</content>
+  <content>Report.ВыгрузкаДанныхПоНевыполненнымПЗ</content>
+  <content>Report.ОтчётПоБракуПолуфабрикатовАналитический</content>
+  <content>Report.ОтчетПоПроизводственнымЗаданиямКанбанСводныйИстория</content>
+  <content>Report.ВыпускПродукцииКанбанПоПериодам</content>
+  <content>Report.ОтчетПоПроизводственнымЗаданиямПоСчёту</content>
+  <content>Report.ОтчетПоРаботеЛинейкиЗаДеньПоСменамСводный</content>
+  <content>Report.ОтчётПоБракуАналитическийДляВыгрузки</content>
+  <content>Report.ОтчётПоНачатымПроизводственнымЗаданиям</content>
+  <content>Report.ОтчётОТекущемСостоянииДелНаЛинейках</content>
+  <content>Report.ОтчётПоННС</content>
+  <content>Report.СостояниеЗаказаНаПроизводство</content>
+  <content>Report.ОтчетПоЗНПМетрика</content>
+  <content>Report.ОтчетПоРегиструСборИнформацииПоАРМ</content>
+  <content>Report.ОтчётПоОстановкамМТК</content>
+  <content>Report.АнализМатериаловДляРасчётаЯчеекКанбанов</content>
+  <content>Report.АнализЛьготнойОчередиЛинеек</content>
+  <content>Report.ОтчётПоИзменениямДатОтгрузкиОбещанных</content>
+  <content>Report.ОтчетПоПоступлениюТМЦСводный</content>
+  <content>Report.ОтчётПоПроизводственнымМощностям</content>
+  <content>Report.ОтчётПоПередачамВПроизводствоПоступлениямИСписаниямПрочим</content>
+</mdclass:Subsystem>

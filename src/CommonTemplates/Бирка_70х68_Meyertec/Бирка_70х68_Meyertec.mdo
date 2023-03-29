@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d72fb328-b5e9-4776-be24-8353bd329cb5">
+  <name>Бирка_70х68_Meyertec</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бирка 70х68 Meyertec</value>
+  </synonym>
+</mdclass:CommonTemplate>

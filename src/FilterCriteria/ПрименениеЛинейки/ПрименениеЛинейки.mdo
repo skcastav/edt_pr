@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b079c116-1075-4c81-a5bf-70e629a2da62">
+  <producedTypes>
+    <listType typeId="0650cb26-0c25-4fc4-887f-0ed9ada8d93d" valueTypeId="4f376d25-e958-4697-8ccc-d49d9fac81c2"/>
+    <managerType typeId="b660630d-b4e6-4169-8e7e-ce4ebc47048b" valueTypeId="695d45da-3b33-4dd9-b9c0-184eef7587d6"/>
+  </producedTypes>
+  <name>ПрименениеЛинейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применение в номенклатуре</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Линейки</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.Номенклатура.Attribute.Линейка</content>
+</mdclass:FilterCriterion>

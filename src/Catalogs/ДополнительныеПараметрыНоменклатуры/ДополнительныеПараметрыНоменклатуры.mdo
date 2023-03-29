@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fd0cbf0-c3c2-4d39-a7cf-21b8bc963341">
+  <producedTypes>
+    <objectType typeId="14e07fc8-9187-455e-a436-8a1a7d2e0c75" valueTypeId="c9f4e892-f3b4-43cb-93fa-590d37c3127f"/>
+    <refType typeId="f2a24834-01a6-4368-890f-01def86a9dc0" valueTypeId="27b27872-ca38-45dc-84c1-ee6994fc13b1"/>
+    <selectionType typeId="4c8c64e0-ceb9-430f-bc25-17cf258922c6" valueTypeId="db17b427-4fb0-4203-9252-24ef55d28864"/>
+    <listType typeId="e4b91e75-8ca2-4d4c-ac91-c7d7f176813d" valueTypeId="3185c286-e995-4b39-b644-a0f29111b6a1"/>
+    <managerType typeId="935dfd63-3f06-4256-b93f-8bb5dd3ab496" valueTypeId="c85ff5d1-cacd-4a5e-a8c6-516ed5661f80"/>
+  </producedTypes>
+  <name>ДополнительныеПараметрыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДополнительныеПараметрыНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="02664f54-9038-4fe1-86fd-c965ef0bd684">
+    <name>СТ_ПД</name>
+    <synonym>
+      <key>ru</key>
+      <value>t подг.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5a084620-c406-442b-a209-c9f2a57dc11e">
+    <name>СТ_ПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>t прог.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aac6724a-6f11-47f6-8eb7-98e48611a4be">
+    <name>СТ_СН</name>
+    <synonym>
+      <key>ru</key>
+      <value>t снят.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5c8f2c6e-807a-4749-9b64-d7f284b176c6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

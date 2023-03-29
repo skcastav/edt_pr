@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d97f4fff-093c-4e7b-9c2d-f0d8ab02169b">
+  <producedTypes>
+    <objectType typeId="c1be225b-4833-4bb1-b268-aec3a6c2bb86" valueTypeId="b29df9d5-2079-4a03-897f-7b40d256e9a2"/>
+    <managerType typeId="83303ff7-1d57-44ce-b519-cd159ac226d9" valueTypeId="792f2058-4a4e-48d1-8d43-8c501af4b15a"/>
+  </producedTypes>
+  <name>СравнениеРезультатовЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение результатов запросов в двух базах (v. 1.2)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СравнениеРезультатовЗапросов.Form.Форма</defaultForm>
+  <attributes uuid="7b1812b9-c98c-4c1a-a0c6-91c5b81d268a">
+    <name>ТекстЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="f7ecb512-9678-4718-8efc-05a5951b199d">
+    <producedTypes>
+      <objectType typeId="35f6cdd8-5d40-4ef9-9363-15a9d537ff0f" valueTypeId="274b458e-bf2b-411e-81b5-087c96cb0d2a"/>
+      <rowType typeId="ba7a9c27-1ae6-4368-a6f9-1342296ce105" valueTypeId="fa6ede7d-8a77-4d2b-9b0d-79f2a596a2b4"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e06e0082-0a44-476a-a6b5-3351e22da847">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="6ccbeb97-5521-4478-bbc9-84e72abecb20">
+      <name>ЗначениеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение параметра</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>8</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="87c6e864-d729-4c63-bc98-961e43676f91">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="19982948-3697-4fd0-a95b-4da3c8a43a5c">
+    <name>Различия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Различия</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

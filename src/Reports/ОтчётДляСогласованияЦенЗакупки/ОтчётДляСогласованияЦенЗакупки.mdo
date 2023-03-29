@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f0ce57-1e6c-401b-bce2-616aa2da9858">
+  <producedTypes>
+    <objectType typeId="e0530899-0394-4e23-b15e-735a9b1538b0" valueTypeId="ad16d214-11bb-4532-b961-59f8bca78cf2"/>
+    <managerType typeId="bdca686e-4490-43b6-942b-93c7d038517f" valueTypeId="7d19d261-5acf-4adc-bc23-6c08d7c48a54"/>
+  </producedTypes>
+  <name>ОтчётДляСогласованияЦенЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт для согласования цен закупки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётДляСогласованияЦенЗакупки.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="889a7842-88e8-4098-8fbb-106438a0d250">
+    <name>РасходЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход за период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="23353bc6-d991-46b5-b67a-588eb410d318">
+    <name>ОстаткиНаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки на дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="670287dc-37df-4838-b54a-6b7b63b09b78">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0962c513-0cbb-4815-9775-8b48909a4cdd">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

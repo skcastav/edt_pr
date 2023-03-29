@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1713fcf5-78c5-407e-95d5-7626159d39f9">
+  <producedTypes>
+    <objectType typeId="0e1307ba-633a-44d1-ada0-8035494b4588" valueTypeId="073bd8e8-f3e0-4926-b03f-719f9b8b829a"/>
+    <managerType typeId="0d30d921-0517-4fef-93bf-98a6a574b43b" valueTypeId="fdd9b0f4-77a2-4fe0-b471-a11407048c94"/>
+  </producedTypes>
+  <name>ПереносОстатковМПЗИзБазы1С7</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос остатков МПЗ из базы 1С7.7</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносОстатковМПЗИзБазы1С7.Form.Форма</defaultForm>
+  <attributes uuid="138f09ca-a308-458f-876d-b8347f4ae6b7">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <comment>Имя пользователя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="c2de2629-4daa-459b-839f-5edd047fcff0">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <comment>Пароль</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="09cb9791-4b84-4625-8b4a-e87fdef973ac">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

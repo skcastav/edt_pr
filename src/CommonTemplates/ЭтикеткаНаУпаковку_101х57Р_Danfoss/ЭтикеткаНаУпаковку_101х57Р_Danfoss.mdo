@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="460f4997-6fcc-4517-b0ac-aacedfb310ad">
+  <name>ЭтикеткаНаУпаковку_101х57Р_Danfoss</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетка на упаковку 101х57 Danfoss Zebra</value>
+  </synonym>
+</mdclass:CommonTemplate>

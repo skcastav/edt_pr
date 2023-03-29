@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ef33c8e-9f47-415c-b23d-1af42dd878c9">
+  <producedTypes>
+    <selectionType typeId="b124f529-5daa-4188-9fe7-a86e64bef765" valueTypeId="64419593-31ca-4323-81f4-0817ce195f5c"/>
+    <listType typeId="20c00d3d-28e1-4896-88cb-8e89fc196951" valueTypeId="bb027a4c-1d71-41c3-99f7-6e9bb5dcdad1"/>
+    <managerType typeId="4e9be612-306b-4039-b64e-7886ae27b9c8" valueTypeId="869b6343-ed1c-4a46-9500-1059870034a6"/>
+    <recordSetType typeId="b68a9b49-a116-4fec-9057-911f575b827f" valueTypeId="de72b61d-5762-42d8-85ed-93c9b2c9f4f6"/>
+    <recordKeyType typeId="6cc855d7-981f-48f4-b709-ac934b1d6500" valueTypeId="99604335-ddf9-4fee-983a-9f040eb7a0d9"/>
+    <recordType typeId="89c40a52-a8ef-4a0a-aa26-c99a0408782b" valueTypeId="02f40e0c-6a96-45ac-8469-6eea993cefe7"/>
+    <recordManagerType typeId="e652b9ca-5dce-4486-9298-e8d91a834d82" valueTypeId="cb249b5f-990b-4225-aab2-7a9111718c85"/>
+  </producedTypes>
+  <name>ДрагоценныеМеталлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драгоценные металлы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d9e85330-e987-40be-8961-14f6c8684c2c">
+    <name>ДМ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес платины</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="21a1abf3-c6af-4e55-8edf-2a14c3cdb65b">
+    <name>ДМ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес платина-родия/серебра</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e30e046b-c183-4148-a76e-cb76d142820f">
+    <name>ДМ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес серебра (на вывода)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c9153ae6-450f-4887-8df3-a65f90c5a295">
+    <name>ДМУзел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес узла</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d763b986-0d2e-418a-8715-c343bb5c4272">
+    <name>ПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПЗ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

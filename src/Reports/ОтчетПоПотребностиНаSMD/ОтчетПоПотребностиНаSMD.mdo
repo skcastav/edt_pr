@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59ed6a14-36ec-4226-91c6-f3e6eea9f0ee">
+  <producedTypes>
+    <objectType typeId="dec88167-d95c-4ebd-97a7-8348ec5a17ab" valueTypeId="b5d0a749-9212-4ead-9d74-2c10f7b77fef"/>
+    <managerType typeId="45745e2c-ee76-4fbf-a77f-db540c57631e" valueTypeId="907f7c24-db9f-4290-a72d-9de78421c9c5"/>
+  </producedTypes>
+  <name>ОтчетПоПотребностиНаSMD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по потребности на SMD</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоПотребностиНаSMD.Form.ФормаОтчета</defaultForm>
+  <forms uuid="6dcac9c3-b80a-40aa-9d56-abb259a81550">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="75d89bf0-7a5e-49f4-84b9-01c8ea6f53ab">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="20917f46-c666-4611-9b95-417df9de326c">
+    <name>Макет2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет2</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

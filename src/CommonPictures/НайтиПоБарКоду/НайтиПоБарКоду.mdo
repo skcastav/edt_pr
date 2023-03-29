@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cac6e0e1-8e7b-4af1-ac5a-32d934521ee7">
+  <name>НайтиПоБарКоду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найти по бар коду</value>
+  </synonym>
+</mdclass:CommonPicture>

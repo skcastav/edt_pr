@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52631636-1db7-4b4f-bf61-c8db5954bc17">
+  <producedTypes>
+    <objectType typeId="0e739b91-764f-489b-be4f-d0c20f393604" valueTypeId="25ea0785-e8be-4cdf-846c-e8269b7a43e9"/>
+    <managerType typeId="9ff8773b-d7ff-44d1-a946-9a0baa75a989" valueTypeId="bd4cbd88-c98c-428a-9cd3-1bed58f0000b"/>
+  </producedTypes>
+  <name>РабочееМестоКомплектовщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ комплектовщик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКомплектовщик.Form.Форма</defaultForm>
+  <attributes uuid="6503f150-1e54-4fe3-be5e-40d0e93fb941">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f98aa03f-c72b-46b9-95c7-2a045df7745e">
+    <name>НакладнаяНаСборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная на сборку</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.НакладнаяНаСборку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="da3ad9f6-265f-40d5-9295-7dd485cda8d4">
+    <name>ЗонаКомплектации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона комплектации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЗоныКомплектации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="1713021c-6c28-454f-bd33-70175827c0b7">
+    <producedTypes>
+      <objectType typeId="66d4fbf3-b548-4e4d-9a6e-5ec113f2dcf6" valueTypeId="cdf425d7-af33-441a-9eef-46a507d5e521"/>
+      <rowType typeId="3dc2a2f5-b7bd-46fa-bbd4-e0a0da621c48" valueTypeId="da528eaa-b7fc-489a-92a1-37405960f18f"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5c9e5506-cde7-4384-890f-fcdc0422e854">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6b5d73ab-04bb-45f8-9a62-9c9f653be687">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="02b19af9-92c2-4e96-bf84-33ea20605eb5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="27b43dc9-4696-44b5-a3fd-a658e8da7151">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

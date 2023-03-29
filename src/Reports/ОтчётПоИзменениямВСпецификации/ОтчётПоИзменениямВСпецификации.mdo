@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dee63869-d589-4942-9b3a-c8780fb9c31e">
+  <producedTypes>
+    <objectType typeId="198fe312-93a9-4845-ab20-809cc0ed0b89" valueTypeId="b8b203fa-a69e-4128-baac-e3b8d939be58"/>
+    <managerType typeId="e3cb4343-e421-47e8-be89-6c85914b48ed" valueTypeId="080fd5d6-d118-446a-b920-7fc141212b72"/>
+  </producedTypes>
+  <name>ОтчётПоИзменениямВСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по изменениям в спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоИзменениямВСпецификации.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="47ccd4e1-fd62-42ce-b705-f66c0974397f">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e54a0259-561c-436b-9c94-9107e379d317">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="35de94a7-91cd-406e-b883-0bb3b051706c">
+    <name>ВсяСпецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вся спецификация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="cf798fe1-f329-4add-a5c2-c2c65d1a8ac8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="00aeb037-d04e-460c-b54b-5cf753c1a8c3">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

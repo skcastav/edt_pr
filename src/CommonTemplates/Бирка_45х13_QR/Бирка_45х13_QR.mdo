@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d2c6db0-7069-4887-a5b6-52caf378e788">
+  <name>Бирка_45х13_QR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бирка 45х13 с QR-кодом</value>
+  </synonym>
+</mdclass:CommonTemplate>

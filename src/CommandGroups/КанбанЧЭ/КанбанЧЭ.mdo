@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11a1f641-0e0d-4c0c-8307-3428e8048be1">
+  <name>КанбанЧЭ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Канбан ЧЭ</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

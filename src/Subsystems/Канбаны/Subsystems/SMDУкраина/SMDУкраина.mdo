@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a370886a-dc0c-4cfd-954b-c4231a8647ec">
+  <name>SMDУкраина</name>
+  <synonym>
+    <key>ru</key>
+    <value>SMDУкраина</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.РабочееМестоКанбанSMD_ГСС</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Диспетчер</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Линия_Украина</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Мастер</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_ОптическийТест</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Промывка</content>
+  <content>DataProcessor.РабочееМестоКанбанSMD_Электроконтроль</content>
+  <parentSubsystem>Subsystem.Канбаны</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a304227-dd2a-4cd3-962c-c5349c039ac4">
+  <name>ПЭО</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПЭО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ВыпускПродукцииПоВремени</content>
+  <content>Report.ВыгрузкаДоговорныхПозицийВФайл</content>
+  <content>DataProcessor.ПерспективныеПланы</content>
+  <content>Report.ОтчетПоРегиструДоговорныхПозиций</content>
+  <content>DataProcessor.ЗагрузкаДоговорныхПозицийИзФайла</content>
+  <content>Report.ОтчётПоНормативамРасходов</content>
+  <content>DataProcessor.ЗагрузкаУсловныхКоэффициентов</content>
+  <content>Report.ЗатратыМатериаловНаПродукциюИСписанияПоСтатьям</content>
+  <content>Report.ОтчетПоНормированиюПриборовИВходящихКанбанов</content>
+  <content>Report.СебестоимостьSMD</content>
+  <content>Report.СебестоимостьКанбанов</content>
+  <content>Report.ОтчётПоОстаткамМПЗСоСтоимостью</content>
+  <content>Report.ВыгрузкаДанныхПоСтоимостиИзделий</content>
+  <content>Report.СебестоимостьПриборов</content>
+  <content>Report.СебестоимостьИтоговая</content>
+  <content>Report.ОтчетПоУсловнымКоэффициентам</content>
+  <content>Report.ОтчётПоПотребностямВМатериалахИПФ</content>
+  <content>DataProcessor.ЗагрузкаСебестоимостиПолуфабрикатов</content>
+  <content>DataProcessor.ВыгрузкаПроизводстваВ1С77Бухгалтерию</content>
+  <content>Report.СебестоимостьПолуфабрикатовПоставщиков</content>
+  <content>Report.СебестоимостьПолуфабрикатовПоставщиковСКоэффициентами</content>
+  <content>InformationRegister.Себестоимость</content>
+  <content>InformationRegister.ЯчейкиКомплектации</content>
+  <content>Report.ОтчётПоНезавершенномуПроизводству</content>
+  <content>Report.ОценкаСебестоимостиПродукции</content>
+  <content>Report.ОтчётПоСборкеДоставкеИтоговый</content>
+  <content>Report.СырьевыеСправкиВЭД</content>
+  <content>Report.ОтчётПоРасходуВПроизводствоСоСреднейЦеной</content>
+  <content>InformationRegister.ЦеныСредние</content>
+  <content>Report.ОтчётПоНормированиюМО</content>
+  <subsystems>Справочники</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edae30dd-85d4-47b2-8d50-3a6af245badd">
+  <name>ОтправкаВебСервисДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка веб сервис документ</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СРМ_ОбменВебСервис.ОтправкаВебСервисДокументПриЗаписи</handler>
+</mdclass:EventSubscription>

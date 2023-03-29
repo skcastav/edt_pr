@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851c03e3-312a-44c6-bf0e-2748c66b0a1d">
+  <producedTypes>
+    <selectionType typeId="f7fa037d-f5cf-457e-b8a2-999db7f56cb0" valueTypeId="5354ab89-b6cb-42df-8242-ec13718dd27c"/>
+    <listType typeId="1ba3297c-d417-4a24-965f-e54485c164ae" valueTypeId="8b674fde-d13e-4846-b7a9-b4bf98214e4f"/>
+    <managerType typeId="9c9cde6b-4039-4f72-b295-acccca699ee9" valueTypeId="215640e5-656e-4590-9bdd-aa6e4bfa5596"/>
+    <recordSetType typeId="27fa46b5-e22d-4d63-922e-d6dd45d8ff3d" valueTypeId="7c8093a7-d2e5-4e25-9f62-225eda977749"/>
+    <recordKeyType typeId="b4424033-a208-475f-9a5f-7032e2fb3e6e" valueTypeId="f8443a56-5494-434d-823d-34a286c45876"/>
+    <recordType typeId="d2a2a6d1-0a8e-442a-9428-ce441b81d4ba" valueTypeId="c38a279d-6c47-4127-809d-e1d7e4fcd95f"/>
+    <recordManagerType typeId="acc6096f-76de-48ab-a697-38869f5d142f" valueTypeId="5b5e8cba-d0d2-4990-84f0-f8e3b174c254"/>
+  </producedTypes>
+  <name>СтатусыМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы МПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="51bd2ae2-0ed6-4eaa-b468-78861751d6f7">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСпецификаций</types>
+      <types>EnumRef.СтатусыМПЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="15af9850-54af-4243-aab2-faec6d45e7b2">
+    <name>МПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МПЗ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

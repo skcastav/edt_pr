@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89b53e1a-98a4-4b4c-9225-9192bf708867">
+  <producedTypes>
+    <objectType typeId="4ac84590-c907-40f0-a86d-30bc3c9828c0" valueTypeId="ad77a357-fc4f-41ec-ba8c-4bdf48f09848"/>
+    <managerType typeId="f9bb064b-1599-460a-9f10-6eaf1118bafc" valueTypeId="9207b95a-ac33-4c26-897c-ca8790206e22"/>
+  </producedTypes>
+  <name>ЗагрузкаУсловныхКоэффициентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка условных коэффициентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаУсловныхКоэффициентов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="b25e2832-73b0-4a7b-86e9-25e4d582d05f">
+    <name>ВидУсловногоКоэффициента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид условного коэффициента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="db1d6f38-7ba5-4a36-81ce-e55825cdbac0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

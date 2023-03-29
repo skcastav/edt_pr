@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db059fb8-3f6e-4a43-abdf-4691016e39ad">
+  <name>СправочникиБарКодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники бар-кодов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ТоварныеГруппы</content>
+  <content>Catalog.Товары</content>
+  <content>Catalog.НумераторБарКодов</content>
+  <content>Catalog.НумераторMAC</content>
+  <content>DataProcessor.СозданныеБарКоды</content>
+  <content>Catalog.ШаблоныПечатныхДокументов</content>
+  <content>Catalog.НумераторDanfoss</content>
+  <content>Catalog.СерийныеНомераEnLogic</content>
+  <content>Catalog.ДиапазоныПреобразования</content>
+  <content>DataProcessor.ГрупповаяОбработкаТоварныхГрупп</content>
+  <content>Catalog.КодыIMEI</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

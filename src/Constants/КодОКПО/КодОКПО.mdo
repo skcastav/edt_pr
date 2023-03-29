@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05f6eecc-acab-4ffa-8a6e-416877410fbc">
+  <producedTypes>
+    <managerType typeId="8a6d313f-efb0-4af0-a261-d5f7f71f00d9" valueTypeId="82aa277a-8d49-4281-908e-ceea3df8301c"/>
+    <valueManagerType typeId="11562429-338f-43a3-8fec-9c14af0ec9fb" valueTypeId="6b721f28-73ea-43ee-9438-6526c3387c98"/>
+    <valueKeyType typeId="9b22b8ff-f1fd-5bbb-9b2f-137b739b7ba7" valueTypeId="20d35cb2-0929-59eb-94a3-f896d38013ae"/>
+  </producedTypes>
+  <name>КодОКПО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код ОКПО</value>
+  </synonym>
+  <comment>Код ОКПО организации</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

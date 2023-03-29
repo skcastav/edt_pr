@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e8c6289-7e48-413c-9dea-93c783e6cbe1">
+  <producedTypes>
+    <objectType typeId="e00559d9-4f18-47ce-85a0-797ddb2dde69" valueTypeId="db0d59ad-627e-42fe-9fa3-dd39028868fe"/>
+    <refType typeId="25a2c0af-1a87-44f2-8dab-118ead87639d" valueTypeId="e4876c14-9986-4f88-bdcb-2c932b4a59be"/>
+    <selectionType typeId="20f77cbc-9633-4ee5-b0f7-13d9e3ddd9d9" valueTypeId="f672d95f-6656-4c01-850d-80f480b18134"/>
+    <listType typeId="186bd0be-d692-4959-837a-1bf727b2b951" valueTypeId="47d4fc81-6b7a-4ba2-83c8-cde88b59e30a"/>
+    <managerType typeId="2522e1ec-97c2-471f-8e49-8cd60f945d3a" valueTypeId="b0485350-f4ab-41fc-b008-4aadb64e4439"/>
+  </producedTypes>
+  <name>ТехОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тех. операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТехОперации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТехОперации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>5</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТехОперации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ТехОперации.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ТехОперации.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ТехОперации.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>Catalog.ТехОперации.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <attributes uuid="3d79db20-5e60-4a00-b875-d27998a0daca">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76a54ab4-3fa5-4eeb-aab3-829e34545b62">
+    <name>Разовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разовая операция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c6be3474-3102-41d6-b6f1-982f53a1d428">
+    <name>БК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без коэффициента сложности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7722c9c1-fa95-4e7a-a1a4-8ea692c8820b">
+    <name>ВидРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид работ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e8c7995-5db8-4aa9-b707-63ff63bf21e7">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d740f28b-2ed2-41ff-b2f7-869038c0c198">
+    <name>ДополнительныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные работы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a98fd16-4425-4da2-bbf0-c83ff30e67f5">
+    <name>Технологическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологическая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4c23c277-3b6a-48bf-9f79-95663fc0a152">
+    <producedTypes>
+      <objectType typeId="39dcb511-e871-466c-ab47-5e10e2a3e2a4" valueTypeId="86937ddc-899f-493c-aedd-7d5b7309f6e8"/>
+      <rowType typeId="6f669a89-397f-4312-a946-6206f3f3b4ef" valueTypeId="6454eefd-c9bd-448f-bb43-87a5a1392f08"/>
+    </producedTypes>
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <attributes uuid="6c1710b7-8cdc-49b1-914e-72b9e750dd92">
+      <name>Оборудование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оборудование</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТехОснастка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="1441b316-8742-4f66-a4e6-ce8ba483bad2">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="dae692d8-24e9-454f-b9a7-6f557d88e3aa">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36cca910-94c4-4fc8-89f0-783aa90000f5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7602f251-2a08-43f7-a1f2-2a382f5aaa23">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c88bf922-4b62-4127-bff4-095463d369c0">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97840a97-a68f-49a7-bbb8-34b993565819">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="afe0adaf-fc3f-4713-95b6-a4af7adf37bb">
+    <name>ФормаВыбораЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

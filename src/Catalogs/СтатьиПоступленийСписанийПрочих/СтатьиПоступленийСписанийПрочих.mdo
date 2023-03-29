@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c43a7667-745d-4375-9e58-a856750ab371">
+  <producedTypes>
+    <objectType typeId="7afc0d3b-4ee5-4663-8893-ebe7c085fca6" valueTypeId="4a3db2fd-dd32-43e2-95c0-95ac49f6ccf8"/>
+    <refType typeId="e6cc37d5-7fa9-4a8b-84c0-accc10b67b58" valueTypeId="3ecbc6fa-17df-4a3b-9382-d865e780cd7c"/>
+    <selectionType typeId="d9246707-d0e3-4755-9261-d4506760f86e" valueTypeId="d584a0e7-ed5c-41ce-ad41-724ad531743f"/>
+    <listType typeId="afe34dff-ac98-4a39-bff2-908a06013f7d" valueTypeId="45619344-d732-4768-97b1-859257929d75"/>
+    <managerType typeId="a38f7cfe-e647-4c6b-8c2a-cc4ef09e9b43" valueTypeId="f16f285e-840b-4433-9a5d-8afd8056f036"/>
+  </producedTypes>
+  <name>СтатьиПоступленийСписанийПрочих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи поступлений списаний прочих</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиПоступленийСписанийПрочих.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиПоступленийСписанийПрочих.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиПоступленийСписанийПрочих.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтатьиПоступленийСписанийПрочих.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатьиПоступленийСписанийПрочих.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0dee365c-34d9-4ea2-afff-0252fcc9d9b4">
+    <name>ЗапретитьСписаниеНаЛинейках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить списание на линейках</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f5e2e4e4-ed5f-4930-8e4b-1bab7af37229">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ae40c52b-caba-4726-ac3c-f896075f65be">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="066684fb-d647-4ead-bcfe-90983d9cddeb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f597f062-ed31-4fc9-b2e0-bb8642a1e903">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

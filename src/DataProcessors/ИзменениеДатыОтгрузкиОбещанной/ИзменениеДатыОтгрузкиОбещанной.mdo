@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d75157c-14a1-43bb-8ec8-bc3ac7f27645">
+  <producedTypes>
+    <objectType typeId="1ec409fb-3d17-4be1-b6f9-a0a2ad74016e" valueTypeId="648dbb67-e0af-470a-b7a0-d694cab4585e"/>
+    <managerType typeId="79288842-a568-40e8-a7bf-e6651f63f141" valueTypeId="df819503-0732-4aca-8c79-d8ac6528ff6e"/>
+  </producedTypes>
+  <name>ИзменениеДатыОтгрузкиОбещанной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение обещанной даты отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИзменениеДатыОтгрузкиОбещанной.Form.Форма</defaultForm>
+  <forms uuid="ed6e3b34-6476-49d3-a8d1-717e2b2bf850">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

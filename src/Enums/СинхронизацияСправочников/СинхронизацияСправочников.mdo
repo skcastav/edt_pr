@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7c07e9a-5e3e-4eec-9b3d-ecff89ef74d4">
+  <producedTypes>
+    <refType typeId="1db41e8d-31ff-49e6-a1f0-75c95dad09eb" valueTypeId="3c54e371-7bbe-47b0-9da4-dff220615adb"/>
+    <listType typeId="915062b7-2282-48ee-8daf-d9aaf0f37d67" valueTypeId="a01f6b19-3d98-4eeb-a621-4ee2eb671f91"/>
+    <managerType typeId="0840c415-a581-4072-87a4-d94289114212" valueTypeId="f230239a-0699-400c-b5c2-187636e157e8"/>
+  </producedTypes>
+  <name>СинхронизацияСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация справочников</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c326379c-777d-46e9-84d0-f4bec6e6f595">
+    <name>Документация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afa87939-ba58-48bd-9285-15467ad54b38">
+    <name>Материалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ace2dec-0b53-4e9a-9de8-25e5b13b3631">
+    <name>ТехОснастка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех. оснастка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b4c4735-e77e-4eca-867b-b6395a732a5d">
+    <name>ТехОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех. операции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bf179e0-9a67-4e0a-b042-9748da5817d3">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0cc1e5a0-995e-4066-8ce7-da6a4e59524d">
+    <name>АналогиНормРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналоги норм расходов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85990016-7ecf-4ad4-bbd8-897de4c28a7a">
+    <name>НормыРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормы расходов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

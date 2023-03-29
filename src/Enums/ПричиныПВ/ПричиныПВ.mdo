@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a93a99bd-96fa-446a-8a02-d69d0f835eb7">
+  <producedTypes>
+    <refType typeId="d05e9fb4-a643-40e9-9e9c-f5ef749c0d9a" valueTypeId="11f00bbc-cfd2-4d42-9006-75de487a4b20"/>
+    <listType typeId="964f397f-233c-4afc-8273-13ad19eaa349" valueTypeId="bbfb28dd-e6a3-45c0-9359-de5ca9b442f4"/>
+    <managerType typeId="588de323-a3d3-4889-84b5-1678faa79f35" valueTypeId="636f3afd-9b8d-4ec6-83e9-930d97308655"/>
+  </producedTypes>
+  <name>ПричиныПВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины ПВ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2c191104-2f41-40fc-89c0-631630a6c503">
+    <name>ЛО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="850404f6-521f-47a8-90fe-dc79b5442e84">
+    <name>НПСУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НПСУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b60e857f-1ad3-4407-89fe-2415dbdbc1e1">
+    <name>ЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

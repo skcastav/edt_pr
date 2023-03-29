@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2272561a-d003-4d8a-9d64-88ef16b876d3">
+  <producedTypes>
+    <selectionType typeId="36b01baa-d399-45d4-9365-7207e7f4eed1" valueTypeId="339d8ddb-31d6-47d7-b54b-35195cf4fc8a"/>
+    <listType typeId="49f61db8-c814-46a8-b6ec-90d456283cb1" valueTypeId="a051dc8b-b083-41a1-b1e4-840b13397753"/>
+    <managerType typeId="067a318e-3031-42d7-99af-07c0f40b6227" valueTypeId="80ac9bbf-295c-4920-887b-05011227bcd2"/>
+    <recordSetType typeId="d16728f6-006e-4926-8300-00f7ff4f3d7e" valueTypeId="d082d285-77e0-4bcb-8811-ef57b4b9465e"/>
+    <recordKeyType typeId="65395896-496b-4359-a674-9254d0bcc704" valueTypeId="c72c8ef8-6d6d-4359-bc4f-68c6786d8af2"/>
+    <recordType typeId="1bde57ab-ac6c-436a-a629-fae81ff44cf9" valueTypeId="4c935745-0513-4d9c-9198-e633ff5d3170"/>
+    <recordManagerType typeId="fa979e16-8426-49ae-90cf-ca5c7b9a2509" valueTypeId="53b13cca-2e61-431d-8959-7cc946387c39"/>
+  </producedTypes>
+  <name>ДатыВыполненияПоПозициямЗНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты выполнения по позициям ЗНП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1d9000d2-b4c1-4c67-b205-55bd30203713">
+    <name>ДатаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выполнения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="44d3be4c-0362-4a4b-bd4a-172bb7b47e5c">
+    <name>ЗапрещеноКОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрещено к отгрузке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1911ee92-4017-4b4d-875d-28bde3b59a8c">
+    <name>НомерЗНП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ЗНП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="85744ec0-1137-4a95-88af-90cd86c4bc3e">
+    <name>КодТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код товара</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

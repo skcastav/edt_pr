@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="828657d9-eb51-413d-ae18-7ae2d56fadbc">
+  <name>ДиспетчеризацияПЭО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканирование канбанов</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

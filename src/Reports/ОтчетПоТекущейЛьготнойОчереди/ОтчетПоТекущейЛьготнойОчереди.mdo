@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="678566b1-fd27-4701-9a7c-fbbb3c786b9e">
+  <producedTypes>
+    <objectType typeId="6086fa36-8c2f-470b-8c58-508855ef16bd" valueTypeId="f2093497-63f6-46df-a47a-5a9baf1419bc"/>
+    <managerType typeId="6b2ec5dd-1d03-4b62-8d57-6b10d4cbcec3" valueTypeId="d80e316d-649d-405e-84fa-6657651c7c8f"/>
+  </producedTypes>
+  <name>ОтчетПоТекущейЛьготнойОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по текущей льготной очереди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоТекущейЛьготнойОчереди.Form.Форма</defaultForm>
+  <attributes uuid="8a404fa6-4034-449e-9204-416cbd418fab">
+    <name>ИнтервалОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал обновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="4cb59124-bc38-4e6f-bcf8-5af0ce6ff0f8">
+    <producedTypes>
+      <objectType typeId="ff30ae37-5166-475d-a706-1c1b06b673db" valueTypeId="54359014-dacc-4231-b92d-f941b8f8a2f9"/>
+      <rowType typeId="f207c13d-9897-4556-a0aa-e0c414c4f738" valueTypeId="e402261d-ed69-4ac1-98cd-9f545f6a26b0"/>
+    </producedTypes>
+    <name>ЛьготнаяОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Льготная очередь</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="11615c87-595c-44d5-b6ca-df506ff17198">
+      <name>МПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="db441ec3-d454-4aca-9988-8bee1309d7b7">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="58ff261e-860b-4a98-b107-5ed04b552e03">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9d60cade-f495-4988-b3f7-02bfa638282c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="933757f3-1233-46b8-9230-6f36dc24fcfa">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

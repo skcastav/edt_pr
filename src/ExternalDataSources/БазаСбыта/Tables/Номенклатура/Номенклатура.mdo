@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a0a74e0-f4c5-4a32-aea7-9f9aa2a819ea">
+  <producedTypes>
+    <refType typeId="8e087bee-0d94-4dcf-82ce-1dd38ee7f117" valueTypeId="85979a6b-e413-427f-91c7-9c41ac465f09"/>
+    <listType typeId="cadecfa5-ba85-40ef-b2bb-66608f2bc803" valueTypeId="11f462a3-bed5-4080-9e5f-1dd3a6a70d10"/>
+    <objectType typeId="0002ae86-718d-450e-a1d3-251ff1da80e1" valueTypeId="295ffd04-53f6-4bd9-b4b3-6443f6771d7a"/>
+    <managerType typeId="733a48d6-2011-438b-a7c0-b0a886e2afd4" valueTypeId="4cf9bf66-f7b3-4033-b86b-e490526b8938"/>
+    <recordManagerType typeId="2405493d-b352-4f35-bf41-41cf42b14f85" valueTypeId="2cc7fda0-e316-4d15-9bfa-6aa6c0d89d77"/>
+    <recordSetType typeId="56d500ce-74b2-463b-97f3-6c6970338e31" valueTypeId="c9bbf249-f57a-4789-b873-6e30353d42e5"/>
+    <recordType typeId="cc95c307-0127-4806-9fa8-7248389b6f6f" valueTypeId="3a21468c-416c-4f7a-92fc-22660cb456b2"/>
+    <recordKeyType typeId="ea929f87-c165-47bc-b21a-77a229750800" valueTypeId="8f635dd5-0e00-4e3a-95bb-b29fcca0741a"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.БазаСбыта</parentDataSource>
+  <nameInDataSource>Sales.dbo._Reference149</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>ExternalDataSource.БазаСбыта.Table.Номенклатура.Form.ФормаСписка</defaultListForm>
+  <editType>InDialog</editType>
+  <tableFields uuid="35b5460b-3b35-4b97-aa0c-19408c30190f">
+    <name>_Description</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Description</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7383923c-578b-4471-88ed-f0b4bbf3d619">
+    <name>Артикул</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Fld3523</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="2c0fa844-65ef-42bd-a404-ca19dfa5dc32">
+    <name>_Folder</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Folder</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7669b784-8920-45f6-b02a-96524d7b46a6">
+    <name>_IDRRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_IDRRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="21236d06-adda-4363-9d21-2a450363d75d">
+    <name>ПолноеНаименование</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Fld3544</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="ea6af8cd-9cde-4d62-b05a-cd445af3dc43">
+    <name>Крупность</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>_Fld19088</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="04c0e5e5-7855-42b8-921b-531b66a045f2">
+    <name>ВидНоменклатуры</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Fld3529RRef</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <forms uuid="5b513323-108a-4622-9907-69bd1106cdcd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Table>

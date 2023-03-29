@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c29e586-e68c-4113-b933-48ab728776b1">
+  <producedTypes>
+    <refType typeId="d096ebd2-0932-458c-9f78-b4a8cb53f768" valueTypeId="f6fb27ab-cbef-4acd-afdd-9178d9e34c07"/>
+    <listType typeId="03b79338-8a14-438d-b616-82396c409594" valueTypeId="4f9d8e62-d70b-4763-ae2e-ef8e06af384e"/>
+    <objectType typeId="edd24331-27ee-477a-83ae-2086ed2747fd" valueTypeId="e47568db-69d7-4bed-a95f-1cc133693bdc"/>
+    <managerType typeId="c9fd6fb0-f0a0-4abd-921f-6779c284d263" valueTypeId="5ef64eb9-21a2-4f8f-96c5-1aeaf06ce7ca"/>
+    <recordManagerType typeId="86f63026-b770-47cf-9f46-311db10258d4" valueTypeId="c3842dbe-bab9-4740-ab15-7469688d19b7"/>
+    <recordSetType typeId="ead8c1d2-0437-4b29-970b-e74b435bdec5" valueTypeId="19635d5b-bcc0-4835-91b2-a10b220dcf01"/>
+    <recordType typeId="b598aaac-b08f-486f-839e-a68733ad9fde" valueTypeId="9ec764e6-0b0a-48e1-9eb8-c3c0379c241f"/>
+    <recordKeyType typeId="cda7c09e-a8a5-48f7-9eff-4b2be6ead7b6" valueTypeId="d7fc867b-2e4a-4045-9a62-0a7b0cd46d19"/>
+  </producedTypes>
+  <name>Склады</name>
+  <parentDataSource>ExternalDataSource.БазаСбыта</parentDataSource>
+  <nameInDataSource>Sales.dbo._Reference234</nameInDataSource>
+  <keyFields>ExternalDataSource.БазаСбыта.Table.Склады.Field._IDRRef</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="76017747-6e15-4a93-8dbf-e61d8ec64e0a">
+    <name>_IDRRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_IDRRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="96e04a64-2f7f-46a5-b9cb-bee9e9fd6bdd">
+    <name>_Code</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>19</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Code</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="34ef2773-533c-4f0c-aaec-f1cf8b38a8c7">
+    <name>_Description</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Description</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

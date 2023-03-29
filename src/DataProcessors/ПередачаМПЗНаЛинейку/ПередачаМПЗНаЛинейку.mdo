@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33412350-7dc2-4972-b61e-e1176150bdfe">
+  <producedTypes>
+    <objectType typeId="bc8d1999-e8cb-4166-ab55-b88cb8b00d2b" valueTypeId="ec546d6b-df9b-491a-9c6f-0a892cf97f2d"/>
+    <managerType typeId="879892cd-1710-4506-9de6-a87faf21045d" valueTypeId="00d11076-2dc6-4fc8-9393-1b365918d2f7"/>
+  </producedTypes>
+  <name>ПередачаМПЗНаЛинейку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача МПЗ на линейку (в буфер)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПередачаМПЗНаЛинейку.Form.Форма</defaultForm>
+  <forms uuid="ad4e5b38-059c-498a-99a0-f0af9ec625c0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d9f751c0-368a-4350-bc05-4a3bc73c25a1">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

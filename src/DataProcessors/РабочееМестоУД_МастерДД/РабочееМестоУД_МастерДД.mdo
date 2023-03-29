@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7e49bb5-67b9-4dbf-ae13-97959f82b07b">
+  <producedTypes>
+    <objectType typeId="5792a611-74e0-4c07-99d3-bd2f3e2db7a9" valueTypeId="de4a7146-c7ba-4b4d-9588-931feacf20a6"/>
+    <managerType typeId="29982e4c-7f9d-4405-aff2-4e084309b02f" valueTypeId="2a410c5f-bed4-49e1-a6cc-af989dd5214b"/>
+  </producedTypes>
+  <name>РабочееМестоУД_МастерДД</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ УД Мастер ДД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоУД_МастерДД.Form.Форма</defaultForm>
+  <attributes uuid="8a5eb0c3-7e54-4e99-9071-e5220a636d8e">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1e54af8-3169-414b-9f0f-442b46f82a77">
+    <name>ЛинейкаКанбан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка канбан</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa05efaa-2bf4-4dc4-948a-a3476bb8a53d">
+    <name>ВидКанбана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид канбана</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКанбанов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="04471a4b-7074-4843-82a3-8651de5ba06f">
+    <name>ИнтервалОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять через, мин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9b223798-22f6-4f82-a1f5-1d04881d3f0b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56dad162-6bea-41e9-ab11-6d476425ae37">
+    <name>ПроверкаНаличияПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка наличия п.ф. на складах</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f7418af-a3c7-491b-a799-ae4d8f6d8913">
+  <producedTypes>
+    <objectType typeId="8d533a1f-ce95-41c3-8a63-b7d684571a93" valueTypeId="c0eefb18-8e7f-4877-bf8a-ce9ac8f9acbd"/>
+    <managerType typeId="eaec5b3a-2672-4c18-aec3-ede4ad9966c4" valueTypeId="7410fa21-6009-42eb-99bc-0b87c3890bcc"/>
+  </producedTypes>
+  <name>ОтчётПоЯчейкамКомплектации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по ячейкам комплектации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоЯчейкамКомплектации.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="81fafd09-33af-48bb-8ad9-787d5d6d46f9">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="2ef60056-9269-433c-83e1-b15cfabbd504">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b856fd0c-59a1-43c8-9ca8-bec6e256ea2c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

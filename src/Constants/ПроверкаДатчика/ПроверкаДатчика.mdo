@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="add1f66b-937e-438b-abf4-012860cc2114">
+  <producedTypes>
+    <managerType typeId="aa81c9a0-079a-429e-b3bf-68493cb23bf1" valueTypeId="58fabea4-92c0-43bf-8a66-0143ee5792f9"/>
+    <valueManagerType typeId="bb27708d-95c5-46d5-8f4a-4740a0552f2d" valueTypeId="3ef255df-593f-4e86-9916-a8f23429700d"/>
+    <valueKeyType typeId="96bd4a10-e5fb-531a-961c-07a1306b89ff" valueTypeId="72910dd1-d73b-51a5-964c-ba0d7c005367"/>
+  </producedTypes>
+  <name>ПроверкаДатчика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка датчика</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

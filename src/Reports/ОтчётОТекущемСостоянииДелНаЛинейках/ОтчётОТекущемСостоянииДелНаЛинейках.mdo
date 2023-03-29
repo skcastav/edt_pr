@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11c3b382-bc77-4b4a-bd12-fb6963dd71e7">
+  <producedTypes>
+    <objectType typeId="a159fe93-e658-420b-b843-bb9f2f8bda1d" valueTypeId="6f736678-2651-4b1d-919f-0b12dadc12e2"/>
+    <managerType typeId="3576311d-3f1f-425c-916c-784de0bbf3f0" valueTypeId="2cf13872-6fb3-42f0-aae3-0ce9bfb6cc2b"/>
+  </producedTypes>
+  <name>ОтчётОТекущемСостоянииДелНаЛинейках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт о текущем состоянии дел на линейках ГП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётОТекущемСостоянииДелНаЛинейках.Form.ФормаОтчета</defaultForm>
+  <forms uuid="3efd31d2-b429-4eb7-b15f-d463a87f859c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="65a7d37a-a153-4855-a22a-3753980694fd">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

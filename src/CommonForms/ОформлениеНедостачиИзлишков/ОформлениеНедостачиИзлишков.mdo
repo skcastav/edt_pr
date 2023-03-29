@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b5e7ae6-48fc-4d1d-9c6e-31c63171844d">
+  <name>ОформлениеНедостачиИзлишков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление недостачи/излишков</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

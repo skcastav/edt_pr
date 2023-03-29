@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2dee916-9e53-41ca-b187-ee3d666264dc">
+  <producedTypes>
+    <objectType typeId="2a81c5c0-5255-48db-b707-561eb67d02fc" valueTypeId="35694ba9-c692-4039-a43d-ea27592ec559"/>
+    <managerType typeId="26e0433d-c6f0-4b2c-9ea8-2ac3cfbf018f" valueTypeId="1b1d0483-987b-42e0-8874-81bcc3860d50"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_Линия_Украина</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Линия (Украина)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_Линия_Украина.Form.Форма</defaultForm>
+  <attributes uuid="3aff5498-954a-4c9e-9713-6378f3a012d5">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5eb904ad-d2ce-4f8c-9d94-1aa88b6b7e6f">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛинииSMD</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e33c38fe-a0ec-451a-bc9a-7b3bee504e15">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c56d6f80-3d56-49bd-a8d0-eb3b28ade744">
+    <name>ПроизводственноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d560a2b5-6fea-475d-a8c2-ef75f48e6482">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

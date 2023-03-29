@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e182e5c2-bb6a-4dc9-928b-67811f6034f1">
+  <producedTypes>
+    <objectType typeId="28b4ac0a-cb89-43c8-a22e-09f432d0fddc" valueTypeId="c5af459f-4c9c-4c61-934b-f2933d25e3bf"/>
+    <managerType typeId="48c8b671-ca48-4a07-af41-9f46b6405782" valueTypeId="f7ff6cfe-730f-4d57-9125-d43b37075693"/>
+  </producedTypes>
+  <name>ЗагрузкаПараметровДляОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка параметров для отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПараметровДляОтгрузки.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="22d662bc-56aa-4445-afe4-8ca9c6a5d8da">
+    <name>ВидТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид товаров</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f6de2df1-e6e0-4fab-b1ba-8702baa42bcc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

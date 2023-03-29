@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5434e5cf-3b4f-4e7c-9cf2-b52178a04898">
+  <producedTypes>
+    <objectType typeId="3c30703a-c92a-44c9-ad75-834112a75275" valueTypeId="ae6bc3a3-2539-4993-8bad-80f9f5a40be8"/>
+    <managerType typeId="74146961-c48b-47de-9142-fbca3400fb46" valueTypeId="19eaace5-68c4-4dd5-96d4-bf3c7437e9f2"/>
+  </producedTypes>
+  <name>ДиаграммаГанта_ВыполнениеПоМТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство по МТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДиаграммаГанта_ВыполнениеПоМТК.Form.Форма</defaultForm>
+  <forms uuid="8e33ab57-005c-4652-b280-175b002c05fe">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

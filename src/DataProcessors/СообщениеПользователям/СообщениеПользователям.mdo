@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aca4165d-7883-44f4-b5f6-ea8552c0df73">
+  <producedTypes>
+    <objectType typeId="451340e6-fa4e-41c0-b347-2657608803bb" valueTypeId="3a124f72-ee52-47f1-80bf-34a0cb557251"/>
+    <managerType typeId="ef0f8866-5ebd-447f-b605-b4164e85ed6f" valueTypeId="33ccbc4a-1019-4e34-ba57-4a86ece50af6"/>
+  </producedTypes>
+  <name>СообщениеПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить сообщение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СообщениеПользователям.Form.Форма</defaultForm>
+  <attributes uuid="274bef11-5ea6-4fb4-8a68-a3a03d23f793">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="1de6af39-2f1b-4767-91c8-7da445adb19f">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="4017aae6-b974-4083-a3c2-f4e6c0ea7afa">
+    <name>Срок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок, мин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5a899376-93b0-44ff-bd1a-3bfbb858d8cf">
+    <name>ВремяОтсрочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсрочить на</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="16019ef4-e629-4778-9c4b-3adfafaa615c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

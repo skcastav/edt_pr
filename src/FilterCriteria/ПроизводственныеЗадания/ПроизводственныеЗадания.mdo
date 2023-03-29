@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="182ae726-1529-4bd2-8f7f-969e7324230c">
+  <producedTypes>
+    <listType typeId="f6f4af4c-3b27-46ec-b76f-be72dc809afc" valueTypeId="c23f3e81-cedb-4a5b-822e-b83d3352d780"/>
+    <managerType typeId="6c8b3e40-98aa-4d5a-8569-1f177ea01dc9" valueTypeId="d6deba35-b990-4afc-96fc-89eff54519c9"/>
+  </producedTypes>
+  <name>ПроизводственныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные задания</value>
+  </synonym>
+  <type>
+    <types>DocumentRef</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ПроизводственноеЗадание.Attribute.ДокументОснование</content>
+</mdclass:FilterCriterion>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f2adadf-672e-4e88-8e5b-64e7c2609b2c">
+  <name>QRКодКанбанР</name>
+  <synonym>
+    <key>ru</key>
+    <value>QR-код канбан Zebra</value>
+  </synonym>
+</mdclass:CommonTemplate>

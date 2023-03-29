@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d3e9807-ce06-477e-bee9-a1fd2e940b98">
+  <producedTypes>
+    <objectType typeId="a1822ace-d636-4624-bef7-361b87f0b996" valueTypeId="9ae66510-6fe0-40cd-befd-c953be0357c7"/>
+    <managerType typeId="b127a326-0936-4514-847f-0b6ec93520cb" valueTypeId="7dfb64d1-b118-4f58-82e8-ee96b03af2a2"/>
+  </producedTypes>
+  <name>ВыгрузкаКрупныхЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка крупных заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаКрупныхЗаказов.Form.Форма</defaultForm>
+  <forms uuid="0d84b69d-a1d3-4380-8d58-2168a07c7619">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

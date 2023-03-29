@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1cda7c7-33b2-4dec-8c33-801243680aed">
+  <producedTypes>
+    <objectType typeId="3e273860-fae8-4041-bc31-fcc02b28c9cb" valueTypeId="610f73b1-c277-481b-8b66-f8473f7e4abf"/>
+    <managerType typeId="f392c918-00b5-4493-bec1-e3d13878b837" valueTypeId="caff1a58-f14b-480b-87eb-a375ee721ff5"/>
+  </producedTypes>
+  <name>ИзменениеВидовКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение видов канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИзменениеВидовКанбанов.Form.Форма</defaultForm>
+  <attributes uuid="fe5e1123-5e1e-48fa-8320-74109086e266">
+    <name>ГруппаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  </attributes>
+  <attributes uuid="df9bc648-d87d-42f8-b9bf-6fafed027347">
+    <name>ВидКанбана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид канбана</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКанбанов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aac54174-9715-417f-b7c5-ae7d88785a2a">
+    <name>ВидКанбанаНовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый вид канбана</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКанбанов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0695c8b8-7e97-4bcf-80cf-de25eb31a638">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

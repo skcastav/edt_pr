@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed15712b-6b76-42e2-925e-89613be6312c">
+  <producedTypes>
+    <selectionType typeId="fcf2ca24-68b2-4ebe-be84-55213d54a8eb" valueTypeId="ea77d90a-8037-4564-a85c-0133ad1ad4c0"/>
+    <listType typeId="9dd6f47c-055a-4b70-a4d1-fc1eebafe11d" valueTypeId="e3191a71-9277-481f-a910-c1cf78125394"/>
+    <managerType typeId="885dc7a6-5652-4368-b92e-2e2966ed1e59" valueTypeId="e4b76139-1182-40ee-abe5-1a11b84b51a4"/>
+    <recordSetType typeId="b3c591ed-1902-4fcc-94ad-fbeab9415b85" valueTypeId="af9da06e-cb3e-43b5-9696-038d2948f000"/>
+    <recordKeyType typeId="5e624d35-334e-4feb-a470-de19fd875818" valueTypeId="7bee879b-2eb4-4a46-ad80-124fe39dca82"/>
+    <recordType typeId="678dac62-0d77-4df0-9834-4536ab3f3c81" valueTypeId="f75588a2-efd5-4320-9884-fc338dc390a9"/>
+    <recordManagerType typeId="33c43d79-7177-4aad-b24b-c6ac1d89e4d8" valueTypeId="bc639c4f-92c1-4485-bcbc-f640206f0f75"/>
+  </producedTypes>
+  <name>КоэффициентыСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты себестоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ce27f76b-48b6-41a3-bfe6-41b80af114cc">
+    <name>КоэффициентТехнологическихПотерь</name>
+    <synonym>
+      <key>ru</key>
+      <value>К-т тех. потерь</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11f18d51-8259-4196-8bd5-3ed9b0af0e8f">
+    <name>КоэффициентНакладныхРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>К-т накл. расходов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0fd5a9b1-da9c-481f-8840-bfef6a94a9fd">
+    <name>КоэффициентНакладныхРасходовСТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>К-т накл. расходов СТК</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e28adc45-79ba-40dd-a4ed-efaef25290a1">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="772dbb2c-9f53-4503-87d5-5c5adf8d7342">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7f38d4d-6433-4942-9c77-be91d95a2fd9">
+  <producedTypes>
+    <objectType typeId="663ae189-f601-4001-9a2a-2a0b55f28c43" valueTypeId="d73aff5d-ad61-4801-8b62-354b350ef335"/>
+    <managerType typeId="2b8ad692-ecdd-4208-9d51-b4353967487e" valueTypeId="e988c210-7b55-442e-bb0c-952daf06b5e9"/>
+  </producedTypes>
+  <name>ПолнотекстовыйПоискВДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнотекстовый поиск</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПолнотекстовыйПоискВДанных.Form.УпрощеннаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="55672d66-3e7f-49d7-9033-b0715323398c">
+    <name>УпрощеннаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45c50261-3fb9-4548-a619-aec186066be6">
+    <name>ВыборОбластиПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор области поиска</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="728733be-78e2-4e41-b865-1a66c6b9652a">
+    <name>УправлениеПолнотекстовымПоискомИИзвлечениемТекстов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление полнотекстовым поиском и извлечением текстов</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="7507e501-8c63-4c3e-ade9-9e6e8f6f9b3c">
+    <name>ПолнотекстовыйПоиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полнотекстовый поиск</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut>Ctrl+Shift+F</shortcut>
+  </commands>
+</mdclass:DataProcessor>

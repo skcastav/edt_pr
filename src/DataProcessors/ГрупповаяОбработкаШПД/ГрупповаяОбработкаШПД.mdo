@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cfb43f5-4447-435e-87f8-ca86ee8c63d6">
+  <producedTypes>
+    <objectType typeId="f0f1051f-7ab8-479a-9181-007aede1f280" valueTypeId="c28c3d1b-f92a-42bb-821e-e8c2d4459827"/>
+    <managerType typeId="4b102413-509c-4dda-b1d1-229117c9b733" valueTypeId="f5367d11-252f-4b58-bb10-93dac7e46162"/>
+  </producedTypes>
+  <name>ГрупповаяОбработкаШПД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая обработка шаблонов печатных документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповаяОбработкаШПД.Form.Форма</defaultForm>
+  <attributes uuid="c3f4c5bb-d4c1-4cb7-9656-aaadf8a06d2b">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныПечатныхДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="38bb3441-100c-40b5-b3ea-c6be688fccfa">
+    <name>ШаблонНовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон новый</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныПечатныхДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="ba617bb1-d1c9-49ef-85f4-4916b4a56245">
+    <producedTypes>
+      <objectType typeId="83104c9a-983e-45d9-a4f5-4cc125af3733" valueTypeId="eed98f49-8e12-47bc-8b91-549c432563fb"/>
+      <rowType typeId="fb99cf47-ce45-4081-a2a2-cdb4d5b11de0" valueTypeId="19e6a514-fb8b-4fdd-97c3-81526f81cea9"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="82fa3f6b-1625-4d9f-919e-76cc6f6e1a3c">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c6ab0ed3-7efa-4b77-8b41-961b09c48d63">
+      <name>ТоварнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товарная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТоварныеГруппы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="397c6cd3-0b1a-4246-8296-a4b87a21578f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

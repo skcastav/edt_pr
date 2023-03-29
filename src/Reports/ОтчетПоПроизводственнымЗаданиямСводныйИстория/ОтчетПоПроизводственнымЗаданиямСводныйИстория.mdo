@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d23fae6-4c79-4ac3-8e21-7744468f480d">
+  <producedTypes>
+    <objectType typeId="6cbba72a-61c3-48af-a78c-3999732de708" valueTypeId="afdb963f-2b95-4b72-9ac8-4462ba5d7fab"/>
+    <managerType typeId="5cad8a5f-6475-4092-b0bb-7234d0af9463" valueTypeId="7c1e93aa-eab3-4a54-baa9-8f3500a8effa"/>
+  </producedTypes>
+  <name>ОтчетПоПроизводственнымЗаданиямСводныйИстория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ретроспективный отчёт по производственным заданиям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоПроизводственнымЗаданиямСводныйИстория.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="7751de5f-3a87-47dc-8482-cb21a1a9ecad">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f5443dec-503d-4175-a7a4-4bb9b0e39bd7">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5ac5c8b3-5ff1-4094-b59f-b9d54276596d">
+    <name>МТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>МТК</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.МаршрутнаяКарта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0499019b-9ea7-4d5e-8947-7f37ce70d71d">
+    <name>БарКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бар код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>18</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3e4c1495-b4e8-48f9-8439-0149af509939">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b1f27148-764d-491d-a182-c37de79eaa64">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="c8ea9e33-e3d5-4f00-8753-d09606879847">
+    <name>Макет1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет1</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

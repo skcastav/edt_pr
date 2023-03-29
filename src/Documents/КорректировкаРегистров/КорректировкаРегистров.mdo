@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77086fb7-4b20-4e63-93c8-d353470a5d43">
+  <producedTypes>
+    <objectType typeId="301af6fc-bb18-4a6c-a8cd-49a926fa9370" valueTypeId="3ac92601-fc8a-4ef0-8566-4d91ce3ab1fc"/>
+    <refType typeId="f2d2db94-5334-415d-808a-cbb8f323c420" valueTypeId="24ae5c12-e28d-4ceb-b8c2-6fb20d0b6d8c"/>
+    <selectionType typeId="744b3ab3-385e-452e-bb7e-d348171baeaf" valueTypeId="e8f5bc18-4425-47b4-84bd-b06a74d075c9"/>
+    <listType typeId="c7d268be-7f5f-48be-a422-23d76a1c3ef9" valueTypeId="d51c5499-67af-4167-a089-0ab9910886e5"/>
+    <managerType typeId="15a9d406-3fa1-4c4b-a536-92e096455866" valueTypeId="9b726e4f-5ac2-4a4d-a0c4-984ea773f734"/>
+  </producedTypes>
+  <name>КорректировкаРегистров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка регистров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КорректировкаРегистров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КорректировкаРегистров.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ГТД</registerRecords>
+  <registerRecords>InformationRegister.Цены</registerRecords>
+  <registerRecords>AccumulationRegister.МестаХранения</registerRecords>
+  <registerRecords>AccumulationRegister.ДоговорыСПоставщиками</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаказыНаПроизводство</registerRecords>
+  <registerRecords>AccumulationRegister.РезервированиеГП</registerRecords>
+  <registerRecords>AccumulationRegister.ПланыВыпуска</registerRecords>
+  <registerRecords>AccumulationRegister.ПередачиВПереработку</registerRecords>
+  <registerRecords>AccumulationRegister.Долги</registerRecords>
+  <registerRecords>AccumulationRegister.ПередачиНаЛинейки</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаявкиНаЗакупку</registerRecords>
+  <registerRecords>AccumulationRegister.БракПроизводства</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаявкиОтПокупателей</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаказыПоставщикам</registerRecords>
+  <registerRecords>AccumulationRegister.ПередачиВПроизводство</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="35bb4d35-b032-43e1-b46c-afd21ca98747">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3cb47ff1-85ba-4ca4-92eb-19d4dbebab1e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3c05d4f1-f95c-4a0b-8ad2-4878e093b43e">
+    <producedTypes>
+      <objectType typeId="aa2047e4-4caa-4c79-bb05-fe9a25e14cec" valueTypeId="28f63cd0-8768-4dfa-8082-902c6731775e"/>
+      <rowType typeId="5be26986-5a60-4fea-a1af-503361049434" valueTypeId="41fe0fd9-54ed-434c-aa91-2563a5b18bf8"/>
+    </producedTypes>
+    <name>ТаблицаРегистров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица регистров</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7b8238ca-f70b-4678-8dc6-68a49043e493">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя регистра, которому скорректированы записи.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

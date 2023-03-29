@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38f90241-1b1b-4e22-8faa-4e51a43f0b5e">
+  <producedTypes>
+    <objectType typeId="c91e6b14-6e8b-4323-b431-4b44ad353463" valueTypeId="afbe026d-ec76-414d-bec4-274ef426b830"/>
+    <managerType typeId="b058b066-4fdc-4b45-b862-18770cdfe6e9" valueTypeId="e31ab036-76c5-41d7-91ae-ac11de8ff1a5"/>
+  </producedTypes>
+  <name>СозданиеМТКПоОчередиСчетовЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание МТК по очереди счетов-заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеМТКПоОчередиСчетовЗаказов.Form.Форма</defaultForm>
+  <attributes uuid="43a21218-94db-4c96-b517-b116b210d864">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="30b22d57-c05f-42eb-9cbc-d07334dcbe9f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

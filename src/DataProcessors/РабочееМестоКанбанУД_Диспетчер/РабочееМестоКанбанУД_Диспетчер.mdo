@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d7a8b18-6be6-4fcf-884f-ddb4afe97a52">
+  <producedTypes>
+    <objectType typeId="4a2b0848-92a9-4a60-bfa8-ab5f08bf4fd1" valueTypeId="bda9fcf9-0bdb-4210-bd7a-6a3b9e4ea3b9"/>
+    <managerType typeId="6bd8f06e-bdc1-488f-b9aa-10743b2e4468" valueTypeId="5fb3b558-7536-4cb4-8dad-dd595d3c3d45"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанУД_Диспетчер</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан УД МО Диспетчер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанУД_Диспетчер.Form.Форма</defaultForm>
+  <attributes uuid="4d4cd517-bf85-43d2-8c4a-e24173d55986">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="83ebd401-a5e0-40c6-99b5-6a370c2c068a">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5dda472-2c6f-4d96-b1af-b01c46c7bb6a">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d4b80cc9-a5f0-4126-9ba2-56d4ccc13a4d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="51fec2fd-762d-495b-a208-c93620630f44">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

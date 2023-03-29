@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12d023d0-8eee-4c8b-868d-801cb5281c4d">
+  <producedTypes>
+    <objectType typeId="b13ba4cb-cfad-4b09-a990-83c3cfb1ab27" valueTypeId="71155fc0-75a2-4c5d-a1ba-2798bfec5891"/>
+    <managerType typeId="1574aefb-abeb-475a-9124-c6849b84be97" valueTypeId="9b65421a-b581-4c04-b672-cfe338b18546"/>
+  </producedTypes>
+  <name>ЗагрузкаКратностиЗаготовок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка кратности заготовок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКратностиЗаготовок.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="66b05305-8fb2-4534-b7b5-062e2893d600">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f41a175a-4395-4a53-a8fa-1d3e0174bd2a">
+  <producedTypes>
+    <refType typeId="2556e4ba-d22c-4c9c-861d-deb172ae2bb7" valueTypeId="319164eb-3a80-49dc-bb6a-edefcf0a6ee3"/>
+    <listType typeId="492b24fa-f1df-4f0e-b41a-787ca01df220" valueTypeId="01b1f382-eab8-4dcc-b6d2-18e97d8b1ff4"/>
+    <managerType typeId="000eff9f-6434-47ea-b37c-73b775d09da9" valueTypeId="b8d0e856-3887-468b-8267-3ff065e0e5ea"/>
+  </producedTypes>
+  <name>ВариантыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отгрузки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78bddd42-39fc-4c81-a808-075d32b04936">
+    <name>Самовывоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самовывоз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df38fb23-94b7-48ba-909a-199c022b4fd3">
+    <name>НоваяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d0872db-e8e6-48d4-b0c8-2dfa991c3908">
+    <name>ДругойПеревозчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другой перевозчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fabc9891-78be-40cd-8f57-fb36415997fd">
+    <name>ОфисОвен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис Овен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="363a36a2-6efd-48d4-8153-a12ecec9901e">
+    <name>НочнойЭкспресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ночной экспресс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6c0d883-3acb-4f40-98bd-17858d2bbf9a">
+    <name>САТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>САТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22b90d5c-ea2e-41ca-bc4f-ca1285559379">
+    <name>Деливери</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деливери</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="595b9f42-fdbe-43d6-914a-5c05ed15bc85">
+    <name>Интайм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интайм</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

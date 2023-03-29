@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd6c108f-71e8-48f1-8e7e-1e5313f23339">
+  <producedTypes>
+    <refType typeId="8d3a50bf-71e5-4cbd-a943-69a9e27e093d" valueTypeId="539bbd62-ba1d-4315-9709-732036c6620f"/>
+    <listType typeId="653bd21a-3efd-4525-9a8a-1ae8e9020546" valueTypeId="9f958d07-1a1f-4ded-ba86-8a4c00c936a6"/>
+    <managerType typeId="80056288-a618-40b3-af6b-eb6b6023e8d6" valueTypeId="73733677-da96-4f22-a3f4-8a3d752cc64d"/>
+  </producedTypes>
+  <name>ВидыРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ремонта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="de394d52-5426-4d02-99dc-295cbd23a2a6">
+    <name>Общий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="496a8835-8510-4e0d-b6ef-08bb24a123fa">
+    <name>Собственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddf6f6c8-e7a8-453c-89c7-d1c6c84e7e1f">
+    <name>Дилерский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилерский</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3478aea3-95ca-4b5b-a71a-a14f7a71bd05">
+    <name>Канбан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канбан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="033b17ab-a49b-4864-94e9-81d07a3a3ddb">
+    <name>БракКанбан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак канбан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d15ab25-8264-4e78-8537-f8f5e384bd5b">
+    <name>Разукомплектовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разукомплектовка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="210fc38d-0077-437a-8379-4d4e44f0b037">
+    <name>Сторонний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторонний</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

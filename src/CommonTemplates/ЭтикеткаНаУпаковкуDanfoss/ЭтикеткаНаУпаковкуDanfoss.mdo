@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a432b2d5-716d-4ecf-b9b6-63a6f39d5077">
+  <name>ЭтикеткаНаУпаковкуDanfoss</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетка на упаковку Danfoss</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab9507c3-0758-4959-a01f-643e12e92aaa">
+  <producedTypes>
+    <objectType typeId="db1b12f0-783a-4b4b-b8d0-e85c04386a73" valueTypeId="1409865c-de58-4c67-8615-c696defbe407"/>
+    <managerType typeId="90e802e4-124d-4e5b-8eef-cfbcf2545cc7" valueTypeId="ec12f5e2-41c3-4033-bae9-c632472c143a"/>
+  </producedTypes>
+  <name>ОтчётПоОборотуКанбановПоставщика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по обороту канбанов поставщика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоОборотуКанбановПоставщика.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="f27b9bf4-b025-4946-bb68-ce48a5be29eb">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="30a80c84-3b39-49d0-a917-7299b6853b88">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="1a6fe07f-059b-4bbf-98e1-0b006e43d611">
+    <name>ВычестьНерабочееВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычесть нерабочее время, часов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30b6e5f3-a861-4117-8164-48b796f0873e">
+    <name>КолНерабочихЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол нерабочих часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="484bc12d-b352-4dd5-b375-6863f4d74685">
+    <name>БезВыходных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без выходных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="acb8f3bc-bb1b-48a7-9c13-d182c1be5c01">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="af40baf9-c70f-494c-b096-d7f5571fc06e">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="e8259093-a532-490a-97ee-e9900ab9c521">
+    <name>ПоМестамХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>По местам хранения</value>
+    </synonym>
+  </templates>
+  <templates uuid="d924d95d-fc44-4c81-b5e1-a3291f288c29">
+    <name>ПоИзделиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По изделиям</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

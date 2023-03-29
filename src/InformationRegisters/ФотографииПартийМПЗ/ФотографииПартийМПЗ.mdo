@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6277ea1-d360-45a0-ab38-ce58ec2d53fe">
+  <producedTypes>
+    <selectionType typeId="c2c6e6b5-2d37-44f6-9699-a567efd00659" valueTypeId="bbf77d72-461d-40d8-9325-fbb008abad73"/>
+    <listType typeId="2457b20a-5706-4b41-8c8c-a0427a6b1f6e" valueTypeId="8bd3747f-0f8d-4121-b5df-7655960d961c"/>
+    <managerType typeId="1f249768-ce4e-415c-bb12-988446faf63d" valueTypeId="447988cb-4c1d-4e2b-a4ed-e9c1f275a93b"/>
+    <recordSetType typeId="26805f7c-b480-436b-b125-5a85a24594d9" valueTypeId="7052fd7a-4efe-4f21-8a67-d48c91a7eb45"/>
+    <recordKeyType typeId="91c8d00c-d962-4b37-98eb-0bcb68f005b7" valueTypeId="0ee2854d-67b4-4897-a1d3-2184d9e93679"/>
+    <recordType typeId="f5eb74e8-006f-42c5-892e-da872eb97cae" valueTypeId="2635be66-bdd0-44c2-bb16-1c81d7f76788"/>
+    <recordManagerType typeId="9d188b8a-dee0-4863-8a9b-e1e51f7f6e57" valueTypeId="cc77122a-6dd9-4034-a7ca-562e2dbff7cb"/>
+  </producedTypes>
+  <name>ФотографииПартийМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фото партий МПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ФотографииПартийМПЗ.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5240e451-39aa-4ddc-9b37-02fa35e5dbdb">
+    <name>МПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МПЗ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="25c7d94f-86e7-42e1-8052-4b1eb330e297">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0eb4b894-a84d-4ca1-b12c-5a446b415dc9">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2f7fb2c3-108c-422a-bb85-bebac7806230">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

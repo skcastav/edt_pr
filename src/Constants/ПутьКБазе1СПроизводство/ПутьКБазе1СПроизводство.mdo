@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c1eda18-509f-40e2-8ffd-a99cc5bc8a3c">
+  <producedTypes>
+    <managerType typeId="d0f86824-5474-43e4-ba2b-6f25301b6173" valueTypeId="8bf09a8e-7dba-40c7-ab3d-f9116029f890"/>
+    <valueManagerType typeId="f5d6ed19-4e16-4fa9-8179-aa4590a29b97" valueTypeId="6664514f-d5ef-4499-ab8b-731595400f12"/>
+    <valueKeyType typeId="42dcaae6-b9f3-5b1e-8081-fe2d5591a355" valueTypeId="8e87aa01-fe0b-5007-8982-9122d96b8e9c"/>
+  </producedTypes>
+  <name>ПутьКБазе1СПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь к базе1С: Производство 7.7</value>
+  </synonym>
+  <comment>Путь к базе1С: Производство 7.7</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

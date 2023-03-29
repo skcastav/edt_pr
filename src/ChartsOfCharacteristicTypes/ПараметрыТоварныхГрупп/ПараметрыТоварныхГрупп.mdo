@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="494dacd6-21e6-4b82-bd60-28db2e8d11bd">
+  <producedTypes>
+    <objectType typeId="abeb2040-049a-4277-a148-b73fa09eab4b" valueTypeId="c98f8481-a7b6-4eaf-83c0-249eceb3e8f0"/>
+    <refType typeId="f81a3344-d181-415d-899f-5394a34a3c58" valueTypeId="2c3919bd-49ae-431b-81ef-e3759f92632c"/>
+    <selectionType typeId="ebbf39cf-4d42-41fe-9d7c-89c003254a9d" valueTypeId="23ad1a4c-06b2-48e5-bb1e-707c2dce844f"/>
+    <listType typeId="e6990943-a256-415d-84af-a704ed431f22" valueTypeId="e0fc0b71-afa4-47a4-bbe8-c4200dddc0df"/>
+    <managerType typeId="e8489aa2-9178-4a70-8868-f67dfe34959a" valueTypeId="d5b32808-0ef5-4c5d-9f23-a00b103ec84a"/>
+    <containerType typeId="d151316c-a823-42b2-880a-c726a4a2032b" valueTypeId="900b981b-b71f-4b8c-97ff-31d793c4a401"/>
+  </producedTypes>
+  <name>ПараметрыТоварныхГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры товарных групп</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ПараметрыТоварныхГрупп.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <characteristicExtValues>Catalog.ПараметрыТоварныхГрупп</characteristicExtValues>
+  <type>
+    <types>CatalogRef.ТипыДатчиков</types>
+    <types>EnumRef.КлассыДопуска</types>
+    <types>Boolean</types>
+    <types>CatalogRef.МатериалыЗащитнойАрматуры</types>
+    <types>EnumRef.СтепениЗащиты</types>
+    <types>CatalogRef.ПараметрыТоварныхГрупп</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.НСХ</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>400</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>30</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ПараметрыТоварныхГрупп.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ПараметрыТоварныхГрупп.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ПараметрыТоварныхГрупп.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="b8c42640-6648-4e21-beb5-b244c41526d1">
+    <name>ПолнНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полн. наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77cd40f4-725a-4589-937f-d1d7d7cb73f3">
+    <name>Многострочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многострочный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7a4580bc-34ed-4847-870d-2fc775fc9aef">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="59ba1bd7-2ff1-4d04-b13a-8643e5494dd3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="810b010a-ae9f-4537-b255-6c8cf64bbbba">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2b439abb-200b-4980-a5d6-c90d9bf5bb16">
+    <name>ПараметрыТоварныхГрупп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры товарных групп</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ТоварныеГруппы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:ChartOfCharacteristicTypes>

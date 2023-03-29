@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fbe78d6-dabe-4894-86aa-41cf5c673587">
+  <producedTypes>
+    <objectType typeId="e2850808-7cfa-4bc3-ad4f-474c8b16df84" valueTypeId="c192b67d-f509-4c7e-8153-c7fa37e8063f"/>
+    <refType typeId="ca0f16af-973b-49f3-98a1-5ea7544e9694" valueTypeId="16f56044-b527-40ab-b518-5e3b47683b77"/>
+    <selectionType typeId="af143ac6-7a2c-43bb-8a92-4cd9d1b476b0" valueTypeId="eead94f2-4f03-455a-b494-7aad31d2f7ec"/>
+    <listType typeId="e33258b8-e0a4-418e-9ca9-f87112f9068b" valueTypeId="23eec4ad-9235-4104-a84f-b37fc0353443"/>
+    <managerType typeId="2bc2fa99-fac7-43f8-98f2-a4bc3448d7fb" valueTypeId="8d94217e-bbcf-4a74-9da1-d8799509f318"/>
+  </producedTypes>
+  <name>Стенды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стенды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Стенды.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Стенды.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>20</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Стенды.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Стенды.Form.ФормаГруппы</defaultFolderForm>
+  <defaultChoiceForm>Catalog.Стенды.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="94555946-a110-4c60-9d54-80bfce63906c">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31b5a4bc-9145-430f-8555-754898f33673">
+    <name>СБуфером</name>
+    <synonym>
+      <key>ru</key>
+      <value>С буфером</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a26487e7-8688-4455-8d29-a803972602d7">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ремонте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f17d875-eb86-4ff8-9df7-066ab90b6989">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2e5c6ea4-d141-45a9-b190-b8b32ef81094">
+    <producedTypes>
+      <objectType typeId="2a69e7de-366f-4e42-99f6-713f0cebb80d" valueTypeId="96d8df78-c9d7-4fcf-a9d1-1783d5d41f72"/>
+      <rowType typeId="c2d7e1e7-12ed-427b-806e-479442fc6686" valueTypeId="05c1210a-bc3a-47d1-9d1b-28f1c6ce2e54"/>
+    </producedTypes>
+    <name>Ремонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонт</value>
+    </synonym>
+    <attributes uuid="ca72761f-0a43-4631-9fc0-c8632d2c4856">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="8c8b68ab-e843-41e5-a1a8-819310271251">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7ed507b4-c636-4b46-94fd-173a136cc09b">
+    <producedTypes>
+      <objectType typeId="70624e6e-f0a3-4aa0-a02e-efaafe2e784c" valueTypeId="5c937e57-8598-4ead-86f4-710f6786eb7e"/>
+      <rowType typeId="058c544b-9399-4a26-a168-f612fc24a023" valueTypeId="785acefc-0bec-4d94-839d-738f9bf3940f"/>
+    </producedTypes>
+    <name>РаспределениеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение номенклатуры</value>
+    </synonym>
+    <attributes uuid="e49c6fec-27d8-45dd-b21a-0ef44ca097ff">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <use>ForFolder</use>
+  </tabularSections>
+  <forms uuid="242498d8-2f60-40ec-99ac-d01d2a68221f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7d5c2db3-6103-4f3c-8380-2611584ba797">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3a7d7c2-17bb-48af-988e-30918ca5c807">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

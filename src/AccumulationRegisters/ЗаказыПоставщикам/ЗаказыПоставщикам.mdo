@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c761e876-73be-4ea7-96c2-d5b97d25d498">
+  <producedTypes>
+    <selectionType typeId="b7835cec-6c7d-46f2-ac50-afac2b22b396" valueTypeId="fc26d9e4-d761-45d6-a1eb-8da3df1bd524"/>
+    <listType typeId="cf6c8c17-1ccb-4b91-8ca5-53519f6948b5" valueTypeId="d4af7829-3c01-4f4a-97fb-c5e8c1a811c4"/>
+    <managerType typeId="cc9d6e88-1d2d-418a-b05d-fa3baa5b512f" valueTypeId="e4378524-4388-4aa0-ab1d-ab3273236143"/>
+    <recordSetType typeId="ffe139ea-d3ae-41b6-81de-ecb670eab14b" valueTypeId="e960340b-7839-4542-8cf4-8d46854930ce"/>
+    <recordKeyType typeId="ece26f81-cc77-4099-aa14-e8bde96af758" valueTypeId="bdaaf3a7-9a8f-43d8-83f1-73ab06e1e14d"/>
+    <recordType typeId="c963b9c3-0dfb-4051-81c8-c8bcbeff83d0" valueTypeId="e473d5ab-b6d8-4d5c-b585-6c9bcdcc0449"/>
+  </producedTypes>
+  <name>ЗаказыПоставщикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы поставщикам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="839d9f86-028a-4f6f-8d00-dcced9ba31e0">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4d1fbeff-f749-4bb0-b1ae-d7f3bb561700">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3a8da1ef-f731-42d6-aee9-fff5aa89cbbc">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="14955b4e-e408-497f-8171-9a84b1610d44">
+    <name>ДатаИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поставки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a0f0541b-78dc-467c-ae55-23daf32cbf8f">
+    <name>МПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МПЗ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="edf6ccab-c394-4c40-835e-8e2bdd6ecee6">
+    <name>ЗаказПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ поставщику</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПоставщику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

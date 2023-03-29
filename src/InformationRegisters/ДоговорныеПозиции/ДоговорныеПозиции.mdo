@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0fa9c8f-0cbd-4ba1-97cf-8924238a2131">
+  <producedTypes>
+    <selectionType typeId="d652e3f4-1557-429b-a765-145051f08297" valueTypeId="cf8ce16a-2867-4278-9594-7b5c6e7d480b"/>
+    <listType typeId="7c04e85d-d931-4d4a-8879-4507d3ab050e" valueTypeId="49b6480f-fecd-4ace-a882-ca38947e178d"/>
+    <managerType typeId="6e9434bd-ec82-467b-92ba-7e7b98d0cf03" valueTypeId="df2ff99e-ddeb-45be-8c66-3ec6bc4f397a"/>
+    <recordSetType typeId="26b78a31-5701-45c8-84a6-23538b562cb5" valueTypeId="9a24c393-12d5-45bd-b8b1-6280c47b43b1"/>
+    <recordKeyType typeId="af5f0c07-1868-4bc7-a9a6-d04b9dcc702e" valueTypeId="fbbf9115-e6cf-4d05-8a8c-53a09b18e2d7"/>
+    <recordType typeId="381576f1-fc6e-4784-b267-1453a6e7139c" valueTypeId="9bafb720-c9ff-4a0d-a3cb-0139f5193929"/>
+    <recordManagerType typeId="d2770fda-2eaa-4b93-928e-3958f7cad589" valueTypeId="fdcced9b-e53e-492a-a282-1c05366af1b1"/>
+  </producedTypes>
+  <name>ДоговорныеПозиции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договорные позиции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5ea804cf-6899-4a3d-b030-a4527c250497">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bf73eefc-c6be-415b-8614-4b735d4c9ffd">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eaff1669-5575-4385-a62a-8e3aeaa2b0f6">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="75dfb737-3aed-4b27-8407-7f8c99bb45b4">
+    <name>ОстатокПоДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток по договору</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d88d8995-935d-4ca5-9331-220252e29a32">
+    <name>ДоговорнаяПозиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договорная позиция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорныеПозиции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

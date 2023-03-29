@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaec53f4-bc0d-4254-9d91-b3dc36c6006a">
+  <producedTypes>
+    <objectType typeId="4b4adbe8-ffb7-4fd8-b045-7f7b40f0552c" valueTypeId="66cd202b-4dfe-4680-bcec-daa18dfe0d50"/>
+    <managerType typeId="7bd7b1f2-c5ff-46ed-a364-9c39156ff7db" valueTypeId="a8e99c45-a2c5-485f-b6e0-9a399b4272a5"/>
+  </producedTypes>
+  <name>КопированиеСпецификацииВДругуюБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копирование спецификации в другую БД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КопированиеСпецификацииВДругуюБД.Form.Форма</defaultForm>
+  <forms uuid="a33eff98-b409-4d27-aac0-c1bbd38dba83">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

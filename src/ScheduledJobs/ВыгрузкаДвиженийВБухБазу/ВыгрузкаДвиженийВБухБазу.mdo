@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa657505-4bb8-413a-8fdc-e6cf36c2f7c2">
+  <name>ВыгрузкаДвиженийВБухБазу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка движений в бух. базу</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ВыгрузкаДвиженийВБухБазу</methodName>
+  <description>Выгрузка движений в бух. базу</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

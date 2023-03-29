@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4204d56e-967e-43dd-9d01-a925d54a50e5">
+  <producedTypes>
+    <objectType typeId="4e397a08-1759-446e-8c0c-d0ed2f119f47" valueTypeId="15b447b5-22c5-45c9-8d9f-01368c436694"/>
+    <managerType typeId="19418109-a00c-42ce-b689-18235833ce69" valueTypeId="8c9f16b7-5545-4f25-9643-c74bd6564a4e"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_Комплектация</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Комплектация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_Комплектация.Form.Форма</defaultForm>
+  <attributes uuid="e6d0a165-b35c-488e-aa07-cbc472b38a9a">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2077dd45-5703-4d6a-ad18-5bce5a43807d">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d5bddb2f-3be3-4bb6-aff5-9ac7c87aafa2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0c3cf65f-257b-4f7f-87ca-5170f2529c7a">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="6240bc54-f52e-4acf-9df6-5b281c4cf9ef">
+    <name>Макет2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет2</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

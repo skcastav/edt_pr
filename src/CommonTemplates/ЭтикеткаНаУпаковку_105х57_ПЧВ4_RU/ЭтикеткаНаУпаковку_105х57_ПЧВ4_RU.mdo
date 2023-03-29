@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9ba73c1-836e-4351-8d45-3fe8edd82dae">
+  <name>ЭтикеткаНаУпаковку_105х57_ПЧВ4_RU</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетка на упаковку 105х57 ПЧВ4 RU A4</value>
+  </synonym>
+</mdclass:CommonTemplate>

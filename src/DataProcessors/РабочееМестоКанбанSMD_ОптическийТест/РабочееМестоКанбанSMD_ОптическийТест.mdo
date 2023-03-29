@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ff26dd6-8e57-4178-8494-21d494fc7c1a">
+  <producedTypes>
+    <objectType typeId="4efdf9c3-d848-4c9e-bacd-d489bb729fb8" valueTypeId="c19a9587-1acc-456d-8de5-21374e3ee487"/>
+    <managerType typeId="6776025f-ed8a-4e16-8605-348e1c299493" valueTypeId="b5f87dbf-1100-4b73-98b5-ce9d495a329d"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_ОптическийТест</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Оптический тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_ОптическийТест.Form.Форма</defaultForm>
+  <attributes uuid="daad36dc-0118-4016-9dc5-3990b4ca665b">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c9068347-9528-4c87-bad9-cc15ef591432">
+    <name>ПроизводственноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="201cbbed-dc32-436b-9e0d-0d85f1b590b7">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="39f47c2a-dff0-4ed6-b337-bd6461a87b4d">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛинииSMD</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9aba30ee-79cc-42a3-864a-66f9a0236fb1">
+    <name>ИнтервалОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал обновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f22d616f-b235-48a9-a972-5316fed66171">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4102b26a-696d-4bd4-abca-5a86811f0da7">
+    <name>ФормаЗавершениеЭтапов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма завершение этапов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

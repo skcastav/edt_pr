@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="294a2908-089e-4beb-893e-094507facb54">
+  <producedTypes>
+    <objectType typeId="073d7c33-f339-4f08-a64c-809e6a089ca7" valueTypeId="1cacaec4-e1b1-401b-8940-c83d4dee763a"/>
+    <managerType typeId="8455a220-390c-4f94-8b2c-7a8d1ed6f6df" valueTypeId="39af6c94-59d7-4653-8f80-1cea8328f1ad"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанЧЭ_Мастер</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан ЧЭ Мастер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанЧЭ_Мастер.Form.Форма</defaultForm>
+  <attributes uuid="64ea85e6-c448-40cd-b311-ff38b090895d">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91aec29f-73d8-4cda-9275-ef33260aa9d5">
+    <name>ИнтервалОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал обновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="85c5bdd3-e8b3-4b21-bb40-49a0b134bef2">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="1f078b7c-c575-40cc-889f-ef0555a39820">
+    <producedTypes>
+      <objectType typeId="6702cd83-38ff-4002-8422-172ff7631b8e" valueTypeId="0c2ae4d6-ecf3-4e1a-99c3-13ffb4f74020"/>
+      <rowType typeId="d1e17f89-d7c5-47b1-b360-c719602385bd" valueTypeId="6ee37b16-6fcc-424e-a793-3b37748ba6a9"/>
+    </producedTypes>
+    <name>ТаблицаПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица ПЗ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fffe4d38-7553-466b-b8ac-b808bca17229">
+      <name>Потребитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Потребитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.МестаХранения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="43ae85df-7349-4c99-b261-e7bd65ce5923">
+      <name>ПроизводственноеЗадание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производственное задание</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПроизводственноеЗадание</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="811c1992-1ff9-49b6-8148-d4041d7f627b">
+      <name>Изделие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изделие</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="47251756-2817-47c4-905e-735e9911b802">
+      <name>ДатаЗапуска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата запуска</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fb98ddfd-6f04-45a8-bb77-3f5d9cf48ffa">
+      <name>ЛО</name>
+      <synonym>
+        <key>ru</key>
+        <value>ЛО</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7c382eec-661c-4bc8-a6ca-0340079d85c2">
+      <name>ЛОПотребителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>ЛО потр.</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fb0453b8-1c01-461e-81ae-37aeeafd3ea2">
+      <name>РабочееМесто</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рабочее место</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РабочиеМестаЛинеек</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b076b010-2cfe-4b98-8eed-fdef3d057cbe">
+      <name>РабочееМестоКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рабочее место код</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="956b6a92-8679-4ca7-9c5a-0f391790e6ea">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="88ab6ced-3813-4a6d-9ad6-c4ff6c2c4223">
+      <name>КоличествоНаСкладеГП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во на складе ГП</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="cf3e62f0-8b29-437e-82f3-693fd99218a1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

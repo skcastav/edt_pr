@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7af132ca-b972-4376-808e-dafd58da15b5">
+  <producedTypes>
+    <managerType typeId="e786e751-cb5b-4541-a223-8830976af355" valueTypeId="f55a2739-8e0c-4526-a043-043241bde1ad"/>
+    <valueManagerType typeId="d5e86ac2-5f51-4ed3-bcfe-dcbd37578863" valueTypeId="2d10ca32-f0b1-493b-ae48-a92a202241cb"/>
+    <valueKeyType typeId="109469c7-e2a3-455e-9ace-ee1d5c716c6b" valueTypeId="f7c16399-1662-4d07-a7f9-eea6a5e1113f"/>
+  </producedTypes>
+  <name>ОшибкиПриВыгрузкеКЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки при выгрузке КЗ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

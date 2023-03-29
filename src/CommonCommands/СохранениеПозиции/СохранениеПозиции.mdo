@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56104766-d49b-40ba-be9d-b8edbfa2b0c6">
+  <name>СохранениеПозиции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение позиции</value>
+  </synonym>
+  <group>FormNavigationPanelSeeAlso</group>
+  <commandParameterType>
+    <types>CatalogRef.ТехОснастка</types>
+    <types>CatalogRef.Документация</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ТехОперации</types>
+    <types>CatalogRef.Материалы</types>
+    <types>CatalogRef.Товары</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Сохранить позицию</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.SaveValues</picture>
+  </picture>
+  <shortcut>Alt+C</shortcut>
+</mdclass:CommonCommand>

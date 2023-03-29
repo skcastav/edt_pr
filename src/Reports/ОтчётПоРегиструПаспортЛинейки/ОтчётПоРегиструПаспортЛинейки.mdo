@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52ed7df3-9e5b-4494-8bb8-2309d17c0dfd">
+  <producedTypes>
+    <objectType typeId="a3fb9cd6-a813-4da0-bff9-e9a092206d1d" valueTypeId="8492d1f1-e5c2-47ce-a707-20de796a4dd3"/>
+    <managerType typeId="132e22ab-594f-47ea-af14-681ba511af56" valueTypeId="6e69b861-f72d-4610-b331-8deb7a808f64"/>
+  </producedTypes>
+  <name>ОтчётПоРегиструПаспортЛинейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по регистру паспорт линейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоРегиструПаспортЛинейки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3d41f6a8-136c-45ce-b4c9-d040da7aadec">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

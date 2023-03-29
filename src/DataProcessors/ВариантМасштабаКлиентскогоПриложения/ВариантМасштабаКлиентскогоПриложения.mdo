@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c19d2c65-303d-421f-b93f-5b8bca180cc7">
+  <producedTypes>
+    <objectType typeId="287c82e5-0ee2-4e60-90f3-6219224e1265" valueTypeId="c165b049-0c9d-4105-88c8-8e35b0051d6d"/>
+    <managerType typeId="e054a2ca-97e7-466a-8637-18b7e3260b6c" valueTypeId="8e585f7e-1198-4c11-a155-04621979a374"/>
+  </producedTypes>
+  <name>ВариантМасштабаКлиентскогоПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант масштаба клиентского приложения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВариантМасштабаКлиентскогоПриложения.Form.Форма</defaultForm>
+  <attributes uuid="37bf1b31-eac5-46e6-a296-36c57be73450">
+    <name>Масштаб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масштаб</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7257ddea-cc5a-440e-9a3e-a8c4e6f74587">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

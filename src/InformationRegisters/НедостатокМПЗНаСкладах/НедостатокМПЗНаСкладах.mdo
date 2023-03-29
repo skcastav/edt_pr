@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff266908-e386-4fcc-a406-cdea2d1e9d18">
+  <producedTypes>
+    <selectionType typeId="1a2ee77a-e6f0-4063-84bd-6dfc4de96add" valueTypeId="0caa18df-ec72-4fe0-95c5-2fa384fc8ed3"/>
+    <listType typeId="f3313259-54e4-4d86-bd89-8a49a7001efc" valueTypeId="0ef318b0-c164-460d-be3d-ea9412341881"/>
+    <managerType typeId="e314152b-3301-48f9-a7a2-5c240ae52661" valueTypeId="91ef754c-94f7-46c9-b491-ae3b7303250f"/>
+    <recordSetType typeId="546e12b8-cf81-467d-b2aa-7817a0812ecc" valueTypeId="ce255a61-3fda-40e9-98b6-a180661368e5"/>
+    <recordKeyType typeId="77c0d3a4-b8a6-4193-8b73-1c38d5c8e006" valueTypeId="f2b94978-b7ae-4aee-9657-457803ada445"/>
+    <recordType typeId="46aedfca-f699-4a76-b7f0-156dca3dc8ad" valueTypeId="968f04de-5b8d-4b06-903d-747864eb8e41"/>
+    <recordManagerType typeId="e592f1c3-fb5e-429a-9cac-fb93bc41f9ec" valueTypeId="7e655faf-b0c8-4611-940a-01baf954fa67"/>
+  </producedTypes>
+  <name>НедостатокМПЗНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Недостаток МПЗ на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="25eb1f93-5704-4a46-ae1c-d0e9fb7dc60c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="31de4738-a806-4128-8f91-82d6e6ab756b">
+    <name>МПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МПЗ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

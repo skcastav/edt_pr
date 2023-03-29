@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b39c952-dd42-4f84-80ec-01918afb758f">
+  <producedTypes>
+    <managerType typeId="b08831a6-fca0-4197-a9fc-5ab902770b23" valueTypeId="b47b1796-86cc-441b-985e-3a4d64c5e349"/>
+    <valueManagerType typeId="2c23df60-4132-493e-abc2-a245a32937b6" valueTypeId="2658b3a2-622c-455e-8a8f-8b4119bcbcb0"/>
+    <valueKeyType typeId="f78cfca7-574c-550d-b20c-32124c3b5867" valueTypeId="5551b797-efcf-5b72-bbf4-cd165c0a72a6"/>
+  </producedTypes>
+  <name>ОтменитьЗапретРедактированияДляСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отменить запрет редактирования для сотрудника</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+  <defaultForm>CommonForm.ЗапретРедактированияДокументов</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

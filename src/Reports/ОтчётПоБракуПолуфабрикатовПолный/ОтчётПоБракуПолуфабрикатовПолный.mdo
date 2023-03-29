@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7f7eb8e-704e-4b85-956b-14071a7dc78c">
+  <producedTypes>
+    <objectType typeId="cc95aef2-05f8-4a48-bdd2-3328c76c86ee" valueTypeId="1b4cd033-dbec-497f-a9dd-744e54be71b7"/>
+    <managerType typeId="d915a8ab-f574-4b31-827d-4860ab6aec78" valueTypeId="1900393b-37ac-4a4a-82d4-69d07bc71e0f"/>
+  </producedTypes>
+  <name>ОтчётПоБракуПолуфабрикатовПолный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по браку полуфабрикатов полный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоБракуПолуфабрикатовПолный.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="c9380a38-3b0c-434d-b006-739b75953265">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6381d1c6-fefa-4352-a130-ce5e9cf42d39">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0f1dcb04-eb01-449c-8ecb-8e30d8d8f26a">
+    <name>ДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="559c5b5d-cd99-42d1-b98c-7d8f0bdb2217">
+    <name>ПоВидамНеисправностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>По видам неисправностей</value>
+    </synonym>
+  </templates>
+  <templates uuid="990ff0d2-4e68-4eaa-85bc-84a527c4f052">
+    <name>ПоИзделиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По изделиям</value>
+    </synonym>
+  </templates>
+  <templates uuid="5c25ba17-32a2-4f42-b8fa-902593d03346">
+    <name>ПоРабочимМестам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По рабочим местам</value>
+    </synonym>
+  </templates>
+  <templates uuid="6b632f4b-433d-432c-acf6-05c91d9425cf">
+    <name>ПоМестамВозникновенияБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>По местам возникновения брака</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

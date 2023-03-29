@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5335de0e-e503-4b25-9bb0-1d4e81465f8b">
+  <producedTypes>
+    <objectType typeId="5a476f6f-e700-441b-a032-b9a7d2b2e278" valueTypeId="df9b4b8f-3152-4e29-a09a-4271823e1857"/>
+    <managerType typeId="0ba88c12-7a04-4138-ba27-c46d47b65cb2" valueTypeId="03defee9-4b04-4f01-a610-eafb91b807b1"/>
+  </producedTypes>
+  <name>СверкаВыпускаГП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка выпуска ГП для бухгалтерии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СверкаВыпускаГП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="343febfe-c5cf-4b3a-8d72-01d3a947f7f8">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="dfa834bb-d04a-4ee3-b448-bb833b89615e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

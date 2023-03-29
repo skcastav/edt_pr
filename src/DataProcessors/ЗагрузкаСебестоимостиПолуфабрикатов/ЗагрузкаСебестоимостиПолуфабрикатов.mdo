@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c852d5d-13fb-4ee6-8ed2-7802a1b8564e">
+  <producedTypes>
+    <objectType typeId="6ed66541-a60d-4d07-b1fe-15a37dfbde6b" valueTypeId="eb7ca8a9-0fd6-4667-93c7-0dc433d22d5c"/>
+    <managerType typeId="f9811c5e-754d-4c4d-ac22-b95725e9adca" valueTypeId="eddf3872-0061-424c-b880-4480e4464a8a"/>
+  </producedTypes>
+  <name>ЗагрузкаСебестоимостиПолуфабрикатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка себестоимости полуфабрикатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаСебестоимостиПолуфабрикатов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6120899c-abe2-4297-93a9-7c2ce4c6a879">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5ecb230b-73ec-49de-82dc-439aaefb0af6">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d30cd95b-2cce-424f-8bde-648ad16cb8b1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

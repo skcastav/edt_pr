@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39278984-4897-4f96-a940-bc10e5d866f2">
+  <producedTypes>
+    <refType typeId="d76dc3f0-c62e-49f5-b08d-b38fc143bbb7" valueTypeId="957be20f-3792-4912-b212-08b2a0988cea"/>
+    <listType typeId="aa1c14b8-d862-4bbf-a799-ddd256660789" valueTypeId="bc419ecf-8893-4989-ad61-27c42cd18dd7"/>
+    <managerType typeId="4f0935cb-c8d9-4be3-960a-2f5cf4af185a" valueTypeId="38ae99cc-3cd7-4af6-8cdc-66a15a60fed5"/>
+  </producedTypes>
+  <name>ВидыСтендов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды стендов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ebe27c74-cae7-4642-8a8f-17d8017a0501">
+    <name>Стандартный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a0f7f3c-bdb8-4221-b9f2-e1331ed08144">
+    <name>СБуфером</name>
+    <synonym>
+      <key>ru</key>
+      <value>С буфером</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca927273-4bfd-464e-9e3d-5f0dd25feea8">
+  <producedTypes>
+    <managerType typeId="7c611841-e50d-446f-9e5f-0b0130ef4e42" valueTypeId="083ecb16-b301-4ebb-aa3e-cf5b4f69dfe3"/>
+    <valueManagerType typeId="39b3730d-09af-4b68-9dd7-85b42b89a019" valueTypeId="e2439aa6-21e8-4f15-9d44-c790a17c6a18"/>
+    <valueKeyType typeId="ad53c1fa-e448-5bd1-943b-447dcd0a78f3" valueTypeId="12b1723f-85a4-5d79-94eb-c8f273e8fd01"/>
+  </producedTypes>
+  <name>ТелефоныОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телефоны организации</value>
+  </synonym>
+  <comment>Тел. по юр. адресу и действ. местонах.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

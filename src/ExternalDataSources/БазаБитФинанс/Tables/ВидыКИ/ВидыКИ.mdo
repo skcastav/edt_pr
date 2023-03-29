@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1e0b1d7-6c02-4e18-b39c-08b48c030ccc">
+  <producedTypes>
+    <refType typeId="a7c07d76-3538-4466-9f27-9fcea90351ce" valueTypeId="3aedcc08-c249-4a9d-9800-7b98e828b78c"/>
+    <listType typeId="13ca7051-9be0-472f-bd9a-b19a91d9fb70" valueTypeId="1dfcd254-3389-4003-b4c3-055d117bda40"/>
+    <objectType typeId="ea9a7d0d-6840-4596-adba-1e2998c721e5" valueTypeId="2f17ed5b-1ee3-43cc-83c9-0dc1be98eb94"/>
+    <managerType typeId="3aa46136-4575-4c2d-a8f9-d3c28774c163" valueTypeId="9240718f-5fd2-4ea1-9b41-771a3300e693"/>
+    <recordManagerType typeId="5be75522-8618-45c2-a8bd-170a2a06fc79" valueTypeId="f61e4b99-ab1a-4943-b34b-77d935ab8b6e"/>
+    <recordSetType typeId="d5124699-d3f5-4e88-9728-dbc68085f2a4" valueTypeId="04f091d0-ec56-4e30-8ea4-2fcc91e47153"/>
+    <recordType typeId="6f6c7963-c384-4c9c-8dd2-0a69f3f309a2" valueTypeId="bfde28c5-1e33-4759-be40-9d3d47e768dd"/>
+    <recordKeyType typeId="59709a80-cc3f-4ea3-8c31-b383059c26f1" valueTypeId="0e922efa-964f-41c1-b31c-a1d58730584a"/>
+  </producedTypes>
+  <name>ВидыКИ</name>
+  <parentDataSource>ExternalDataSource.БазаБитФинанс</parentDataSource>
+  <nameInDataSource>dbo._Reference44</nameInDataSource>
+  <keyFields>ExternalDataSource.БазаБитФинанс.Table.ВидыКИ.Field._IDRRef</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="34aa6639-f7e4-468e-a19a-7d0a4d751f39">
+    <name>_IDRRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_IDRRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="f1210151-24b4-4518-b185-b4029dd606cc">
+    <name>_Description</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Description</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe89fcdf-efc2-49cf-bac2-47c081b04a58">
+  <producedTypes>
+    <selectionType typeId="82ea9e15-edf7-4c0e-aeaa-bdd183f5dd0e" valueTypeId="ce6177ad-fe08-49c2-b033-2ee9acee3561"/>
+    <listType typeId="19960f11-fbbb-4726-8017-807ce0c56b80" valueTypeId="68e129fb-3d89-4066-b32d-11b5282d845c"/>
+    <managerType typeId="18083663-5e84-4851-868c-0b750eb05bb7" valueTypeId="d68bdaa7-e464-4f9c-be4f-df7ff3e8734c"/>
+    <recordSetType typeId="b855f3e9-a57f-4262-af6b-1d64dc90d140" valueTypeId="b0e22ba3-e4d0-4427-b36d-1cbbfdce0df8"/>
+    <recordKeyType typeId="96c99444-b121-41f9-80a9-b33c97371626" valueTypeId="15cacd13-3770-40cd-b6c4-810582a66f50"/>
+    <recordType typeId="c6251ac0-4bed-40b1-b9c0-497a60d37364" valueTypeId="72efc4c2-be7c-4a99-88bd-aa4aeb7ad583"/>
+    <recordManagerType typeId="eb623f98-3e7b-440b-b76a-07790a33641f" valueTypeId="490538d4-055b-4dfd-b4ec-2700cf57cdd1"/>
+  </producedTypes>
+  <name>ПериодическиеКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодические константы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3596267f-f26e-488b-88af-3cd929d22e79">
+    <name>ЗначениеКонстанты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение константы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="84c99373-d9aa-44b6-9f33-2c1668dce559">
+    <name>ПериодическаяКонстанта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодическая константа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериодическиеКонстанты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

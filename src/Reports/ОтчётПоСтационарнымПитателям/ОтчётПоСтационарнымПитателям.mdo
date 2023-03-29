@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d35b7f4f-1645-4f88-a6ee-66d493977996">
+  <producedTypes>
+    <objectType typeId="ef90f7be-a95a-4322-b210-d0bcee9a418a" valueTypeId="a9be26b5-ba3e-4c4f-a5c0-e7abb7009779"/>
+    <managerType typeId="07e367f8-facb-4da7-a9c1-c72957caadcb" valueTypeId="5b34d04b-31df-4fbf-9de9-f3ab3d4db6ce"/>
+  </producedTypes>
+  <name>ОтчётПоСтационарнымПитателям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по стационарным питателям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоСтационарнымПитателям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="be989c8f-a68e-408b-ae9e-2ab80c013e19">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

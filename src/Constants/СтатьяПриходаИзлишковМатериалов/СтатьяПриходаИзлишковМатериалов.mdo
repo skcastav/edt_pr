@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0ee0239-9bfe-41bb-8059-7bf55eeab698">
+  <producedTypes>
+    <managerType typeId="b0486e9a-ab12-415f-84c9-1e5735e8622b" valueTypeId="bbe6a244-efb7-4f09-aecf-a6122fccc454"/>
+    <valueManagerType typeId="90787872-6478-4a70-8ebe-cddee32626c0" valueTypeId="8c442722-44c7-40ec-bb5b-cf6787126f35"/>
+    <valueKeyType typeId="93485cdd-f477-52a8-92a7-b7bce11fe0c9" valueTypeId="7604c844-b6c8-5a99-9063-5117a25dde08"/>
+  </producedTypes>
+  <name>СтатьяПриходаИзлишковМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья прихода излишков материалов</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтатьиПоступленийСписанийПрочих</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НастройкиОбщихМестХранения</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

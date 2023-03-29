@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69259df9-68a1-4d79-90e8-f1a90aa239d9">
+  <producedTypes>
+    <objectType typeId="117163c6-12b8-4257-8b60-66c6a8374b9b" valueTypeId="4aebc602-e837-4ba5-a740-3544d4d07d90"/>
+    <managerType typeId="44899c9b-5ecc-4546-a85b-be0d78e3e35a" valueTypeId="710de07a-2abc-4261-9fde-348e001f9fd9"/>
+  </producedTypes>
+  <name>ЗагрузкаДоговорныхПозицийИзФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка договорных позиций из файла</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДоговорныхПозицийИзФайла.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="621ca209-5870-4ccf-b97a-e95325e1ca4b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ddd45eb-9645-4ac3-af0b-defe26364a74">
+  <producedTypes>
+    <selectionType typeId="d95148eb-00e0-41c4-a487-ad6ebe66aa7a" valueTypeId="836809a7-ceda-4997-aefa-875c9331190e"/>
+    <listType typeId="95430875-3c94-4516-b7ed-08fdbeb78a08" valueTypeId="533bf4e0-8fa2-4f90-b402-4c6ec9336a18"/>
+    <managerType typeId="9de562d8-5364-449f-bd08-18dd562b4f77" valueTypeId="db113037-70da-4507-a906-c30da5fdf06f"/>
+    <recordSetType typeId="ce3493cd-47c7-46ea-81af-95c3bb58b72b" valueTypeId="7a5ac52a-227b-4c78-b081-9d794cdf2074"/>
+    <recordKeyType typeId="eff397da-5ae6-46f6-bdeb-1011e75b3d23" valueTypeId="719fc61d-e0e3-4374-ab5f-16e04c7fdbe1"/>
+    <recordType typeId="ea9656ee-35f8-4a8a-9150-35f673ac9b4f" valueTypeId="16cd9136-7fa1-4ed3-a709-869867354297"/>
+    <recordManagerType typeId="a7132edc-d9e2-4abf-8734-ff4dc3e16ce0" valueTypeId="adda5890-0976-4629-b734-37bfa4231b08"/>
+  </producedTypes>
+  <name>ПараметрыТоварныхГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры товарных групп</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПараметрыТоварныхГрупп.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПараметрыТоварныхГрупп.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="be621667-a803-4ef2-9c49-21bf0b6cd976">
+    <name>ЗначениеПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение параметра</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыТоварныхГрупп</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ПараметрыТоварныхГрупп.Dimension.ПараметрТоварнойГруппы</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ПараметрыТоварныхГрупп.Dimension.ПараметрТоварнойГруппы</field>
+    </linkByType>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fcb36a00-d05b-428a-9f3f-93b506086af1">
+    <name>ТоварнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТоварныеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="72ae65c0-ceda-49c0-a029-70effbadfc90">
+    <name>ПараметрТоварнойГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр товарной группы</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПараметрыТоварныхГрупп</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ed194428-2948-4410-9ae5-9e3f1a9c3342">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90b0a1df-918e-49fb-870a-d183e35131e9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42f8388e-67fa-4037-a468-c5ea520b5109">
+  <producedTypes>
+    <objectType typeId="86824879-d8e2-4ab6-86b3-feb290bd0892" valueTypeId="bae8bf96-45bb-4fbd-a445-6ef506ef9e64"/>
+    <managerType typeId="d37ffce8-599d-47c6-99d1-bd154f69aa3f" valueTypeId="4df5ff19-470f-4611-b0d6-84dd6cd9a98f"/>
+  </producedTypes>
+  <name>РасчётСреднихЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчёт средних цен МПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасчётСреднихЦен.Form.Форма</defaultForm>
+  <forms uuid="61268f10-5722-4f14-86f4-b3d32cccbbf8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

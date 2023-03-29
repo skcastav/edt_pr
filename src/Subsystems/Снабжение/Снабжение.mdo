@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5a868bd-37a2-4214-98bc-84c0aff79e58">
+  <name>Снабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Снабжение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Снабжение</picture>
+  </picture>
+  <content>Role.Администратор</content>
+  <content>Report.ОтчётПоРегиструМестаХранения</content>
+  <content>Report.ОтчётПоРегиструЗаказыПоставщикам</content>
+  <content>Report.ОтчётПоРегиструЗаявкиНаЗакупку</content>
+  <content>Report.ОтчётПоРегиструЗаявкиОтПокупателей</content>
+  <content>Report.ОтчётПоНормативномуОстаткуСУчётомОжидаемогоРасхода</content>
+  <content>Report.ИнструментПланированияЗакупок</content>
+  <content>Report.ОтчетПоРегиструДоговорныхПозиций</content>
+  <content>DataProcessor.ПерспективныеПланы</content>
+  <content>Report.ОтчетОбУникальныхМПЗ</content>
+  <content>Report.ОтчетПоРегиструСтатусыМПЗ</content>
+  <content>Report.ВедомостьДефицита</content>
+  <content>Report.ОтчётПоОценкеЗапасовМПЗ</content>
+  <content>Report.ОтчётПоРегиструЦены</content>
+  <content>Report.ОтчётПоЗаявкамОтПокупателей</content>
+  <content>Report.МониторингЗаказаИДвиженияМПЗ</content>
+  <content>Report.ОтчётПоОценкаЭффективностиДвиженияСклада</content>
+  <content>Report.ОтчётДляРевольвернойПоставки</content>
+  <content>Report.ОтчётДляСогласованияЦенЗакупки</content>
+  <content>Report.ОтчетПоРегиструДоговорыСПоставщиками</content>
+  <content>Report.ОтчётПоИЛО</content>
+  <content>Report.ОтчётПоЗаказамПоставщикам</content>
+  <content>Report.ОтчетПоИсторииИзмененийЗаказовПоставщикам</content>
+  <content>Report.ДетализацияЦенПоследнихЗакупок</content>
+  <content>DataProcessor.ЗагрузкаИзмененийЦен</content>
+  <content>Report.ОтчётПоМетодуМинимакс</content>
+  <content>Report.ОценкаСебестоимостиПродукции</content>
+  <content>DataProcessor.КалькуляторТНП</content>
+  <content>DataProcessor.ЗагрузкаДанныхОтПоставщика</content>
+  <content>Report.ПланФактМатериалов</content>
+  <content>Report.ОтчётПоНормативномуОстаткуСУчётомОжидаемогоРасходаКризис</content>
+  <content>Report.ИнструментОценкиОбеспеченности</content>
+  <content>Report.ОтчетПоПоступлениюТМЦСводный</content>
+  <content>Report.АнализОбеспеченностиМПЗ</content>
+  <content>DataProcessor.ОценкаРисков</content>
+  <content>DataProcessor.СозданиеБарКодовВЗаказеПоставщику</content>
+  <content>Report.ОтчетПоЦенамМатериаловСУчётомЗамен</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+</mdclass:Subsystem>

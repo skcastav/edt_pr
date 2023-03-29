@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf725c6d-a81b-4a74-8e4f-f51c8fbc1785">
+  <producedTypes>
+    <objectType typeId="0a1d764d-ba44-4fd3-bf35-1e03597243ad" valueTypeId="b44c8d5d-7841-4bc1-9425-9d575cc5631d"/>
+    <managerType typeId="e92f75ab-8f55-4ce0-84c8-ef84693a820d" valueTypeId="e63b67e8-1f75-4b0a-bd58-f0768b1add38"/>
+  </producedTypes>
+  <name>ОтчетПоНормамКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по нормам, расценкам и трудоёмкости канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоНормамКанбанов.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="48015414-dbf0-4df4-b774-d3a9eb72697d">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="8868c71b-2051-4b7a-b010-3584029ddb94">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1212169b-56aa-45b4-8c6d-8660000530a7">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

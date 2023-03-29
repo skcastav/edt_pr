@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03ca9ee3-8fff-4c0e-9c3f-7dcb21684067">
+  <name>ВыгрузкаСИвБазуАршин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка СИ в базу Аршин</value>
+  </synonym>
+</mdclass:CommonTemplate>

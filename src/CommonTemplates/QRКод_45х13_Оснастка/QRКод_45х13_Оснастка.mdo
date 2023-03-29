@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9c0ecf7-0d95-479a-bca3-c00a8ec0346e">
+  <name>QRКод_45х13_Оснастка</name>
+  <synonym>
+    <key>ru</key>
+    <value>QR-код 45х13 оснастка</value>
+  </synonym>
+</mdclass:CommonTemplate>

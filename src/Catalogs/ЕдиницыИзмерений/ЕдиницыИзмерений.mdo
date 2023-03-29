@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3e40f07-b9df-4855-add5-ed1752401f18">
+  <producedTypes>
+    <objectType typeId="081fd10b-1501-451a-9623-56cae0f7e137" valueTypeId="5b355b41-7060-4c52-8157-ad9875dbf779"/>
+    <refType typeId="b41002cf-9daa-4fd7-a93d-af8f3245dc96" valueTypeId="73a064e8-920e-4725-ae11-129c460183a4"/>
+    <selectionType typeId="7aa243e3-f9af-4dee-8af5-edae6cb8e838" valueTypeId="e332a012-4770-4167-abde-2d9c5f097f10"/>
+    <listType typeId="fdec36ce-94aa-4f50-bdf2-4d793a2de90f" valueTypeId="41994610-3137-404e-9cf0-335c5bb197ee"/>
+    <managerType typeId="2036389f-437e-4f2f-a385-d8dafc2d3792" valueTypeId="51d2ada7-8024-4c2a-bbc9-2939baf3c7b0"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="71a72d30-90de-476a-9908-c35b2845149a">
+    <name>ПолнНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

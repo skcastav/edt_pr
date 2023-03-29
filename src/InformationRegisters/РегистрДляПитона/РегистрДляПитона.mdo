@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5a3f2aa-8686-4d9b-8055-71e81ce30554">
+  <producedTypes>
+    <selectionType typeId="98e8eca1-85a1-4571-97dc-c95cce35cc71" valueTypeId="c9473442-a31f-4801-8a47-27b73d001ec7"/>
+    <listType typeId="ad81bf2b-c3da-4a6d-82c9-5fbe04d29685" valueTypeId="8ef60086-f2d0-4354-9fea-a2b19571753a"/>
+    <managerType typeId="7911fa46-420f-4081-86cd-88fb333b7eb0" valueTypeId="174f712a-c021-452a-8545-47bcc33a0b92"/>
+    <recordSetType typeId="a3661b2c-c448-4de6-b05c-d65beac8a649" valueTypeId="727a5b5d-bbf0-4ea3-9b0d-a34fcd60103d"/>
+    <recordKeyType typeId="629fcd3c-0d27-47a6-a114-903060669a01" valueTypeId="0c829049-caca-453b-8782-3f0d1679e660"/>
+    <recordType typeId="e18ce069-b669-4e35-b3bb-7e6717520ec1" valueTypeId="a75814df-6655-4e5e-ad55-4ce238f63d5a"/>
+    <recordManagerType typeId="e89b975b-4689-4fe6-bd8d-0c956a4bb68e" valueTypeId="f69fd354-2c58-4f87-9fca-39ac5cd2316e"/>
+  </producedTypes>
+  <name>РегистрДляПитона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр для питона</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="970cea28-6e2a-443f-840c-60c5146bf3a0">
+    <name>ИмяТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя таблицы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="988597fa-bf0e-4268-a8aa-c127f5653a7c">
+    <name>Метаданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="82728b04-38e7-4c22-b64a-b7b428fcd596">
+    <name>Обмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4d0d7666-11ec-4e1b-9349-b67e44e02110">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="8b819c4b-b491-44af-a3c3-9c7c2b6e93f9">
+    <name>ТипТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип таблицы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="118136dc-a65d-4bfa-be55-7c1e60fcc939">
+    <name>ИмяТаблицыХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя таблицы хранения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

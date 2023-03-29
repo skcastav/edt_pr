@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="add37234-5252-4511-8aa0-9a19230d8089">
+  <producedTypes>
+    <objectType typeId="7d18bd0c-ae59-4a14-ad76-c4994e900a98" valueTypeId="786ba1e9-9879-4558-aba5-72c68d360ac9"/>
+    <managerType typeId="852788a5-ba90-4ed7-9968-885557464330" valueTypeId="44611562-ec37-4a2b-99ba-2b05f82a37b5"/>
+  </producedTypes>
+  <name>ОценкаПоКритериям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка по критериям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОценкаПоКритериям.Form.Форма</defaultForm>
+  <attributes uuid="931c1e3e-bc21-4365-8ce7-b4453b1367ac">
+    <name>ГруппаМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа материалов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  </attributes>
+  <tabularSections uuid="b37ecff3-badd-403b-8dbb-0d882d0161b2">
+    <producedTypes>
+      <objectType typeId="4cb1eb2e-3d5d-4b64-8493-fddd2a5957e0" valueTypeId="4f591acc-3fa6-4462-87d2-b963870705f2"/>
+      <rowType typeId="3f581af3-2fa9-4244-90cc-3a707e882cb6" valueTypeId="b2860413-9f49-48e5-8dd9-d9da7f1d5704"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6a65f6eb-ab37-48bc-a1fa-b0184bcfa576">
+      <name>МПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d6878995-cc12-486c-9518-1cc8c2766c95">
+      <name>Удовлетворяет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удовлетворяет</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b233a196-ebb4-4adc-9ff2-69280983daa0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

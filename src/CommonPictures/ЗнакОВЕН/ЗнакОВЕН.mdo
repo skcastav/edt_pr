@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a05d889-18c7-4bdf-bd3c-4d5f659fe48c">
+  <name>ЗнакОВЕН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Знак ОВЕН</value>
+  </synonym>
+  <transparentPixel>
+    <x>42</x>
+    <y>8</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

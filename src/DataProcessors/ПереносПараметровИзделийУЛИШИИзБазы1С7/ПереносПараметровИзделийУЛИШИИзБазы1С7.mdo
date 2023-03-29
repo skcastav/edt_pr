@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="134be9e7-4966-4746-91de-7ce8127da869">
+  <producedTypes>
+    <objectType typeId="e9036cec-8f21-4e7e-98f3-bf0f285ff8de" valueTypeId="43e0fd67-545d-42fb-95e2-dc12bcd54b87"/>
+    <managerType typeId="68a56881-0586-421a-bf88-4a5479dbe7ee" valueTypeId="4a498ef0-e0ce-4056-8a69-2ce8b6dc7f5c"/>
+  </producedTypes>
+  <name>ПереносПараметровИзделийУЛИШИИзБазы1С7</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос параметров изделий УЛИШИ из базы 1С7.7</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносПараметровИзделийУЛИШИИзБазы1С7.Form.Форма</defaultForm>
+  <attributes uuid="09547d2a-b25f-4173-82e0-2232b44cb44e">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <comment>Имя пользователя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="6de4bb0a-69f3-4c24-9e91-fa2402a98991">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <comment>Пароль</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="a766abc5-313f-47a5-981d-80c90fef1ec7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

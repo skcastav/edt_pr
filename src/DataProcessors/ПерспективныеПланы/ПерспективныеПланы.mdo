@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45c52997-d740-43c9-936d-1e2898088c41">
+  <producedTypes>
+    <objectType typeId="615fa2d6-86d0-4580-acee-597ef621d4ad" valueTypeId="1398602e-1dd2-47f4-8723-b1a737ce68f0"/>
+    <managerType typeId="fad86599-5653-45b9-8023-937822eb0a93" valueTypeId="807974a3-a8b5-4a05-84bc-5424ddf22e51"/>
+  </producedTypes>
+  <name>ПерспективныеПланы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перспективный план</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПерспективныеПланы.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="64bcc3e4-3938-4a55-8baa-49cdcbc1b99a">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="31434163-a085-42ba-878c-7cef600c5f74">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСпецификаций</types>
+      <types>EnumRef.СтатусыМПЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9dc644d1-5449-43da-a541-f8b57af4dee3">
+    <name>ТолькоПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только ПП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ca6e3dba-4820-4aaa-acfa-12d7293ed77c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0774f453-28f7-4344-92b9-92496bf8160e">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a71b203b-a326-4c3f-8b07-b4c4f29bdc84">
+    <name>ФормаЗагрузки1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="daade021-90c4-4049-a00d-807199330fb5">
+    <name>АктуальностьПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуальность планирования</value>
+    </synonym>
+  </templates>
+  <templates uuid="99caf000-c0c2-4f7c-b755-28d86fff81bd">
+    <name>ВыполнениеПерспективногоПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение перспективного плана</value>
+    </synonym>
+  </templates>
+  <templates uuid="66336e1e-d090-4bb9-8420-17b77dbfe01e">
+    <name>ГруппыВариабельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы вариабельности</value>
+    </synonym>
+  </templates>
+  <templates uuid="8120d5ca-09bf-4a4a-aa60-d39e4d368aa6">
+    <name>ИзменениеПерспективногоПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение перспективного плана</value>
+    </synonym>
+  </templates>
+  <templates uuid="d60c4361-5dcc-4601-b261-7bdf3da55656">
+    <name>ПерспективныйПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перспективный план</value>
+    </synonym>
+  </templates>
+  <templates uuid="f14e3b82-842f-4169-9558-b080b90734bf">
+    <name>ПерспективныйПланСВыпуском</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перспективный план с выпуском</value>
+    </synonym>
+  </templates>
+  <templates uuid="6adbcb54-11a1-458a-8fad-aea1bdebf9b0">
+    <name>ФайлОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл ошибок</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

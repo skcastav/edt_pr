@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a3ae638-4da6-4d21-9ed1-0eb7ae779b52">
+  <producedTypes>
+    <objectType typeId="d0279461-9790-4c4b-8ead-485c00e1e265" valueTypeId="37240210-12da-45d5-840b-e95b3ffee143"/>
+    <managerType typeId="39a08c63-20e6-4f59-b83e-8d329ec0a3f0" valueTypeId="38d899a2-cc82-4b5c-bfcc-ec43ba8f6394"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанОформлениеБрака</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан оформление брака</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанОформлениеБрака.Form.Форма</defaultForm>
+  <attributes uuid="1636a99f-f4cc-4145-b8d4-51d447b2c8fc">
+    <name>ПроизводственноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="edbf6ae8-905b-46d6-a553-8f5fe351ad31">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

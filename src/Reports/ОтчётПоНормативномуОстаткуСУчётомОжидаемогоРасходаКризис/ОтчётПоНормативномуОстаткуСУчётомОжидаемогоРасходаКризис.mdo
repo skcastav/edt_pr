@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cce5621-a628-4c7e-af3d-55f260826803">
+  <producedTypes>
+    <objectType typeId="50359b76-339e-47aa-ae87-fd13c977569a" valueTypeId="47c466b4-ed6b-4631-a89f-72736d69226c"/>
+    <managerType typeId="9c50d3e4-0e72-44a2-9aca-f345ede809a0" valueTypeId="d736b578-1e9e-415e-876e-68d6338af041"/>
+  </producedTypes>
+  <name>ОтчётПоНормативномуОстаткуСУчётомОжидаемогоРасходаКризис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по нормативному остатку с учётом ожидаемого расхода (кризис)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоНормативномуОстаткуСУчётомОжидаемогоРасходаКризис.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="82b39b9a-c3c2-4b99-8655-1e086bfcd7a2">
+    <name>РасходЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход за период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="9f05157e-d0ba-4974-a820-379ccbb51407">
+    <name>ОстаткиНаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки на дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="fbd686e3-a7c3-4072-b13c-4046b2fd3041">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="24f0c978-a1d2-4a86-ab15-8e676f4ce58c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="fac887de-a0d4-4e47-a5df-394269513b70">
+    <name>ОжидаемыйРасходПоЛинейкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидаемый расход по линейкам</value>
+    </synonym>
+  </templates>
+  <templates uuid="e6ce1c54-d27d-459f-9314-8a07d59c8249">
+    <name>РасшифровкаПоДокументам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка по документам</value>
+    </synonym>
+  </templates>
+  <templates uuid="7246fdc9-f91f-4bc1-9aea-3711ea803b06">
+    <name>РасшифровкаПоРасходуНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка по расходу на производство</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

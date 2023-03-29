@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4daf05a2-fc2b-49a1-aa69-420e0038e7c7">
+  <producedTypes>
+    <objectType typeId="b180399b-d82e-4a47-8401-52268ab553c5" valueTypeId="76c8261d-dfc1-468a-af76-65872559b5fd"/>
+    <managerType typeId="bf4e83ac-956a-403e-bb81-29c48e46a0b5" valueTypeId="d41cb10d-3b62-4c5c-9e5e-af1abeb2ab9c"/>
+  </producedTypes>
+  <name>СинхронизацияСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация справочников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СинхронизацияСправочников.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="bb89bea0-cda5-477a-b339-31d872eebac0">
+    <name>ВыбНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выб наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7e366357-d276-42c7-a6b5-529e52331dc1">
+    <name>НаименованиеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование товара</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8fbb352f-aa93-4055-81aa-894f57ae5a95">
+    <name>НаименованиеМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование материала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="a3ca3815-5239-441f-af22-6261cb3c7398">
+    <producedTypes>
+      <objectType typeId="78897fe1-9b81-4169-b20b-4112126f2f17" valueTypeId="ce54081c-340a-4c6c-b3ca-08afbdffe03e"/>
+      <rowType typeId="2d0b2333-04ae-44dd-83c3-36409369f9a6" valueTypeId="4b2c7243-de1c-4345-b1d8-6c4f5e6e7f48"/>
+    </producedTypes>
+    <name>Изменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения</value>
+    </synonym>
+    <attributes uuid="d51affc5-d623-4bc9-9493-bea1b24ebfdf">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f15f10e8-dbc7-4caf-9589-1f1c1ee7bd6f">
+      <name>Справочник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Справочник</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="672b30d6-1080-44c9-b355-471788d566a1">
+      <name>Элемент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ТехОснастка</types>
+        <types>CatalogRef.Документация</types>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.ТехОперации</types>
+        <types>CatalogRef.Материалы</types>
+        <types>CatalogRef.ТоварныеГруппы</types>
+        <types>CatalogRef.Товары</types>
+        <types>CatalogRef.АналогиНормРасходов</types>
+        <types>String</types>
+        <types>CatalogRef.НормыРасходов</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="e882404b-0e40-4a2b-aca9-5a75df7d59bd">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>9</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="2b04a30e-719f-4564-b4ed-837b125a8d75">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4faa479c-01be-4033-a976-1ba66f4f6b08">
+      <name>Ошибка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ошибка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="bffefe54-4f0e-4c0e-8595-97eb04fa36d5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

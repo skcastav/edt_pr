@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6499a57-fcf1-46a9-b48b-478c09bbdefd">
+  <name>БарКод_45х20_КТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бар-код 45х20 КТ</value>
+  </synonym>
+</mdclass:CommonTemplate>

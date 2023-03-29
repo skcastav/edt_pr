@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec93a9fc-79e4-4519-835c-6e839b6e014c">
+  <producedTypes>
+    <objectType typeId="a6c9b019-d306-407c-8986-505dcc6230dc" valueTypeId="5bc52bdd-362f-4cf5-9cb9-1368b92ec75a"/>
+    <managerType typeId="5bb99f24-5236-4ed2-b400-3825a277873e" valueTypeId="a173d378-e3cb-4f8d-8093-dc5e5abe46a4"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_Инженер</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Инженер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_Инженер.Form.Форма</defaultForm>
+  <attributes uuid="038860aa-27e3-4838-8399-9982d7ea9ce7">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b027fb28-6f8c-4263-a948-2703cd43f3f8">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="847e176f-8482-4c12-ba77-865fc3853c35">
+    <name>ПроизводственноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3ceeb284-8e30-4773-9066-0d8cde0d9c69">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

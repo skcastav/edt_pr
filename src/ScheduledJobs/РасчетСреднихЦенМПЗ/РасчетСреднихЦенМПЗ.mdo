@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b4184ac-0708-4ca7-847d-5bc1bb26d8eb">
+  <name>РасчетСреднихЦенМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет средних цен МПЗ</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.РасчетСреднихЦенМПЗ</methodName>
+  <description>Расчет средних цен МПЗ</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

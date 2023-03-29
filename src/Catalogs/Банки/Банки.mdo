@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2019b7cb-0ca5-4168-964a-4479c3cfe03c">
+  <producedTypes>
+    <objectType typeId="bf7a3084-af7f-499b-af7c-14ffb4d31279" valueTypeId="5c060a93-d1d7-40ca-80b9-a20bd69a6713"/>
+    <refType typeId="7e73d796-51e9-4d14-8912-57f070721625" valueTypeId="18354c02-6bcf-4d11-929d-9799ba6f0c6a"/>
+    <selectionType typeId="4c209f71-0535-492d-9262-545c61e9e6aa" valueTypeId="9827cc6c-c372-4818-9aaf-89eb6916d78b"/>
+    <listType typeId="4ceaa1aa-8ae6-488f-918a-93eb70ea2b0a" valueTypeId="853b3ad4-93d4-4028-a924-ece5992a711f"/>
+    <managerType typeId="146ea176-fca1-4526-b572-e9828ac5b6dd" valueTypeId="71c16cd4-d937-4da7-9394-0f1d1be9f4b6"/>
+  </producedTypes>
+  <name>Банки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Банки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Банки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Банки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a4ae8c2e-9098-4121-a140-7cba0374e968">
+    <name>КоррСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корреспондентский счет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07fce7c8-6c6d-40c5-b740-f8146566cc6e">
+    <name>Местонахождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местонахождение банка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2980b0b5-6b49-489a-bf2f-6a9fd7d46d02">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <comment>Индекс, адрес банка</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62025e5c-3314-4bf5-b23e-760d3e665551">
+    <name>Телефоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефоны</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ed55dd2b-c19c-4440-bc8a-7755297fb934">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

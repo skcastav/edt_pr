@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29d657e6-b030-478d-a7d2-8a9cbc58b5c8">
+  <producedTypes>
+    <managerType typeId="b5e7d58d-3d3f-42c1-8e8c-eb0a229b2bf5" valueTypeId="6661d052-4955-40d9-a03b-70e9f5ae4a13"/>
+    <valueManagerType typeId="8cf02a2c-9029-4215-9e77-9d880941724a" valueTypeId="a010ddab-5c8c-40c2-a87f-c02a38b6e586"/>
+    <valueKeyType typeId="33c1d496-9c19-5ed5-a2c4-9e3f3c9794df" valueTypeId="35bbef3b-11c8-58bc-9815-1ba0ed340bd1"/>
+  </producedTypes>
+  <name>АдресОрганизацииДляЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес организации для этикеток</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.АдресОрганизацииДляПечати</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

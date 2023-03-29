@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1021e255-373a-4b9f-9cff-af9c8e1a1e72">
+  <producedTypes>
+    <objectType typeId="d1699fa3-d388-44fe-b1a5-f7d1206f2c63" valueTypeId="39484d6e-7cfd-4387-a0a1-86a5143c9d1f"/>
+    <refType typeId="25804949-008b-4ac3-802f-039ae83c3645" valueTypeId="c1ca8d4b-5771-41c1-9f27-1efd4ffb500c"/>
+    <selectionType typeId="d8df8c6c-b0d7-48df-87eb-9fac8ccbf6bc" valueTypeId="075f4caa-0c8f-4bf2-826c-2b9f02b7cf98"/>
+    <listType typeId="0777ff31-7971-4669-a751-6a7eb99887a5" valueTypeId="ce1f7ee0-f2b2-4b73-8867-3aa825de09ad"/>
+    <managerType typeId="32ab6c3e-eb2d-4420-a1dd-b0ae3d738415" valueTypeId="4ae75fb9-7bdf-4f89-90a4-893ef269908e"/>
+  </producedTypes>
+  <name>ВыпускПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВыпускПродукции.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Выпуски продукции</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>18</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВыпускПродукции.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВыпускПродукции.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.МестаХранения</registerRecords>
+  <registerRecords>AccumulationRegister.РезервированиеГП</registerRecords>
+  <registerRecords>AccumulationRegister.ПланыВыпуска</registerRecords>
+  <registerRecords>AccumulationRegister.ПередачиВПроизводство</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ba55180a-e970-4181-9356-b45a68971198">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+      <types>DocumentRef.МаршрутнаяКарта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f254c65-b13b-4950-9795-5f1430f01eb4">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6e4e71a-9539-4e60-9ba6-1b46a424ceff">
+    <name>НаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>На склад</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="31255f0e-27fd-4927-ae64-6154c5e319bb">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0177dccb-2b30-40c0-827a-db255dc6e61e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="c29bddd0-6d09-4536-b49f-91170dd10f23">
+    <producedTypes>
+      <objectType typeId="0d67d541-3aca-444c-b042-9f22f2f97fc6" valueTypeId="53fb4fec-ef58-4e41-a669-6dcf02f9154b"/>
+      <rowType typeId="c7f32e6e-183b-4c5c-92e4-be99f5757687" valueTypeId="c6a36158-193c-493c-8c1f-952f583d9ecc"/>
+    </producedTypes>
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+    <attributes uuid="1230ffab-e948-4de3-ae8a-efab8d631e8f">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="d91203b6-b5fc-47b3-8e70-8712d2856640">
+      <name>ВидМПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид МПЗ</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыМПЗ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="8e1a4446-1823-440d-a4e1-01be8fe94f72">
+      <name>МПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="6dcc4f8a-f3dd-44da-b48a-8389f1c623f1">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="2b7a45fc-0d36-4ba6-9d08-942897fb1595">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОсновныеЕдиницыИзмерений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1a65ef25-2f51-4c77-af37-05da90df0c82">
+    <producedTypes>
+      <objectType typeId="20090fa5-8896-48b3-b9c0-10656eafdf53" valueTypeId="6f881267-8bcd-4c1c-b1e3-be51d6ab742a"/>
+      <rowType typeId="10dd1a1f-7c5f-4b3a-9163-93be64923d9e" valueTypeId="b2a41b8e-077e-45f8-b1eb-928d5e830f7c"/>
+    </producedTypes>
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+    <attributes uuid="22570e1e-4a34-4a20-9db2-864ad2e5cd23">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="20d8b7a7-35af-4b0f-9389-170c708eb593">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

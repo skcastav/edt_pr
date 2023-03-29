@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="471e1668-84be-4f91-ba7d-90ca29e22b93">
+  <producedTypes>
+    <refType typeId="2a86ea41-9296-4356-87af-c387586a572e" valueTypeId="c67b796b-6296-4874-9d9b-b1509a61071c"/>
+    <listType typeId="fa502d52-52b7-4f93-93e4-291f6091a8b3" valueTypeId="e067a2a8-be62-4e16-ba9f-c03649877c36"/>
+    <managerType typeId="99bafefb-76c4-4d48-9c0b-1fc8701bd286" valueTypeId="a7825df7-8adb-42bb-bc16-57e71ee80db5"/>
+  </producedTypes>
+  <name>КлассыДопуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы допуска</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12a81600-dc7a-48dc-b6eb-0dd68c767dfb">
+    <name>А</name>
+    <synonym>
+      <key>ru</key>
+      <value>А</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf645e53-bc16-4815-a6a8-041ecf61d2a8">
+    <name>В</name>
+    <synonym>
+      <key>ru</key>
+      <value>В</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66440b1e-691b-4093-a3e5-23448e232e6f">
+    <name>С</name>
+    <synonym>
+      <key>ru</key>
+      <value>С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bcbef48-b884-4c40-97a1-bac590a140d7">
+    <name>_025</name>
+    <synonym>
+      <key>ru</key>
+      <value>0,25</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbd882a3-c086-4f4c-a7c8-5cdd8e22cdc9">
+    <name>_05</name>
+    <synonym>
+      <key>ru</key>
+      <value>0,5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bbd3cc6-3f4e-4bcd-9e9a-609e771c3c70">
+    <name>_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1,0</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a81a1ad4-5662-47d1-9418-db2e332da359">
+    <name>_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2,0</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6deaa07-4c94-42e0-808c-1b297db5b209">
+  <producedTypes>
+    <objectType typeId="9c4efbde-4759-41ae-9780-bfea3e7a0613" valueTypeId="b18c3f60-38bf-4e5e-950e-ab2094eb7b30"/>
+    <managerType typeId="c8819206-1b8f-4600-8ada-57b570c4ce70" valueTypeId="2da658f7-153f-4261-b749-178a9f917a0b"/>
+  </producedTypes>
+  <name>РасчётВремениТактаЛинеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчёт времени такта линеек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасчётВремениТактаЛинеек.Form.Форма</defaultForm>
+  <forms uuid="6b1405aa-da11-46a3-a4e8-85fedc500a40">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

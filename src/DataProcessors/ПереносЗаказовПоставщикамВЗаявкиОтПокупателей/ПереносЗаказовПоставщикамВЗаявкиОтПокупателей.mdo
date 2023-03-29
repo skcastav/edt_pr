@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="112c02cf-40ac-44e2-a135-d148f74baafa">
+  <producedTypes>
+    <objectType typeId="b871a9a4-adda-4d1d-bc4f-07ea1bd9345d" valueTypeId="5e874dd5-07f6-42f7-814e-23a2be3be06d"/>
+    <managerType typeId="4996f586-3efb-489a-9f27-14e6569e8d9f" valueTypeId="4823c2b1-d271-418a-9f9d-9b93b1fef01e"/>
+  </producedTypes>
+  <name>ПереносЗаказовПоставщикамВЗаявкиОтПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос заказов поставщикам в заявки от покупателей из базы 1С7.7</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносЗаказовПоставщикамВЗаявкиОтПокупателей.Form.Форма</defaultForm>
+  <attributes uuid="cc81ec28-6593-4545-95ef-bdb4d43c2d24">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <comment>Имя пользователя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="6e495727-37f5-4b9e-a75c-3cef90ebcfeb">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <comment>Пароль</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b683d9e8-8fd0-480d-8694-b2e61fbf53ee">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="947a2508-3693-4209-96e3-92b40ebd0f6b">
+    <name>ОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбменДанными</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9b0936a1-3d5a-4871-96ae-fb74e9760e8a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

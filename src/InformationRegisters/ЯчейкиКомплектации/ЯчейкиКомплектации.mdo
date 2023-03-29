@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb64d169-9293-4767-a2e1-d0dc48f276ce">
+  <producedTypes>
+    <selectionType typeId="ea5ceede-f741-4b5e-a816-2f4ca8f9eb3e" valueTypeId="bc44e9e4-888f-44a7-bca5-2d5a265c396c"/>
+    <listType typeId="f85c1838-1e7b-476c-92f5-d50a0318c501" valueTypeId="714a71f1-d5d0-43a3-bd2e-bfb1aee53d4d"/>
+    <managerType typeId="f4106a46-e85f-4989-bf93-edff4704d7f9" valueTypeId="1a42e1f5-7c5a-45c1-a8af-1617e09efa42"/>
+    <recordSetType typeId="636d5b9b-c57c-4ec4-96a3-7aeed4680dea" valueTypeId="9a3406f4-8af9-44fb-be04-03e9864506ca"/>
+    <recordKeyType typeId="8dbf63ba-5eef-407c-9a1e-21648a31cbcb" valueTypeId="7470bed5-5504-42cb-aec2-794d209b2ca3"/>
+    <recordType typeId="e361d5a6-f1be-4069-a2ab-ef1963c7e17c" valueTypeId="c73609be-bb62-4848-930c-562838884d3a"/>
+    <recordManagerType typeId="bb74c736-fecf-4681-8f18-cf00affeb042" valueTypeId="471a8c79-dd1f-4948-9da3-dd1efd04e25b"/>
+  </producedTypes>
+  <name>ЯчейкиКомплектации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ячейки комплектации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЯчейкиКомплектации.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c9fa8e96-bf76-4a1e-bc76-cf3121e80da1">
+    <name>КоличествоЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ячеек</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b7c4868e-228d-4b4b-8185-598d2dd6c046">
+    <name>КоличествоВЯчейке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество в ячейке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="02f7b534-3be7-494d-a0fc-4254612474d4">
+    <name>ТочкаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка заказа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0fb7031f-c67f-4989-838e-b37af48e98ef">
+    <name>ГруппаРасчёта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа расчёта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="383fa8e7-6bb1-44fb-970c-828baca5b58a">
+    <name>МПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МПЗ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="20a454bb-d80b-4941-864f-95e35abc37aa">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ed48a68f-0078-4d6d-8459-e63366448676">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

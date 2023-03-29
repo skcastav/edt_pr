@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa258acb-70e0-49c0-8149-0ceae5100b02">
+  <name>АРМ_Разукомплектовка</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ Разукомплектовка</value>
+  </synonym>
+</mdclass:Role>

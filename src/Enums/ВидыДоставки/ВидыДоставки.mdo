@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f8ef043-25d0-43b2-ae7d-eb9919314712">
+  <producedTypes>
+    <refType typeId="79bb01fc-c408-4d2f-b365-681846bc19bd" valueTypeId="bced43be-9138-4187-bc77-e5fe17d00523"/>
+    <listType typeId="af881888-d92b-454d-ba0d-832671ba5736" valueTypeId="ba971393-cd43-4be9-aed4-2d6549ff56ac"/>
+    <managerType typeId="c06f8404-cb70-46ef-a23c-45cc72974474" valueTypeId="02af7ebf-9fe7-4102-8be3-3cf402fecef8"/>
+  </producedTypes>
+  <name>ВидыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды доставки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="acdd87c7-fa0d-44f4-8f05-224ef67b85db">
+    <name>ТранспортнаяКомпания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная компания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="639b125d-8914-435a-87f2-4867d33bfcec">
+    <name>Самовывоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самовывоз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0b8b1e4-8f12-431d-9f79-3afa8bf57fd3">
+    <name>ОВЕНК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОВЕН-К</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a4f6b87-380b-46d0-a457-8a05b13a3a40">
+    <name>Харьков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Харьков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95fac0ef-ac98-4985-b498-db8675651029">
+    <name>УточнитьПриОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточнить при отгрузке</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

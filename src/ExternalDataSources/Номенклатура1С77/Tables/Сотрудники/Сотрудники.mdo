@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="435e343b-9f4a-4d5d-9f80-18f35d5663ce">
+  <producedTypes>
+    <refType typeId="d9e0bdd8-6f1f-4fd9-9203-a5774a6e1c4e" valueTypeId="5faa5eeb-1297-43bb-af3f-5e45d91f9c7d"/>
+    <listType typeId="d3c09494-b9fd-4f41-a69b-d8c1f6c4d6b8" valueTypeId="890d14b1-ef3b-46d6-98f1-9255d194f9ea"/>
+    <objectType typeId="6236bb2a-7982-4a71-8529-47d26c62d056" valueTypeId="101fb12c-52a1-48d5-96cc-8f9654a68bb2"/>
+    <managerType typeId="7b282f29-4454-4dab-b542-64eacc99fa5a" valueTypeId="39eda8dc-6592-4afd-a0ab-8c1b27b9c469"/>
+    <recordManagerType typeId="c3e46240-2dc8-4255-89ca-abaedbc6a72d" valueTypeId="c4d6facb-2488-46b1-be39-47e2f42a2a57"/>
+    <recordSetType typeId="c1a0711d-e7ad-4b14-8ec7-0e582fe6ce5d" valueTypeId="98d40bfb-830e-4ace-8177-f43174884872"/>
+    <recordType typeId="413a3f78-93c1-45be-864e-87dec2630b83" valueTypeId="261dcf2d-f8f0-4c63-8beb-05b90b1d0288"/>
+    <recordKeyType typeId="e9b52af8-2db9-4ac4-bc18-6382851d5e5f" valueTypeId="02311f0d-1519-4298-a6b9-d14217fccb27"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <parentDataSource>ExternalDataSource.Номенклатура1С77</parentDataSource>
+  <nameInDataSource>dbo.SC512</nameInDataSource>
+  <keyFields>ExternalDataSource.Номенклатура1С77.Table.Сотрудники.Field.ROW_ID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Номенклатура1С77.Table.Сотрудники.Field.ROW_ID</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="0c529de0-4f43-4938-ac7e-e0e0d9f5c3c0">
+    <name>ID</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="1c567f7c-b2c9-45a6-b779-a7e37bb2dced">
+    <name>CODE</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>CODE</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="99010408-d5fe-4d2b-96a6-091abb9f8f50">
+    <name>DESCR</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>DESCR</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ce8c3d18-f936-4653-a3fb-3ac4b4bb1d6a">
+    <name>ROW_ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ROW_ID</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

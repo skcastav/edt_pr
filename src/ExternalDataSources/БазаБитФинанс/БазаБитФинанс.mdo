@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="856b055d-e0cf-486f-aa5d-746fe04a2443">
+  <producedTypes>
+    <managerType typeId="97e9fed8-1c7e-4b52-ae0c-4372724c9657" valueTypeId="ad86a87c-720e-4a02-bea9-719a6e38335e"/>
+    <tablesManagerType typeId="6a8c6c10-5ba4-4abb-b308-3db4d942f4a3" valueTypeId="429b322d-d631-4ed0-9308-ad7f727d3ebc"/>
+    <cubesManagerType typeId="b707645a-0fe2-40b1-b60f-68216c927d46" valueTypeId="caea821d-773b-446f-80f7-f29d4605e242"/>
+  </producedTypes>
+  <name>БазаБитФинанс</name>
+  <synonym>
+    <key>ru</key>
+    <value>База бит финанс</value>
+  </synonym>
+  <tables>ExternalDataSource.БазаБитФинанс.Table.ВидыКИ</tables>
+  <tables>ExternalDataSource.БазаБитФинанс.Table.Контрагенты</tables>
+  <tables>ExternalDataSource.БазаБитФинанс.Table.Контрагенты_КИ</tables>
+</mdclass:ExternalDataSource>

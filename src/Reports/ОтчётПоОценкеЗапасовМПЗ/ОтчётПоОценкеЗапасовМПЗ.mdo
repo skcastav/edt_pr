@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="776d006d-c91b-4be8-aae4-89b0c4e2c023">
+  <producedTypes>
+    <objectType typeId="348af863-799b-4e72-bbd3-ec05e69970c9" valueTypeId="3250f948-e333-454f-8284-830dffadfafd"/>
+    <managerType typeId="9a914989-be38-4693-bee5-cbf3e068f9cd" valueTypeId="ee5972c0-aab4-41d0-bcdf-ee1209d4aabe"/>
+  </producedTypes>
+  <name>ОтчётПоОценкеЗапасовМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по оценке запасов МПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоОценкеЗапасовМПЗ.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="4dc3fc29-3b58-4e94-bc42-52be38409a54">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9e7413b9-fe56-45e7-b6d0-7fd97ce1903e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="39d64a48-468e-4e9d-87c2-04291dc97ae5">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

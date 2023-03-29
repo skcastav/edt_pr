@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67f863b4-5aad-4868-b978-f7114f32cd06">
+  <producedTypes>
+    <objectType typeId="b97a25e8-d99f-48d5-887a-256495531caf" valueTypeId="39bd0e47-a781-4e78-a761-331499c3a71e"/>
+    <managerType typeId="a7a939ca-5c4a-43d3-beb1-3923c3257922" valueTypeId="a8d8af81-3c9f-452a-91e4-307c690b3742"/>
+  </producedTypes>
+  <name>ОтчётПоТочкеЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по точке заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоТочкеЗаказа.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="f30fef87-d2ef-49fe-adb2-721a5bf07e6f">
+    <name>РасходЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход за период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="faac8b4b-cf9f-47db-ad49-e8f16e803a94">
+    <name>ОстаткиНаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки на дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="b342cd24-232d-45e0-8b4c-bde5ebde4cd7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="80a15a61-0a1a-44b4-968e-a3df5a91432a">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="168f66a8-ccdd-474e-8d58-34918a4e3a36">
+    <name>РасшифровкаПоДокументам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка по документам</value>
+    </synonym>
+  </templates>
+  <templates uuid="3a873407-32d1-4084-8bf2-858d72e3acb3">
+    <name>РасшифровкаПоРасходуНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка по расходу на производство</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="446d3215-73ac-49c1-9ae7-5b210c166986">
+  <producedTypes>
+    <managerType typeId="bbd35a50-ea33-40d7-ba7e-18b8c7422565" valueTypeId="0b501801-3e79-49b0-91ee-c3b33466ca40"/>
+    <valueManagerType typeId="5e384676-be5a-4030-bde2-4aa177702c7a" valueTypeId="ea467718-c9bc-45ee-a47a-164ec784b61c"/>
+    <valueKeyType typeId="d7d69425-2d93-4c08-b925-cb357ba689bc" valueTypeId="6392b203-1dd2-48d6-aaf4-c89fe388f6a6"/>
+  </producedTypes>
+  <name>КаталогДокументовИПрограммДоп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог документов и программ дополнительный</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

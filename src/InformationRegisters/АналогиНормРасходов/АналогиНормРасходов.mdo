@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="971cf6fb-dfca-493c-a573-4581741a5217">
+  <producedTypes>
+    <selectionType typeId="fedaf96e-af91-427a-b57b-8b4f84eef228" valueTypeId="be01c096-b692-46d0-b021-2f3f9d91b750"/>
+    <listType typeId="0394c6d7-ee23-4200-85d9-03bd8966e2bf" valueTypeId="bb14caf0-3d46-411e-82ca-235929bf37c5"/>
+    <managerType typeId="f2f145db-cc68-404c-b1f5-9af1d21ec6c0" valueTypeId="76dd0f3e-1ecf-488a-8628-807e5811a1c6"/>
+    <recordSetType typeId="b73f6d5d-322f-4488-89eb-a2acf01f554b" valueTypeId="6825abfb-0c50-47d4-bfc5-aa673941bd69"/>
+    <recordKeyType typeId="ad4054ba-5c46-4ce8-b674-83670bbc6d78" valueTypeId="64fa8d12-6353-4fd5-bb3c-cb8ea91c02d3"/>
+    <recordType typeId="61a0d83a-1937-42bf-85a2-e96d56cd2424" valueTypeId="b8a36bbd-72e1-4444-9b63-6f04e4fca28e"/>
+    <recordManagerType typeId="310c60bc-c575-4bc9-90b2-6c106cf3e399" valueTypeId="3c0afa1a-cecf-4e02-8cec-b80d10d29802"/>
+  </producedTypes>
+  <name>АналогиНормРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналоги норм расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.АналогиНормРасходов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.АналогиНормРасходов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="62e2fd4c-8ec1-45ec-a2f5-89a4ea1902c0">
+    <name>Норма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="0df1114b-4e54-496a-9bd7-047c191e4a8a">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НормыРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="eb534e28-9d15-4e76-9f36-6c377341ac56">
+    <name>АналогНормыРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналог нормы расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АналогиНормРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="416f3713-6737-4efd-ae04-f175f4d11365">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="12215568-bb0a-454b-b039-a83826f59f6d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

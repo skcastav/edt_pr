@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99f173ff-9338-46af-805e-c8c1f21a1535">
+  <producedTypes>
+    <selectionType typeId="6bbbe460-9d9f-4c80-b7c8-56f2e57247a4" valueTypeId="ee1b7f77-c120-4f6a-8e34-ba0fb2b96e4f"/>
+    <listType typeId="7e43615f-68dc-4fae-a404-961590bf1f70" valueTypeId="046c73cd-0989-45bc-be08-ff4c9ce19dbc"/>
+    <managerType typeId="77ec026a-ec6e-4b93-a90d-bcb8d9fcd18b" valueTypeId="e7807cde-bb62-4d6d-8214-9d24c19d3c7d"/>
+    <recordSetType typeId="ebe8e71a-671c-4162-86a5-89b06f61b25d" valueTypeId="1e7e1dea-170a-4f4f-9f81-4901afb3841b"/>
+    <recordKeyType typeId="785714d8-c2b1-4eef-8cd6-3dea4043f713" valueTypeId="c7a11cba-0247-4979-b8ac-ce55dd3f368d"/>
+    <recordType typeId="b13e7d61-e6c1-4c92-8175-7b1855fa63ae" valueTypeId="4e3275bf-c742-4043-8856-b90a910b5060"/>
+    <recordManagerType typeId="2fc67f70-0a9a-412a-bf6e-e2985c42aca6" valueTypeId="e58bd710-e29b-43d9-9d9f-2dedb43016f5"/>
+  </producedTypes>
+  <name>КорневыеХарактеристики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корневые характеристики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КорневыеХарактеристики.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="598205cb-66d9-435c-8d17-58acf256c50d">
+    <name>Значение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение1</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыМатериалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>ПараметрМатериала</name>
+      <field>InformationRegister.КорневыеХарактеристики.Dimension.ПараметрМатериала</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.КорневыеХарактеристики.Dimension.ПараметрМатериала</field>
+    </linkByType>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d503ca84-8238-41b9-9c0d-f22fbc8d756b">
+    <name>Значение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение2</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ПараметрыМатериалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>ПараметрМатериала</name>
+      <field>InformationRegister.КорневыеХарактеристики.Dimension.ПараметрМатериала</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.КорневыеХарактеристики.Dimension.ПараметрМатериала</field>
+    </linkByType>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="83c1437d-36b4-4713-bc41-de887cc2cd2e">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5619bbe3-6570-4665-9bfd-2b958ec8271d">
+    <name>НормаРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НормыРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="857b5ab4-63c4-427d-a400-35f1ce3f708a">
+    <name>ПараметрМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр материала</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ПараметрыМатериалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="172463cd-2fc1-42f4-ad68-790feb298ac1">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

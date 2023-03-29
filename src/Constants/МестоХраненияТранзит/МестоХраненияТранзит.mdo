@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2f8741a-0860-4d52-b9e6-5cd29f2d3ed3">
+  <producedTypes>
+    <managerType typeId="f2a1afb0-a43b-46c1-a844-48bcba11a4df" valueTypeId="5e680dfc-b05b-497a-8d3c-723ce7f50284"/>
+    <valueManagerType typeId="fb59538b-b5a5-4840-96e2-4b3c21552cf2" valueTypeId="b6f6f422-bc4c-4a87-9494-14f6eae08146"/>
+    <valueKeyType typeId="f0e79e9e-2706-4a07-9704-3e595596643a" valueTypeId="98deeda6-0a0a-431e-87f9-9d35c3a4fbd2"/>
+  </producedTypes>
+  <name>МестоХраненияТранзит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Место хранения транзит</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.МестаХранения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НастройкиОбщихМестХранения</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

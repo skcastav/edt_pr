@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="164ada0f-a87d-4bdb-8c46-e04133c8d904">
+  <producedTypes>
+    <objectType typeId="abcc5cd8-4042-4245-9c40-5b1bc34b4099" valueTypeId="7f98bb7e-1bea-41db-925d-048b2c9e0278"/>
+    <managerType typeId="4ea140b3-3fa4-4691-a7a4-0619e41075d1" valueTypeId="dc908fd3-3b7b-4089-b2fa-4b41f531e3e8"/>
+  </producedTypes>
+  <name>ОтчётПоРегиструЛьготнойОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по регистру льготной очереди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоРегиструЛьготнойОчереди.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1975fb18-7400-4089-87da-51e9aa55e6fa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

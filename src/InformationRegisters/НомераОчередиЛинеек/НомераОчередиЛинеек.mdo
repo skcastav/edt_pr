@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94463b0e-8429-4f37-8cd4-f4d10f273da4">
+  <producedTypes>
+    <selectionType typeId="cfb81073-28d2-4611-a577-4b9513d13d2c" valueTypeId="f2b54ef6-b6f5-4db9-b190-4ea22ad7fbda"/>
+    <listType typeId="c9d3f3ff-becb-4586-a2f1-ec0a7d2a80b1" valueTypeId="48e8fefc-29a6-4082-a782-38d878f84d10"/>
+    <managerType typeId="98e96039-8a0e-472d-8da6-96a6e1e21e2f" valueTypeId="5b6738b1-d58c-446b-a85e-6604282b5cf2"/>
+    <recordSetType typeId="05b82348-134f-4d5a-bca8-de9f1650e60f" valueTypeId="49f940c5-5f9b-4b4c-8a5a-2e38d8940049"/>
+    <recordKeyType typeId="4b641aab-9385-47cd-a170-270cf9a8600d" valueTypeId="ab692a79-aac0-491a-bae5-e7df39cd65a6"/>
+    <recordType typeId="c20d7e5a-f10f-4d95-8ce4-e71ef5ee33cd" valueTypeId="d7ffe72a-10ad-4f25-84b0-d579df3af11a"/>
+    <recordManagerType typeId="3ad10f5a-2f1c-4bea-873e-16286f2007e1" valueTypeId="863dff89-af09-4870-98cd-e79f21291319"/>
+  </producedTypes>
+  <name>НомераОчередиЛинеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера очереди линеек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7e526aaa-417f-414b-b8f7-0e4e49ae2a61">
+    <name>НомерОчереди</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер очереди</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c33357d2-76a0-48c2-975a-e8d8b7132499">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+      <types>DocumentRef.МаршрутнаяКарта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

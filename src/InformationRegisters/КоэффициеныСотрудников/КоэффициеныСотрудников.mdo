@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18033141-07fc-4508-ae02-1fa7dbc0c262">
+  <producedTypes>
+    <selectionType typeId="a9d6241b-482b-495b-b86a-8a2c2ce463e3" valueTypeId="d170fedd-3f7f-4303-a745-6d90ff6a977a"/>
+    <listType typeId="3da45da8-8782-4269-bebc-f3bca80fefd7" valueTypeId="3a08b703-b388-45c5-853a-4a1ba200d305"/>
+    <managerType typeId="c7f666cd-379b-468b-a47c-da0c1cd4abd4" valueTypeId="f8c803ae-417a-4f17-919d-cff315afe3f5"/>
+    <recordSetType typeId="13391961-bd23-417b-b8bc-3653a88dbe60" valueTypeId="253f9dfa-5890-46db-82dd-d14e0ee4172b"/>
+    <recordKeyType typeId="f1b1bf63-ab57-410a-ab09-e1653e80019f" valueTypeId="d0487ba2-bc3c-4e6a-9884-7e84dc2a3005"/>
+    <recordType typeId="5092f714-10fe-4720-8870-65c04fe7f63c" valueTypeId="dfcbe140-75ab-4255-b888-05b94498840f"/>
+    <recordManagerType typeId="f94223f0-3351-4781-8418-310ff5dc075c" valueTypeId="3299ddff-3db3-4319-858a-86aa6879fff6"/>
+  </producedTypes>
+  <name>КоэффициеныСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициены сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a4c97717-4fc6-49f6-be5e-309f9c260067">
+    <name>КоэффициентНаМВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэфф. на машинное время</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="62336533-a9e4-46b4-a475-8f198179a937">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1f52726-7663-407b-b3e1-6b1c1f33a57b">
+  <producedTypes>
+    <managerType typeId="04db4aea-7a32-425b-a045-9441d515af5b" valueTypeId="843cfb7f-4d9d-4aba-a280-1c001f95c1f4"/>
+    <valueManagerType typeId="ac562fca-7f66-46f7-b393-6c56332b22a6" valueTypeId="ef1c727f-a525-4a7c-be3c-4caca4cfe1fb"/>
+    <valueKeyType typeId="ad6cdb94-9cee-5189-a6b7-8a6a7226c0bf" valueTypeId="ed38d19a-1079-54a3-a716-9a8ebd85626c"/>
+  </producedTypes>
+  <name>КаталогОбменаДаннымиТНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог обмена данными ТНП</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

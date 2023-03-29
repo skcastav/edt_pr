@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2682a5d7-eeee-4f13-9653-23cdb16046ef">
+  <producedTypes>
+    <objectType typeId="6b82e401-284c-4a8a-907e-e51f45ba0cab" valueTypeId="248de164-296a-4f2f-be41-3ebefa165899"/>
+    <refType typeId="4936ecd3-f455-411f-8876-4fd248b91518" valueTypeId="0400092f-046b-40e1-ad12-a3503c1dcb9c"/>
+    <selectionType typeId="06299749-ed13-4ab4-a9ea-708235c699ae" valueTypeId="1999645c-b257-47c1-bb48-b57ec35c3808"/>
+    <listType typeId="39e5345f-f95e-4709-8798-4de1a2e5c776" valueTypeId="c8c3820e-6130-462e-b5cf-d6e8d7ec9fd1"/>
+    <managerType typeId="da16f3d3-8077-4328-8b19-17d27112a83c" valueTypeId="063c8132-934c-49e6-adb8-6a5d9e75a09a"/>
+  </producedTypes>
+  <name>ИнвентаризацияМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризация МПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИнвентаризацияМПЗ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Инвентаризации МПЗ</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>10</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИнвентаризацияМПЗ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ИнвентаризацияМПЗ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ИнвентаризацияМПЗ.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="52309fcc-f21d-428b-9c73-a58b994b901d">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0b0530b2-9378-4491-8950-b3d8573227f2">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2854cb24-fada-46d5-bc8a-a60791223673">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c1927178-92b3-4780-bb35-b34541181b63">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="125cde39-064e-4e50-99b4-ef9bd6562d07">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="db4a7711-025b-445d-97f5-abca42f4fc0e">
+    <producedTypes>
+      <objectType typeId="1fb3d30b-fa1c-4430-8bb0-3d2184bb64a3" valueTypeId="39a1b183-c2ff-470c-aac5-3efc8699d36c"/>
+      <rowType typeId="e34ce82d-83e5-4b6a-ae5c-de85585445be" valueTypeId="3ef68588-6d7e-4292-84c9-b6ee2fe355ae"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="9d54c4f5-97ed-4033-bebb-73000cc6f6a1">
+      <name>ВидМПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид МПЗ</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыМПЗ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="f73c8880-13ce-4639-ab5b-5a2317e149fb">
+      <name>МПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="bdd20837-138e-46f2-a8bd-787666222417">
+      <name>КоличествоУчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во учет</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="193192ad-86a5-441f-9cc1-3d81ef21ec55">
+      <name>КоличествоВПроизводстве</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во в пр-ве в раб.</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="846b5292-f209-4368-90f9-6d8fb9af44ce">
+      <name>КоличествоВПроизводствеНеВРаботе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во в пр-ве не в раб.</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="811d113b-3013-466f-bb33-65f1523609ef">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во факт.</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="285da3df-7390-425c-a80b-412c1da0dc99">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОсновныеЕдиницыИзмерений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ИнвентаризацияМПЗ.TabularSection.ТабличнаяЧасть.Attribute.МПЗ</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <templates uuid="7e0aee49-1826-49d9-92ab-b8e4b3b290e2">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="1c110afd-d4c8-4ea3-9e12-11955d7b509d">
+    <name>МакетЛистИнвентаризации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет лист инвентаризации</value>
+    </synonym>
+  </templates>
+  <templates uuid="f5f541d6-25cb-4a1d-8116-107874f571a3">
+    <name>МакетРасположениеЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет расположение ячеек</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

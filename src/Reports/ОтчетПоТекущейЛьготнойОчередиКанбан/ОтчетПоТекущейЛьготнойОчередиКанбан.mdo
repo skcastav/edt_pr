@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb37508b-f34a-4e7e-9093-f6dc8c74640a">
+  <producedTypes>
+    <objectType typeId="5e9ab1e9-cae0-404e-89c8-2cbe097b0071" valueTypeId="740fadeb-36c8-4f9d-86f2-acc48eadef92"/>
+    <managerType typeId="1e0032e0-fa4c-4fc8-8491-920ade78fcff" valueTypeId="908c0457-5ff8-4273-a0ff-52f0926c5a46"/>
+  </producedTypes>
+  <name>ОтчетПоТекущейЛьготнойОчередиКанбан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по текущей льготной очереди канбан</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоТекущейЛьготнойОчередиКанбан.Form.ФормаОтчета</defaultForm>
+  <forms uuid="edab6b0f-9f36-42fd-96e7-6f2b9e0ac501">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b096e9d4-cede-48e7-9f5f-3e01831940cc">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

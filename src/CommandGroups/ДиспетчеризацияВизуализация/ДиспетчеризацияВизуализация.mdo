@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ea334d7-28ca-4a8b-b6fd-d33b22e49f00">
+  <name>ДиспетчеризацияВизуализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Визуализация по линейкам приборов</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

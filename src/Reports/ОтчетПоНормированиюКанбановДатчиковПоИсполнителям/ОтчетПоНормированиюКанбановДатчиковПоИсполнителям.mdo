@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e713aaa-bff0-4447-83e5-4085416a1019">
+  <producedTypes>
+    <objectType typeId="a2d5d13b-8639-48fa-b3ac-9f7bd03098a9" valueTypeId="64abc5e3-3479-415a-916b-c60f162a2b61"/>
+    <managerType typeId="ba4345a1-d181-4ed4-866f-ea260c6edac9" valueTypeId="39330ae3-c7b3-4d89-a585-3ece95d18dd3"/>
+  </producedTypes>
+  <name>ОтчетПоНормированиюКанбановДатчиковПоИсполнителям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по нормированию канбанов датчиков по исполнителям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоНормированиюКанбановДатчиковПоИсполнителям.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="8b371e56-b59f-4fe3-881c-f9361ec8cf09">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="393e02bc-b21b-49c3-b7f0-70d2a28b1881">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7c7c2584-7d56-4a61-ae61-3e1e59772019">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="1dd44459-3ab0-4771-9b46-59421bcce5cf">
+    <name>МакетПоМТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по МТК</value>
+    </synonym>
+  </templates>
+  <templates uuid="ee6728a7-542f-4d96-8dda-2e7c08de2cc9">
+    <name>МакетПоДате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по дате окончания</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

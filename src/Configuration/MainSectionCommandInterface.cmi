@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.СообщениеПользователям.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.УниверсальныйОтчётПоСправочникам.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.СообщениеПользователям.StandardCommand.Open</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.УниверсальныйОтчётПоСправочникам.StandardCommand.Open</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.СообщениеПользователям.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54834695-7420-48ae-bfce-6a61fa1cb2c8">
+  <producedTypes>
+    <objectType typeId="3d9a5228-b158-4458-8927-7176517d791f" valueTypeId="2f58cd4c-a65f-4b3f-80cc-630f9cc234f0"/>
+    <managerType typeId="6d1c0063-6dc1-4caf-9624-06659cde011f" valueTypeId="7f5f28f3-4115-4695-b884-017e87cd7bec"/>
+  </producedTypes>
+  <name>ОтчётПоРемонтуПолный_СКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по ремонту и браку полный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоРемонтуПолный_СКД.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="957f73ab-556f-4284-b42f-a38be85e4fd0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

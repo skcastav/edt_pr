@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0062bba-22dc-40ed-a8a8-ec2b5546ac23">
+  <name>ПС_ГТ_ЛоггерТВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паспорт и ГТ на Логгер-ТВ</value>
+  </synonym>
+</mdclass:CommonTemplate>

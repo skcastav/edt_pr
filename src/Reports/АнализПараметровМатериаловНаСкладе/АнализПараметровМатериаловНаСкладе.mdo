@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aed02f1f-d782-4ceb-af37-8ee54d7b1234">
+  <producedTypes>
+    <objectType typeId="d71416f8-bc08-4bb2-8bb4-935529e4bcfa" valueTypeId="b7894348-d277-4b29-a590-9d8f5644f4fb"/>
+    <managerType typeId="4c07e46f-fb14-412b-8385-bb0328d222e3" valueTypeId="44654535-cf6d-4db8-b7b4-4dd587283b5f"/>
+  </producedTypes>
+  <name>АнализПараметровМатериаловНаСкладе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ параметров материалов на складе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализПараметровМатериаловНаСкладе.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e04c67d5-5a4a-472f-9ca2-3920f5d7ba92">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

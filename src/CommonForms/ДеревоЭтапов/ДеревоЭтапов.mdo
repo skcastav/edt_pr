@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1eb05e23-7b8b-4ed2-8bd1-a8985bd46b83">
+  <name>ДеревоЭтапов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево этапов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

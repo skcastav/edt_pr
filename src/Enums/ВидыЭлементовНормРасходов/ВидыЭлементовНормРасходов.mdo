@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65e56ca4-b1fa-4ee0-9264-961d17cf601b">
+  <producedTypes>
+    <refType typeId="a13c0c00-7f2a-4925-b03f-f4cd847a9647" valueTypeId="c5c1ed23-89c5-4914-9e5c-d3a4a8eed53e"/>
+    <listType typeId="6330239b-b709-4733-8cd1-08fa9aec10a9" valueTypeId="8c09c5ac-24bd-4cf1-9c68-976387e9edcd"/>
+    <managerType typeId="ffa86229-fb7d-4638-beaa-f47a42328b47" valueTypeId="ad08c88e-d31b-4e54-8a62-0fec0bfabbf3"/>
+  </producedTypes>
+  <name>ВидыЭлементовНормРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды элементов норм расходов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82b3beee-2376-4ca2-8a65-6d31f94b014d">
+    <name>Деталь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деталь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3dafb25c-8c65-42d7-bcda-16aea0f59627">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da714096-bcee-4943-b7d0-71c617291f33">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="852da3a5-95c2-415b-afb6-b0685f5b671b">
+    <name>МатериалВспомогательный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал вспомогательный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38aa53df-fc1c-4468-af27-74353e86ba27">
+    <name>Набор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3e7fb78-8f8a-456b-97e1-c07a1bf7d034">
+    <name>Основа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed6d0103-cf76-45e5-9142-5858c8d929c1">
+    <name>Программа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="664e839d-2476-40e8-a033-0998b3736755">
+    <name>ТехОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех. операция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea780806-6967-4d38-b9bc-6e266c16556d">
+    <name>ТехОснастка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех. оснастка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5887abe-2ace-402e-aeda-c15bdcf01cfb">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

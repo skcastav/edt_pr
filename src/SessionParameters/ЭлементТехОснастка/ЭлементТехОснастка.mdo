@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="809438e2-703e-4d6c-bac5-87dab5686903">
+  <name>ЭлементТехОснастка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элемент тех оснастка</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ТехОснастка</types>
+  </type>
+</mdclass:SessionParameter>

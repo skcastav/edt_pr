@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2aeb510-192a-43fd-bc5e-93873d96460f">
+  <producedTypes>
+    <objectType typeId="c91c3c4e-9e82-4e3e-b043-a3c4bac438a3" valueTypeId="308bc80e-a63c-45e8-840c-022e4f392dd1"/>
+    <managerType typeId="170bfcc4-be28-4f89-93be-65dc14d083e2" valueTypeId="fd2ef8b5-835f-44cd-9abb-c7947ed86c6e"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_Контроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Контроль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_Контроль.Form.Форма</defaultForm>
+  <attributes uuid="3f233f95-8f36-468b-9656-b01931d38363">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="be36bd0e-dc89-443c-8b4d-22394057c7bb">
+    <name>ПроизводственноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d97d9a2b-757e-4d13-812c-f76e43774304">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2a3b07fc-ace2-4b27-bf7d-4c389a1e3f53">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f755854b-1ebb-4164-8a5d-0dcb42e47ed2">
+    <name>ПроверкаПлат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка плат</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cbdc9aa4-0073-4995-b154-d81101c1e477">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

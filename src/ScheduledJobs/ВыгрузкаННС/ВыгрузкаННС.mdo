@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="896229ed-3368-42bc-b8a6-5041542515c7">
+  <name>ВыгрузкаННС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка ННС</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ВыгрузкаННС</methodName>
+  <description>Выгрузка накладных на сборку</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

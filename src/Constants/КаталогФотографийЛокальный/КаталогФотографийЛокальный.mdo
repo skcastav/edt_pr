@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64df2a53-4583-475f-aabd-1ab29a6c0f54">
+  <producedTypes>
+    <managerType typeId="76eb436e-6055-4ef4-8d96-08ae5c0dfba0" valueTypeId="b0e1a5ea-424f-45b1-9468-dcd19d2396df"/>
+    <valueManagerType typeId="f319d009-7a2b-4237-8a3a-f6cfadd79926" valueTypeId="c39bca8f-8980-47fd-b353-d8958a5811e4"/>
+    <valueKeyType typeId="56b89638-6336-401e-a2eb-3b4c89e5dbce" valueTypeId="1b803cde-7b03-44a3-8284-27294b6e523a"/>
+  </producedTypes>
+  <name>КаталогФотографийЛокальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локальный каталог фотографий</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

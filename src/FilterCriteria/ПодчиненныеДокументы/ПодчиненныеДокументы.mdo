@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab293e15-e78b-43ac-9a9e-5d82714c4ee6">
+  <producedTypes>
+    <listType typeId="225ff2ae-ec1a-4cf6-ad64-0f4236e5dd01" valueTypeId="9ce2d6ce-0443-44b8-8516-06a78679e575"/>
+    <managerType typeId="659f737c-2609-4d58-8b73-d047c0c55992" valueTypeId="9643dc9a-0de7-43c7-ae1b-0491e5307503"/>
+  </producedTypes>
+  <name>ПодчиненныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подчиненные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ВыпускПродукции.Attribute.ДокументОснование</content>
+  <content>Document.ВыпускПродукцииКанбан.Attribute.ДокументОснование</content>
+  <content>Document.ДвижениеМПЗ.Attribute.ДокументОснование</content>
+  <content>Document.ЗаказПоставщику.Attribute.ДокументОснование</content>
+  <content>Document.МаршрутнаяКарта.Attribute.ДокументОснование</content>
+  <content>Document.НакладнаяНаСборку.TabularSection.ТабличнаяЧасть.Attribute.ЗаказНаПроизводство</content>
+  <content>Document.ПередачаВПереработку.Attribute.ДокументОснование</content>
+  <content>Document.ПередачаВПроизводство.Attribute.ДокументОснование</content>
+  <content>Document.ПередачаНаЛинейку.Attribute.ДокументОснование</content>
+  <content>Document.Перепрогон.Attribute.ДокументОснование</content>
+  <content>Document.ПоступлениеИзПереработки.Attribute.ДокументОснование</content>
+  <content>Document.ПоступлениеМПЗ.Attribute.ДокументОснование</content>
+  <content>Document.ПоступлениеМПЗПрочее.Attribute.ДокументОснование</content>
+  <content>Document.ПоступлениеНаЛинейку.Attribute.ДокументОснование</content>
+  <content>Document.ПроизводственноеЗадание.Attribute.ДокументОснование</content>
+  <content>Document.Разукомплектовка.Attribute.ДокументОснование</content>
+  <content>Document.Реализация.Attribute.ДокументОснование</content>
+  <content>Document.РемонтнаяКарта.Attribute.ДокументОснование</content>
+  <content>Document.СписаниеИзПереработки.Attribute.ДокументОснование</content>
+  <content>Document.СписаниеМПЗПрочее.Attribute.ДокументОснование</content>
+  <content>Document.КорректировкаЗаказаНаПроизводство.Attribute.ДокументОснование</content>
+  <content>Document.Резервирование.Attribute.ДокументОснование</content>
+  <content>Document.ЗаказНаПроизводство.Attribute.ДокументОснование</content>
+  <content>Document.ДвижениеРезервовГП.Attribute.ДокументОснование</content>
+  <content>Document.Разборка.Attribute.ДокументОснование</content>
+  <defaultForm>FilterCriterion.ПодчиненныеДокументы.Form.ФормаСписка</defaultForm>
+  <forms uuid="6d26775d-c033-4cd1-ae7f-237ab3e26b94">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

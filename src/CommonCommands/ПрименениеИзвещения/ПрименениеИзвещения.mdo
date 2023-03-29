@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="825e8310-bfd1-47d8-8515-e8d863cd227c">
+  <name>ПрименениеИзвещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применение извещения</value>
+  </synonym>
+  <group>FormNavigationPanelImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.ИзвещенияОбИзменениях</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

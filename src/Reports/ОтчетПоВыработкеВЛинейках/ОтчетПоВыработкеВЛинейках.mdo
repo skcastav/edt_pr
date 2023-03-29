@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fad0fd0-6022-4933-9567-deefc0a7550b">
+  <producedTypes>
+    <objectType typeId="780425a2-3479-4fc4-88d0-4b1ef93527a6" valueTypeId="b247c90b-c456-490d-a172-fc2a3b8b3bb5"/>
+    <managerType typeId="13cfcdf7-8e7a-408a-afb3-26e209cc6e45" valueTypeId="5ada5dc8-4ce1-4f40-a58a-4c0d7d17ed07"/>
+  </producedTypes>
+  <name>ОтчетПоВыработкеВЛинейках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по выработке Запуск-Сборка-Упаковка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоВыработкеВЛинейках.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="a747d140-d182-416a-856b-1c2fd86f8009">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="3a4ed541-1a5c-4320-a707-056087f58420">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3179b9a8-0a7c-404b-af67-44ab36d28b0c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

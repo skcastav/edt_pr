@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f84643d-1768-4872-9f67-a4861e119cda">
+  <producedTypes>
+    <managerType typeId="703898a2-ee14-4054-815d-98223bd1f018" valueTypeId="14fe2c36-3f24-42ab-9bdf-029dbee27e1d"/>
+    <valueManagerType typeId="9324fc68-c4a5-4d9d-b555-16379df322f8" valueTypeId="2a8ed84f-63e2-4c87-b453-459e8fea913b"/>
+    <valueKeyType typeId="afc865fc-8a1b-4887-9945-a59d777e989f" valueTypeId="315e150b-5399-4fc5-a49e-1b4ad7e3924e"/>
+  </producedTypes>
+  <name>ИспользоватьКонтрольОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать контроль обмена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

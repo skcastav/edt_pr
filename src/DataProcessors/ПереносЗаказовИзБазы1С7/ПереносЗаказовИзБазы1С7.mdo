@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fec8fe32-0601-439f-9645-32d437520bce">
+  <producedTypes>
+    <objectType typeId="45e08568-8373-405a-8d1a-479f305d4a9b" valueTypeId="cf21cde0-472a-4e62-b8aa-aae40fe5fe02"/>
+    <managerType typeId="1fe575f3-8a40-4a83-96e7-be73c7248cc6" valueTypeId="919dfa9f-45d9-4e8b-9aeb-6e3ede6a5774"/>
+  </producedTypes>
+  <name>ПереносЗаказовИзБазы1С7</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос заказов из базы 1С7.7</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносЗаказовИзБазы1С7.Form.Форма</defaultForm>
+  <attributes uuid="00825061-654d-4627-830b-637c943cea34">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <comment>Имя пользователя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="3973735d-d54a-42c4-88dc-6c4061e406fb">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <comment>Пароль</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="e564ff26-95b7-494a-b938-598ba2cb7362">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

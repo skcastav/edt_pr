@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f81b39fe-6521-4cd0-88eb-ae18fcebb838">
+  <producedTypes>
+    <objectType typeId="0a6decb1-2b30-475e-a471-35d4e65d7be6" valueTypeId="323af5a7-01ef-41fd-af11-26f0e8dddd7c"/>
+    <refType typeId="4ebf4e63-b00a-4824-8a19-2bc8596931e6" valueTypeId="2917649c-63cb-44aa-ad20-229c8b2812e2"/>
+    <selectionType typeId="f361cee6-3216-47b9-bd4a-8e33e4f0ae71" valueTypeId="1c9a45f9-64f7-4787-b040-ac819bc78b30"/>
+    <listType typeId="7758dbf1-f038-4218-a459-28b312b8964c" valueTypeId="18ca95b5-a78f-44c8-82a7-afda83cdf139"/>
+    <managerType typeId="6850e5c5-e110-4537-be98-d64d01f1e086" valueTypeId="e5816238-9c40-43f9-b834-a6513891a371"/>
+  </producedTypes>
+  <name>ВидыНеисправностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды неисправностей (устарел)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНеисправностей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыНеисправностей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыНеисправностей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.ВидыНеисправностей.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="1fa9bd73-4a72-4578-aae3-43abfa94366d">
+    <name>НеПоказыватьВОтчётахПоРемонту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не показывать в отчётах по ремонту</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c289bd0-a3ff-4515-85b9-2dcdce6e0779">
+    <name>ПеремещатьНаСкладПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещать на склад поставщика</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ac60c328-14fe-4c98-a28e-7d7aea59f99f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="745cfb39-db17-487f-b8d9-f48b407b644d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

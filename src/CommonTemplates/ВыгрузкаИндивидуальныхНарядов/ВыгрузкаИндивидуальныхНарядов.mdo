@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8b56361-5bba-45f2-81ec-2cd79171d03d">
+  <name>ВыгрузкаИндивидуальныхНарядов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка индивидуальных нарядов</value>
+  </synonym>
+</mdclass:CommonTemplate>

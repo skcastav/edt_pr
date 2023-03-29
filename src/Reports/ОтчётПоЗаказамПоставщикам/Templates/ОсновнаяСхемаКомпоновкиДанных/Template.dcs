@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияДанных</dataPath>
+			<field>ВерсияДанных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаИсполнения</dataPath>
+			<field>ДатаИсполнения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Цена</dataPath>
+			<field>ТабличнаяЧасть.Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.ВидМПЗ</dataPath>
+			<field>ТабличнаяЧасть.ВидМПЗ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проведен</dataPath>
+			<field>Проведен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Курс</dataPath>
+			<field>Курс</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дополнение</dataPath>
+			<field>Дополнение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выгружено</dataPath>
+			<field>Выгружено</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Ссылка</dataPath>
+			<field>ТабличнаяЧасть.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.НомерСтроки</dataPath>
+			<field>ТабличнаяЧасть.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.МПЗ</dataPath>
+			<field>ТабличнаяЧасть.МПЗ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Количество</dataPath>
+			<field>ТабличнаяЧасть.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Всего</dataPath>
+			<field>ТабличнаяЧасть.Всего</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.СтавкаНДС</dataPath>
+			<field>ТабличнаяЧасть.СтавкаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.ЕдиницаИзмерения</dataPath>
+			<field>ТабличнаяЧасть.ЕдиницаИзмерения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.НЦ</dataPath>
+			<field>ТабличнаяЧасть.НЦ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.ЦенаВалюта</dataPath>
+			<field>ТабличнаяЧасть.ЦенаВалюта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Сумма</dataPath>
+			<field>ТабличнаяЧасть.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>ТабличнаяЧасть</dataPath>
+			<field>ТабличнаяЧасть</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.НДС</dataPath>
+			<field>ТабличнаяЧасть.НДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.ДатаПоставки</dataPath>
+			<field>ТабличнаяЧасть.ДатаПоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МоментВремени</dataPath>
+			<field>МоментВремени</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ЗаказПоставщику.Ссылка КАК Ссылка,
+	ЗаказПоставщику.ВерсияДанных КАК ВерсияДанных,
+	ЗаказПоставщику.ПометкаУдаления КАК ПометкаУдаления,
+	ЗаказПоставщику.Номер КАК Номер,
+	ЗаказПоставщику.Дата КАК Дата,
+	ЗаказПоставщику.Проведен КАК Проведен,
+	ЗаказПоставщику.ДокументОснование КАК ДокументОснование,
+	ЗаказПоставщику.ДатаИсполнения КАК ДатаИсполнения,
+	ЗаказПоставщику.Контрагент КАК Контрагент,
+	ЗаказПоставщику.Договор КАК Договор,
+	ЗаказПоставщику.Курс КАК Курс,
+	ЗаказПоставщику.Дополнение КАК Дополнение,
+	ЗаказПоставщику.Выгружено КАК Выгружено,
+	ЗаказПоставщику.Подразделение КАК Подразделение,
+	ЗаказПоставщику.Автор КАК Автор,
+	ЗаказПоставщику.Комментарий КАК Комментарий,
+	ЗаказПоставщику.ТабличнаяЧасть.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ВидМПЗ КАК ВидМПЗ,
+		МПЗ КАК МПЗ,
+		Количество КАК Количество,
+		ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+		НЦ КАК НЦ,
+		Цена КАК Цена,
+		ЦенаВалюта КАК ЦенаВалюта,
+		Сумма КАК Сумма,
+		СтавкаНДС КАК СтавкаНДС,
+		НДС КАК НДС,
+		Всего КАК Всего,
+		ДатаПоставки КАК ДатаПоставки
+	) КАК ТабличнаяЧасть,
+	ЗаказПоставщику.Представление КАК Представление,
+	ЗаказПоставщику.МоментВремени КАК МоментВремени
+ИЗ
+	Документ.ЗаказПоставщику КАК ЗаказПоставщику
+ГДЕ
+	ЗаказПоставщику.Дата МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+	И ЗаказПоставщику.ПометкаУдаления = ЛОЖЬ</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Ссылка</dataPath>
+		<expression>Количество(Ссылка)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТабличнаяЧасть.Всего</dataPath>
+		<expression>Сумма(ТабличнаяЧасть.Всего)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаКон</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата кон</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаНач</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата нач</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>СтандартныйПериод</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Стандартный период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ПоКонтрагентам</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По контрагентам</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.Всего</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>9f4c4df1-f331-49f7-8d74-056fd34c80d6</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>СтандартныйПериод</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>6e598b2f-9769-4950-989a-e5f48b7cbc36</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Контрагент.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Контрагент</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

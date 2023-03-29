@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baa4d124-8eac-4ed4-a618-a862e9f24629">
+  <name>ПС_INDIV_X_10RG</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паспорт INDIV-X-10RG</value>
+  </synonym>
+</mdclass:CommonTemplate>

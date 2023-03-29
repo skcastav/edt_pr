@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f52b1d6-d65c-4377-9b2d-49ff77879b6b">
+  <producedTypes>
+    <refType typeId="570d8623-7967-4079-a457-c5f34583ff0b" valueTypeId="cfc2848d-72e3-4ea6-aedb-d59ff7fd3396"/>
+    <listType typeId="05c399c8-bf5a-412f-b343-cb7821fa1db5" valueTypeId="5bcc024e-c05e-4d2e-b766-5db9f0fa6075"/>
+    <objectType typeId="3e5ad44e-4234-41b1-b943-dea3978a8605" valueTypeId="0d7cd83b-3489-47de-b77c-6cf80eeacbb2"/>
+    <managerType typeId="6b7acaca-fbb4-4dd8-a50a-2113ded6f606" valueTypeId="f0c6dce7-fb83-4407-8b11-4f3f9c66d3fb"/>
+    <recordManagerType typeId="fd7b63fc-acc2-4771-b61a-0a3deb5d9151" valueTypeId="c0b6f0a7-8211-478f-a4bf-309e371ac159"/>
+    <recordSetType typeId="c3af0182-263c-4b5f-b712-34285e940e3d" valueTypeId="401ad434-249b-4cc7-897b-20507aa91354"/>
+    <recordType typeId="2d0f79f4-6485-4a90-aafc-2951e095ddab" valueTypeId="84c4f2a9-848f-458d-8d6a-ed8be668a796"/>
+    <recordKeyType typeId="c2323d49-aa84-499c-b6e1-a1cc938d799f" valueTypeId="b23f3eea-8679-4c68-a4e5-c1fd9c54aed0"/>
+  </producedTypes>
+  <name>Линейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Линейки</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Номенклатура1С77</parentDataSource>
+  <nameInDataSource>dbo.SC28518</nameInDataSource>
+  <keyFields>ExternalDataSource.Номенклатура1С77.Table.Линейки.Field.ROW_ID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Номенклатура1С77.Table.Линейки.Field.ROW_ID</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="19330b2a-03bb-4290-a07c-385beb68035d">
+    <name>ROW_ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ROW_ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="fe859bee-f772-481f-aecb-394b0c51db8f">
+    <name>ID</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="304de108-fd49-495e-a89c-73177e4257c7">
+    <name>DESCR</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>DESCR</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="d1d1f5c2-25fa-4738-bdf3-945791984cc5">
+    <name>ISMARK</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <nameInDataSource>ISMARK</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="acf4e87a-595f-44d6-becd-ca7be36d0fb4">
+    <name>VERSTAMP</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>VERSTAMP</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

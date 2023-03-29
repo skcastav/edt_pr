@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="881c15f0-e2a2-49d4-89cd-d05e36d7a3a1">
+  <name>ЗагрузкаИзмененийСроковПоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка изменений сроков поставки</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ЗагрузкаИзмененийСроковПоставки</methodName>
+  <description>Загрузка изменений сроков поставки</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

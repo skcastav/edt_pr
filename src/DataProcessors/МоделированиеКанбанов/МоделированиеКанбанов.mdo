@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a95acc15-4daf-4633-bc49-1b74f61d8c0e">
+  <producedTypes>
+    <objectType typeId="a3f37520-c575-4791-8c8e-048019f7da06" valueTypeId="f762b3d3-4825-4cdd-bd67-19d979664a27"/>
+    <managerType typeId="e13008fc-3a4a-48b1-a5a8-855c2b7cb388" valueTypeId="aa6aa2e1-52ca-4a9c-8bc5-1b1b6a6df68b"/>
+  </producedTypes>
+  <name>МоделированиеКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Моделирование канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МоделированиеКанбанов.Form.Форма</defaultForm>
+  <attributes uuid="a3e0173b-8daa-4bd6-91a7-d71804f924f5">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="88a03097-9d14-49d0-a519-e316a5d460da">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e1dc05d0-b6c0-4f4b-a5b2-91948e8ebd87">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

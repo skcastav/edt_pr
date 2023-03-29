@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5500f378-006a-4cfe-a860-3a908f460a80">
+  <producedTypes>
+    <managerType typeId="33d9619b-4bab-4f52-96b4-23b2e434a996" valueTypeId="b6cf9ff8-f167-4bd4-a4da-64a80928fd68"/>
+    <valueManagerType typeId="cc36f060-9c47-4812-a63b-38fa2730e8b5" valueTypeId="934e7a39-6571-4edb-9fcb-61217a325566"/>
+    <valueKeyType typeId="1896e0e0-63b7-4730-986b-a7ca20379ad5" valueTypeId="96a0804d-3f80-4ba8-8254-6ee1dbf27bec"/>
+  </producedTypes>
+  <name>ПроверятьПризнакБазыЛинеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять признак базы линеек</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

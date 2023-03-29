@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<formatIndex>1</formatIndex>
+		<size>1</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Text</drawingType>
+		<id>20</id>
+		<formatIndex>5</formatIndex>
+		<text>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>[ДиапазонТемператур] °С</v8:content>
+			</v8:item>
+		</text>
+		<beginRow>0</beginRow>
+		<beginRowOffset>76</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>52</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>405</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>102</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+	</drawing>
+	<drawing>
+		<drawingType>Text</drawingType>
+		<id>21</id>
+		<formatIndex>5</formatIndex>
+		<text>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Зав.№[Номер]</v8:content>
+			</v8:item>
+		</text>
+		<beginRow>0</beginRow>
+		<beginRowOffset>55</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>31</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>404</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>102</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+	</drawing>
+	<drawing>
+		<drawingType>Text</drawingType>
+		<id>22</id>
+		<formatIndex>6</formatIndex>
+		<parameter>ДатаВыпуска</parameter>
+		<beginRow>0</beginRow>
+		<beginRowOffset>95</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>74</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>405</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>177</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+	</drawing>
+	<drawing>
+		<drawingType>Text</drawingType>
+		<id>23</id>
+		<formatIndex>7</formatIndex>
+		<parameter>Наимен</parameter>
+		<beginRow>0</beginRow>
+		<beginRowOffset>36</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>12</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>401</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>0</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>24</id>
+		<formatIndex>8</formatIndex>
+		<beginRow>0</beginRow>
+		<beginRowOffset>24</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>92</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>15</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>87</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Text</drawingType>
+		<id>25</id>
+		<formatIndex>9</formatIndex>
+		<parameter>Модиф2</parameter>
+		<beginRow>0</beginRow>
+		<beginRowOffset>92</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>72</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>168</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>99</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+	</drawing>
+	<leftHeader>
+		<f>1</f>
+	</leftHeader>
+	<centerHeader>
+		<f>1</f>
+	</centerHeader>
+	<rightHeader>
+		<f>1</f>
+	</rightHeader>
+	<leftFooter>
+		<f>1</f>
+	</leftFooter>
+	<centerFooter>
+		<f>1</f>
+	</centerFooter>
+	<rightFooter>
+		<f>1</f>
+	</rightFooter>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>10</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Бирка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
+	</line>
+	<font faceName="Arial" height="5.3" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="4" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<format/>
+	<format>
+		<width>155</width>
+	</format>
+	<format>
+		<height>99</height>
+		<width>4</width>
+	</format>
+	<format>
+		<backColor>#FFFFFF</backColor>
+	</format>
+	<format>
+		<print>true</print>
+		<drawingBorder>0</drawingBorder>
+		<drawingHaveLeftBorder>false</drawingHaveLeftBorder>
+		<drawingHaveTopBorder>false</drawingHaveTopBorder>
+		<drawingHaveRightBorder>false</drawingHaveRightBorder>
+		<drawingHaveBottomBorder>false</drawingHaveBottomBorder>
+		<font>0</font>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#FFFFFF</backColor>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<print>true</print>
+		<drawingBorder>0</drawingBorder>
+		<drawingHaveLeftBorder>false</drawingHaveLeftBorder>
+		<drawingHaveTopBorder>false</drawingHaveTopBorder>
+		<drawingHaveRightBorder>false</drawingHaveRightBorder>
+		<drawingHaveBottomBorder>false</drawingHaveBottomBorder>
+		<font>0</font>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#FFFFFF</backColor>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<print>true</print>
+		<drawingBorder>0</drawingBorder>
+		<drawingHaveLeftBorder>false</drawingHaveLeftBorder>
+		<drawingHaveTopBorder>false</drawingHaveTopBorder>
+		<drawingHaveRightBorder>false</drawingHaveRightBorder>
+		<drawingHaveBottomBorder>false</drawingHaveBottomBorder>
+		<font>1</font>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#FFFFFF</backColor>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<drawingBorder>0</drawingBorder>
+		<verticalAlignment>Top</verticalAlignment>
+		<backColor>#FFFFFF</backColor>
+		<fillType>Text</fillType>
+	</format>
+	<format>
+		<print>true</print>
+		<drawingBorder>0</drawingBorder>
+		<drawingHaveLeftBorder>false</drawingHaveLeftBorder>
+		<drawingHaveTopBorder>false</drawingHaveTopBorder>
+		<drawingHaveRightBorder>false</drawingHaveRightBorder>
+		<drawingHaveBottomBorder>false</drawingHaveBottomBorder>
+		<font>0</font>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#FFFFFF</backColor>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false">Qk1eGQAAAAAAADYAAAAoAAAALgAAAC4AAAABABgAAAAAACgZAAAAAAAAAAAAAAAA
+AAAAAAAA////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+AAD/////////////////////////////////////////////////////////////
+///W1tbGxsZ7e3s5OTlCQkJCQkJCQkJCQkJCQkJCQkJjY2O1tbXGxsb39/f/////
+//////////////////////////////////////////////////////////8AAP//
+/////////////////////////////////////////////////////6WlpSEhIQAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGNjY+fn5///
+/////////////////////////////////////////////////////wAA////////
+////////////////////////////////////////xsbGKSkpAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY2Nj9/f3
+////////////////////////////////////////////////AAD/////////////
+///////////////////////////W1tZCQkIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBCUlJT/
+//////////////////////////////////////////8AAP//////////////////
+/////////////////4SEhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJCQufn
+5////////////////////////////////////wAA////////////////////////
+////5+fnMTExAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQxsbG
+////////////////////////////////AAD////////////////////////n5+cQ
+EBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC1tbX/
+//////////////////////////8AAP////////////////////f39zExMQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQENbW1v//
+/////////////////////wAA////////////////////Y2NjAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQ5+fn////
+////////////////AAD///////////////+UlJQAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxMTH/////////
+//////////8AAP///////////+fn5xAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJSUlP//////////
+/////wAA////////////QkJCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQxsbG////////////
+AAD///////+lpaUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSUlL///////////8AAP//
+/////zExMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOfn5////////wAA////5+fn
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY2Nj////////AAD///+lpaUAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBD///////8AAP///2NjYwAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAANbW1v///wAA////EBAQAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAtbW1////AADW1tYAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAACEhIT///8AAMbGxgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNzcxAQEAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAFJSUv///wAAxsbGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAISEh9/f3hISEAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAQkJC////AADGxsYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAClpaX///////8hISEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AABCQkL///8AAMbGxgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJCQv///////////62trQAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJC
+Qv///wAAxsbGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAA1tbW////////////////QkJCAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUlJS////
+AADGxsYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABjWmP////////Gxvf39//////W1tYAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEhIT///8AAOfn
+5wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAABAQEO/v9////+fn/zk5vZyc//f3/////2NjYwAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKWlpf///wAA////EBAQ
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+lJSU////7/f/hIT3EBDOISHO3t7/////7+/3EBAQAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxsbG////AAD///9jY2MAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhISH////3
+9//Ozv8YGMYICOcQEN57c+/v7/////+EhIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP///7W1tQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL29xv///+/v/1JS
+7wgI5wAA9wgI7xgYxs7O//f3/////yEYIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAEJCQv///////wAA////////ISEhAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUlJS////9/f/tbX/EBDWAAD3
+AAD/AAD3CAjnSkrv7+//////vb3GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAlJSU////////AAD///////9zc3MAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBDn5+f39//n5/85Oc4ICOcAAP8AAP8A
+AP8AAP8QENatrf/39/////9CQkIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAQEBD39/f///////8AAP///////+fn5wAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAIR7hP////f3/3t7/wgI1gAA9wAA/wAA/wAA/wAA
+/wgI5zExzufn//f3/+fn5wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAISEhP///////////wAA////////////Y2NjAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAISEh7+/39/f/1tb/ISHWAAD3AAD/AAD/AAD/AAD/AAD/AAD3
+EBDWe3v/7+//////c2tzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQ
+9/f3////////////AAD////////////39/cICAgAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAC1tbX////v7/9ra+8ICN4AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAO8h
+IdbW1v/3///v7/cQEAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC1tbX/////
+//////////8AAP///////////////621tQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AEI5Qv////f3/7W1/xAQxgAI7wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wgI3mtr
+5+/v/////5SUjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFJSUv//////////////
+/////wAA////////////////////paWlAAAAAAAAAAAAAAAAAAAAAAAAAAAAzs7W
+////7+//OTnnCAjvAAD3AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAjvEBDOtbX/
+9/f/////ISEhAAAAAAAAAAAAAAAAAAAAAAAAQkJC9/f3////////////////////
+AAD///////////////////////+MlJQAAAAAAAAAAAAAAAAAAABzc3P////39/+U
+lP8QEN4AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAPcICOc5Oefv7///
+//+9vcYAAAAAAAAAAAAAAAAAAABCQkL///////////////////////////8AAP//
+/////////////////////////3NzcwAAAAAAAAAAABAQEPf39/f3/9bW/yEhxggI
+5wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA9xAQ1pyc//f3////
+/0JCQgAAAAAAAAAAAEJCQvf39////////////////////////////wAA////////
+////////////////////////paWlCAgIAAAAjIyU////7+//Y2P3CAjeAAD3AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/CAjnKSnG3t7/9/f/597n
+AAAAAAAAY2Nj////////////////////////////////////AAD/////////////
+///////////////////////WztZSUlL////39//Gxv8QEM4AAPcAAP8AAP8AAP8A
+AP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAP8AAPcICN5zc//37/////+EhIRz
+c2v///////////////////////////////////////8AAP//////////////////
+//////////////////////////////f3/1pavRAQzgAA9wAA/wAA/wAA/wAA/wAA
+/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA9wgI3iEYtd7e////////////////
+/////////////////////////////////////wAA////////////////////////
+////////////////////////////ra3vUlLeEBDWAAD3AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/CAjnGBjGc3Pe3t7/////////////////////
+////////////////////////////////AAD/////////////////////////////
+///////////////////////39//n5/97e/8QEM4ICN4ICOcICOcICOcICO8ICO8I
+CO8ICO8ICOcICOcICN4QENYxMdbGzv/v7///9///////////////////////////
+//////////////////////////8AAP//////////////////////////////////
+//////////////////////f3/+/3/87G/4SE91JS1ikpvRgYvRgYvRgYvRgYvRgY
+vRgYtUJCzmtr55yl/97n//f3////////////////////////////////////////
+/////////////////////wAA////////////////////////////////////////
+////////////////////////9/f/7+//5+f/3t7/3t7/3t7/3t7/3t7/3t7/3t7/
+5+f/7+//9/f/////////////////////////////////////////////////////
+////////////////AAA=</picture>
+	</picture>
+</document>

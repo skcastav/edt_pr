@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81ea66d3-e4b3-4362-b87d-a9150c8a67ee">
+  <producedTypes>
+    <selectionType typeId="a1ad34e3-d5e1-42e5-b550-87abcc66fcfa" valueTypeId="f95ebcbe-6cb7-4e6f-8f5e-1dd93d86c1ad"/>
+    <listType typeId="4b39fd77-137f-4a02-b816-c0c738c2b26d" valueTypeId="ad91d3c0-7f39-4302-a119-bb5b1a112b25"/>
+    <managerType typeId="f814d3df-8637-451a-9a16-d6140e2357ec" valueTypeId="5e4b1bfc-8ee5-450d-9667-01bbf9f25c6c"/>
+    <recordSetType typeId="f65d7b8e-5851-4f43-98c8-bc5a831989a7" valueTypeId="ff2c20f2-b739-468f-8a11-adc714d8b03b"/>
+    <recordKeyType typeId="c719636a-4166-4a0c-b50e-63bbc69826c2" valueTypeId="cbc147db-81ae-4381-bfb8-f25964db118a"/>
+    <recordType typeId="fdf6d27d-2f75-47c4-b06e-a5ff0844204e" valueTypeId="989c0cfb-e960-4082-bf4f-fd14cebb1a24"/>
+    <recordManagerType typeId="03fa8f09-4fae-4873-9f46-2ceafe5a2942" valueTypeId="1257343a-1bb7-4d71-a834-8eb82566bc3e"/>
+  </producedTypes>
+  <name>ИзвещенияОбИзменениях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Извещения об изменениях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f5c53965-22e5-4544-b942-eef0d9896fa2">
+    <name>Элемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехОснастка</types>
+      <types>CatalogRef.Документация</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ТехОперации</types>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6cc0dc42-8fb5-42a4-87dd-7f29b3b00d14">
+    <name>Извещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Извещение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИзвещенияОбИзменениях</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

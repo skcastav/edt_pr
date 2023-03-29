@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="634e2ad5-f1ea-4ab8-90df-d7af46062988">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВидыБрака</content>
+  <content>Catalog.ПричиныРемонта</content>
+  <content>Catalog.ЭтапыЖизненногоЦикла</content>
+  <parentSubsystem>Subsystem.Ремонт</parentSubsystem>
+</mdclass:Subsystem>

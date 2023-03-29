@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2629e35-4428-4645-8b60-8fbc43bd3d67">
+  <producedTypes>
+    <managerType typeId="da9f30f5-ad01-4793-9b70-859c0f921089" valueTypeId="14d00f9b-a2be-4cc0-bbc1-b7a56099a144"/>
+    <valueManagerType typeId="40236547-cf85-4f35-b75f-9869723fcb52" valueTypeId="558df7c8-d62f-470b-9379-23232272bc98"/>
+    <valueKeyType typeId="061d4070-8c6e-5675-b3db-088c8de9e8a9" valueTypeId="1556fbcf-bcd6-5c93-8e40-81081a272c5c"/>
+  </producedTypes>
+  <name>РазрешитьСборИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить сбор информации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="998c804f-ddc8-4863-89a1-4cd2eb801544">
+  <name>УпаковочныйЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковочный лист</value>
+  </synonym>
+</mdclass:CommonTemplate>

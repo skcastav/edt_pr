@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="212a3ebc-afd3-45e2-9ef3-d195563b52bd">
+  <producedTypes>
+    <objectType typeId="1ea56b2c-b829-42b9-b780-0417a528585c" valueTypeId="40516a3a-06e6-4a0f-a5e4-8cfec5ab14f7"/>
+    <managerType typeId="996d6cdc-d193-4045-9319-0844005adb33" valueTypeId="abb4423f-96be-41e0-9c8d-25d382f4fad0"/>
+  </producedTypes>
+  <name>ОтчетПоПроизводственнымЗаданиямКанбанСводныйИстория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ретроспективный отчёт по производственным заданиям канбан</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоПроизводственнымЗаданиямКанбанСводныйИстория.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="a7e3dc6f-a962-46f2-a9d8-96bfb2d8332c">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f5986804-3b7f-4aa8-8082-3adf42469605">
+    <name>МТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>МТК</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.МаршрутнаяКарта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b6efbf5-fb62-4769-b434-9a7c73963885">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fb6d572c-ef69-4530-afbf-5145623fc7cd">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4918fbaf-4245-4326-a0e6-d6c739c7977e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="01e950de-4713-4c14-92ff-6b8cccfc0cdd">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

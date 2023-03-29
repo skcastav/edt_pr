@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e3e6688-b8ed-42bc-8916-9d0cf617c3b4">
+  <producedTypes>
+    <refType typeId="24ac59ef-9847-4c82-8e14-f2ef46421161" valueTypeId="589d8df4-7417-47a6-8191-f3425ed86520"/>
+    <listType typeId="62fcabef-9aed-4f48-af0d-d964d0c93a06" valueTypeId="08fabd89-eb81-43d1-83a1-15f9168ee07f"/>
+    <managerType typeId="b8fa62b2-a6f4-4cc4-8e00-f379c1b5d58a" valueTypeId="6455435f-03e7-47f0-90f6-43cdd7589f91"/>
+  </producedTypes>
+  <name>ВидыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оплаты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1e496996-47e8-4f76-be93-740114974b13">
+    <name>Предоплата100</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата 100%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b238536e-3b1c-4391-9fb9-04694bfd6cc6">
+    <name>Постоплата100</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоплата 100%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81439893-7279-406f-b5fa-af0391e38488">
+    <name>ЧастичнаяОплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичная оплата</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

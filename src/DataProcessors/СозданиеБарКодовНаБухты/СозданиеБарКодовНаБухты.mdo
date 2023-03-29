@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc1f3c83-52c0-4c56-83b4-d1ae87473e9b">
+  <producedTypes>
+    <objectType typeId="82f585b9-b456-45da-b458-2af49e17e081" valueTypeId="1b0fe0e8-2dcd-431e-a015-749cea54e605"/>
+    <managerType typeId="6b49e224-1b8a-4f4e-880c-1f8cd2ee3cef" valueTypeId="1760486f-5af6-4096-b8b2-11d2a9b95f3d"/>
+  </producedTypes>
+  <name>СозданиеБарКодовНаБухты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание бар-кодов на бухты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеБарКодовНаБухты.Form.Форма</defaultForm>
+  <attributes uuid="584fab4b-9d80-4468-94c0-c94e8012b320">
+    <name>ПоступлениеМПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление МПЗ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПоступлениеМПЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b0075389-0752-4a1d-96c2-950619bc289e">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="866e84af-9b9a-414e-93d7-e60c42ffab5c">
+    <name>ГруппаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="18314f91-4aaa-4a1c-a529-0e706a19e859">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

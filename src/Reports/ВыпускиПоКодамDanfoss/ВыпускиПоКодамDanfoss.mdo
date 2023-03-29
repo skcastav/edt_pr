@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca4d4534-cd3e-47db-a88c-f6179a8d00b0">
+  <producedTypes>
+    <objectType typeId="e9f2e385-a0ee-4ef6-ac11-38c8f104c94e" valueTypeId="d153fb67-60f8-45ca-ad75-95fc692622fd"/>
+    <managerType typeId="549320c6-70f4-4142-8dce-d5974213b8fe" valueTypeId="52c1ba78-65de-4479-8ce6-ea64ef26f3fd"/>
+  </producedTypes>
+  <name>ВыпускиПоКодамDanfoss</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуски по кодам Danfoss</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВыпускиПоКодамDanfoss.Form.ФормаОтчета</defaultForm>
+  <forms uuid="f2f9c689-4897-4293-905d-f18c07ac8f62">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e465b82e-6645-44d8-b279-950a7e0de694">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

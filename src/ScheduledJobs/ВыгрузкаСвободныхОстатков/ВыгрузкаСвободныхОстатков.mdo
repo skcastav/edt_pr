@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25881b34-f716-4c7b-a4e4-33fd8421de16">
+  <name>ВыгрузкаСвободныхОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка свободных остатков</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ВыгрузкаСвободныхОстатков</methodName>
+  <description>Выгрузка свободных остатков</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

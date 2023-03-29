@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ed5b539-a3ad-4a41-a984-0a2d2c052e3e">
+  <name>Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Зарплата</picture>
+  </picture>
+  <content>Report.ОтчетПоВыпущеннымПолуфабрикатам</content>
+  <content>CommonPicture.Зарплата</content>
+  <content>Report.ОтчетПоВыработкеНаРабочемМесте</content>
+  <content>Report.ВыпускПродукцииКанбанПоПериодам</content>
+  <content>Report.ОтчетПоПроизводственнымЗаданиямРемонтника</content>
+  <content>DataProcessor.ЗагрузкаНормSMD</content>
+  <content>Report.ОтчетПоНормамSMD</content>
+  <content>DataProcessor.ДополнительныеРаботы</content>
+  <content>Report.ОтчетПоНормамПриборов</content>
+  <content>Report.ОтчетПоНормамКанбанов</content>
+  <content>DataProcessor.ЗагрузкаНормКанбановИПриборов</content>
+  <content>Report.ОтчетПоНормированиюКанбанов</content>
+  <content>Report.ОтчетПоНормированиюПриборов</content>
+  <content>Report.ОтчетПоНормамДатчиков</content>
+  <content>Report.ОтчетПоНормированиюДатчиков</content>
+  <content>Report.ОтчетПоНормированиюКанбановДатчиков</content>
+  <content>Report.ОтчетПоНормированиюКанбановДатчиковПоИсполнителям</content>
+  <content>DataProcessor.ПроверкаТОВПЗ</content>
+  <content>Report.ОтчетПоНормированиюКанбановУТП</content>
+  <content>DataProcessor.ЗагрузкаНормКанбановУТП</content>
+  <content>Report.ОтчетПоНормированиюSMD</content>
+  <content>DataProcessor.ЗагрузкаВидовРабот</content>
+  <content>Report.ОтчетПоНормированиюУДПоВидамРабот</content>
+  <content>Report.ОтчетПоНормированиюКанбановУДПоВидамРабот</content>
+  <content>Report.ОтчетПоНормированиюSMDПоЛинейкам</content>
+  <content>Report.ОтчетПоНормамSMDПоЛинейкам</content>
+  <content>Report.ОтчётПоИндивидуальнымНарядам</content>
+  <content>Report.ОтчётПоИндивидуальнымСделкам</content>
+  <content>Report.ОтчётПоБригаднымСделкам</content>
+  <content>Report.ОтчётПоНормированиюМО</content>
+  <content>Report.ОтчетПоНормированиюУЛИШИ</content>
+  <content>Report.ОтчётПоНормированиюУДПоРабочимМестам</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+</mdclass:Subsystem>

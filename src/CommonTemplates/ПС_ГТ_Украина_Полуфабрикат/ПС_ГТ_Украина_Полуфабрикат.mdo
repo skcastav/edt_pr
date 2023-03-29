@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2841e3ef-419d-4b7c-a88f-5b1e8ec0d718">
+  <name>ПС_ГТ_Украина_Полуфабрикат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паспорт и ГТ на полуфабрикат Украина</value>
+  </synonym>
+</mdclass:CommonTemplate>

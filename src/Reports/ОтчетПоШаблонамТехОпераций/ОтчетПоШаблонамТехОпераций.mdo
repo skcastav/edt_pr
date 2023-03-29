@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="775ac214-b03d-4c82-8229-ecbdbf6d0582">
+  <producedTypes>
+    <objectType typeId="a827d7d1-75fc-4721-b5db-ebd9264c78d8" valueTypeId="bb430aff-cdcd-4178-9257-65ac3186bb39"/>
+    <managerType typeId="9f560e01-f94f-40b7-aa0a-225ad45c8e06" valueTypeId="2dd0f22f-221f-4e87-96b6-857fb391507d"/>
+  </producedTypes>
+  <name>ОтчетПоШаблонамТехОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по шаблонам тех. операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоШаблонамТехОпераций.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="38c5a531-b04b-4d9c-9377-8c1af98a26b4">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ebbcb2a-a96f-443d-975a-4ebd01cf7fef">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="400d7a11-5800-4eb1-a9c9-9fba3ef25f0e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e6395949-5d76-4a35-ba57-01b28155b2f7">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

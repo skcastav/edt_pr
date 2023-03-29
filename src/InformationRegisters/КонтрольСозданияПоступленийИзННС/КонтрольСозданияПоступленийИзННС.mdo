@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="505d604c-2bb7-4b5e-b690-c046f4058cab">
+  <producedTypes>
+    <selectionType typeId="bfe09e09-a93b-493e-a586-514e56718407" valueTypeId="074618c2-2eef-4e17-96bd-a4879f7ac437"/>
+    <listType typeId="7a257f4c-1816-480f-966e-8ad21473e040" valueTypeId="f189ab15-007f-4f8e-95cd-b8e726f5ecac"/>
+    <managerType typeId="a589f50d-f0c7-49d6-ad99-86b228b24069" valueTypeId="4f5ee370-a5d7-4970-9e96-19988221f43b"/>
+    <recordSetType typeId="324721d3-6ccd-4278-94a0-07460c1a7f2b" valueTypeId="d459ff4e-2bf7-4405-b0b6-0a14977943d7"/>
+    <recordKeyType typeId="149acd97-84b5-438a-827b-50c9e59814e5" valueTypeId="3fd28e13-4d46-47f7-b79f-6abdce7b95d9"/>
+    <recordType typeId="a34578c3-128d-4201-b8db-ce5b1cc82061" valueTypeId="89dde803-dd39-4cd5-9268-6ccd9ac5981e"/>
+    <recordManagerType typeId="9a8c6090-1a36-41dc-8b5c-59f0a3623f97" valueTypeId="b978a2d8-c940-4c48-a9c4-e0441732b2b5"/>
+  </producedTypes>
+  <name>КонтрольСозданияПоступленийИзННС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль создания поступлений из ННС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e15984c2-104c-4bf3-96b9-dff2f01cc3d7">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="504054dc-0424-48fa-9714-509ea1fe321c">
+    <name>ННС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ННС</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.НакладнаяНаСборку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

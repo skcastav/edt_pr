@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41fd0768-0528-4e2d-b0a8-9c1609ac7a61">
+  <producedTypes>
+    <objectType typeId="589753aa-e7f1-4737-bc0c-14c4a9e825c8" valueTypeId="a92f6692-16c8-4a84-8f8e-d5e2f46e3b26"/>
+    <managerType typeId="fc789299-e471-47ef-9421-5864cd294abf" valueTypeId="ae66d175-0f76-4ea1-b545-616dd23acf91"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_Мастер</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Мастер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_Мастер.Form.Форма</defaultForm>
+  <attributes uuid="117abc65-b864-4b62-b042-14359d28e3c8">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eca6d08e-e6cf-4138-8007-8b2e842e98d2">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c5bcb915-c3f7-476a-b60e-067c9a2db2f9">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1dd74be9-5cfe-4db8-9199-63e0eac06e7c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

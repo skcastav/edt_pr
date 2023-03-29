@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80a36665-135f-4c2c-9394-479794264382">
+  <producedTypes>
+    <objectType typeId="9581ca5c-95c5-4ae0-819e-566ce58622e4" valueTypeId="332c9e35-0bfd-40dd-ab45-4fa5fed44fee"/>
+    <managerType typeId="8d32993a-af08-4b2b-bee5-f7db57c9f20e" valueTypeId="db0a27a8-bed5-4c01-96ae-0b37a3b911ea"/>
+  </producedTypes>
+  <name>ОтчетПоВыпущеннымПолуфабрикатам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по выпущенным полуфабрикатам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоВыпущеннымПолуфабрикатам.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="c57daf2b-989c-46a6-8328-d2dbef10b3eb">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="d2bb29df-4ca4-4770-892a-d8001eedf611">
+    <producedTypes>
+      <objectType typeId="86b3636a-f69e-41fc-9dfc-75a05162656e" valueTypeId="8fcbe5de-b4f3-48b8-b46f-d199ce7d9813"/>
+      <rowType typeId="9b15c998-d8a4-4df8-9442-bf4568447375" valueTypeId="ed83d5fe-6ea5-495f-85f7-76e127e9ba6d"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2d76fce3-69ce-46fc-a254-e66fcd0419f6">
+      <name>ГруппаСпецификаций</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа спецификаций</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="422a03f7-70f0-463c-af75-e0df03396568">
+      <name>ПФ</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПФ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="39ed6956-0a6d-441f-be71-8490128f3d61">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d290a787-c29f-46ec-9066-9b124ce81048">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1ffcfc5a-ab48-4950-b86c-dd2ffefec086">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

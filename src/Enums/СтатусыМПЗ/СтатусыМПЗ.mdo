@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="850185b3-43ed-40ed-b3f2-cc0778d164c5">
+  <producedTypes>
+    <refType typeId="419f80fa-4c3b-4184-9918-19d802f58883" valueTypeId="c29633f7-5719-47d9-9f99-86ad5a97ee8b"/>
+    <listType typeId="a7d4544f-e675-4ba0-8741-cdb6dea434cc" valueTypeId="4cdf4a40-d4d7-48e7-a3c4-922bab65b88a"/>
+    <managerType typeId="0f4ad040-1478-45e5-9bee-f58722909bdc" valueTypeId="187fc271-82a5-40e1-8cd3-6fdb2f6e0fc3"/>
+  </producedTypes>
+  <name>СтатусыМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы МПЗ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9dcbe72f-5f17-4d07-9379-a2d1d1d54928">
+    <name>Основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>V</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fd78041-e53b-481a-906d-3efa216d9539">
+    <name>ОНР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОНР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="999618fa-ea3f-429b-9b69-48547c8b9533">
+    <name>ДоИсчерпанияЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВРМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bb1c31a-07cb-4999-8b13-a555972b9335">
+    <name>Аналог</name>
+    <synonym>
+      <key>ru</key>
+      <value>АН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3a7c5b0-c85f-4a12-9c21-747092788523">
+    <name>Неликвид</name>
+    <synonym>
+      <key>ru</key>
+      <value>?</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c9fcb3e-f1d9-45ee-bdf6-c42a9c7c59c9">
+    <name>ПроблеммыЛогистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbc300b2-913e-4e76-8654-cf5d15999e87">
+    <name>Запрещённая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Х</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

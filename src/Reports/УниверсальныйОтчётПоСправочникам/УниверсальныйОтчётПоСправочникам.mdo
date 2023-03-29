@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e0b583d-5437-4ca2-9165-d2320f6be40f">
+  <producedTypes>
+    <objectType typeId="c11680df-bd4b-4f19-a521-a5cb86c2df4a" valueTypeId="1baeb3f0-14e4-4c0f-9791-c38d006b828c"/>
+    <managerType typeId="607521e2-985d-422d-a9ad-d03d43188710" valueTypeId="48701bfe-b925-4a3e-94cd-2593a07bdc1f"/>
+  </producedTypes>
+  <name>УниверсальныйОтчётПоСправочникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный отчёт по справочникам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.УниверсальныйОтчётПоСправочникам.Form.ФормаОтчета</defaultForm>
+  <forms uuid="3d39a03f-14d9-498f-acd5-b2e9b30d4a8a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5ff0e501-7f7b-49c1-b1f7-4b065b8fd283">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

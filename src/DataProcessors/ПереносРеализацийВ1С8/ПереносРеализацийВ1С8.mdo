@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66bdb333-df1b-4df3-9d06-d93e440ce8ae">
+  <producedTypes>
+    <objectType typeId="97cf456e-ffab-437e-8d9a-ca8bcf16c0a6" valueTypeId="36760e45-fe5a-4921-b54d-13d8d5bd1d8c"/>
+    <managerType typeId="81948428-869c-4918-ab70-ed7384c9cca5" valueTypeId="3ad98a1e-c86b-496b-9a91-eafdbeda1837"/>
+  </producedTypes>
+  <name>ПереносРеализацийВ1С8</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос реализаций в 1С8</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносРеализацийВ1С8.Form.Форма</defaultForm>
+  <attributes uuid="4ee20535-652a-4922-8e43-3b986a539ecb">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="41dc6e6b-821a-4939-93fc-ef2ebd69d6fc">
+    <name>ОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбменДанными</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f7d5eae8-fad7-4603-b848-a783f1d64564">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

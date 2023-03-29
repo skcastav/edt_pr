@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8667671-c5c2-4eaf-bbe3-59714cfa91ed">
+  <name>ПЭОХарьков</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПЭО Харьков</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55fe5454-4077-4ad2-8d99-291084f96663">
+  <producedTypes>
+    <objectType typeId="9ddad4f6-4ea5-45f8-95a7-3a727e527409" valueTypeId="2f63c2bf-bf12-4e23-a19c-d2cf54bcb9f9"/>
+    <managerType typeId="10c938c8-d411-4065-80eb-d73a9243b5be" valueTypeId="da4b712c-b2bc-450d-94f2-1e7eb6280509"/>
+  </producedTypes>
+  <name>ГрупповаяОбработкаСтационарныхПитателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая обработка стационарных питателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповаяОбработкаСтационарныхПитателей.Form.Форма</defaultForm>
+  <forms uuid="90272736-5cc8-4d50-a4a4-be57870bfd9a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

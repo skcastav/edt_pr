@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="852364ca-5b8d-45c1-96aa-5dd35e0ee839">
+  <name>ЭтикеткаНаУпаковку_101х57Р_Akytec</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетка на упаковку 101х57 Akytec Zebra</value>
+  </synonym>
+</mdclass:CommonTemplate>

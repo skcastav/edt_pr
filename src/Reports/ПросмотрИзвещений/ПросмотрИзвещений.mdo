@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49d9280a-a78f-486e-81a1-b5b4e3f35b27">
+  <producedTypes>
+    <objectType typeId="e49b3681-fb26-4e55-9ecc-444a6bf57ae2" valueTypeId="e1cd0d04-23c2-4ee7-b5ed-53cc7b85f7cf"/>
+    <managerType typeId="7356c676-c715-4ecf-8ca6-d5b03100d17f" valueTypeId="456f927c-621e-4a45-a982-e78c80dde1dc"/>
+  </producedTypes>
+  <name>ПросмотрИзвещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр извещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПросмотрИзвещений.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="27aa996c-55a0-4b9e-906a-e38be1a23cb2">
+    <name>ВсяСпецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вся спецификация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0e19cabc-4b33-4b10-ac51-67b8086bbdce">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="11e30c43-25de-4c37-a635-6bba83a7aaa4">
+    <name>Извещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Извещения</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

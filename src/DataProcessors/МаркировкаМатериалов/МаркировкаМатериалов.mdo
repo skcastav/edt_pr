@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98a944b7-4b37-454c-9a1f-f2ffc5017126">
+  <producedTypes>
+    <objectType typeId="89be5162-a793-46ed-a315-7eeb04a8d94b" valueTypeId="495a452a-ed9d-44b9-baa8-4c3ba5615868"/>
+    <managerType typeId="ba799697-63fb-4d2b-8d73-cdbf4be60400" valueTypeId="9da38e12-e72b-476d-a410-6ca83bbd4b66"/>
+  </producedTypes>
+  <name>МаркировкаМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркировка материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МаркировкаМатериалов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="e388c2f7-b927-4764-901b-b0a66c9199ed">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

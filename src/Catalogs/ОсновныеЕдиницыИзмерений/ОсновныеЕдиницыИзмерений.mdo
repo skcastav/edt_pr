@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06d928a0-5fb1-4ab9-80fa-5621d2a6a9ef">
+  <producedTypes>
+    <objectType typeId="b4183e8c-8df9-4e88-90eb-95900965e28c" valueTypeId="ab5abd87-65e4-4b66-a0f0-f5f126eee250"/>
+    <refType typeId="a683a503-aecb-4735-9430-c5f8ae19934f" valueTypeId="d72c399f-1d01-4c8e-8fbe-14bd3b7de602"/>
+    <selectionType typeId="554433fc-58c8-403e-89b1-4e9c4ce42017" valueTypeId="8ff56821-2b21-44e3-9d13-da31d749b56d"/>
+    <listType typeId="b265d35d-fdb3-460b-9ec0-9f4aab2e75cb" valueTypeId="dc523457-7ccc-4a30-bded-57f3b56a1ed5"/>
+    <managerType typeId="6e01088c-3b96-46ef-a15d-6594a30bf859" valueTypeId="4d9a7c83-46a6-494a-a36c-a348c1238e20"/>
+  </producedTypes>
+  <name>ОсновныеЕдиницыИзмерений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные единицы измерений</value>
+  </synonym>
+  <comment>Основные единицы измерений</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОсновныеЕдиницыИзмерений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОсновныеЕдиницыИзмерений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Материалы</owners>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ОсновныеЕдиницыИзмерений.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="3288a1ca-d764-4e38-9d87-08feae007766">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f418530e-8fc5-4454-9d69-35383b22889a">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <comment>Коэффициент пересчета количества</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d35a4fa5-19e0-4e47-bdbb-8ad9597a89d3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

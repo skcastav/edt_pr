@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8e29128-964a-4cdc-a3b5-d6cd08a76d60">
+  <producedTypes>
+    <objectType typeId="6e5e4e17-6457-4d47-9330-e28d65f79819" valueTypeId="3dfae68a-3cd7-4b3e-aac0-9611917f531d"/>
+    <managerType typeId="01ba74c2-c8ff-4211-b287-8bd0b3809656" valueTypeId="7f5435ac-1f90-42ba-9db5-337f84d87310"/>
+  </producedTypes>
+  <name>КалькуляторТНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калькулятор ТНП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КалькуляторТНП.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="194ae1f8-4507-47e4-b344-f6500d120d37">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6f96d190-8e6d-4be0-8485-01b1ee7c3179">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

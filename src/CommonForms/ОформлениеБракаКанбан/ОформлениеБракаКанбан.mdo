@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2ee2d5f-3e05-4070-b20c-a0063012ac66">
+  <name>ОформлениеБракаКанбан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление брака канбан</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

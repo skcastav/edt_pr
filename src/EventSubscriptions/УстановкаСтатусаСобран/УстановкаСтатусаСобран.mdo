@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63eaa267-eb0f-4a9c-8dfb-5e0a60f11e3d">
+  <name>УстановкаСтатусаСобран</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка статуса собран</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.СтатусыНакладныхНаСборку</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СРМ_ОбменВебСервис.УстановкаСтатусаСобранПриЗаписи</handler>
+</mdclass:EventSubscription>

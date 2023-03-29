@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66ef2bc7-d923-4eb1-9703-e57e0a0c1f8a">
+  <producedTypes>
+    <objectType typeId="f58f5021-0591-4797-a674-12c91be322f6" valueTypeId="2e1abd1a-f888-4d5c-997d-528ec579ef1b"/>
+    <managerType typeId="da8a32bd-84c0-460e-9364-a67cc5968511" valueTypeId="5e692e65-e879-4829-a0fb-78b60f58eb96"/>
+  </producedTypes>
+  <name>ПечатьКарточекНомеровВозвратнойТары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать карточек номеров возвратной тары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПечатьКарточекНомеровВозвратнойТары.Form.ФормаОтчета</defaultForm>
+  <forms uuid="78272d75-2016-4eed-899b-64f224f8c7c5">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6a6d5ff7-8f46-4640-bb33-351a2d196bbb">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

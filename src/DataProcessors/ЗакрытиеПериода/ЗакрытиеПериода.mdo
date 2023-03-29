@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb4e646c-ca0c-483e-a7fd-9187d8ec3a57">
+  <producedTypes>
+    <objectType typeId="2a45acbc-0dfb-4de6-b09f-44accb5e2b07" valueTypeId="e0e61fa2-13da-4438-89c6-221147ba7d1b"/>
+    <managerType typeId="7b9335b1-cc6c-48e9-bc93-f4f5025631d9" valueTypeId="4da7e397-ffde-4b94-b877-a8917d1d8822"/>
+  </producedTypes>
+  <name>ЗакрытиеПериода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие периода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗакрытиеПериода.Form.Форма</defaultForm>
+  <attributes uuid="e56d8010-6592-4508-9211-a42d9312791a">
+    <name>ДатаОкончанияПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="384a125d-85c6-4c46-a7e6-7d29b8631e5a">
+    <name>ДокументыПереноса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы переноса</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="73e5a6ed-a563-42fe-9f0c-242e967b7f43">
+    <name>ОставляемыеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оставляемые документы</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bccded33-6938-448d-a039-f639675c4343">
+    <name>МаксКолСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макс кол строк</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4dcfd99c-220a-4da8-bafa-204bab6a18c7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

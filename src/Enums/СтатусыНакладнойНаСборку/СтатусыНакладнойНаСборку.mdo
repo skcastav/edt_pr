@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19f3a52c-8c3f-47e5-bf53-e35f31959a60">
+  <producedTypes>
+    <refType typeId="18ce1add-e1b2-4d73-96ec-4ed90f7305c8" valueTypeId="e827406c-62be-429a-aa7a-224d474286ba"/>
+    <listType typeId="210b14fc-a92f-4924-8086-e3856b615a21" valueTypeId="1efb7931-9be5-4929-9654-bcf40b6fd230"/>
+    <managerType typeId="5391a905-a232-40e0-83f0-4aef363f8964" valueTypeId="16f66fc5-1d0e-4a35-91b7-361ccf5789e8"/>
+  </producedTypes>
+  <name>СтатусыНакладнойНаСборку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы накладной на сборку</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e65a9ad-38cf-475d-a7bb-6b5605e6171d">
+    <name>Создан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="51475949-99ef-4f25-a749-ac98a8dad682">
+    <name>НаСборке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На сборке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2841656e-59f7-42ab-acce-dbfe49dbde87">
+    <name>Собран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собран</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="306336fd-47d0-4ddf-970c-5947bae184bc">
+    <name>НаУпаковке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На упаковке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41bd5f50-8874-4b52-8adc-0a9ec6043b3a">
+    <name>Упакован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упакован</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

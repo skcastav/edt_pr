@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c617def-2624-40f7-ac5f-f7923a2a1fe6">
+  <producedTypes>
+    <objectType typeId="3e54f56e-0c55-42a8-9bc6-199ee1213e19" valueTypeId="e63fee58-72a1-4845-90f8-af4fa75b6f6b"/>
+    <refType typeId="4f1ff14e-3a3e-4e41-bc45-71e363f81ec0" valueTypeId="f1a86a1f-4dc3-4ed7-a303-e90ac18e7cbc"/>
+    <selectionType typeId="76773ecc-5114-445d-abc3-a529af14204c" valueTypeId="14959535-52b6-4d53-9f52-7b9591eb7ad2"/>
+    <listType typeId="721a14b0-b171-4c15-8344-b8e8132f2791" valueTypeId="58f354d3-b01a-41c5-8b28-3f369e74ac8d"/>
+    <managerType typeId="6dc15dd2-f91b-4599-b8ae-ccaea9b35e10" valueTypeId="7a47c9c0-d1b0-4de2-872a-b1fbcb16f110"/>
+  </producedTypes>
+  <name>СписаниеМПЗПрочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание МПЗ (прочее)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СписаниеМПЗПрочее.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Document.ИнвентаризацияМПЗ</basedOn>
+  <basedOn>Document.ДвижениеМПЗ</basedOn>
+  <basedOn>Document.ПоступлениеМПЗ</basedOn>
+  <basedOn>Document.Перепрогон</basedOn>
+  <basedOn>Document.ЗаявкаОтПокупателя</basedOn>
+  <basedOn>Document.ЗаказНаПроизводство</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Списания МПЗ (прочие)</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СписаниеМПЗПрочее.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.СписаниеМПЗПрочее.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.ГТД</registerRecords>
+  <registerRecords>AccumulationRegister.МестаХранения</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаказыНаПроизводство</registerRecords>
+  <registerRecords>AccumulationRegister.РезервированиеГП</registerRecords>
+  <registerRecords>AccumulationRegister.БракПроизводства</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаявкиОтПокупателей</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3d86b83c-8931-4064-9870-f6c5dce0aba1">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ДвижениеМПЗ</types>
+      <types>DocumentRef.ПоступлениеНаЛинейку</types>
+      <types>DocumentRef.Разукомплектовка</types>
+      <types>DocumentRef.Перепрогон</types>
+      <types>DocumentRef.ВыпускПродукции</types>
+      <types>DocumentRef.РемонтнаяКарта</types>
+      <types>DocumentRef.ИнвентаризацияМПЗ</types>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+      <types>DocumentRef.ПоступлениеМПЗПрочее</types>
+      <types>DocumentRef.ВыпускПродукцииКанбан</types>
+      <types>DocumentRef.ПоступлениеМПЗ</types>
+      <types>DocumentRef.ЗаявкаОтПокупателя</types>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4305626-f95e-4bcb-915d-864deb93518e">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53e77897-231f-4c83-a50b-fa488093fabb">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиПоступленийСписанийПрочих</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbc34f58-3ed5-462f-a9e4-a32a1750ecc6">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="597d2896-9c40-40b6-9fef-9bf00b8a5641">
+    <name>ВидБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид брака</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНеисправностей</types>
+      <types>CatalogRef.ВидыБрака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1142e990-2795-4380-866d-e4084bd1166a">
+    <name>ЭтапЖизненногоЦикла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап жизненного цикла</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭтапыЖизненногоЦикла</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62595db0-8644-4e06-a162-cbe2a2004b3d">
+    <name>Утвердил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвердил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0863cf3f-c545-4d26-a24f-c80f47b837b4">
+    <name>Выгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="11811aa5-a653-4784-99ee-ce0479e170db">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dcc2a190-ad35-4d5a-be33-a6c40183bb3e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="15206add-6409-43bb-9b84-14e76f64b4ad">
+    <producedTypes>
+      <objectType typeId="ccba6acd-2f9e-4e8c-9db7-2a831834bfe8" valueTypeId="3f1ffbfb-ca24-48d6-beb3-3c09e5fbc6d5"/>
+      <rowType typeId="43cf4264-b35b-4756-8b51-ff09aad808de" valueTypeId="ee3982af-b072-4e87-b634-dbab83803509"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="db2939b5-b3d6-40c4-9847-226a88a7a82c">
+      <name>ВидМПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид МПЗ</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыМПЗ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="124038a9-3bb8-428b-88a3-c485fb661df0">
+      <name>МПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="46de28f6-a1b6-443f-9387-149538ca3c82">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="8300c9d6-26a7-4e90-a8bb-e2e1e94b243c">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОсновныеЕдиницыИзмерений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.СписаниеМПЗПрочее.TabularSection.ТабличнаяЧасть.Attribute.МПЗ</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <templates uuid="d52a2601-e8fc-4877-90b8-4ef32cbe9c38">
+    <name>АктОБракеНаПроизводстве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о браке на производстве</value>
+    </synonym>
+  </templates>
+  <templates uuid="5f8dcc3f-eeab-42e3-80ce-4cca73df3b2b">
+    <name>АктОСписании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о списании</value>
+    </synonym>
+  </templates>
+  <templates uuid="8be36aeb-1683-47e1-8151-a241c9cacb77">
+    <name>АктОСписанииПоСтатьеЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о списании по статье затрат</value>
+    </synonym>
+  </templates>
+  <templates uuid="166965a9-9690-446c-ac61-9cc0d5716f0f">
+    <name>РасходнаяНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходная накладная</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

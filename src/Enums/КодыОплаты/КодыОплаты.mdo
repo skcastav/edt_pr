@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="797ebcab-7eff-4ca5-bbc9-e1ccd1441c86">
+  <producedTypes>
+    <refType typeId="083a9364-45cf-4bc5-af10-6bbbe2e7414c" valueTypeId="658f86b8-5e48-4d2c-9984-fa915180d7e7"/>
+    <listType typeId="3fd3750c-3f0b-42b5-a0de-cf38305df717" valueTypeId="3fd8bc99-a724-42cd-a9ef-682aaf76e1b8"/>
+    <managerType typeId="fd6bdc84-dc48-44ba-8152-72aa22d81723" valueTypeId="e2e3fc80-30c9-4d86-a441-ef42619b0c9e"/>
+  </producedTypes>
+  <name>КодыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды оплаты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dd3d296e-deba-43d0-9b2e-dfd8710d4b92">
+    <name>БезналСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безнал-счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="830ce862-56e1-48cd-b2c7-f04f0b7f880e">
+    <name>ПлатятСами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платят сами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e35f2c1-9f0a-4c5a-8e0d-aa96b25bb81d">
+    <name>Предоплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b567cad-99bb-41f4-b67f-c5a0dd9c5e60">
+    <name>Безготівковий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безготівковий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4081f691-42b8-4b3d-9ee1-1bfbb87798ec">
+    <name>Готівка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готівка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

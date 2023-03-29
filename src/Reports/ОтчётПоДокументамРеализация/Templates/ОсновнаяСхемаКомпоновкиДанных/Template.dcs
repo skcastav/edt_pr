@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерУПД</dataPath>
+			<field>НомерУПД</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоХранения</dataPath>
+			<field>МестоХранения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Цена</dataPath>
+			<field>ТабличнаяЧасть.Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Коэфф</dataPath>
+			<field>Коэфф</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеПолучатель</dataPath>
+			<field>ПодразделениеПолучатель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеУчитыватьГТД</dataPath>
+			<field>НеУчитыватьГТД</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Ссылка</dataPath>
+			<field>ТабличнаяЧасть.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.НомерСтроки</dataPath>
+			<field>ТабличнаяЧасть.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.ВидТовара</dataPath>
+			<field>ТабличнаяЧасть.ВидТовара</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Товар</dataPath>
+			<field>ТабличнаяЧасть.Товар</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Количество</dataPath>
+			<field>ТабличнаяЧасть.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Всего</dataPath>
+			<field>ТабличнаяЧасть.Всего</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.СтавкаНДС</dataPath>
+			<field>ТабличнаяЧасть.СтавкаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.ЕдиницаИзмерения</dataPath>
+			<field>ТабличнаяЧасть.ЕдиницаИзмерения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Сумма</dataPath>
+			<field>ТабличнаяЧасть.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>ТабличнаяЧасть</dataPath>
+			<field>ТабличнаяЧасть</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.НДС</dataPath>
+			<field>ТабличнаяЧасть.НДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоговорВалюта</dataPath>
+			<field>ДоговорВалюта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проведен</dataPath>
+			<field>Проведен</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Реализация.Ссылка КАК Ссылка,
+	Реализация.Номер КАК Номер,
+	Реализация.Дата КАК Дата,
+	Реализация.Договор КАК Договор,
+	Реализация.ДокументОснование КАК ДокументОснование,
+	Реализация.Контрагент КАК Контрагент,
+	Реализация.Коэфф КАК Коэфф,
+	Реализация.МестоХранения КАК МестоХранения,
+	Реализация.НомерУПД КАК НомерУПД,
+	Реализация.ПодразделениеПолучатель КАК ПодразделениеПолучатель,
+	Реализация.НеУчитыватьГТД КАК НеУчитыватьГТД,
+	Реализация.Подразделение КАК Подразделение,
+	Реализация.Автор КАК Автор,
+	Реализация.Комментарий КАК Комментарий,
+	Реализация.ТабличнаяЧасть.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ВидТовара КАК ВидТовара,
+		Товар КАК Товар,
+		Количество КАК Количество,
+		ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+		Цена КАК Цена,
+		Сумма КАК Сумма,
+		СтавкаНДС КАК СтавкаНДС,
+		НДС КАК НДС,
+		Всего КАК Всего
+	) КАК ТабличнаяЧасть,
+	Реализация.Договор.Валюта КАК ДоговорВалюта,
+	Реализация.Проведен КАК Проведен
+ИЗ
+	Документ.Реализация КАК Реализация
+ГДЕ
+	Реализация.Дата МЕЖДУ &amp;ДатаНач И &amp;ДатаКон</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ТабличнаяЧасть.Всего</dataPath>
+		<expression>Сумма(ТабличнаяЧасть.Всего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТабличнаяЧасть.Сумма</dataPath>
+		<expression>Сумма(ТабличнаяЧасть.Сумма)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТабличнаяЧасть.НДС</dataPath>
+		<expression>Сумма(ТабличнаяЧасть.НДС)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаКон</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата кон</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаНач</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата нач</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>СтандартныйПериод</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Стандартный период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДоговорВалюта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.Сумма</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.НДС</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоХранения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>b37f89ed-a003-4742-ad08-998d4b478714</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Проведен</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>89b8de35-b118-4ed4-a484-4a7edd4c7448</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>СтандартныйПериод</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>2a2ae3b6-6cd6-467d-98dd-d2c4c7f6b776</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Дата</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Номер</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>c0b2b712-71f2-4843-8f5d-750b2e6dbac9</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

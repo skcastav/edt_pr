@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aee474a8-6254-4d3a-8276-a01f616e371d">
+  <producedTypes>
+    <objectType typeId="54ca1466-9b51-4545-b518-78da2119c99e" valueTypeId="000096ce-df53-4bc5-9417-d6424c52eb20"/>
+    <managerType typeId="e1adb094-06ee-4716-a800-3d3a443ac9fa" valueTypeId="5fd9d24e-532a-4a87-8134-d42bbcd57e57"/>
+  </producedTypes>
+  <name>СозданиеПеремещенийНестандартныхПолуфабрикатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание перемещений нестандартных полуфабрикатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеПеремещенийНестандартныхПолуфабрикатов.Form.Форма</defaultForm>
+  <forms uuid="60e7c7f6-587d-4fbf-9e59-f453966d1611">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

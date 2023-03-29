@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99bc4c49-5f19-4d52-bb95-fc6af135e262">
+  <name>ТОРГ13_132</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТОРГ-13</value>
+  </synonym>
+  <comment>Накладная на внутреннее перемещение, передачу товаров, тары (унифицированная форма № ТОРГ-13)</comment>
+</mdclass:CommonTemplate>

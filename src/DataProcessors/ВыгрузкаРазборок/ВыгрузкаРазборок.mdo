@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cf8ffc6-7114-43a0-bcfb-504e2089c293">
+  <producedTypes>
+    <objectType typeId="bf1783bb-23a0-4a72-b8ef-0360afceaccf" valueTypeId="4488a00d-67d0-46fa-adfe-fb9b24409a85"/>
+    <managerType typeId="e9913616-1874-4453-bd55-60767c6dfa06" valueTypeId="3b03721c-9645-43c1-bf48-44157f33cdaa"/>
+  </producedTypes>
+  <name>ВыгрузкаРазборок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка документов Разборка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаРазборок.Form.Форма</defaultForm>
+  <attributes uuid="6299b039-c9f0-4217-b208-5ae86686184a">
+    <name>БазаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>База данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбменДанными</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="648e4405-e42d-4b8c-b087-334fa651de45">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6beb3844-6955-4ba0-ab19-8a78ae1a8c55">
+  <name>ОбъектыСозданныеВТранзакции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты созданные в транзакции</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+</mdclass:SessionParameter>

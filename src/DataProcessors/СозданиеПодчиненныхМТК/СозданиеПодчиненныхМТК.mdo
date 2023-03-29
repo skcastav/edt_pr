@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c34a5086-fa67-41b1-8ef5-a38ed44a179e">
+  <producedTypes>
+    <objectType typeId="c1ba2e49-c5c3-4eb8-bb18-b6f521b1a08e" valueTypeId="406a49a0-aab2-4a6a-8542-9d591544d0db"/>
+    <managerType typeId="031e2af3-fc00-4a24-9ee4-7c8ac4ef2fe5" valueTypeId="81418efc-5503-4252-aa6e-3691543b59b3"/>
+  </producedTypes>
+  <name>СозданиеПодчиненныхМТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание подчиненных МТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеПодчиненныхМТК.Form.Форма</defaultForm>
+  <attributes uuid="5120d5cb-d6f0-4e74-87d8-c6147a7c2ccc">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="ae6bb548-dbc2-4a0a-8589-3902104dda71">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="62da2e6a-9e7e-4a81-a4ca-fc6e6c1b23ff">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

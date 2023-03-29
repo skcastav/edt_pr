@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baf7205c-bbff-4dde-b4ba-8d9140b3eb1f">
+  <producedTypes>
+    <objectType typeId="cb725932-2718-48aa-ba51-3fe1cecd819d" valueTypeId="f5103d44-c58a-4800-8633-8d105e97337d"/>
+    <managerType typeId="c9eb52b4-0152-45fd-af39-e3b0b511913d" valueTypeId="3ac0b37a-f933-4e7c-8cd0-19fde5d7ba8b"/>
+  </producedTypes>
+  <name>ОтчётПоРегиструПередачиНаЛинейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по регистру передачи на линейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоРегиструПередачиНаЛинейки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ecb940e1-c650-41a2-8f1d-ac9507ffca5f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

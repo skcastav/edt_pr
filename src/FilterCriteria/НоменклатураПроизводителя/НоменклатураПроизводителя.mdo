@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e7b2bbe-3b02-4a72-9207-7318e7723dd2">
+  <producedTypes>
+    <listType typeId="3f8972b8-748f-40e9-85d3-d16a17de589b" valueTypeId="5ce2031c-50fc-40ef-bea0-82ab0061d51a"/>
+    <managerType typeId="80ca7bfa-8367-473b-b9ad-09391e49cbc3" valueTypeId="41bd323c-370c-46aa-9f2c-91d39dc44a26"/>
+  </producedTypes>
+  <name>НоменклатураПроизводителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Производители</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.Материалы.Attribute.Производитель</content>
+  <defaultForm>FilterCriterion.НоменклатураПроизводителя.Form.ФормаСписка</defaultForm>
+  <forms uuid="99569a0d-0f97-40ca-882c-de6a87a39e3f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

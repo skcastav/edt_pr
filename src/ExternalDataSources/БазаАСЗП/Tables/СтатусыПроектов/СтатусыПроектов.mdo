@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50e48e45-dfa2-4cd3-9978-3d001c010bef">
+  <producedTypes>
+    <refType typeId="e8dca6da-5546-4fbe-9a87-02466aafab1e" valueTypeId="14108128-c573-4a57-b8ab-ef2c3cfbd617"/>
+    <listType typeId="b497e4bf-d1de-43b9-981a-597e80f2280a" valueTypeId="7c5b116d-f4a9-460a-aedd-45c26d2e5ac6"/>
+    <objectType typeId="bf328c7f-71ce-48f1-9884-800fe8713076" valueTypeId="f567b7dd-02cb-4e06-bc12-b8be20e9ab21"/>
+    <managerType typeId="cfe159e8-1403-432c-9321-1b6932681bcd" valueTypeId="67ae86e9-0e75-4893-b990-3d941dfe7987"/>
+    <recordManagerType typeId="90e44667-2c34-4b2a-9b36-89be38e1d85d" valueTypeId="5aa3a2c2-0f08-4eca-9851-935f9915c1c8"/>
+    <recordSetType typeId="1fff4939-2840-4403-9d8e-27060771266e" valueTypeId="977a3c6a-895e-415f-93eb-92ecc8de11f0"/>
+    <recordType typeId="30a5151f-0072-41b6-88c5-fb330017f9aa" valueTypeId="dd33b32d-3075-434b-97d0-7f01fc5d49eb"/>
+    <recordKeyType typeId="081e8b48-f9af-4e78-8599-6672b7c00ccf" valueTypeId="9594c5c3-2a6e-41d5-8aaf-a840d69cb253"/>
+  </producedTypes>
+  <name>СтатусыПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы проектов</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.БазаАСЗП</parentDataSource>
+  <nameInDataSource>dbo._Reference11452</nameInDataSource>
+  <keyFields>ExternalDataSource.БазаАСЗП.Table.СтатусыПроектов.Field._IDRRef</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="36179ca4-c0f9-461c-ae7b-393247ae4659">
+    <name>_IDRRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_IDRRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="32eca02c-9634-49f0-a7ff-55d7d69a64cd">
+    <name>_Version</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>8</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Version</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="1ea19b29-7c87-4c43-bad7-b473e1121116">
+    <name>_Marked</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Marked</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="fbf50ec5-8a0c-4697-8efc-cd323d0fb05b">
+    <name>_IsMetadata</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_IsMetadata</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="64a3216d-4a56-4bf2-9934-6de691048bf5">
+    <name>_Code</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>_Code</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="b9871a05-2074-44cf-a812-28d5df0ac554">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Description</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="a907eaa3-f263-4d57-aea7-da43db3b7117">
+    <name>_Fld11457</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Fld11457</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

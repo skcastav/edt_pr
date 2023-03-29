@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e78c5985-c15f-4f97-969e-7b6d6efd4da4">
+  <producedTypes>
+    <objectType typeId="a49b8d5c-c1e1-486e-a3ab-2076ad98199f" valueTypeId="49b7988d-6563-46c2-9f7d-e2942a05c4ef"/>
+    <managerType typeId="a1cf9be8-6afb-4cf5-96ba-e38f0731a5fe" valueTypeId="f2647377-9ede-4c10-bcc3-32199e3e65ce"/>
+  </producedTypes>
+  <name>ОтчетПоРегиструСтатусыМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по регистру статусы МПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоРегиструСтатусыМПЗ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8bec86fd-7df4-4228-8dd1-eaa756a04158">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

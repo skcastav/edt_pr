@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bde72e0-8dcb-49c9-af8e-bd40e6abad13">
+  <producedTypes>
+    <managerType typeId="3771526b-f7c7-49bd-9426-410f94d8d9b3" valueTypeId="7d584977-f337-409d-a809-7e1255caa1d1"/>
+  </producedTypes>
+  <name>ХранилищеПрерыванийФоновыхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище прерываний фоновых заданий</value>
+  </synonym>
+</mdclass:SettingsStorage>

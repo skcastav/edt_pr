@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01db6987-1699-434a-9cb6-257871140f8d">
+  <producedTypes>
+    <objectType typeId="3d526edc-71d1-4c93-b16e-992f880769cb" valueTypeId="fede9458-cfdd-4323-acce-de1e3afa8973"/>
+    <managerType typeId="e0cd4870-cd7f-4d7f-96fe-a9241095e337" valueTypeId="75c8e50f-7b3f-436d-b4dd-fdc8154b8d1a"/>
+  </producedTypes>
+  <name>ВыгрузкаПроизводстваВ1С77Бухгалтерию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка производства в 1C7.7 Бухгалтерию (Харьков)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаПроизводстваВ1С77Бухгалтерию.Form.Форма</defaultForm>
+  <forms uuid="bff6acb1-d25f-4246-be5c-6269c871d191">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f955e465-fdff-4f06-9972-6165d3fa9e71">
+  <name>АРМыКанбанВнутренниеПоставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ-ы канбан внутренние поставщики</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

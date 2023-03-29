@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8b71221-ab86-449c-acdf-949c2bcfda8d">
+  <producedTypes>
+    <objectType typeId="97fbd0b9-8cce-4610-9059-fe9c40609e73" valueTypeId="96ea52e0-86b4-499e-8e7b-0ef771040d08"/>
+    <managerType typeId="faf71e7d-0ce5-4eb1-8025-665ee524065d" valueTypeId="378f3f8f-e165-4750-a1cb-495a387381c1"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_УправлениеСкладом</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Управление складом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_УправлениеСкладом.Form.Форма</defaultForm>
+  <forms uuid="f772f758-d06a-4688-aaa0-cb67fd837d3f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="70042d9f-cc74-4abc-902b-2360669c6d6a">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

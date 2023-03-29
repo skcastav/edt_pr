@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85483535-ebe0-4026-891a-d92d546cb491">
+  <producedTypes>
+    <objectType typeId="d1ded566-c7e3-4148-853d-dca3182e21e4" valueTypeId="6a66cf20-2cb0-478a-9ed3-8f4848e0f7fa"/>
+    <refType typeId="3322560b-75f8-428c-b1d1-023b50139fd4" valueTypeId="83b24d44-7548-4607-8d12-b98fbedfbb31"/>
+    <selectionType typeId="abae4d16-d64d-4bf2-9206-c8e2cc300670" valueTypeId="196b410c-cf3d-41db-bd2b-b1702be87177"/>
+    <listType typeId="637177bd-258e-4766-b78f-1e29d7d29eee" valueTypeId="d3d7c6eb-0ad3-48ac-a9c9-21f99b655982"/>
+    <managerType typeId="c891aa33-fd7c-4328-b74e-56d0c97393b0" valueTypeId="04462a1f-f848-4827-912a-bbd63e32d661"/>
+  </producedTypes>
+  <name>РасчетныеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РасчетныеСчета.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="536b8a1d-d41e-4af0-97f4-1a40b886164f">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер счета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5505b864-1f44-45ff-94fc-446ede50c977">
+    <name>БанкОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк организации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a3276fb-ed2a-484f-afe7-6474f618ec2b">
+    <name>БанкДляРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк для расчетов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a0eede7-e0b5-4ae1-a0a6-4e2eb4430d31">
+    <name>Корреспондент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корреспондент</value>
+    </synonym>
+    <comment>Покупатель (поставщик) в платежных документах</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c460921e-19b7-4619-8796-aa66f34f2db2">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение платежа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="aaf2a83d-30ae-4b2e-a41d-9774bac78b47">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

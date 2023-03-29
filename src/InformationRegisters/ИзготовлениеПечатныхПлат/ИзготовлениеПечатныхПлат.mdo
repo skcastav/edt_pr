@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ca11327-2752-451e-8eac-92ed5c4037ab">
+  <producedTypes>
+    <selectionType typeId="4b4bfc4a-c684-45ca-bcd8-41a98a7ab48f" valueTypeId="6fd625c4-6c25-4744-bbb7-e4985f50b375"/>
+    <listType typeId="f2a2f593-79e4-456b-8a65-0a7607578d8b" valueTypeId="008204ca-a1b8-4c5e-b8c7-37f8994f2b55"/>
+    <managerType typeId="ccd28996-a7c6-4ad8-b1c9-65f6429008eb" valueTypeId="699c8a18-8040-46ff-a202-73de5b374de6"/>
+    <recordSetType typeId="1cd56c50-37af-44cc-b0cd-0bc75e89df7a" valueTypeId="3cfac9c3-66b8-4120-ac37-d4a344295c8d"/>
+    <recordKeyType typeId="c51f96eb-e006-4f06-bc23-d79216892e6b" valueTypeId="c5b9917c-6735-4c05-9c9f-250632721724"/>
+    <recordType typeId="efaaad77-7c16-40eb-b0a1-23cf02356c58" valueTypeId="8b79a7f6-09c1-4cd0-9ea3-a735f0a5ff20"/>
+    <recordManagerType typeId="aa316c70-3d16-4022-b161-c4be6404214f" valueTypeId="7c4d6433-2ee2-48d2-b509-d8997002d464"/>
+  </producedTypes>
+  <name>ИзготовлениеПечатныхПлат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изготовление печатных плат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИзготовлениеПечатныхПлат.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ИзготовлениеПечатныхПлат.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6cb249e1-4883-4419-9fe3-db85a8f914a8">
+    <name>Действующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действующий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="57a726a6-928a-40d4-8bce-463151b6f7f5">
+    <name>МПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МПЗ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e4e550e5-e757-4422-88ff-99bd075d6c6f">
+    <name>ФайлИзготовления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл изготовления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Документация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="86a32449-af5b-46cc-89b3-cb52a647b17a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="daeda7a4-abbb-479c-9c16-d40082af4048">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

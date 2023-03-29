@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="711cc4c6-aa60-4936-ba1a-69e233f6796a">
+  <name>ВыгрузкаГотовойПродукцииТНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка готовой продукции ТНП</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ВыгрузкаГотовойПродукцииТНП</methodName>
+  <description>Выгрузка готовой продукции ТНП</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

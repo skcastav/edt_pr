@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c505f42d-d7f1-4ddc-b938-08aa03e87c75">
+  <producedTypes>
+    <selectionType typeId="36e74293-f821-4cd9-ba21-dd319e42205e" valueTypeId="f731dfce-d83a-454e-b5be-96d9ce45b0cd"/>
+    <listType typeId="dac8b81b-745d-4f92-a705-1f2442b2be56" valueTypeId="2820a287-341d-4d31-b6fe-4a9b5435992b"/>
+    <managerType typeId="802c97d2-13a7-4934-bc16-019943a35f5d" valueTypeId="90150b1d-daa5-4b1b-bd52-8673ab3fcde2"/>
+    <recordSetType typeId="9647e64c-c53a-47cd-ae48-8806ca9ebb6e" valueTypeId="6da74367-e6db-46bd-adcf-d1e2dab05e7d"/>
+    <recordKeyType typeId="b18379bd-6ba6-486c-b1c3-9c6f37d01084" valueTypeId="1bb3f5fb-ffdd-4af2-a41a-cedabdd4aa2d"/>
+    <recordType typeId="89e790b5-5743-4768-8e64-ffdd5a5d866b" valueTypeId="3a49f649-c5cf-40e1-bfcc-7e42bb2a5054"/>
+    <recordManagerType typeId="32ff0980-ac31-47f6-a4df-fabf1899ac6e" valueTypeId="8b71f41d-3d07-46b4-9eb2-e94ae243369f"/>
+  </producedTypes>
+  <name>СтатусыНакладныхНаСборку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы накладных на сборку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0d3583d5-c752-403b-8225-38ca11174210">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыНакладнойНаСборку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="33827cee-ab51-4a0d-a16c-571f53a1ef55">
+    <name>НакладнаяНаСборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная на сборку</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.НакладнаяНаСборку</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

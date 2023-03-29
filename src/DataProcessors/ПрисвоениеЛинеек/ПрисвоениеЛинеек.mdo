@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50d5f59e-7433-4e9a-8b4e-29406d297ebb">
+  <producedTypes>
+    <objectType typeId="a36fe470-ea99-43bc-b452-c376903be6f0" valueTypeId="73b0843a-50fa-4a51-bcb2-47fd25c7b929"/>
+    <managerType typeId="f4ab03e2-1fb5-4428-9866-6e4a3d822d2f" valueTypeId="687454d3-2084-41c8-80fe-6bc818c51007"/>
+  </producedTypes>
+  <name>ПрисвоениеЛинеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присвоение линеек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПрисвоениеЛинеек.Form.Форма</defaultForm>
+  <forms uuid="d96189a0-0720-4b6a-8fd0-1add5521a175">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

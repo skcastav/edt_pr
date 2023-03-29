@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3df3642b-1fed-479a-ba5b-54e638ba5f69">
+  <producedTypes>
+    <objectType typeId="8b42794d-0b01-40c2-9244-f4784494cc46" valueTypeId="57e37414-05b6-4ca4-8dcf-8aa9f381db51"/>
+    <managerType typeId="d3eea96a-6f98-4f25-92e9-5e2cf2d75503" valueTypeId="c3b67a33-b56d-41ae-b68d-38196eb4ab12"/>
+  </producedTypes>
+  <name>СравнениеОстатковСИнвентаризацией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение остатков на складе с результатами инвентаризации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СравнениеОстатковСИнвентаризацией.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="2e998808-911b-46bf-b141-1e518c994c1b">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="4e67aa83-544b-4cef-b6b5-ecaaba0e4db4">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="4adf6d47-cf04-4d1e-842a-084eafb71cff">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b9a30366-1c87-4f3d-80e7-c6e69a6bd904">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

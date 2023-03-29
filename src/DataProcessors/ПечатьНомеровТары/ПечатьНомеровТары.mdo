@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81114b9d-b5bb-47a8-8582-f0e1096dd591">
+  <producedTypes>
+    <objectType typeId="91932e48-588a-4377-be6a-8ecef224acb2" valueTypeId="24c81974-04d4-4e94-a605-f92f7415fd8e"/>
+    <managerType typeId="33080109-fc73-4839-9b86-4b5336287707" valueTypeId="9add88dc-1055-4768-b8b1-d133855fbfef"/>
+  </producedTypes>
+  <name>ПечатьНомеровТары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать номеров тары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьНомеровТары.Form.Форма</defaultForm>
+  <attributes uuid="309ceb59-2203-4d93-97ce-f00ce2d39a9a">
+    <name>НомерС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер С</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="11e150f2-b7f0-49be-9e42-55b7f9799c05">
+    <name>НомерПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер по</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9749e56e-46bb-4e52-9984-61e3a734379c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d48923d2-0515-4b21-b0b8-60e2b362652e">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

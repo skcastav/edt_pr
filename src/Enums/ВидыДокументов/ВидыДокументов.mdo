@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48f1bef9-e925-483b-8367-299d72a9f858">
+  <producedTypes>
+    <refType typeId="ed14ec12-8be3-4e7d-adf1-bff9d7c420e0" valueTypeId="53205df2-bc2c-400b-89b2-88e8b3f9264a"/>
+    <listType typeId="54caffbb-3fc3-4e24-bb61-1282c76f1604" valueTypeId="cd3becd0-b6d6-425a-8e1a-eae8e8b5b384"/>
+    <managerType typeId="ca4ffb36-e7ef-4a08-a0ab-806ec6b28380" valueTypeId="527b4668-80df-4cfa-9aa0-793ac6025f3a"/>
+  </producedTypes>
+  <name>ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0ab0f82b-d51c-4bdb-ba98-cf26e99ee0cb">
+    <name>PCB</name>
+    <synonym>
+      <key>ru</key>
+      <value>PCB</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca18d606-6875-4011-9771-5ffb5b836b43">
+    <name>Гербер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гербер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea1874cc-986f-4e7b-b430-64a580f675af">
+    <name>ГТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийный талон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2b6b7db-1dad-47af-ac28-954762038302">
+    <name>Инструкция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6624b017-7b12-42c6-8762-f8a8e9158c4b">
+    <name>ИнструкцияПоДоработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по доработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9606f305-02ae-4cd5-8173-7bbd6ed09625">
+    <name>ИнструкцияПоЛакировке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по лакировке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82f93520-4943-466d-a893-bdd703299976">
+    <name>ИнструкцияПоМонтажу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по монтажу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="953f4a97-fa3a-4a48-87bd-851eb56b70de">
+    <name>ИнструкцияПоНаладке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по наладке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebb42f4e-1699-40a4-a41a-7d8b3fca4162">
+    <name>ИнструкцияПоПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по проверке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="952c0ee5-1f38-44fd-af03-77b17c071138">
+    <name>ИнструкцияПоПрошивке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по прошивке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61aae7b4-3458-4c4a-acee-ecb014606759">
+    <name>ИнструкцияПоСборке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по сборке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68dfc183-8747-4a9b-83e2-89c361c9d3d0">
+    <name>ИнструкцияПоСуточномуПрогону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструкция по суточному прогону</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31ae1d52-488d-455b-ba8d-031de1cb0e03">
+    <name>КР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое руководство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55ae01c5-b92f-4447-a825-a314200e67c8">
+    <name>Листовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Листовка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc6098f1-b6fc-4b92-a181-0d880b32064c">
+    <name>МонтажнаяСхема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монтажная схема</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99434d95-5fb7-4508-860f-f967f89b25d1">
+    <name>НаклейкаНаУпаковку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наклейка на упаковку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0d44691-0b5e-462c-96b1-d73d233fd355">
+    <name>Паспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96622639-ddd3-411a-b0ea-a7010e0dcf6a">
+    <name>ПМИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа - методика испытаний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d256c61-3433-443f-be58-be27760e06df">
+    <name>ПрограммаМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПО МК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="267979e7-1e78-489e-8038-ea2f08b0c9cc">
+    <name>ПрограммаПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПО ПК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40cc219f-417a-4b7b-8bc3-be5573839767">
+    <name>ПрограммаТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПО ТО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05bf1050-1274-416f-983a-d49cf62c5c16">
+    <name>РП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководство пользователя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2318e4ab-2b05-4a27-9411-3c1fd7472930">
+    <name>РПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководство по проектированию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa00ac79-8d1c-4716-83b0-af16fa9b63ab">
+    <name>РЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководство по эксплуатации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b2e9f99-ef26-4e9c-9862-494e1497def3">
+    <name>СборочныйЧертёж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборочный чертёж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd80575a-88e6-419f-85d3-e9bef1954bee">
+    <name>СпецификацияЕСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация ЕСКД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36704e79-77e8-45e7-95ac-850299801539">
+    <name>СхемаОбщая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема общая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11087b7f-8f81-4a9f-b951-a85e2ea22fb9">
+    <name>СхемаСоединений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема соединений</value>
+    </synonym>
+    <comment>Схема соединений</comment>
+  </enumValues>
+  <enumValues uuid="e4c25096-247b-4f97-abe1-f89e287fbd5a">
+    <name>СхемаЭлектрическаяПринципиальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема электрическая принципиальная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5892440-1c00-4195-8096-e075c8939112">
+    <name>СхемаЭлектрическаяФункциональная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема электрическая функциональная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87e98de7-3b75-45ed-a1a8-4d7903a94291">
+    <name>ТаблицаДоработок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица доработок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71af0d3f-db69-4687-acf3-fade33629749">
+    <name>ТехническоеОписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техническое описание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6f1048f-662e-4165-8ab0-1f714009e098">
+    <name>Техпроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологический процесс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9aa5cb02-17bf-4085-ba04-42d6f6941056">
+    <name>ТрафаретПодПасту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трафарет под пасту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37882ac4-1e40-4690-9856-e8ab97b475d8">
+    <name>ТУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технические условия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b074997-ef37-41db-bfa2-c7f67912df92">
+    <name>ФайлДляСтанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл для станка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4de66b6f-0a95-4735-b05b-4a6d372434cc">
+    <name>ЧертёжМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чертёж ЭРИ собственного изготовления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e13e52ca-b7b6-4650-b731-01febccf203f">
+    <name>ШаблонПодКлей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон под клей</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

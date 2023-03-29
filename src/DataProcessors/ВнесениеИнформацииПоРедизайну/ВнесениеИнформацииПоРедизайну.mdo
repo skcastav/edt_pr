@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ba5fb0b-40ed-4bec-adc3-7b5e335078b7">
+  <producedTypes>
+    <objectType typeId="55bad003-9413-4344-9945-f0074e237cbf" valueTypeId="07ee7332-c6fc-45ee-983d-152c36202673"/>
+    <managerType typeId="1c52a3a4-bb42-45c2-89c1-eba36afe40b5" valueTypeId="14ba179f-663e-43b4-a776-3b15dd327f46"/>
+  </producedTypes>
+  <name>ВнесениеИнформацииПоРедизайну</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внесение информации по редизайну</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВнесениеИнформацииПоРедизайну.Form.Форма</defaultForm>
+  <attributes uuid="2e1927ed-15e4-4df4-93d3-0539094c1587">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="21dbeb27-d685-4485-84cf-7bc1591133c5">
+    <producedTypes>
+      <objectType typeId="15d2972d-8f20-4b1a-b574-2d01de7e3a6a" valueTypeId="3328550e-0581-4bfb-a611-8996e02cd355"/>
+      <rowType typeId="5e5f9cf9-9fbc-4120-95b4-e9c983cec41b" valueTypeId="ec40f546-c318-4b9b-9ff0-6ad82329bb94"/>
+    </producedTypes>
+    <name>ТаблицаИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица изменений</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0fb24046-82ac-4b0a-990f-e3785329357c">
+      <name>ЭлементЗамены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Элемент замены</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3742c45f-9fa3-4d88-b45f-ac271b58d92d">
+      <name>ЭлементНовый</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новый элемент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9221ec89-c684-4efa-aa26-d4179214a021">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

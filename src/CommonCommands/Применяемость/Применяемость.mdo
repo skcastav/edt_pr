@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6979502-dff5-4e77-90c1-283703d75854">
+  <name>Применяемость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применяемость</value>
+  </synonym>
+  <group>FormNavigationPanelSeeAlso</group>
+  <commandParameterType>
+    <types>CatalogRef.ТехОснастка</types>
+    <types>CatalogRef.Документация</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ТехОперации</types>
+    <types>CatalogRef.Материалы</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Применяемость в спецификациях</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.ShowInList</picture>
+  </picture>
+</mdclass:CommonCommand>

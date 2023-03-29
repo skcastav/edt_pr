@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c90980e-0eae-48c5-80ca-a7999cc5d83f">
+  <name>РабочиеМестаЛинейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие места</value>
+  </synonym>
+  <group>FormNavigationPanelSeeAlso</group>
+  <commandParameterType>
+    <types>CatalogRef.Линейки</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

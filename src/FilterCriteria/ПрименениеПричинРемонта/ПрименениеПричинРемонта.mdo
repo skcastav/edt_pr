@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53097999-f225-4c6d-b374-f2c18719bf67">
+  <producedTypes>
+    <listType typeId="667377f9-b81d-4b09-85b0-dc7fe0b46e70" valueTypeId="36bf4703-52cc-44e2-86bb-7bd7966bf3c8"/>
+    <managerType typeId="cdadf226-f13b-472e-a5d0-7e1e2735bab3" valueTypeId="11e28846-cdc8-4812-a36d-6926d0963f50"/>
+  </producedTypes>
+  <name>ПрименениеПричинРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применение причин ремонта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПричиныРемонта</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ГруппыРабочихМест.Attribute.ГруппаПричинРемонта</content>
+  <defaultForm>FilterCriterion.ПрименениеПричинРемонта.Form.ФормаСписка</defaultForm>
+  <forms uuid="ad6475ce-94de-4fa2-9b2d-3125a821901f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

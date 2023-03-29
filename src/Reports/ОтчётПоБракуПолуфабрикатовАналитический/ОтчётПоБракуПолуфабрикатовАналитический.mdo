@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6417c8d-ac62-4b1b-ab85-10b07f847e68">
+  <producedTypes>
+    <objectType typeId="f2c7a523-1a7e-4c39-8af7-ff8a165a1ff0" valueTypeId="673b087b-4aa2-4591-b2d5-8c58a4dc8793"/>
+    <managerType typeId="cecf9445-a34e-4315-96d1-f5dc79b57f19" valueTypeId="e7d583f5-4fa0-4fea-b50d-fa0772c38943"/>
+  </producedTypes>
+  <name>ОтчётПоБракуПолуфабрикатовАналитический</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по браку полуфабрикатов аналитический</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоБракуПолуфабрикатовАналитический.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="36809b7e-e95a-49b8-bf4a-9441fc612f32">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d48edf4c-ca61-4eec-ac7c-6833053eabb8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="414e4543-deab-446d-9d15-2b4e3fa038e7">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

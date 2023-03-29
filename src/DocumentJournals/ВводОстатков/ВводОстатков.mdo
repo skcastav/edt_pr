@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd891721-a9e0-43dd-9016-ff9979fb55d3">
+  <producedTypes>
+    <selectionType typeId="458b8b52-d0e1-434d-9ddc-f21fe1385aa6" valueTypeId="ad36e9c4-e416-4b3e-90ee-9842823dcdfb"/>
+    <listType typeId="8156ae31-65ac-408d-abee-1c399fe92501" valueTypeId="dba07c29-755e-446e-92bd-3ada737cebf4"/>
+    <managerType typeId="7ee818d6-e2c2-4752-907a-9b009f15ee90" valueTypeId="3a6386a8-ce7a-4882-98ad-7cf53d138966"/>
+  </producedTypes>
+  <name>ВводОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал ввода остатков по регистрам</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ВводОстатков.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ВводОстатковМПЗ</registeredDocuments>
+  <registeredDocuments>Document.ВводОстатковПередачВПроизводство</registeredDocuments>
+  <registeredDocuments>Document.ВводОстатковЗаявокОтПокупателей</registeredDocuments>
+  <registeredDocuments>Document.ВводОстатковЗаявокНаЗакупку</registeredDocuments>
+  <registeredDocuments>Document.ВводОстатковЗаказовПоставщикам</registeredDocuments>
+  <registeredDocuments>Document.ВводОстатковПередачНаЛинейки</registeredDocuments>
+  <registeredDocuments>Document.ВводОстатковПлановВыпуска</registeredDocuments>
+  <registeredDocuments>Document.ВводОстатковБракаПроизводства</registeredDocuments>
+  <forms uuid="b734885d-f361-44a6-b039-20bd2e27a678">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

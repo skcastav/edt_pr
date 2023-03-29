@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c4fdbd6-5381-4a67-a06f-3797e859cf28">
+  <producedTypes>
+    <objectType typeId="09aeb5e2-0fd2-4146-a62d-908cb2ed9a32" valueTypeId="17551f38-5e89-4466-bb72-c990bfc34b3c"/>
+    <managerType typeId="258ef912-cb89-4188-8234-a8684a39583b" valueTypeId="d004c40a-ccbd-49c1-b580-29adac488672"/>
+  </producedTypes>
+  <name>ОтчетПоВременнымПромежуткамОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по временным промежуткам операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоВременнымПромежуткамОпераций.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="b722ed65-6504-4e08-bfc0-577667d3f361">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="37e0e56c-2396-4ac5-8520-cb1020bdf45f">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7a8b456-5cb9-4a76-9bb8-506678d27256">
+    <name>ВычестьНерабочееВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычесть нерабочее время</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e10b177a-fb34-499a-9443-acd4c8c8a53d">
+    <name>КолНерабочихЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол нерабочих часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2544f37-c56b-4df2-970f-8b37427b3a4d">
+    <name>БезВыходных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без выходных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="83cca885-5dc1-4aa7-bf55-3d55d430685f">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2d47e557-59a4-4779-91f9-5430d43e5a24">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

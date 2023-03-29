@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="984eef8d-12a8-4db7-baf7-96f95f3711c7">
+  <name>РемонтМеню</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ремонт меню</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c821263-dbc7-4e70-98fd-04c716554842">
+  <producedTypes>
+    <objectType typeId="641645a3-da46-40e7-8d63-489c20b213a8" valueTypeId="eecdcd2f-16f1-425e-882c-aa3a96e8a66d"/>
+    <managerType typeId="797ab8be-885f-4670-9b3a-96aab369804c" valueTypeId="99e39f0a-0f6e-4d9e-b7f0-c5186effaaca"/>
+  </producedTypes>
+  <name>ПолучитьКурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить курсы валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучитьКурсыВалют.Form.Форма</defaultForm>
+  <attributes uuid="6dc68e01-6d02-4779-817e-1b8bee4f2874">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="16d7f243-8e2c-4caa-b468-19b001699ebd">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5ec452dc-0330-45ca-8545-f7d46f72a2bd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

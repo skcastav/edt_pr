@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetUnion">
+		<name>НаборДанных2</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кол-во документов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.НомерСтроки</dataPath>
+			<field>ТабличнаяЧасть.НомерСтроки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кол-во наименований</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Количество</dataPath>
+			<field>ТабличнаяЧасть.Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кол-во</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоХранения</dataPath>
+			<field>МестоХранения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.Цена</dataPath>
+			<field>ТабличнаяЧасть.Цена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДокумента</dataPath>
+			<field>ВидДокумента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид документа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка1</dataPath>
+			<field>Ссылка1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.МПЗЕдиницаИзмерения</dataPath>
+			<field>ТабличнаяЧасть.МПЗЕдиницаИзмерения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ед. изм.</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабличнаяЧасть.ЕдиницаИзмерения</dataPath>
+			<field>ТабличнаяЧасть.ЕдиницаИзмерения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МестоХраненияВ</dataPath>
+			<field>МестоХраненияВ</field>
+		</field>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка</dataPath>
+				<field>Ссылка</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кол-во документов</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.НомерСтроки</dataPath>
+				<field>ТабличнаяЧасть.НомерСтроки</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кол-во наименований</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldNestedDataSet">
+				<dataPath>ТабличнаяЧасть</dataPath>
+				<field>ТабличнаяЧасть</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.Количество</dataPath>
+				<field>ТабличнаяЧасть.Количество</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Кол-во</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автор</dataPath>
+				<field>Автор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МестоХранения</dataPath>
+				<field>МестоХранения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидДокумента</dataPath>
+				<field>ВидДокумента</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Вид документа</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.Цена</dataPath>
+				<field>ТабличнаяЧасть.Цена</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка1</dataPath>
+				<field>Ссылка1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ссылка1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.МПЗЕдиницаИзмерения</dataPath>
+				<field>ТабличнаяЧасть.МПЗЕдиницаИзмерения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.ЕдиницаИзмерения</dataPath>
+				<field>ТабличнаяЧасть.ЕдиницаИзмерения</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ПоступлениеМПЗ.Ссылка КАК Ссылка,
+	ПоступлениеМПЗ.ТабличнаяЧасть.(
+		НомерСтроки КАК НомерСтроки,
+		Количество КАК Количество,
+		Цена КАК Цена,
+		МПЗ.ЕдиницаИзмерения КАК МПЗЕдиницаИзмерения,
+		ЕдиницаИзмерения КАК ЕдиницаИзмерения
+	) КАК ТабличнаяЧасть,
+	ПоступлениеМПЗ.МестоХранения КАК МестоХранения,
+	ПоступлениеМПЗ.Автор КАК Автор,
+	ТИПЗНАЧЕНИЯ(ПоступлениеМПЗ.Ссылка) КАК ВидДокумента,
+	ПоступлениеМПЗ.Ссылка КАК Ссылка1
+ИЗ
+	Документ.ПоступлениеМПЗ КАК ПоступлениеМПЗ
+ГДЕ
+	ПоступлениеМПЗ.Дата МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+	И ПоступлениеМПЗ.ПометкаУдаления = ЛОЖЬ</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанных2</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автор</dataPath>
+				<field>Автор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка</dataPath>
+				<field>Ссылка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.Цена</dataPath>
+				<field>ТабличнаяЧасть.Цена</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МестоХранения</dataPath>
+				<field>МестоХранения</field>
+			</field>
+			<field xsi:type="DataSetFieldNestedDataSet">
+				<dataPath>ТабличнаяЧасть</dataPath>
+				<field>ТабличнаяЧасть</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.Количество</dataPath>
+				<field>ТабличнаяЧасть.Количество</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.НомерСтроки</dataPath>
+				<field>ТабличнаяЧасть.НомерСтроки</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидДокумента</dataPath>
+				<field>ВидДокумента</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Вид документа</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.МПЗЕдиницаИзмерения</dataPath>
+				<field>ТабличнаяЧасть.МПЗЕдиницаИзмерения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.ЕдиницаИзмерения</dataPath>
+				<field>ТабличнаяЧасть.ЕдиницаИзмерения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка1</dataPath>
+				<field>Ссылка1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ссылка1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ТИПЗНАЧЕНИЯ(ПоступлениеМПЗПрочее.Ссылка) КАК ВидДокумента,
+	ПоступлениеМПЗПрочее.Ссылка КАК Ссылка,
+	ПоступлениеМПЗПрочее.МестоХранения КАК МестоХранения,
+	ПоступлениеМПЗПрочее.Автор КАК Автор,
+	ПоступлениеМПЗПрочее.ТабличнаяЧасть.(
+		Количество КАК Количество,
+		Цена КАК Цена,
+		НомерСтроки КАК НомерСтроки,
+		МПЗ.ЕдиницаИзмерения КАК МПЗЕдиницаИзмерения,
+		ЕдиницаИзмерения КАК ЕдиницаИзмерения
+	) КАК ТабличнаяЧасть,
+	ПоступлениеМПЗПрочее.Ссылка КАК Ссылка1
+ИЗ
+	Документ.ПоступлениеМПЗПрочее КАК ПоступлениеМПЗПрочее
+ГДЕ
+	ПоступлениеМПЗПрочее.Дата МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+	И ПоступлениеМПЗПрочее.ПометкаУдаления = ЛОЖЬ</query>
+		</item>
+		<item xsi:type="DataSetQuery">
+			<name>НаборДанных3</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Автор</dataPath>
+				<field>Автор</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка</dataPath>
+				<field>Ссылка</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МестоХранения</dataPath>
+				<field>МестоХранения</field>
+			</field>
+			<field xsi:type="DataSetFieldNestedDataSet">
+				<dataPath>ТабличнаяЧасть</dataPath>
+				<field>ТабличнаяЧасть</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.Количество</dataPath>
+				<field>ТабличнаяЧасть.Количество</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.НомерСтроки</dataPath>
+				<field>ТабличнаяЧасть.НомерСтроки</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидДокумента</dataPath>
+				<field>ВидДокумента</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Вид документа</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.МПЗЕдиницаИзмерения</dataPath>
+				<field>ТабличнаяЧасть.МПЗЕдиницаИзмерения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТабличнаяЧасть.ЕдиницаИзмерения</dataPath>
+				<field>ТабличнаяЧасть.ЕдиницаИзмерения</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка1</dataPath>
+				<field>Ссылка1</field>
+				<title xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Ссылка1</v8:content>
+					</v8:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>МестоХраненияВ</dataPath>
+				<field>МестоХраненияВ</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ТИПЗНАЧЕНИЯ(ДвижениеМПЗ.Ссылка) КАК ВидДокумента,
+	ДвижениеМПЗ.Ссылка КАК Ссылка,
+	ДвижениеМПЗ.МестоХранения КАК МестоХранения,
+	ДвижениеМПЗ.Автор КАК Автор,
+	ДвижениеМПЗ.ТабличнаяЧасть.(
+		Количество КАК Количество,
+		НомерСтроки КАК НомерСтроки,
+		МПЗ.ЕдиницаИзмерения КАК МПЗЕдиницаИзмерения,
+		ЕдиницаИзмерения КАК ЕдиницаИзмерения
+	) КАК ТабличнаяЧасть,
+	ДвижениеМПЗ.Ссылка КАК Ссылка1,
+	ДвижениеМПЗ.МестоХраненияВ КАК МестоХраненияВ
+ИЗ
+	Документ.ДвижениеМПЗ КАК ДвижениеМПЗ
+ГДЕ
+	ДвижениеМПЗ.Дата МЕЖДУ &amp;ДатаНач И &amp;ДатаКон
+	И ДвижениеМПЗ.ПометкаУдаления = ЛОЖЬ</query>
+		</item>
+	</dataSet>
+	<totalField>
+		<dataPath>ТабличнаяЧасть.Количество</dataPath>
+		<expression>Сумма(ПолучитьБазовоеКоличество(ТабличнаяЧасть.Количество,ТабличнаяЧасть.ЕдиницаИзмерения))</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТабличнаяЧасть.НомерСтроки</dataPath>
+		<expression>Количество(ТабличнаяЧасть.НомерСтроки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Ссылка</dataPath>
+		<expression>Количество(Различные Ссылка)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ТабличнаяЧасть.Цена</dataPath>
+		<expression>Сумма(ТабличнаяЧасть.Цена*ТабличнаяЧасть.Количество)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаКон</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата кон</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаНач</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата нач</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;СтандартныйПериод.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>СтандартныйПериод</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Стандартный период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основная</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основная</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Автор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.НомерСтроки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.Цена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.ЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Автор</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>12205a53-cbf9-4d4e-be40-649ad0b96952</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоХранения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>bccca9f9-a834-43b7-8a77-d645edd9e6b4</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидДокумента</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Документ.ПоступлениеМПЗ</dcsset:right>
+					<dcsset:userSettingID>c3c120c8-f686-4765-a2e8-4cee90e24d69</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>СтандартныйПериод</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>c1041f81-a6dc-4940-97d0-aa976a34a09d</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Автор.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Автор</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВидДокумента</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ТабличнаяЧасть.МПЗЕдиницаИзмерения</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:row>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>ПоДвижениямМПЗ</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По движениям МПЗ</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Автор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.НомерСтроки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.Цена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТабличнаяЧасть.ЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Автор</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>12205a53-cbf9-4d4e-be40-649ad0b96952</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоХранения</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>bccca9f9-a834-43b7-8a77-d645edd9e6b4</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МестоХраненияВ</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>a8bc2b87-4226-4bdf-a49f-2b5e5519ac97</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ВидДокумента</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Документ.ДвижениеМПЗ</dcsset:right>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					<dcsset:userSettingID>c3c120c8-f686-4765-a2e8-4cee90e24d69</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>СтандартныйПериод</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>c1041f81-a6dc-4940-97d0-aa976a34a09d</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Автор.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Автор</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВидДокумента</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ТабличнаяЧасть.МПЗЕдиницаИзмерения</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:row>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

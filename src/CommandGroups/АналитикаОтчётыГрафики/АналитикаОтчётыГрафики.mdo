@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10449fe8-fc48-4dd9-b900-face49366b97">
+  <name>АналитикаОтчётыГрафики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёты - графики</value>
+  </synonym>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Chart</picture>
+  </picture>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1809d6f-f121-442f-8006-28834e80ccf2">
+  <producedTypes>
+    <objectType typeId="219a222e-685e-4ea4-a2df-06fc7874c50b" valueTypeId="a677c822-e2bc-4bb0-aa4a-8207921e507c"/>
+    <managerType typeId="2f138731-5067-47fd-89dc-0016e9493c46" valueTypeId="db556617-ff52-4ba6-a585-5fd13ba55b95"/>
+  </producedTypes>
+  <name>ИзмененияСпецификацийЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения спецификаций за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИзмененияСпецификацийЗаПериод.Form.Форма</defaultForm>
+  <attributes uuid="c7d2c278-fb57-4a05-8827-373a2bbae04d">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9db44006-1c5a-431c-a8e2-94b8eb300952">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

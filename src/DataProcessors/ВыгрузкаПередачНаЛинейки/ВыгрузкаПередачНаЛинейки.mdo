@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4241994-69a4-4e70-9002-22f7a4b5ee4e">
+  <producedTypes>
+    <objectType typeId="748f5cc4-76d5-4227-972c-34162d281842" valueTypeId="39c1e04f-465b-4193-85b7-7e1b95bc5fb3"/>
+    <managerType typeId="b29cc667-ec67-4c4f-89e6-cb00217b35c9" valueTypeId="2e299cbe-f91c-441f-83e9-956e8584b1ad"/>
+  </producedTypes>
+  <name>ВыгрузкаПередачНаЛинейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка передач на линейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаПередачНаЛинейки.Form.Форма</defaultForm>
+  <attributes uuid="75455bec-52dd-4e34-962f-6054894367b6">
+    <name>БазаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>База данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбменДанными</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="06a4c526-09f3-4d8d-a038-823d9a23fcc8">
+    <name>ГруппаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="60b39a7d-b0a4-40ac-a682-504c11bbb554">
+    <name>ГруппаНоменклатурыКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0135208c-d4c2-4835-b786-e9386638f1fd">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="9fb8776d-7a6a-424a-aa09-d94abb490c90">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

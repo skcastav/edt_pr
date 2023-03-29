@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18b90f89-4bea-4645-902d-284037952dfd">
+  <name>ОбновлениеИндексаПолнотекстовогоПоиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление индекса полнотекстового поиска</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульВызовСервера.ОбновлениеИндексовПолнотекстовогоПоиска</methodName>
+  <description>Обновление индексов полнотекстового поиска</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a7716a3-7f43-487b-a0f9-4ed679993a6b">
+  <producedTypes>
+    <objectType typeId="14df6486-6991-433e-bf45-0f9ac698b7a8" valueTypeId="180ade32-75e6-4595-b1f4-7e97aebe5e8d"/>
+    <managerType typeId="26cbdf95-dddd-4e64-b80c-0637d99d5e1e" valueTypeId="b9ebf2cb-3cc6-4136-b502-ebc53b0db2d4"/>
+  </producedTypes>
+  <name>ИзменениеСтатусовСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение статусов спецификаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИзменениеСтатусовСпецификаций.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="d5276e1a-1a95-4983-aa88-76d2cdfe0112">
+    <name>НовыйСтатус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСпецификаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="a0c5bde6-7e58-48cc-84f9-d5267fcbfe39">
+    <producedTypes>
+      <objectType typeId="3c39693f-97a2-4ed6-9a7a-c37acfdec1aa" valueTypeId="926fe7dd-56e7-4fee-85bd-e8770a154014"/>
+      <rowType typeId="9bc97390-e235-48c2-b771-7ef866ff4da4" valueTypeId="f69c09e5-35df-40be-a3aa-4b036a26276c"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7501f169-5b61-4b0c-81a5-75f1b68b55ab">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="db6890dc-2eaf-470d-8042-cbb2b126e70e">
+      <name>Статус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыСпецификаций</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f64ad770-1554-461c-90d9-4c8a9af73bc7">
+      <name>Спецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спецификация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="52b73d8a-791a-42e4-a462-276c6fe8f05b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

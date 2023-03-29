@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dc5c6ce-4346-4d70-8845-f9d4f02b8c37">
+  <name>ПроверкаСтатусовЗРДС_БФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка статусов ЗРДС БФ</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ПроверкаСтатусовЗРДС_БФ</methodName>
+  <description>Проверка статусов ЗРДС БФ</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

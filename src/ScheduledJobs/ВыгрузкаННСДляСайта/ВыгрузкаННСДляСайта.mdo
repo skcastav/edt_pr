@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="511484ab-2ead-40f9-bdc4-6ad186e7a791">
+  <name>ВыгрузкаННСДляСайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка ННС для сайта</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ВыгрузкаННСДляСайта</methodName>
+  <description>Выгрузка ННС для сайта</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

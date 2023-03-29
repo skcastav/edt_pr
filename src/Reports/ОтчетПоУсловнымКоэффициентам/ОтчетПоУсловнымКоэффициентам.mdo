@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bb2c776-f9e3-4296-b4c7-b6175835f721">
+  <producedTypes>
+    <objectType typeId="a6a6b52c-8ea1-465d-9c42-cdd6d6ffc702" valueTypeId="bfcd4b1a-68bb-45e5-aa2e-6ca8ae84e043"/>
+    <managerType typeId="28b72bd3-4d82-4724-9d6c-e0a10dea7cbd" valueTypeId="76124226-5b18-4742-b1ba-822863074e08"/>
+  </producedTypes>
+  <name>ОтчетПоУсловнымКоэффициентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по условным коэффициентам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоУсловнымКоэффициентам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0d151fe1-6384-4cff-9cb2-1fca0a2bca7f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

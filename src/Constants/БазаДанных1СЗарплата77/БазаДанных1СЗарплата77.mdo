@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c89bbfe-8191-4c2b-abaf-b8278e6e6684">
+  <producedTypes>
+    <managerType typeId="5f709972-7921-43fd-9d51-6030929cff82" valueTypeId="62f57f89-3ba4-4e75-9cce-ace8de8bc67b"/>
+    <valueManagerType typeId="c3d73728-5bb7-4a74-ab9f-89d61165a73e" valueTypeId="96c9711c-c823-4d91-bce0-dc0fec651cd7"/>
+    <valueKeyType typeId="0f468d72-66f4-5306-9ca7-aa9d8e1efcea" valueTypeId="2b33acdd-86fb-5bd9-a528-e3e61acdee56"/>
+  </producedTypes>
+  <name>БазаДанных1СЗарплата77</name>
+  <synonym>
+    <key>ru</key>
+    <value>База данных 1С Зарплата 7.7 по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ОбменДанными</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

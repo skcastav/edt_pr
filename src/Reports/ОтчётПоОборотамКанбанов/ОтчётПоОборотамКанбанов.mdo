@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="694e2817-3974-49da-a3c7-b5aa9453a483">
+  <producedTypes>
+    <objectType typeId="aa92b9b6-9161-4245-b8f0-77c1faa4d329" valueTypeId="babdde9e-45b2-47e2-8719-fe5b5d480a6c"/>
+    <managerType typeId="0c9c5a39-2c8f-44f3-a913-ce499d8d7633" valueTypeId="b07d9c95-2135-4c7e-b3d2-2383f85ef79a"/>
+  </producedTypes>
+  <name>ОтчётПоОборотамКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по оборотам канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоОборотамКанбанов.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="ffdea296-6454-4ec6-8c64-f4c547df50fc">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="990d3517-1032-4883-bf30-7c347d366bee">
+    <name>ВычестьНерабочееВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычесть нерабочее время, часов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ffdd63bb-1dae-4b77-94e4-21c7088f4cf9">
+    <name>КолНерабочихЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол нерабочих часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="894fa2fe-e05f-4e72-a93e-f82e77453a6b">
+    <name>БезВыходных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без выходных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="51300054-25e8-4e5c-9a35-166b5c81f365">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="61c538f8-3753-40b4-8c87-f50318d07d3f">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

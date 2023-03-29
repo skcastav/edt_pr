@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0da7ee1-408d-424a-8cf2-3c848e7d9737">
+  <producedTypes>
+    <objectType typeId="01f8c458-a883-4b18-a4ce-e55d2186a9c5" valueTypeId="1b580d67-156c-4098-89b6-5a7f87c62bd9"/>
+    <managerType typeId="7a59664a-f371-4cf2-a9db-541e576ae703" valueTypeId="4c576d94-f872-4a6f-a80d-1cc5d3c5e1bc"/>
+  </producedTypes>
+  <name>ВедомостьДефицитаПоСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость дефицита по спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВедомостьДефицитаПоСпецификации.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="5fa7b09c-4801-4526-bd81-6fcee31fb1aa">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a30b9e74-1a39-428a-b551-b817836735d7">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8d1f22c0-e9ff-44ae-86cd-9d5b78512cc9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d2c00e02-7ce6-4184-abec-723869139745">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

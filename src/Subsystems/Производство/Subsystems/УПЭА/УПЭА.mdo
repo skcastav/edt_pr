@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc5aaae3-1709-44a7-85f2-f456f075e068">
+  <name>УПЭА</name>
+  <synonym>
+    <key>ru</key>
+    <value>УПЭА</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.РабочееМестоЗапускБП</content>
+  <content>DataProcessor.РабочееМестоЗапускСборка</content>
+  <content>DataProcessor.РабочееМестоЗапускУпаковка</content>
+  <content>DataProcessor.РабочееМестоЗапускУпаковкаСГрупповойПечатью</content>
+  <content>DataProcessor.РабочееМестоСтенд</content>
+  <content>DataProcessor.РабочееМестоСтендВыпуск</content>
+  <content>DataProcessor.РабочееМестоУпаковка</content>
+  <content>DataProcessor.РабочееМестоУпаковкаГрупповая</content>
+  <content>DataProcessor.РабочееМестоПереупаковкаХарьков</content>
+  <content>DataProcessor.РабочееМестоБуфер</content>
+  <content>DataProcessor.РабочееМестоЗапускСборкаСК</content>
+  <content>DataProcessor.РабочееМестоУпаковкаГрупповаяХарьков</content>
+  <content>DataProcessor.РабочееМестоУпаковкаГрупповаяDanfoss</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

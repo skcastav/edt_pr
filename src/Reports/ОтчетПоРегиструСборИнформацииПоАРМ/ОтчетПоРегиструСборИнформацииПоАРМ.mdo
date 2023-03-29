@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d68acfa2-dddc-4312-9906-7f6023e89979">
+  <producedTypes>
+    <objectType typeId="80b3454b-1225-487e-a738-497029a8b267" valueTypeId="743677a9-b5ce-4cbc-9983-fe81eaa9db97"/>
+    <managerType typeId="47c32863-a2cc-4c26-8165-b1206223cd09" valueTypeId="cc8c5e72-fabb-4cdb-b541-a5f472ac8029"/>
+  </producedTypes>
+  <name>ОтчетПоРегиструСборИнформацииПоАРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по регистру сбор информации по АРМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоРегиструСборИнформацииПоАРМ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="eaafcce0-fe6e-422c-9283-23fa2da4894d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

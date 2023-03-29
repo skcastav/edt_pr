@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f43f468a-6405-4df8-bca6-185b1fd3f3ff">
+  <producedTypes>
+    <objectType typeId="3f79802d-1d29-49d3-82f8-f838b0827d96" valueTypeId="1d136712-dcdb-4751-ac50-6fd55ceef2bf"/>
+    <managerType typeId="0b6cb212-cd33-4b7a-a74c-7598a464b7aa" valueTypeId="95ea4831-82be-416a-a8f9-a52cc1c0d0d3"/>
+  </producedTypes>
+  <name>ОбработкаОстановленныхПроизводственныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка остановленных производственных заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаОстановленныхПроизводственныхЗаданий.Form.Форма</defaultForm>
+  <attributes uuid="04082e90-dc89-45a7-a714-e2876bec3f92">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="0b7fab59-9e37-43b0-a9e0-234086388827">
+    <producedTypes>
+      <objectType typeId="a28697a3-877b-49ce-b5c3-c2afaaa0e2e5" valueTypeId="778e141d-b798-4c25-a5c3-6ec9b107b7e0"/>
+      <rowType typeId="2a415120-4f8d-47b8-a4f3-2fe8c3b685f9" valueTypeId="938d94d7-0624-451e-89df-3d507c02f9a4"/>
+    </producedTypes>
+    <name>ТаблицаЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица заданий</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d4474db2-08ea-480d-a52f-8f789ab38d60">
+      <name>ПроизводственноеЗадание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Производственное задание</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПроизводственноеЗадание</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="02459a65-3d84-418e-8e82-12035b8e1df7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

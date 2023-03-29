@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee84c618-e674-4557-99d6-fc442bfe2336">
+  <producedTypes>
+    <objectType typeId="9dea5932-4aba-4934-9ec8-24b5160e9f71" valueTypeId="3ce13b8d-f642-440d-bd4e-c71c3376098b"/>
+    <managerType typeId="a62c2662-8fc2-4599-8f4c-b184a897b615" valueTypeId="32507f2a-6dad-4a9b-a7e2-131dbf6853c9"/>
+  </producedTypes>
+  <name>ОтчетПоНормированиюSMD_Установка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по нормированию SMD (установка элементов)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоНормированиюSMD_Установка.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="bfba7ccd-0f8f-42bf-a294-6899db4d49ff">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="3c9f27be-3a29-4229-9961-5f21d54be5a0">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="de92289f-9bfe-49e1-8d11-b3fb3ed4662a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="99d680aa-1157-48c1-b4ea-578e699df39b">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="78454ac0-fa4c-4166-87e2-e30ebb133612">
+    <name>МакетДляДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет для документа</value>
+    </synonym>
+  </templates>
+  <commands uuid="a6cf5004-2a18-4789-9d21-d71801937b58">
+    <name>ОтчетПоНормированиюSMD_Установка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по нормированию SMD по исполнителю (установка элементов)</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

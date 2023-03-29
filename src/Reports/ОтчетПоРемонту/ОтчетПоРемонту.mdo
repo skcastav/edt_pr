@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bae8e602-5cef-4373-b686-781f5c687f36">
+  <producedTypes>
+    <objectType typeId="d41da10c-8fdb-4a72-8ecc-e4129e43c29a" valueTypeId="d5a0ce73-7008-442e-96a5-4a865b290f5b"/>
+    <managerType typeId="396fce35-b4cf-4485-bb12-03b7128f961f" valueTypeId="3ee7e7b4-2117-43b1-966a-aaa7179b4e6f"/>
+  </producedTypes>
+  <name>ОтчетПоРемонту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по ремонту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоРемонту.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="7a12868d-b856-4509-bd6a-bf6932da79d8">
+    <name>ПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПЗ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="0a2b1c01-d9b8-4c62-b831-31ba6f3007b8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="78874edd-dcbe-439c-930e-3be7375e1b76">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

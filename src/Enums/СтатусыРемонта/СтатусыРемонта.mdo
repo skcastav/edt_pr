@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12c79374-7ac3-4040-83f7-a882386d0136">
+  <producedTypes>
+    <refType typeId="9cae84c6-ec90-43f6-b14e-bfbc05f7b3c5" valueTypeId="f2dec1ad-9033-402c-be3b-b6538b09e901"/>
+    <listType typeId="43effc4a-328e-4063-9d6b-5014679fdaa3" valueTypeId="d32c36af-a98c-413c-a29e-a4f7a8df7a88"/>
+    <managerType typeId="605bc39a-3c51-4f40-9745-7ea36d6022c9" valueTypeId="8b64e2ae-e10b-4389-9383-63137fbd80a5"/>
+  </producedTypes>
+  <name>СтатусыРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ремонта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9fe36d2d-cffb-444a-a6c8-a82ca54f1ef5">
+    <name>Ремонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f82cc11-00eb-4900-9c39-a478e3f15fa2">
+    <name>Отложен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f213d420-0742-4770-b14c-a322d2e1f34b">
+    <name>Окончен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1b7973d-ccd6-4809-a75a-53096bb34fa7">
+    <name>Разукомплектовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разукомплектовка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

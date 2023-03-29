@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fcd8c79-b59d-4e55-8761-8b80cb84617b">
+  <name>ТерминалыСбораДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Терминалы сбора данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonPicture.ПодключаемоеОборудованиеТерминалСбораДанных16</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеТерминалСбораДанных32</content>
+  <content>CommonTemplate.ДрайверКлеверенсТСД</content>
+  <content>CommonTemplate.ДрайверСканситиТСДCipherLab</content>
+  <content>CommonForm.ФормаНастройкиАтолТерминалыСбораДанных</content>
+  <content>CommonForm.ФормаНастройкиСканкодТерминалыСбораДанных</content>
+  <content>CommonForm.ФормаНастройкиСканситиТерминалыСбораДанных</content>
+  <content>CommonForm.ФормаНастройкиШтрихМТерминалыСбораДанных</content>
+  <content>CommonModule.ПодключаемоеОборудованиеАтолТерминалыСбораДанныхКлиент</content>
+  <content>CommonModule.ПодключаемоеОборудованиеСканкодТерминалыСбораДанныхКлиент</content>
+  <content>CommonModule.ПодключаемоеОборудованиеСканситиТерминалыСбораДанныхКлиент</content>
+  <content>CommonModule.ПодключаемоеОборудованиеШтрихМТерминалыСбораДанныхКлиент</content>
+  <content>CommonTemplate.ДрайверГексагонТСД</content>
+  <content>CommonTemplate.ДрайверАТОЛТСДMobileLogistics</content>
+  <content>CommonTemplate.ДрайверСканкодТерминалыСбораДанныхNative</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

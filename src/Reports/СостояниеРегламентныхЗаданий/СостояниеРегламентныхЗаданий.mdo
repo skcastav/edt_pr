@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5da539d0-39fc-4c08-83fe-5ffe14064adc">
+  <producedTypes>
+    <objectType typeId="26e46401-4a29-4874-b39e-750c11b8dc85" valueTypeId="c634da4a-4f20-4435-89d7-d37eb41f47b6"/>
+    <managerType typeId="5b27cb5e-49cd-49bb-9410-65c467171d9d" valueTypeId="2c6d6c19-1513-48e5-a5f9-3a008f8decd1"/>
+  </producedTypes>
+  <name>СостояниеРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние регламентных заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СостояниеРегламентныхЗаданий.Form.ФормаОтчета</defaultForm>
+  <forms uuid="f8ecc049-29aa-4f78-ab1f-d5316c67b91e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

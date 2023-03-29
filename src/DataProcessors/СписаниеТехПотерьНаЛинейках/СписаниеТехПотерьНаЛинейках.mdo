@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52106803-112d-4282-9f1e-36e5b5ab3cde">
+  <producedTypes>
+    <objectType typeId="d6995b5b-8219-4f94-a1aa-6b776fab4b2d" valueTypeId="375f2833-8e81-448f-bb02-dc6954c524e7"/>
+    <managerType typeId="f0c7d8d0-9615-4621-8053-3a2044fd4502" valueTypeId="90d35e7e-9438-402f-9af6-91d75d828745"/>
+  </producedTypes>
+  <name>СписаниеТехПотерьНаЛинейках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание тех. потерь на линейках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СписаниеТехПотерьНаЛинейках.Form.Форма</defaultForm>
+  <attributes uuid="87352d23-5eab-4654-b4b1-9fea29fcebc6">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f769650a-127f-4530-ac3b-6964e9d69c8a">
+    <name>ПроцентСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент списания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="032d5234-1c17-4e5e-81b9-45889507b3f2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

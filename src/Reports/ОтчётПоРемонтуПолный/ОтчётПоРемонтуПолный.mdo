@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27aec3c-941b-40d4-a4a1-73271e38a109">
+  <producedTypes>
+    <objectType typeId="b4d12f8e-4cae-4ff7-bc0f-da64e95e8393" valueTypeId="b70e1be6-3769-4b13-a1ba-82a918ff35a5"/>
+    <managerType typeId="f9f6b480-387f-4006-b387-aefa64a19e82" valueTypeId="661f2d74-bfd3-4d40-bbba-a71bd1fd1972"/>
+  </producedTypes>
+  <name>ОтчётПоРемонтуПолный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по ремонту полный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоРемонтуПолный.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="6b8e342f-4f3c-41b1-89a9-d4d5412fde74">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="eae71a6b-4df2-4a58-8146-33015fefc1de">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b67f9da8-345f-4b8f-a54e-6c0b458788df">
+    <name>ДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для выгрузки</value>
+    </synonym>
+  </templates>
+  <templates uuid="43e97c33-3ba7-4ab9-aa99-337ea3fe9e40">
+    <name>ПоВидамБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>По видам брака</value>
+    </synonym>
+  </templates>
+  <templates uuid="c9ad4945-131b-4f06-9237-864ec359b2e8">
+    <name>ПоИзделиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По изделиям</value>
+    </synonym>
+  </templates>
+  <templates uuid="461c8946-5684-4371-be90-f26275436776">
+    <name>ПоНеисправнымЭлементам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По неисправным элементам</value>
+    </synonym>
+  </templates>
+  <templates uuid="d7f08e2d-025b-4cdd-a30d-40dddb57eee3">
+    <name>ПоРабочимМестам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По рабочим местам</value>
+    </synonym>
+  </templates>
+  <templates uuid="8a72dba4-0316-42a2-9624-2f208cbaed6e">
+    <name>ПоРемонтируемымПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ремонтируемым п. ф.</value>
+    </synonym>
+  </templates>
+  <templates uuid="f8a0e8e0-cc09-4ded-8e5b-da48ffbe348a">
+    <name>ПоСтандартнымКомментариям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По стандартным комментариям</value>
+    </synonym>
+  </templates>
+  <templates uuid="9b2acde8-ace8-4cf6-85f9-79e59b8a6926">
+    <name>ПоМестамВозникновенияБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>По местам возникновения брака</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

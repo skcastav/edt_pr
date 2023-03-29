@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94f0f91c-54bf-4f33-b9ff-bb0e4bf6538e">
+  <producedTypes>
+    <objectType typeId="06222d47-cd05-4977-bf00-342385ecfa57" valueTypeId="7bc9e70b-bf75-4d5f-8a47-14bf9edff44e"/>
+    <managerType typeId="eace4886-36b0-46cc-a602-11d053d97e00" valueTypeId="4ee133f7-bc16-4cdf-a3bc-c1c15b0bcf4d"/>
+  </producedTypes>
+  <name>АнализЛьготнойОчередиЛинеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ льготной очереди за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализЛьготнойОчередиЛинеек.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f9d0eec6-d63e-46a4-b621-a935f1fd91cb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

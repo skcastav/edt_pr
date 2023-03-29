@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d562a9b-dcf8-4c44-a2cb-1f821e03b866">
+  <producedTypes>
+    <managerType typeId="9c5a967c-6a51-4b4a-b91e-420997840dc0" valueTypeId="65d52922-d34e-4333-a9b8-56d34c94c7f0"/>
+    <tablesManagerType typeId="d88ebccf-11ca-46fb-920a-381ac4952f7c" valueTypeId="00bd1112-ebbe-4e58-af7d-9c088c88d2b6"/>
+    <cubesManagerType typeId="278bac21-4306-4e7c-9c68-b16622cc5d02" valueTypeId="9088a5db-70cd-44cd-ab8d-8662de055bfa"/>
+  </producedTypes>
+  <name>БазаСбыта</name>
+  <synonym>
+    <key>ru</key>
+    <value>База сбыта</value>
+  </synonym>
+  <tables>ExternalDataSource.БазаСбыта.Table.ВидыНоменклатуры</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.ЗаказКлиента</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.ЗаказКлиента_Товары</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.ЗаказНаПроизводство</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.ЗаказНаПроизводство_Товары</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.Контрагенты</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.Номенклатура</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.Партнёры</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.Пользователи</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.Реализация</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.Реализация_ТЧ</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.Склады</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.СнятиеСРезерва</tables>
+  <tables>ExternalDataSource.БазаСбыта.Table.СнятиеСРезерва_ТЧ</tables>
+</mdclass:ExternalDataSource>

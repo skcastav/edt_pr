@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f3315c-07a9-4d68-8948-06a97147144d">
+  <producedTypes>
+    <objectType typeId="cfe95727-34a2-49d6-ab49-b7216a4c991a" valueTypeId="20a0fd2c-67fe-43fa-94ef-868ba871ab76"/>
+    <managerType typeId="d997502f-09ef-4d05-8282-765c294ccebc" valueTypeId="96a47ac7-e597-4842-9174-01286a4454a0"/>
+  </producedTypes>
+  <name>ОборачиваемостьКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборачиваемость канбанов и потребность по ПП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОборачиваемостьКанбанов.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="8c7ebf9b-cd55-4ab2-b395-8a7d2f5e8bf5">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b83afdd1-9487-4809-8571-9ddea504e794">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="f37cdd1e-dfe9-498c-8d8f-7e43c8450ef1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="10271278-908e-47c5-847c-7e7642231f57">
+    <name>МакетПоЯчейкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по ячейкам</value>
+    </synonym>
+  </templates>
+  <templates uuid="98588c33-d09a-44f4-afd0-18bfb76eb182">
+    <name>МакетПоКанбанам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по канбанам</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

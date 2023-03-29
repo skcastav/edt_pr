@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab4e1809-bbe7-43ae-b055-ac948d9d1966">
+  <name>ЭтикеткаНаУпаковку_101х57Р_UA4</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетка на упаковку 101х57 UA4 Zebra</value>
+  </synonym>
+</mdclass:CommonTemplate>

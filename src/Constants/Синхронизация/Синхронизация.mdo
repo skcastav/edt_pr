@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="446812e6-7b05-4a10-b1ce-c7b8fa75867e">
+  <producedTypes>
+    <managerType typeId="43b0ef0e-6cc0-4603-b604-e6dc2bd73f6c" valueTypeId="04f6767c-2405-4ecd-ae3b-522c5cbf2991"/>
+    <valueManagerType typeId="4c766143-154c-4ffa-8fcd-eaf646c632d5" valueTypeId="81401847-72e1-40ea-99ef-be2b5b0ed47e"/>
+    <valueKeyType typeId="34bcb7c1-d158-559c-9dac-fd30b6e92b99" valueTypeId="c4ef813c-ff11-54a2-acfc-b0056fbdd5f5"/>
+  </producedTypes>
+  <name>Синхронизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка синхронизации</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

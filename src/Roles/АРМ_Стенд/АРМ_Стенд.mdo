@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cf8341a-2254-47ad-ad0e-8f211d11c6be">
+  <name>АРМ_Стенд</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ Стенд</value>
+  </synonym>
+</mdclass:Role>

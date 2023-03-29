@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3a7c15e-92ad-4057-b4e9-4aca87d65b9d">
+  <producedTypes>
+    <selectionType typeId="26381d58-0078-4e01-8d12-ba4fce7d62b9" valueTypeId="e301eb4f-6092-45dd-8cd7-a9932ff2a3bc"/>
+    <listType typeId="ec2cd7b1-d158-477b-9a72-8e6d4aa6bca7" valueTypeId="fb8912a0-6bc4-4aac-81b3-6f9bed0288fd"/>
+    <managerType typeId="a7d7a224-69d2-4462-9b49-fc180cdedd57" valueTypeId="2468dc28-d88f-4cd5-9fdf-3e0112ab14ae"/>
+    <recordSetType typeId="06dc73d0-f7e2-445e-b5b8-42dbb9d4bbbb" valueTypeId="e8dfc6c2-330d-41ef-a48c-911af0980834"/>
+    <recordKeyType typeId="dd40114d-cec4-4889-84b1-cd1765c8200c" valueTypeId="9d3602e5-7d35-4905-ab46-5227d8658325"/>
+    <recordType typeId="75ffbbc0-b5e9-4b63-923c-c683ecc9ba6c" valueTypeId="e1675869-c7c3-42d8-8526-2fa06ee60d92"/>
+    <recordManagerType typeId="90ca75a9-7e63-4e35-b70c-4ea14cd07cc0" valueTypeId="858b3bef-c276-4aad-88ba-afc1ab714401"/>
+  </producedTypes>
+  <name>НормыТехОснастки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы тех. остастки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4e4b6dbf-ef4d-4f93-b1dc-7b7e17ee715f">
+    <name>КоличествоЧасовРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов работы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9c7447a2-9f39-4877-b0b0-8372345b7e95">
+    <name>СтоимостьМЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость машино-часа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9a1fb22c-7c75-4e56-a31b-508afc059473">
+    <name>ТехОснастка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех. оснастка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехОснастка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

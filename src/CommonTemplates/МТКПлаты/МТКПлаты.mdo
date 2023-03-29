@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5bf7084-52b1-4a78-9551-3de663b9a442">
+  <name>МТКПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>МТКПлаты</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec22c505-d13f-49d4-aa46-eb2abc76acd8">
+  <producedTypes>
+    <objectType typeId="5011a116-a7da-44ab-83e7-d707480f3385" valueTypeId="34bdb99d-2570-404a-94d6-ced53b6c4cdc"/>
+    <managerType typeId="148ee6b4-438e-45be-8b20-b54ec43a8135" valueTypeId="d23c2393-e2fc-4f6e-a290-0561d9cb2a42"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанУД_Мастер</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан УД МО Мастер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанУД_Мастер.Form.Форма</defaultForm>
+  <attributes uuid="6a61d499-f48d-4615-be3a-016f365bf60f">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="66ee9aad-6d29-4bd2-afab-2ed96e775e91">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c00cb28a-4bc1-4222-85e5-b987c6713a86">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd3011e2-ed58-4901-bcb5-be1816855781">
+    <name>ДобавлениеТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление ТО</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

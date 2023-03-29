@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0ae8a0f-fbef-40c6-a868-aaf073f927fd">
+  <producedTypes>
+    <objectType typeId="4c8346c7-f71b-4a28-b3ca-45546eac5fbb" valueTypeId="4f194df5-c855-4dc1-bb58-0ede24b5a14c"/>
+    <managerType typeId="761665f8-8041-4af3-b566-c04bbe235e9b" valueTypeId="79d934e1-1f5c-4fb6-879e-5ba14ee10b15"/>
+  </producedTypes>
+  <name>ПечатьКарточекМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать карточек материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьКарточекМатериалов.Form.Форма</defaultForm>
+  <forms uuid="a1f77192-cfd4-430e-8cc5-966dddbb17c2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

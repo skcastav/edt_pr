@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc18e11b-5e1f-4eac-a9e9-e60395ff6dc8">
+  <producedTypes>
+    <objectType typeId="4afcbbe8-0ab4-412a-9869-455386920207" valueTypeId="2c6fdf0e-8cb6-4b53-a820-72b865a68eff"/>
+    <managerType typeId="06a34ac3-66af-4528-aad6-46be341bc2b8" valueTypeId="4a337405-1c5d-48ab-bbed-49f5f06d1584"/>
+  </producedTypes>
+  <name>ПоступлениеМПЗНаЛинейку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление МПЗ на линейку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоступлениеМПЗНаЛинейку.Form.Форма</defaultForm>
+  <forms uuid="0bb66d4a-90bf-46cb-96d3-56f7570cf85e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

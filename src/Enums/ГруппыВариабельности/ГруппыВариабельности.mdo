@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e44e57c7-4f2c-432d-b889-76324d117788">
+  <producedTypes>
+    <refType typeId="032ebea6-11ec-4fb0-b60f-9b66b89985a7" valueTypeId="4394042c-28d8-4139-9e28-a3e5d5fc2cb9"/>
+    <listType typeId="8115836c-edaa-4d1c-9c73-16eb93e72b45" valueTypeId="d81aacb8-a04e-452a-97df-31da53e0e20c"/>
+    <managerType typeId="7ea85b61-6f6d-4f05-8c93-2573a28f884b" valueTypeId="1704fe86-957c-4228-baaa-e24ece75cee3"/>
+  </producedTypes>
+  <name>ГруппыВариабельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы вариабельности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eab5ced6-774a-4112-8944-66cce309a856">
+    <name>X</name>
+    <synonym>
+      <key>ru</key>
+      <value>X</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="764e03ee-3337-4194-b6f1-3d80b24e2e4d">
+    <name>Y</name>
+    <synonym>
+      <key>ru</key>
+      <value>Y</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94e06176-c997-4822-aed6-0344e5a97e2a">
+    <name>S</name>
+    <synonym>
+      <key>ru</key>
+      <value>S</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d2188bf-fef2-48bb-a6ff-044ec31cea3c">
+    <name>Z</name>
+    <synonym>
+      <key>ru</key>
+      <value>Z</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

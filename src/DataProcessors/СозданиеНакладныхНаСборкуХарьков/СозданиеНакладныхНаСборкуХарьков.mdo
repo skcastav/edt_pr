@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c2e5be4-b82e-4b6c-bf2a-094a6306b86d">
+  <producedTypes>
+    <objectType typeId="d2d4ce12-77e5-42fc-8014-023c98e5f7ad" valueTypeId="82096894-31db-40c1-b0f3-99224050b071"/>
+    <managerType typeId="808ef6f0-ddd2-476f-b000-85a6410e5050" valueTypeId="64f470ea-4cea-4438-ae3f-9dca100293b3"/>
+  </producedTypes>
+  <name>СозданиеНакладныхНаСборкуХарьков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание накладных на сборку Харьков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеНакладныхНаСборкуХарьков.Form.Форма</defaultForm>
+  <forms uuid="376a33c7-eb48-4bdd-a778-ad9ee4e6838b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8e99c86e-2d14-401c-a56b-61d8a8e118c8">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

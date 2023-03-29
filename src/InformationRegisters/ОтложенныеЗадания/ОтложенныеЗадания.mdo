@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ba8b3f0-564c-4483-875c-b81704e36710">
+  <producedTypes>
+    <selectionType typeId="4232b0ea-ed73-418c-bafa-95c48389b381" valueTypeId="2a3222bf-b586-49d4-93c0-7654a7ef5d34"/>
+    <listType typeId="c8302fb4-89c5-420a-9e08-3faecf6dc054" valueTypeId="760bb807-08b5-4516-a55b-1206eccb484d"/>
+    <managerType typeId="b57b966b-fa5b-482f-b229-30f494d01f58" valueTypeId="b31627ed-cc4c-4269-937c-2ec18f531c67"/>
+    <recordSetType typeId="789ba3e5-6224-42ca-b6fd-2e631107b1c1" valueTypeId="29f01ecd-4c5d-4627-bf4c-db5906a28201"/>
+    <recordKeyType typeId="6de5ac05-499b-4ac4-848e-f3249a8800a7" valueTypeId="cce56d68-7645-420d-9121-e8791b4874dd"/>
+    <recordType typeId="2f8abde0-cbdb-48f6-8ea6-d90a2082b41e" valueTypeId="dc27af36-a106-4a1a-9620-f74582145747"/>
+    <recordManagerType typeId="e47dc8df-d925-4aea-9151-d7b33ad027ae" valueTypeId="80681bda-0fca-4dac-a915-d6f5c5fb4633"/>
+  </producedTypes>
+  <name>ОтложенныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенные задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="99e840e7-65e0-4cea-a2af-713ee9530ee5">
+    <name>Извещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Извещение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИзвещенияОбИзменениях</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

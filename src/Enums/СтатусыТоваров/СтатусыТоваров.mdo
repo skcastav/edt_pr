@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6d3e310-0385-42d4-91ab-f16cb1cc77f9">
+  <producedTypes>
+    <refType typeId="1a352a4a-fc8f-4834-85ac-4f65fdc21050" valueTypeId="4a934e8f-08e3-44ac-a073-296163fb290a"/>
+    <listType typeId="8c153fbd-cc61-48f3-b2e9-260a1bdf3664" valueTypeId="b631333f-f69d-4119-9e19-c3db3cb1e58d"/>
+    <managerType typeId="5c73eadf-e90e-4466-89c4-ea31b1fdcd07" valueTypeId="d13ea5a1-eb7e-41e5-a6b5-3dcda540004b"/>
+  </producedTypes>
+  <name>СтатусыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы товаров</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="30d6221c-9d87-4f70-af02-f836807ef39e">
+    <name>Производимый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производимый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4ee375a-a50e-49dd-87da-87850fd13bf1">
+    <name>НеПроизводимый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не производимый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e83c7bb1-4ce0-46e9-b355-bbcad99b3832">
+    <name>СнимаемыйСПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снимаемый с производства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e66e497-f7bb-4f30-99e4-3b13c770abb3">
+    <name>Опытный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опытный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd3389a3-ebda-4762-bd19-7b0cd859548e">
+    <name>Проектный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проектный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

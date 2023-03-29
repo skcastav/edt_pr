@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9d6c3fe-8774-41ce-b216-f84224e56146">
+  <producedTypes>
+    <objectType typeId="2ebaf079-9998-4e56-9b20-819489b881de" valueTypeId="ec8b4f07-95d8-4396-b822-55f3f8d99f90"/>
+    <managerType typeId="2d1a9569-f35f-4060-90e2-a3605054ef81" valueTypeId="7ae233ce-a132-480f-abf9-9086101f75d6"/>
+  </producedTypes>
+  <name>ПоискНесоответствийВФайлахSMD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск несоответствий в файлах SMD</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискНесоответствийВФайлахSMD.Form.Форма</defaultForm>
+  <forms uuid="1a607ed4-081b-46df-92f5-bb826d4d3f10">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

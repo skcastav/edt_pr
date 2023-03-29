@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f49fdea7-8f17-4af4-9601-827c4b155e63">
+  <producedTypes>
+    <objectType typeId="eb0a7f47-3ace-421d-a0cb-4932af26772b" valueTypeId="4d9e0257-cbd0-4bf5-b239-4fb44d10a4f6"/>
+    <managerType typeId="6cf9f29d-654d-4b2a-99c3-451cffaf647c" valueTypeId="6000a926-cc29-4e25-bff6-b45043b74c69"/>
+  </producedTypes>
+  <name>ПроверкаТОВПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка тех. операций в производственных заданиях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроверкаТОВПЗ.Form.Форма</defaultForm>
+  <attributes uuid="6df33c5a-d8e3-498b-ac0d-342c0e0a9201">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="882788cd-bfbc-4844-96ce-ca33cb926703">
+    <name>НаборТО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор ТО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="bf26ec5d-ea5a-47fe-b121-a247cd5a4a5c">
+    <producedTypes>
+      <objectType typeId="74d8fff0-48ab-4139-a7d1-92f52e01ffc3" valueTypeId="15a348ac-6934-4188-b6f5-d3aa76a79a0b"/>
+      <rowType typeId="bb720ae3-b09d-45df-92fe-7ba3cb5a07ea" valueTypeId="19a70b09-2d60-4f8c-ba84-b9d58573c892"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c0899d90-d3ec-4ff7-82d5-2b29495baecf">
+      <name>ПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>ПЗ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПроизводственноеЗадание</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7628375f-02d8-4c7e-9560-3fa4d161c641">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

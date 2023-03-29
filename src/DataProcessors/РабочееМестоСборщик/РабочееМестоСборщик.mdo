@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e553087-0ffc-43c2-85b3-2044a0ace0d8">
+  <producedTypes>
+    <objectType typeId="d2950d7a-cd93-4aa3-b8a7-dd5b55e480bc" valueTypeId="176e76a6-b9d0-4140-96dd-bf1f2ff11741"/>
+    <managerType typeId="040be126-ddd8-4ea7-afca-e86756466b69" valueTypeId="c82d6e6d-d47b-4880-ba64-6857656c5f02"/>
+  </producedTypes>
+  <name>РабочееМестоСборщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место сборщик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоСборщик.Form.Форма</defaultForm>
+  <attributes uuid="0ca6fc10-288f-4ce5-887c-4806c3bd026a">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="3586afde-4f32-4de1-8e77-86523c26b18b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c90effad-bb0d-4034-b24d-229399844e50">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

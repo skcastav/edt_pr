@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac816c52-dbb0-48cf-a8ea-ef3dabbdbdaa">
+  <producedTypes>
+    <managerType typeId="06600b73-eaff-41af-93a4-c9bbb67c2290" valueTypeId="376a6f80-8cd4-4cfc-9eee-82111a56a851"/>
+    <valueManagerType typeId="17a5d3ea-c093-4753-9b26-2568cb47dc0e" valueTypeId="034b10ed-596d-4de6-9c7e-c9ba34e9fb3b"/>
+    <valueKeyType typeId="0ca19ff1-5057-4293-ae7f-90c5e3339047" valueTypeId="13fb4dc4-b5b3-4f5b-87d8-374bdbf0bd3f"/>
+  </producedTypes>
+  <name>КаталогВыгрузкиСвободныхОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталог выгрузки свободных остатков</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

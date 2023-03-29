@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e61753f-d28b-48c0-8e91-7101186ba109">
+  <producedTypes>
+    <objectType typeId="4be7b82c-abf9-4f7f-96dd-ac1f023ad04a" valueTypeId="1e105cdd-573e-4d4e-9c71-fa20fd3a1481"/>
+    <managerType typeId="ad65321f-dfad-48d3-ae52-f8b7b1d186b2" valueTypeId="44235575-8b1f-48cf-a2d3-c61c55e305d4"/>
+  </producedTypes>
+  <name>ПечатьКарточекДляКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать карточек для канбанов УЛИШИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьКарточекДляКанбанов.Form.Форма</defaultForm>
+  <attributes uuid="d18ef26e-de6b-46a8-8cf2-cd0d40a7ed85">
+    <name>МестоХраненияПотребитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения-потребитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="007c59e5-15d1-4518-bc7f-18382a5d859d">
+    <producedTypes>
+      <objectType typeId="b550daa3-9f80-40c4-a562-d240d55a5ee0" valueTypeId="11c82e3b-bb43-4cd8-8ec2-710789e25708"/>
+      <rowType typeId="fa00339b-fbae-4518-b8cb-6bce87ba8e32" valueTypeId="d826ba8c-a8f0-4b4a-8941-6b025bee076d"/>
+    </producedTypes>
+    <name>ТаблицаКанбанов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица канбанов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f4bdf61f-36da-4f20-838f-b78329ac210d">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1d803e99-0eb3-4c5d-8509-454d74f2fcea">
+      <name>МестоХраненияПотребитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Место хранения-потребитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.МестаХранения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="20207d2a-0756-4595-b206-0e8d8996eb10">
+      <name>Канбан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Канбан</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3aaa0907-d218-404c-86ab-099fd3b680e0">
+      <name>КоличествоЯчеек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во ячеек</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9c4d4d4a-3c68-475a-94fe-4c3a23e24605">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кол-во в ячейке</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="37d13f8e-755c-4fad-93d3-034efd344176">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

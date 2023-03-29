@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15446515-1fa7-4efa-9f51-c932cdb8f7a6">
+  <producedTypes>
+    <objectType typeId="74d96984-6f9f-4ad0-8e7c-0653ca1073cf" valueTypeId="6b826d10-c8e0-4215-8e55-1fb1b6712be5"/>
+    <managerType typeId="4a5de096-acc9-4ce8-86bf-ab82b39e027d" valueTypeId="0bf43078-01a0-4d49-a582-f08dc509e4e3"/>
+  </producedTypes>
+  <name>ПрименяемостьЭлементаСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Применяемость элемента спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПрименяемостьЭлементаСпецификации.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="db17dddf-dd65-458f-a52c-ed8e3677254c">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0e11240b-6e61-4307-b835-7ba661016086">
+    <name>ЭлементСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент спецификации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехОснастка</types>
+      <types>CatalogRef.Документация</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ТехОперации</types>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+  </attributes>
+  <forms uuid="8571aa31-9e26-42d4-b695-77b9a4021745">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fce3f3c-4ed3-4077-a9ec-154bef3b3b15">
+  <producedTypes>
+    <objectType typeId="ada9d655-e8e7-4151-bf22-3969aa9d1d74" valueTypeId="326cc5f2-70a7-4d99-9683-4d16e203b7bd"/>
+    <managerType typeId="51925621-04aa-4047-b074-1ab2a62bf088" valueTypeId="dddfff3d-1bea-443f-9c15-323d23f842d4"/>
+  </producedTypes>
+  <name>ВизуализацияКанбанов_Новая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Визуализация канбанов (новая)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВизуализацияКанбанов_Новая.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="a65d6286-ad79-4066-a133-0d5c4b9a69d7">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="498dd078-7f8d-4d71-b40c-1bcfe7e0fce0">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c4732dbd-7561-42b0-a426-076d8580c376">
+    <name>Визуализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Визуализация</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

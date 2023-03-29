@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54062167-e62c-4b80-9473-e3b0fef0acc9">
+  <name>ЗапретРедактированияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет редактирования документов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

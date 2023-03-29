@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b150a32e-5455-4aa9-b9fd-4d6561500c91">
+  <producedTypes>
+    <objectType typeId="62abd62d-f27a-4186-bc09-672437943dbe" valueTypeId="6928bbb1-15eb-4c04-a3b1-5aef5977b991"/>
+    <managerType typeId="ccaa4a8f-9c16-43dd-9636-743c865b1c77" valueTypeId="b8691e55-726a-4f16-81f9-f519dae54674"/>
+  </producedTypes>
+  <name>ИнструментОценкиОбеспеченности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инструмент оценки обеспеченности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ИнструментОценкиОбеспеченности.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="e4e465dc-f237-4f6d-a5ee-cf3e27bd621d">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3c5d4596-f801-4fde-b1f5-7e33a5440238">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6cfe19b4-24ee-4579-bba5-51c16d84b19c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="49f9d085-da9f-497b-8add-2975135d942e">
+    <name>Макет2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет2</value>
+    </synonym>
+  </templates>
+  <templates uuid="682a4a35-9ab2-46d2-aa4a-f8c6cb69d5eb">
+    <name>ОжидаемыйРасходПоЛинейкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидаемый расход по линейкам</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96f0b7b6-2d5c-4493-b6d3-ae9e5c18c9e6">
+  <producedTypes>
+    <objectType typeId="4d4cfd85-ba0b-469b-971e-0f6042a264c3" valueTypeId="a718eb3f-3a12-4ddc-b893-66114f6054e0"/>
+    <managerType typeId="eb891db9-6ad5-4ee1-8f2e-ac758764189b" valueTypeId="97cdc6ac-2111-4779-9df3-5c497b248a2c"/>
+  </producedTypes>
+  <name>ОтчётПоНормированиюМО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по нормированию металлообработки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоНормированиюМО.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1c530be1-2e13-4b9d-a4f8-bbfb234e2e07">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

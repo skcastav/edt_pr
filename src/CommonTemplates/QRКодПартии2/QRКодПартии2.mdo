@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa19c6bc-077b-4c5d-80c4-66b150f0da69">
+  <name>QRКодПартии2</name>
+  <synonym>
+    <key>ru</key>
+    <value>QR-код партии</value>
+  </synonym>
+</mdclass:CommonTemplate>

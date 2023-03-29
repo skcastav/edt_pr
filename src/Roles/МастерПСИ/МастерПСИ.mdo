@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47a54c29-7b68-4217-afcb-b35d7eee0ed7">
+  <name>МастерПСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер ПСИ</value>
+  </synonym>
+</mdclass:Role>

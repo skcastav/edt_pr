@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="868d2269-710a-4e4a-b294-936b9f03fe6c">
+  <name>ПринтерЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принтер чеков</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

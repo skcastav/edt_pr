@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="916a7832-176f-4847-bf2d-122d064240c0">
+  <producedTypes>
+    <objectType typeId="1b991576-b678-448f-9545-97aba635bc4a" valueTypeId="5256db8b-d139-4493-b741-a03c0271fbdf"/>
+    <refType typeId="7c24300d-9663-471d-b4cf-3b525bf139a7" valueTypeId="521a1ec6-f93a-43d3-b5f7-1a001ed2db46"/>
+    <selectionType typeId="1153002d-3eac-42ce-8ef4-8289f76945f9" valueTypeId="c273fd1a-77ba-400e-ab5a-1577d630e304"/>
+    <listType typeId="b0c83d19-a8b4-40a1-9d52-ff17e4919619" valueTypeId="2a76bbdb-34df-42ee-82b4-edad4ddc56eb"/>
+    <managerType typeId="a7a3ed05-0791-4fa2-be9f-cc7720456ba5" valueTypeId="7aa383ee-8a66-4b1c-9f36-8e11e0d0900f"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Договоры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c5aec564-0029-459f-9ee9-b2eba7a4d74a">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ef51029-77d6-43b6-920c-9589112adb9b">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0ca2919-f0cf-4af2-b6b1-e5b750f476a8">
+    <name>ДоговорСНефиксированнымиЦенами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор с нефиксированными ценами</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d285987e-8065-48ec-a0f6-e4670d302584">
+    <name>ОкруглятьВалютныеЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Округлять валютные цены до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>2</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>5</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>2</value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d9b1748-53a5-464b-90a2-12c5e73b6eac">
+    <name>УчётКоличества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учёт количества</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6d278b00-48ae-4477-8a58-3a5bfafc5d86">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

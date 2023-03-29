@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7f0d957-df83-449a-82e0-93e3798e8d57">
+  <producedTypes>
+    <objectType typeId="c2496268-decf-4b6a-8a9c-d4eb8d1d2cd6" valueTypeId="2b93e596-f8bb-4f54-be89-49d10c19b5a2"/>
+    <managerType typeId="8400e09c-c6d9-4b73-bd2f-b3754af2b317" valueTypeId="99470a37-8d01-44d5-a7c7-2f97bc034155"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_Электроконтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Электроконтроль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_Электроконтроль.Form.Форма</defaultForm>
+  <attributes uuid="cdbc212a-b73b-444c-a6d0-a6932dabc00b">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3a0a033e-d05c-4f53-b4bd-4bd1e07b4fe3">
+    <name>ПроизводственноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8d1753f0-e904-44c6-aa6f-b0d047f81252">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="02e50087-c0bc-4bd2-88af-d8f333a2be49">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛинииSMD</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="76c5b0ff-1abd-4d7b-b2d1-0ca16dd8ee31">
+    <name>ИнтервалОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал обновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fab4ab9c-8b00-4b6e-8576-67b6bbd98d30">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c8fb102-af76-47e7-a025-bd4824a03f01">
+    <name>ПроверкаПлат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка плат</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bcee115a-74e6-4166-bec3-396a55586818">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

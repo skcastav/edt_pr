@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3025b96e-70b2-4035-a193-316e22def4d6">
+  <name>Канбаны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Канбаны</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Канбаны</picture>
+  </picture>
+  <content>CommonPicture.Канбаны</content>
+  <content>DataProcessor.РабочееМестоКанбанРМ</content>
+  <content>DataProcessor.ДиспетчеризацияПроизводства</content>
+  <content>DataProcessor.РабочееМестоКанбанРМ_Промывка</content>
+  <content>DataProcessor.РабочееМестоКанбанРМ_Просмотр</content>
+  <content>DataProcessor.ОтправкаВРемонтВыходныхПолуфабрикатов</content>
+  <content>Report.ОтчетПоПрисвоеннымЛиниямSMD</content>
+  <content>Report.ВизуализацияКанбанов</content>
+  <content>DataProcessor.РабочееМестоОценкаБрака</content>
+  <content>Report.ОтчетПоТекущейЛьготнойОчереди</content>
+  <content>DataProcessor.ОбработкаОстановленныхПроизводственныхЗаданий</content>
+  <content>DataProcessor.РабочееМестоКанбанВнутреннийПоставщик</content>
+  <content>DataProcessor.РабочееМестоКанбанУИТ_Выпуск</content>
+  <content>DataProcessor.РабочееМестоКанбанУИТ_Производство</content>
+  <content>DataProcessor.РабочееМестоКанбанУИТ_Мастер</content>
+  <content>DataProcessor.РабочееМестоКанбанУД_Мастер</content>
+  <content>DataProcessor.РабочееМестоКанбанУД_Диспетчер</content>
+  <content>DataProcessor.РабочееМестоКанбанУД_Выпуск</content>
+  <content>DataProcessor.СозданиеПеремещенийНестандартныхПолуфабрикатов</content>
+  <content>DataProcessor.РабочееМестоКанбанОформлениеБрака</content>
+  <content>DataProcessor.РабочееМестоКанбанЧЭ_Мастер</content>
+  <content>DataProcessor.РабочееМестоКанбанЧЭ_Производство</content>
+  <content>Report.СверкаТОКанбанУД</content>
+  <content>DataProcessor.СписаниеТехПотерьНаЛинейкахКанбан</content>
+  <content>DataProcessor.РабочееМестоКанбанМО_UA</content>
+  <content>Report.ВизуализацияКанбанов_Новая</content>
+  <content>Report.ОтчётПоЛинейкамКанбановSMD</content>
+  <content>DataProcessor.ПоискНесоответствийВФайлахSMD</content>
+  <content>Report.ОтчетПоВременнымПромежуткамОперацийSMD</content>
+  <content>DataProcessor.РабочееМестоКанбанУчетПрессформ</content>
+  <content>Report.ОтчетПоСтанкамИПрессформам</content>
+  <content>DataProcessor.РабочееМестоКанбанУД_Выпуск_Партии</content>
+  <content>DataProcessor.РабочееМестоКанбанВнутреннийПоставщикПартии</content>
+  <content>Report.ОтчётПоРаспределениюМатериаловПоПитателям</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>SMDРоссия</subsystems>
+  <subsystems>SMDУкраина</subsystems>
+</mdclass:Subsystem>

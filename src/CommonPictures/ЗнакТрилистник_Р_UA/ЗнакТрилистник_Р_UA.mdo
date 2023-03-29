@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9fb7edc-bbae-4455-a967-93e5870e595d">
+  <name>ЗнакТрилистник_Р_UA</name>
+  <synonym>
+    <key>ru</key>
+    <value>Знак трилистник UA</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="693782f4-1503-4087-8c56-8bdf4ad8d908">
+  <name>ЭтикеткаНаУпаковкуEvicon</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетка на упаковку Evicon</value>
+  </synonym>
+</mdclass:CommonTemplate>

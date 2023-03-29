@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f379f42-28c9-4067-b4b6-591f9e52851e">
+  <name>Диспетчеризация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диспетчеризация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Диспетчеризация</picture>
+  </picture>
+  <content>Report.Визуализация</content>
+  <content>CommonPicture.Диспетчеризация</content>
+  <content>Report.ОтчетПоТекущейЛьготнойОчереди</content>
+  <content>Report.ОтчетПоОжидаемомуДефициту</content>
+  <content>Report.ОтчётПоРегиструПланыВыпуска</content>
+  <content>DataProcessor.ОстановкаМаршрутныхКарт</content>
+  <content>Report.СверкаПоступленийНаЛинейки</content>
+  <content>Report.НаличиеКомплектацииНаЛинейках</content>
+  <content>DataProcessor.ДиспетчеризацияПроизводства</content>
+  <content>CommandGroup.ДиспетчеризацияПЭО</content>
+  <content>CommandGroup.ДиспетчеризацияМастера</content>
+  <content>CommandGroup.ДиспетчеризацияДиспетчера</content>
+  <content>Report.ОтчётПоНоменклатуреЛинеек</content>
+  <content>Report.ОтчётПоГрупповойУпаковке</content>
+  <content>DataProcessor.ОформлениеПустыхКанбановИлиИзлишков</content>
+  <content>Report.ОтчётПоРегиструПередачиНаЛинейки</content>
+  <content>Report.ВизуализацияСводная</content>
+  <content>DataProcessor.ВыгрузкаХарьковскихЗаказов</content>
+  <content>DataProcessor.СозданиеПодчиненныхМТК</content>
+  <content>DataProcessor.ОбработкаЗаказовНаПроизводство</content>
+  <content>Report.ОтчётПоНоменклатуреЛинеекТНП</content>
+  <content>DataProcessor.ГрупповаяОстановкаМаршрутныхКарт</content>
+  <content>DataProcessor.КорректировкаПотерьПродукцииВЗНП</content>
+</mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e313540-bda0-4769-a3da-b66c8562f92f">
+  <producedTypes>
+    <managerType typeId="c8b3c2cf-eebe-419a-a9f4-28feef9033b7" valueTypeId="cfc5731e-2085-4621-a853-8c3a4c9307ca"/>
+    <valueManagerType typeId="c4426772-7473-42aa-924d-721412c0f200" valueTypeId="536377a8-4bdf-4754-9af0-e2ab0af62244"/>
+    <valueKeyType typeId="c25ea0ed-ebce-5319-a982-7cdf8b9468a1" valueTypeId="0d119da8-7c4a-5fe0-aae2-1d7aaf35561f"/>
+  </producedTypes>
+  <name>ОсновнойПроизводственныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной производственный календарь</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПроизводственныеКалендари</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

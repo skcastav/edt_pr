@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a90af8e6-70aa-4dea-a23a-09987a9bfc35">
+  <producedTypes>
+    <objectType typeId="12ac9de2-db1d-44c6-bd34-ddc3cd14a533" valueTypeId="7afefac0-729f-404c-b800-2d61e68439c3"/>
+    <managerType typeId="9c452e42-b4dc-44ba-bf6d-2eb3cfbf987b" valueTypeId="e4c36305-a009-4a2b-a98a-ed99dd678947"/>
+  </producedTypes>
+  <name>ЗагрузкаКоэффициентовСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка коэффициентов сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКоэффициентовСотрудников.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5d5cd487-0d4f-4b49-b4df-16b22c0f8afd">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="22aa9a28-c375-4699-85cd-1651e9c34878">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

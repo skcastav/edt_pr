@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="988a3264-baea-477f-96c2-2b339ef43d4d">
+  <producedTypes>
+    <objectType typeId="691190bb-6ea8-426c-b58b-c2cbe568f00e" valueTypeId="7d1a14cc-cf6e-4eeb-9921-9f2d7e4f798b"/>
+    <managerType typeId="3900d56d-9d67-4afe-82e7-44d2ef459cdd" valueTypeId="f1992d3f-aa29-4eba-9301-adb2e7f4945c"/>
+  </producedTypes>
+  <name>ИзменениеСтатусовМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение статусов материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИзменениеСтатусовМатериалов.Form.Форма</defaultForm>
+  <forms uuid="2edc15b6-3595-44e3-8807-b1f8e3daf6fc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dddf205d-37f3-44c4-ad65-f55a694b3ff2">
+  <producedTypes>
+    <objectType typeId="242a9fc5-48f4-4d01-a802-ca95540eb19d" valueTypeId="5e61e3dc-f128-45c4-9555-ad98553fbb80"/>
+    <managerType typeId="3a8ab36c-a819-494c-8cd3-9160997dea0d" valueTypeId="2e759f22-6865-454d-b33a-b9b340a39bde"/>
+  </producedTypes>
+  <name>СостояниеЗаказаНаПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние заказов на производство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СостояниеЗаказаНаПроизводство.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="c638d1e8-6279-4fea-9473-9a86eb0d4113">
+    <name>ЗаказНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на производство</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="13c43af3-0352-4030-bac3-06db08e0aa72">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6c564490-1987-47c4-92c1-e21d1abf397c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

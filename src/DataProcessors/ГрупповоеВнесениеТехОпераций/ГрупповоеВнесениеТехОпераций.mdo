@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c448267-9e2c-4cb4-aad2-03eeca3c3cb4">
+  <producedTypes>
+    <objectType typeId="76217172-9ec8-4895-83db-a97eaf2cb5e4" valueTypeId="365575f5-d7dd-4988-b2a7-e43d84420278"/>
+    <managerType typeId="bf72e688-8e4d-483b-99df-ec18be43ad0e" valueTypeId="71588755-941b-4515-8526-b9fd4159de1b"/>
+  </producedTypes>
+  <name>ГрупповоеВнесениеТехОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое внесение тех. операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповоеВнесениеТехОпераций.Form.Форма</defaultForm>
+  <attributes uuid="ef0c9240-c7b5-460a-b4b5-d9565052ccd2">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dd9cad5c-337d-49cb-b27d-469d2a9a5f89">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f9bd165-3415-4479-9b94-275eb94cb583">
+  <name>ВыборПричинРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор причины отправки в ремонт/брак</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

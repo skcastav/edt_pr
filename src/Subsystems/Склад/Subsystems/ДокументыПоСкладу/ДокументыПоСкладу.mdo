@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f74f299b-1f89-4dd0-a3e8-5f15c7b7af6b">
+  <name>ДокументыПоСкладу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по складу</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ИнвентаризацияМПЗ</content>
+  <content>Document.ПоступлениеМПЗПрочее</content>
+  <content>Document.СписаниеМПЗПрочее</content>
+  <content>Document.ВводОстатковМПЗ</content>
+  <content>Document.ДвижениеМПЗ</content>
+  <content>Document.ПоступлениеМПЗ</content>
+  <content>Document.Реализация</content>
+  <content>Document.ВозвратПоставщику</content>
+  <content>Document.ПередачаНаЛинейку</content>
+  <content>Document.ПоступлениеНаЛинейку</content>
+  <content>Document.ПередачаВПереработку</content>
+  <content>Document.ПоступлениеИзПереработки</content>
+  <content>Document.СписаниеИзПереработки</content>
+  <content>Document.ДвижениеРезервовГП</content>
+  <parentSubsystem>Subsystem.Склад</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44e717eb-04ce-4d9b-b9e1-8f8ebb22da9b">
+  <producedTypes>
+    <objectType typeId="8a671803-b047-4ecb-b368-edea3f70e445" valueTypeId="b1a6512a-4465-4e96-b0b1-0d5af28b9b0c"/>
+    <managerType typeId="e6ef46a4-5592-4f7e-8c32-ab6099df67ce" valueTypeId="9dbd361d-00d6-4722-874f-7b251792a77d"/>
+  </producedTypes>
+  <name>ВыгрузкаВБазуАршин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка в базу Аршин</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаВБазуАршин.Form.Форма</defaultForm>
+  <forms uuid="b561666f-97f3-4e2f-b367-9c6a4571cddb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

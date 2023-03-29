@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae8ac991-6826-4c32-8c35-8a026d1c98ea">
+  <producedTypes>
+    <objectType typeId="7a6dd572-e6ed-46f6-9691-7911af2a8f50" valueTypeId="03637654-b5ed-4225-b42c-4fff8c1ecfa0"/>
+    <managerType typeId="6cc10445-eb00-4f6e-97f3-8bf63e2b53f3" valueTypeId="9dd29c1c-f486-4596-9819-4b27d040a6bd"/>
+  </producedTypes>
+  <name>СравнениеСпецификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение спецификаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СравнениеСпецификаций.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="f8956b31-48c8-4f63-82ad-ab36c6962bfd">
+    <name>Спецификация1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация 1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ef5cc247-da68-4d71-8185-20022fe5a0ef">
+    <name>Спецификация2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация 2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a7d7e726-ef81-4cf0-a981-28976873a0fc">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b9856ebc-3942-4d50-b23a-6102ec64b096">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fdeb68e1-2736-4b3c-a236-aff7311f780c">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09ea3d3d-6e4b-4189-97d3-f580c8cc444f">
+  <producedTypes>
+    <selectionType typeId="e265e2c3-3008-4e3e-8889-c28ea4009897" valueTypeId="a6992d6f-d236-47c4-a15c-a2686d37f203"/>
+    <listType typeId="f3ea829a-51f9-4048-a61b-f19ca234e4d7" valueTypeId="cf22a421-fca0-4a30-b3bd-3d771ef98183"/>
+    <managerType typeId="316d1d61-ea2b-455a-8a06-3517b2d5903e" valueTypeId="118ea7b8-88ea-4de0-91ea-8430919943ec"/>
+    <recordSetType typeId="217daf05-c533-48f4-a977-97b2c88bacf7" valueTypeId="674ed8dd-809e-4bf6-966d-f1fb348c6251"/>
+    <recordKeyType typeId="1e1d18d8-09d2-4f1c-85ea-f9feead69dbd" valueTypeId="2c59c773-0753-41c2-9763-a3720c5f0e83"/>
+    <recordType typeId="94c8c99c-7300-4e3c-89c3-8af862c9ad19" valueTypeId="f3bb5c47-afdb-4d72-9f66-050ef0a2aa20"/>
+    <recordManagerType typeId="45535011-a413-4597-b6c8-355f12f2cf84" valueTypeId="eeac742b-bf4b-4322-8a17-80c65af32309"/>
+  </producedTypes>
+  <name>НормыSMDПоЛинейкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы SMD по линейкам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="41c8decf-75cb-45c4-9eb8-6fe23be082dd">
+    <name>НормаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма времени</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="489aa30d-4d08-43ac-8dfd-188f5df5bc0a">
+    <name>ЦенаНормоЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена нормо-часа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d2873fb2-f833-448a-8854-bf41ae0c851b">
+    <name>МПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МПЗ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="95284972-e945-48c6-ad65-d40e25a5363e">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

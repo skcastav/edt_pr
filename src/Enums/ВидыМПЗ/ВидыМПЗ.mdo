@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb892ca6-16b3-413f-a5c4-ca9c2b6758d6">
+  <producedTypes>
+    <refType typeId="cc305224-b6f3-4d97-8e27-b43913f969f2" valueTypeId="f4969110-8ceb-48e3-8c2d-e245ea05174c"/>
+    <listType typeId="2defb699-0187-4e83-b0db-8fd316cd8ede" valueTypeId="2dc65b8b-739d-4579-be42-c0dffd6658e2"/>
+    <managerType typeId="df721ae6-6a54-4b2f-bedd-488e034e97d5" valueTypeId="e699d9d0-0c89-4063-be28-646f8355e20f"/>
+  </producedTypes>
+  <name>ВидыМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды МПЗ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="074f8d03-2197-41c0-9480-8eb0a1887ea5">
+    <name>Материалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="886e0eb8-ea9a-40bd-9f05-8850bc70416b">
+    <name>Полуфабрикаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полуфабрикаты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

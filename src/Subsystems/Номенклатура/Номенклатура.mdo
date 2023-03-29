@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97f0d9d9-a97f-4232-a0c4-1d19f28313b0">
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <comment>Номенклатура и вспомогательные справочники</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Номенклатура</picture>
+  </picture>
+  <content>Role.Администратор</content>
+  <content>CommonCommand.СохранениеПозиции</content>
+  <content>DataProcessor.ГрупповаяОбработкаНоменклатуры</content>
+  <content>CommonPicture.Номенклатура</content>
+  <content>Enum.СинхронизацияСправочников</content>
+  <content>CommonCommand.ВосстановлениеПозиции</content>
+  <content>Report.ПечатьСпецификации</content>
+  <content>Report.ПросмотрИзвещений</content>
+  <content>Report.ПрименяемостьЭлементаСпецификации</content>
+  <content>Report.ПечатьСпецификацииЕСКД</content>
+  <content>DataProcessor.СозданиеЭскизаСпецификации</content>
+  <content>Report.УниверсальныйОтчётПоСправочникам</content>
+  <content>Report.ОтчётПоИзменениямВСпецификации</content>
+  <content>DataProcessor.ДобавлениеДокументов</content>
+  <content>DataProcessor.ЗагрузкаПараметровДляОтгрузки</content>
+  <content>DataProcessor.ИзмененияСпецификацийЗаПериод</content>
+  <content>Report.ОтчётПоИзменениямВСпецификациях</content>
+  <content>DataProcessor.ПрисвоениеЛинеек</content>
+  <content>DataProcessor.ЗагрузкаКорневыхХарактеристик</content>
+  <content>DataProcessor.ЗагрузкаКорневыхХарактеристикМатериала</content>
+  <content>Report.ПоискМатериаловПоКорневымХарактеристикам</content>
+  <content>DataProcessor.КопированиеСпецификацииВДругуюБД</content>
+  <content>DataProcessor.ГрупповаяОбработкаСтационарныхПитателей</content>
+  <content>Report.ПрименяемостьМатериаловВСпецификациях</content>
+  <content>DataProcessor.ВнесениеИнформацииПоРедизайну</content>
+  <content>Report.ОтчётПоСтационарнымПитателям</content>
+  <subsystems>Отчёты</subsystems>
+  <subsystems>Справочники</subsystems>
+</mdclass:Subsystem>

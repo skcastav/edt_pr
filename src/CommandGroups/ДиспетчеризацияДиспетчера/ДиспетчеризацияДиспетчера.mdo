@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68eb214f-ad6d-4ab0-9059-11d36475f155">
+  <name>ДиспетчеризацияДиспетчера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диспетчера участков</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

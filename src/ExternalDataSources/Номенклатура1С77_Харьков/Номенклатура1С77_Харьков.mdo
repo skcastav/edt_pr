@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c48cd85-e24f-4eea-a8ff-ee4b5d8e8c71">
+  <producedTypes>
+    <managerType typeId="9e41a108-4a93-4311-85d0-2f2a835a29b8" valueTypeId="3e75287d-4d78-4687-86f0-f8f9b6c46414"/>
+    <tablesManagerType typeId="f0c181a4-4288-410b-86ab-7416bdc6ec0a" valueTypeId="c094de91-f94e-4489-884e-5aa7b78d68af"/>
+    <cubesManagerType typeId="3f1fd140-5caf-407e-bde7-6a5b61037f01" valueTypeId="6f1567c3-e133-4a46-8989-ffb9c08e7af4"/>
+  </producedTypes>
+  <name>Номенклатура1С77_Харьков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура 1С 7.7 Харьков</value>
+  </synonym>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.АналогиНормРасходов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ВидыДатчиков</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ВидыКанбанов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ВидыРабот</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ГруппыПоМощности</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ДвижениеМПЗ</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ДвижениеМПЗ_ТЧ</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.Документы</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ДополнительныеХарактеристикиНоменклатуры</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ЕдиницыИзмерения</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ЖурналДокументов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ИзвещенияНаМатериалы</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ИзвещенияНаНоменклатуру</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ИзвещенияОбИзменениях</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ИзготовлениеПП</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.Линейки</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.Материалы</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.МестаХранения</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.Номенклатура</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.НормыРасходов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ОснЕИМатериалов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ОснЕИНоменклатуры</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ПараметрыПлат</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ПеременныеДанные</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.Проекты</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.Производители</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.Сотрудники</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ТехОперации</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ТехОснастка</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ТоварныеГруппы</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ТоварыДатчики</tables>
+  <tables>ExternalDataSource.Номенклатура1С77_Харьков.Table.ТоварыПриборы</tables>
+</mdclass:ExternalDataSource>

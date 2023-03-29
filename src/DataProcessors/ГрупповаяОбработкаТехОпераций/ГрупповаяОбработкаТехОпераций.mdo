@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7a1fcbd-9a48-4a45-8301-7253eb7954af">
+  <producedTypes>
+    <objectType typeId="2aaee090-7353-4693-895f-3963358fc6d4" valueTypeId="39b3ae87-04e8-443e-a5c9-454081d4d982"/>
+    <managerType typeId="49b5fa08-35b4-4f99-beda-a19e8a565d62" valueTypeId="1f2bf19f-417a-4303-ba81-7554f1f44b54"/>
+  </producedTypes>
+  <name>ГрупповаяОбработкаТехОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая обработка тех. операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповаяОбработкаТехОпераций.Form.Форма</defaultForm>
+  <attributes uuid="d7497b28-adee-4e5e-b731-f79e2b8e314b">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2f63c3be-946c-49cb-98b3-d46f1136c330">
+    <name>ВноситьНаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вносить на дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="b3b7a5f9-1ce6-4eb9-b30a-b2cc1ef6d38d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

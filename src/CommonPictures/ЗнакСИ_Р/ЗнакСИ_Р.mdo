@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d084bbd7-1486-4e5a-a703-c7e1db685420">
+  <name>ЗнакСИ_Р</name>
+  <synonym>
+    <key>ru</key>
+    <value>Знак с и Р</value>
+  </synonym>
+</mdclass:CommonPicture>

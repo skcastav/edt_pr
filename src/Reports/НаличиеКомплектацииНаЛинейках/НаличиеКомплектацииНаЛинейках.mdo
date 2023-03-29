@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61082513-fb59-4df2-b0f5-b033578713fa">
+  <producedTypes>
+    <objectType typeId="1b3d86a1-3308-4ee0-bcb4-0970cbac3dc5" valueTypeId="22592a99-d459-4271-9afe-69bf9043d1a0"/>
+    <managerType typeId="ac32d7fd-4c4f-44c2-a0e5-e96c6e6072b8" valueTypeId="ab4d2213-1b29-48d9-8d55-cbf4d93086cd"/>
+  </producedTypes>
+  <name>НаличиеКомплектацииНаЛинейках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличие комплектации на линейках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.НаличиеКомплектацииНаЛинейках.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="2ed13a23-8434-4169-9c74-5ea0d00ce338">
+    <name>ИнтервалОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал обновления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1199278b-00ce-4f1b-858c-c4bf9a941b2a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="58a992ef-2455-45e7-9dce-c29e630403af">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

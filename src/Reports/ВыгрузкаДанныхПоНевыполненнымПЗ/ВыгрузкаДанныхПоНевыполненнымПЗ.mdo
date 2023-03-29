@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f3d50de-19cd-4548-88bb-7011c6e980c4">
+  <producedTypes>
+    <objectType typeId="59f15e5f-674d-438f-aed8-decb8e3d9b02" valueTypeId="e06fe96d-f0b1-4c0f-84d6-2344e053180a"/>
+    <managerType typeId="0a45b000-fd61-4543-a0d0-542767df6763" valueTypeId="0e137931-7ae2-43e9-9357-5790302b3259"/>
+  </producedTypes>
+  <name>ВыгрузкаДанныхПоНевыполненнымПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка данных по невыполненным ПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВыгрузкаДанныхПоНевыполненнымПЗ.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="8c18e874-7ead-4c93-b441-efd3c29123e5">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="aa887f2b-2a7c-44a5-9fce-51f3c7938454">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d32d29f0-c021-49a7-a948-7784e069a101">
+    <name>Выгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

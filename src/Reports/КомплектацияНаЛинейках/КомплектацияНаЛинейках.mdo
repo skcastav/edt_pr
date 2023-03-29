@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5600419-4058-4666-9a0d-b054f2f2ee77">
+  <producedTypes>
+    <objectType typeId="3f394b4a-2cec-4820-b772-2ebbaad8ea83" valueTypeId="fb6f20e7-9bec-47c3-9d2d-fbcbea64e8ea"/>
+    <managerType typeId="f092bbd0-e729-472a-9adc-fdd9f38392dd" valueTypeId="ee5b0725-edc3-4122-83ae-361b0aba2737"/>
+  </producedTypes>
+  <name>КомплектацияНаЛинейках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектация на линейках с печатью QR-кодов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КомплектацияНаЛинейках.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="515e2e42-8e2d-4b1a-b96b-1607e81dccfd">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения канбанов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="c361fc4f-417e-45a4-b7b3-049238004e55">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="abd808d5-46e3-494e-89c3-221e81b0feba">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f8ebb274-eddd-49d8-a9e8-5b2d2bcb4925">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

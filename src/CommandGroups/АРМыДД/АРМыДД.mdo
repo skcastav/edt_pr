@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="051beacf-c08c-4ec7-b820-2bc2b7646627">
+  <name>АРМыДД</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ-ы ДД</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3846f7f-611a-4614-b635-931f8773a450">
+  <producedTypes>
+    <objectType typeId="8c840a32-7fdd-46d9-afce-ab5debe48994" valueTypeId="10b0bf24-810c-43b4-bb4d-156e28576924"/>
+    <managerType typeId="c5561c88-f6d3-4fae-9a7b-7e413ab1a1c8" valueTypeId="7a9773bc-d007-43b6-8256-b3db2d13f1ec"/>
+  </producedTypes>
+  <name>АнализМатериаловДляРасчётаЯчеекКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ материалов для расчёта ячеек канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АнализМатериаловДляРасчётаЯчеекКанбанов.Form.ФормаОтчета</defaultForm>
+  <forms uuid="f17e67c6-1df5-4fc3-89ce-f202549027a2">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="844b7652-fe17-4a5d-8630-b4b6e2075a8e">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

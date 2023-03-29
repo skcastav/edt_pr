@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<formatIndex>2</formatIndex>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>4</formatIndex>
+		<beginRow>0</beginRow>
+		<beginRowOffset>18</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>105</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>48</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>144</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<leftHeader>
+		<f>6</f>
+	</leftHeader>
+	<leftFooter>
+		<f>6</f>
+	</leftFooter>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>5</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>QRCode</name>
+		<drawingID>1</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>QRКод</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
+	</line>
+	<font faceName="Arial" height="6.8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<format>
+		<width>74</width>
+	</format>
+	<format>
+		<height>120</height>
+	</format>
+	<format>
+		<font>0</font>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<fillType>Text</fillType>
+	</format>
+	<format>
+		<drawingBorder>0</drawingBorder>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<format/>
+	<picture>
+		<index>0</index>
+		<picture ref="v8ui:QRCode"/>
+	</picture>
+</document>

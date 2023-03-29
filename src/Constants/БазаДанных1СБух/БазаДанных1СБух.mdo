@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f2e6797-6769-4c35-9913-b52280cf10d1">
+  <producedTypes>
+    <managerType typeId="8c23fa31-796d-4b9c-82ec-8d1228906650" valueTypeId="0d39a6ab-0594-442d-aa20-fc8196bb1bb5"/>
+    <valueManagerType typeId="1c216fd8-01c2-466c-8ab2-a90eaec5ab42" valueTypeId="4534e979-3772-4d44-8f0d-2513751a3e84"/>
+    <valueKeyType typeId="88acdf87-8e92-4d96-9b42-70232f297b28" valueTypeId="5c349c6a-188c-4a02-aa94-9013596d0f51"/>
+  </producedTypes>
+  <name>БазаДанных1СБух</name>
+  <synonym>
+    <key>ru</key>
+    <value>База данных 1С Бухгалтерия по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ОбменДанными</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

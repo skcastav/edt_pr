@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9373d8f-f33a-4b29-ae73-bd76b80853bf">
+  <producedTypes>
+    <objectType typeId="cae58d4e-e6bf-497f-bfb8-79df33431db0" valueTypeId="919f54db-7c77-4791-8f00-ac6101b1c96b"/>
+    <managerType typeId="1d73932a-d569-4b20-8fa0-c7b70e32e66b" valueTypeId="504ca9aa-f587-499b-86a2-3431c8a69a9a"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_МастерНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Мастер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_МастерНовый.Form.Форма</defaultForm>
+  <attributes uuid="d5be275c-c705-40b6-927c-80d774906c32">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dd8d8598-c5e9-4ee5-b548-e3a432e21614">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f15abd0a-4bce-4a68-9dd7-706e817f356c">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="70aea679-64b6-47bc-b3e3-742a50441d3c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

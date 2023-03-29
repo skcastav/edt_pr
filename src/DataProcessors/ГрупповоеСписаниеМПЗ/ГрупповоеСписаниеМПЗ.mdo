@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c3dd1f-b4de-427e-9286-61bcc4f73fad">
+  <producedTypes>
+    <objectType typeId="088fd7f4-df8b-45e1-9823-e28961538c1a" valueTypeId="d671f62e-b56c-4fb0-bdf5-2873a6b681da"/>
+    <managerType typeId="34db7ba4-e846-45d7-b1df-4b181a05422d" valueTypeId="b4a1b36a-cc1f-43dd-9cb5-a238f5ea6240"/>
+  </producedTypes>
+  <name>ГрупповоеСписаниеМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое списание МПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповоеСписаниеМПЗ.Form.Форма</defaultForm>
+  <attributes uuid="c19cd356-4122-4ba0-a21a-8e5e52cfa7ec">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="434ac9cc-01eb-45e7-8131-bd885322640f">
+    <name>СтатьяСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья списания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиПоступленийСписанийПрочих</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="e1c4b396-a29f-4db8-830e-93ac9dd25046">
+    <name>Утвердил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвердил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="3ea130e9-2e14-4931-a40e-3934d939ec34">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

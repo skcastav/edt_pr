@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c53b82b-7676-4d5c-b4e1-ccd0d2744721">
+  <producedTypes>
+    <objectType typeId="b9014ab2-1e21-42eb-bba9-28c7ef305c96" valueTypeId="1ff9d25a-fb9a-4551-a542-e843ffbe53c8"/>
+    <managerType typeId="3462132b-67f1-4022-aea8-55daf3ab2a9e" valueTypeId="0d867d78-242e-4af0-9f87-1d9c9b94f97d"/>
+  </producedTypes>
+  <name>СозданиеБарКодовВЗаказеПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание бар-кодов в заказе поставщик</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеБарКодовВЗаказеПоставщику.Form.СозданиеБарКодов</defaultForm>
+  <forms uuid="c9477dc6-7a97-4ebc-b977-5f6fcec15411">
+    <name>СозданиеБарКодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание бар-кодов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

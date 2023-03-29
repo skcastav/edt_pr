@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e813482-a648-4d79-b63f-2839de827db9">
+  <name>ПринудительнаяВыгрузкаВеб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузить в другую базу</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.ДвижениеМПЗ</types>
+    <types>DocumentRef.СпецификацияКДоговоруСПоставщиком</types>
+    <types>DocumentRef.ИндивидуальнаяСделка</types>
+    <types>DocumentRef.ВводОстатковМПЗ</types>
+    <types>DocumentRef.ВводОстатковЗаявокНаЗакупку</types>
+    <types>DocumentRef.ПоступлениеНаЛинейку</types>
+    <types>DocumentRef.Разукомплектовка</types>
+    <types>DocumentRef.Перепрогон</types>
+    <types>DocumentRef.СписаниеИзПереработки</types>
+    <types>DocumentRef.ВыпускПродукции</types>
+    <types>DocumentRef.ПередачаВПроизводство</types>
+    <types>DocumentRef.ВедомостьПоОкладам</types>
+    <types>DocumentRef.ВводОстатковПередачВПроизводство</types>
+    <types>DocumentRef.РемонтнаяКарта</types>
+    <types>DocumentRef.Разборка</types>
+    <types>DocumentRef.ВозвратПоставщику</types>
+    <types>DocumentRef.ИнвентаризацияМПЗ</types>
+    <types>DocumentRef.БригаднаяСделка</types>
+    <types>DocumentRef.Резервирование</types>
+    <types>DocumentRef.СписаниеМПЗПрочее</types>
+    <types>DocumentRef.ПередачаНаЛинейку</types>
+    <types>DocumentRef.ВводОстатковЗаказовПоставщикам</types>
+    <types>DocumentRef.ПроизводственноеЗадание</types>
+    <types>DocumentRef.ВводОстатковПлановВыпуска</types>
+    <types>DocumentRef.ВводОстатковБрака</types>
+    <types>DocumentRef.ВводОстатковБракаПроизводства</types>
+    <types>DocumentRef.ПоступлениеМПЗПрочее</types>
+    <types>DocumentRef.КорректировкаЗаказаНаПроизводство</types>
+    <types>DocumentRef.НакладнаяНаСборку</types>
+    <types>DocumentRef.ИндивидульныйНаряд</types>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>DocumentRef.ВыпускПродукцииКанбан</types>
+    <types>DocumentRef.Реализация</types>
+    <types>DocumentRef.ВводОстатковЗаявокОтПокупателей</types>
+    <types>DocumentRef.ПоступлениеМПЗ</types>
+    <types>DocumentRef.ЗаявкаОтПокупателя</types>
+    <types>DocumentRef.ВводЦенМПЗ</types>
+    <types>DocumentRef.ВводОстатковПередачНаЛинейки</types>
+    <types>DocumentRef.МаршрутнаяКарта</types>
+    <types>DocumentRef.ПоступлениеИзПереработки</types>
+    <types>DocumentRef.ЗаявкаНаЗакупку</types>
+    <types>DocumentRef.ПередачаВПереработку</types>
+    <types>DocumentRef.ЗаказНаПроизводство</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

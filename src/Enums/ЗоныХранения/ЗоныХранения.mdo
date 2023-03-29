@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bc87227-3934-4342-ade8-52fac56d2fbc">
+  <producedTypes>
+    <refType typeId="853b710f-d908-4ab9-bdb3-470a9e873657" valueTypeId="fdef6311-5138-4f44-90a9-84825c890ba0"/>
+    <listType typeId="67902bda-b2e8-4f31-889e-51b0258d4ce5" valueTypeId="9072b1b8-570f-4931-bf6c-3426a2f337dc"/>
+    <managerType typeId="4db9c5f4-0ca1-4578-bd0f-013a503fcbef" valueTypeId="adae3793-4df4-4dff-b526-9645fdd5af68"/>
+  </producedTypes>
+  <name>ЗоныХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны хранения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7a49f186-14b8-4a60-9700-4eb18fb8eb27">
+    <name>Горячая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Горячая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11bb4c6f-a191-40f4-b99a-5f4b27e2053e">
+    <name>Теплая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Теплая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64b96287-4dd4-4d00-bd23-65f2d755cda3">
+    <name>Холодная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Холодная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ab562ec-21b8-42f0-82da-5f0fb7457296">
+    <name>Невостребованная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Невостребованная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d42fe79b-6906-4099-8c0b-cfbb21882eef">
+    <name>Проектная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проектная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

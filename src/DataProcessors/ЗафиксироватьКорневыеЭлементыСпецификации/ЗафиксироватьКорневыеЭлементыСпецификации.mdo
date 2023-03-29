@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3690e36d-123a-46c6-9bd8-3f2b51ac900a">
+  <producedTypes>
+    <objectType typeId="a428352b-3c8c-4c03-804e-c0585b4d3bfa" valueTypeId="ebbad968-9c52-4ca0-a796-b175ddb677dc"/>
+    <managerType typeId="d792d219-9361-4097-a59a-8c962ed688fa" valueTypeId="90e345ec-0523-4502-a52b-850e36f0ec56"/>
+  </producedTypes>
+  <name>ЗафиксироватьКорневыеЭлементыСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зафиксировать корневые элементы спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗафиксироватьКорневыеЭлементыСпецификации.Form.Форма</defaultForm>
+  <attributes uuid="af906d3f-84ca-4428-8783-d84bbcad56dd">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+  </attributes>
+  <forms uuid="e08b4907-4d3b-402e-8b69-261dee231422">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

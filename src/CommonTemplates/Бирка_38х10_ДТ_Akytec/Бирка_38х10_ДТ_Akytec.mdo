@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32bc8f15-53d3-4900-ab20-7ad372991ec0">
+  <name>Бирка_38х10_ДТ_Akytec</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бирка 38х10 ДТ Akytec</value>
+  </synonym>
+</mdclass:CommonTemplate>

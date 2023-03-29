@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bbc32c0-ca74-497c-a31c-004c5b3a1797">
+  <producedTypes>
+    <refType typeId="a85a573d-e620-48c7-a527-49eed8545492" valueTypeId="dd4bfa89-5a26-45b0-9c00-7d86f63063af"/>
+    <listType typeId="be567d29-82f7-4397-9527-28dc57c64156" valueTypeId="682d1a8e-3d3a-44c2-b985-9aef4a8d0b78"/>
+    <managerType typeId="4cfe91bf-c4da-4a76-af5c-9a105f7bd988" valueTypeId="99ad90e0-99bc-442f-8886-faf10346451a"/>
+  </producedTypes>
+  <name>СтатусыСтендовогоПрогона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы стендового прогона</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02919b21-607b-4f36-91e1-c98223a92e9a">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1de71c99-151a-4751-917f-b671bc89fa3e">
+    <name>Постановка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постановка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd4192dd-f21f-41d5-971a-a006bf7c9f8a">
+    <name>Снятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c25889d-9d6d-4c56-b7e7-af3aceb724ea">
+  <name>Производство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Производство</picture>
+  </picture>
+  <content>Role.Администратор</content>
+  <content>FilterCriterion.ПроизводственныеЗадания</content>
+  <content>Enum.СтатусыСтендовогоПрогона</content>
+  <content>DataProcessor.ЛазернаяГравировка</content>
+  <content>Report.ОтчетПоСменнымЗаданиям</content>
+  <content>Report.ОтчетПоВыработкеВЛинейках</content>
+  <content>Report.Визуализация</content>
+  <content>DataProcessor.ПрошивкаПриборов</content>
+  <content>Report.ВыпускПродукцииПоВремени</content>
+  <content>Report.ОтчётПоГрупповойУпаковке</content>
+  <content>Report.ОтчетПоПрименениюТехнологическойОснастки</content>
+  <content>Report.ВизуализацияСводная</content>
+  <content>Report.ОтчетПоДрагоценнымМеталлам</content>
+  <content>Report.ОтчётПоПодчиненнымМТК</content>
+  <content>DataProcessor.РабочееМестоИспытания</content>
+  <content>DataProcessor.СписаниеТехПотерьНаЛинейкахИзделий</content>
+  <content>Report.ВизуализацияЗаказовНаПроизводство</content>
+  <content>DataProcessor.ГрупповаяОбработкаШПД</content>
+  <content>DataProcessor.ФиксацияОборотовЯчеекКанбанов</content>
+  <content>Report.ОтчётПоИспытаниям</content>
+  <content>DataProcessor.ОбработкаЗапретаКОтгрузке</content>
+  <content>Report.ВыпускиПоКодамDanfoss</content>
+  <content>DataProcessor.ИзменениеДатыОтгрузкиОбещанной</content>
+  <content>Report.ОтчётПоВзаимодействиюСВнутреннимиПоставщиками</content>
+  <content>Report.ЗаявкаНаСтороннююПоверку</content>
+  <content>DataProcessor.РасчётВремениТактаЛинеек</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>СправочникиБарКодов</subsystems>
+  <subsystems>СправочникиЛинеек</subsystems>
+  <subsystems>СправочникиПроизводства</subsystems>
+  <subsystems>УПЭА</subsystems>
+  <subsystems>УД</subsystems>
+  <subsystems>УД_ДД</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="935a68a2-bd75-4a0e-b180-d50e5f05b100">
+  <name>ОтложенныйОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенный обмен данными</value>
+  </synonym>
+  <methodName>CommonModule.СРМ_ОбменВебСервис.ОтложенныйОбменДанными</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

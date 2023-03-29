@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24cf7d8-2a40-4377-a7a4-790702d01bfb">
+  <name>ПолучитьКурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить курсы валют</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ПолучитьКурсыВалют</methodName>
+  <description>Получить курсы валют</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

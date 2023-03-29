@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95471538-b657-4bd3-84d8-146b410520f9">
+  <producedTypes>
+    <objectType typeId="08921e41-9bea-4364-9325-4887237fe5bf" valueTypeId="6274cbec-767a-4439-acb3-ebf10a3c4749"/>
+    <managerType typeId="6a4aa7df-e23f-4757-a9a6-0efcde2f9a03" valueTypeId="c6925c4c-5556-481b-b2dc-edc989205e7e"/>
+  </producedTypes>
+  <name>СписокПроектныхМТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список проектных МТК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СписокПроектныхМТК.Form.Форма</defaultForm>
+  <attributes uuid="ee601882-c3f9-47b5-bf11-392688ee95d2">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="080ba91a-d9f1-402c-8680-c9f8d6283939">
+    <producedTypes>
+      <objectType typeId="0ad0f15c-0073-4e08-8b8b-3d3ff9b96c1d" valueTypeId="5c8e6abd-35ad-4635-9991-e8bbb246d31e"/>
+      <rowType typeId="a194915f-3764-445d-8dc6-792497d821e3" valueTypeId="51200682-ac96-4b29-a3c6-8b3f43b6fdd8"/>
+    </producedTypes>
+    <name>ТаблицаМТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица МТК</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4ccaad5e-0a51-4fb8-abd5-a82936c33fa6">
+      <name>МТК</name>
+      <synonym>
+        <key>ru</key>
+        <value>МТК</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.МаршрутнаяКарта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="049a838c-954f-45f9-b6b3-7851856590e6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

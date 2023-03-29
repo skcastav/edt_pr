@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="676e3a6e-fcd4-4524-ba36-7a1b92492a56">
+  <producedTypes>
+    <objectType typeId="6d38e401-320e-4096-848a-32a30a860ecd" valueTypeId="40d7056e-e2f8-4bc0-b4aa-45c9258c0717"/>
+    <managerType typeId="38914843-de37-476f-b2b9-62e04a92ef69" valueTypeId="8f4eed9d-4203-4acf-a291-73fa88b788a9"/>
+  </producedTypes>
+  <name>ОтчётПоЛинейкамКанбановSMD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по линейкам канбанов SMD</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоЛинейкамКанбановSMD.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="24ea9e66-79eb-4793-9799-8a606a330407">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

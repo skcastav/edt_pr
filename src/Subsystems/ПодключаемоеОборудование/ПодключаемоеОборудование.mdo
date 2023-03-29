@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e08cdf-ff48-4587-81e5-38991973c58b">
+  <name>ПодключаемоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема механизма внешнего оборудования</value>
+  </explanation>
+  <content>CommonModule.МенеджерОборудованияКлиентПовтИсп</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервера</content>
+  <content>Enum.ТипыПодключаемогоОборудования</content>
+  <content>CommonModule.МенеджерОборудованияКлиент</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>Catalog.РабочиеМеста</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСервер</content>
+  <content>CommonTemplate.КомпонентаПечатиШтрихкодов</content>
+  <content>CommonModule.МенеджерОборудованияСерверПовтИсп</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервераПереопределяемый</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеОтчетСГашением</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеОтчетБезГашения</content>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>Catalog.ДрайверыОборудования</content>
+  <content>CommonForm.ФормаНастройкиУниверсальныйДрайвер</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПереопределяемый</content>
+  <content>CommonModule.ПодключаемоеОборудованиеУниверсальныйДрайверКлиент</content>
+  <content>Enum.ОбработчикиДрайверовПодключаемогоОборудования</content>
+  <content>Enum.ПоляШаблоновМагнитныхКарт</content>
+  <content>CommonCommand.ВыбратьРМТекущегоСеанса</content>
+  <content>CommonModule.ПодключаемоеОборудованиеУниверсальныйДрайверАсинхронноКлиент</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБПО</content>
+  <subsystems>СканерыШтрихкода</subsystems>
+  <subsystems>СчитывателиМагнитныхКарт</subsystems>
+  <subsystems>СчитывателиRFID</subsystems>
+  <subsystems>ФискальныеРегистраторы</subsystems>
+  <subsystems>ДисплеиПокупателя</subsystems>
+  <subsystems>ТерминалыСбораДанных</subsystems>
+  <subsystems>ЭквайринговыеТерминалы</subsystems>
+  <subsystems>ЭлектронныеВесы</subsystems>
+  <subsystems>ВесыСПечатьюЭтикеток</subsystems>
+  <subsystems>ККМOffline</subsystems>
+  <subsystems>WebСервисОборудование</subsystems>
+  <subsystems>ПринтерЧеков</subsystems>
+  <subsystems>ПринтерыЭтикеток</subsystems>
+</mdclass:Subsystem>

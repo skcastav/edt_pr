@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="542e0286-ab64-4fce-903f-f2f669448cd8">
+  <producedTypes>
+    <objectType typeId="e9b2e6c9-e020-40f7-be6e-b3ab9d97d5f3" valueTypeId="696d2c29-00d2-43b3-8156-e48a69ee89f5"/>
+    <managerType typeId="5a463943-bcf4-4c9c-bfaa-cb3d928cfc2e" valueTypeId="6529aab6-4198-4bca-90f9-d330cad96e3a"/>
+  </producedTypes>
+  <name>ОтчётПоРемонтнымКартамПолный_СКД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по ремонтным картам полный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоРемонтнымКартамПолный_СКД.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3d0a7cc0-33e8-4e73-831f-8093474bf09f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

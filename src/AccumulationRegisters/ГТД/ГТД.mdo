@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0994ce58-42cf-4eb2-9aef-5f56e33bc67f">
+  <producedTypes>
+    <selectionType typeId="4443de8d-53f0-4d5e-896a-88e4bab674d3" valueTypeId="49257d8f-faa7-451f-81fe-c110ac1e2ae1"/>
+    <listType typeId="501b6ca9-7d67-4fd5-9bed-bfd7218290fd" valueTypeId="9e5fff33-ca0a-46b4-b934-a4dc57a9c780"/>
+    <managerType typeId="a58ad4af-6c25-4952-a9b2-bdbae2bf98be" valueTypeId="9d6b2356-36d2-499f-ac17-c4e113b905de"/>
+    <recordSetType typeId="9fb35c02-c376-4ce0-8573-59559fb43979" valueTypeId="0187514d-b05e-487d-92e8-25c4fc8eb051"/>
+    <recordKeyType typeId="f49f7152-823e-4f97-989f-475c6c382439" valueTypeId="3a12607a-c364-4e14-9746-8f2c8b34def2"/>
+    <recordType typeId="fa12b494-a527-4e65-972b-5a94665a5e28" valueTypeId="cb3873e2-c7a0-43a1-8a2a-1f970d4ecd1d"/>
+  </producedTypes>
+  <name>ГТД</name>
+  <synonym>
+    <key>ru</key>
+    <value>ГТД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c9fe99e9-6e2f-4693-a72b-bfde68364c10">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5626464b-83bd-43b7-9a81-38685d1e5309">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d785e0b9-9ffe-4e32-92cc-398361de4cca">
+    <name>НомерГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ГТД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НомераГТД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

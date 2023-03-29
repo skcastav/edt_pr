@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e99daf7e-d57f-4c99-9e97-ef61e1b66fc8">
+  <name>ЛоготипОВЕН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип ОВЕН</value>
+  </synonym>
+</mdclass:CommonPicture>

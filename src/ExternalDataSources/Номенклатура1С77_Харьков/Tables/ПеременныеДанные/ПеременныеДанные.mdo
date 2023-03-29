@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef9002b8-344d-4dd2-9e6d-d73123ce1090">
+  <producedTypes>
+    <refType typeId="841e2cc1-26ac-4be9-b736-043cb5544301" valueTypeId="964b7eb7-7bc8-4a88-8299-ad9d552a152c"/>
+    <listType typeId="38098db0-2c2f-4162-bb2d-a0cc283c59f4" valueTypeId="e0c980ce-c873-46bc-8150-1f936bc7222a"/>
+    <objectType typeId="bf72b059-6263-4a4d-9468-76acff472f82" valueTypeId="56637b6b-2d4b-419c-b3c4-37924af410ad"/>
+    <managerType typeId="f1ce572f-798f-45ee-a24d-b2582f7ea457" valueTypeId="b3cd8014-a59b-47fc-9349-c9c64284383c"/>
+    <recordManagerType typeId="56913c43-421f-4b25-951a-847217aae070" valueTypeId="1bf9187a-e8e6-4044-a77c-9bad6dca92e0"/>
+    <recordSetType typeId="ce797c89-e26c-482a-85a4-1f26d013eee4" valueTypeId="8b43cbe2-3e2d-43f9-9f45-25e1bb41763c"/>
+    <recordType typeId="e4f0f7fb-b05d-4449-b0ce-a60d9f69ffa6" valueTypeId="8e4dd396-cfe9-45c9-8311-f338331b3ff7"/>
+    <recordKeyType typeId="518c425e-2fd3-4b98-9062-c128979ec62c" valueTypeId="f43a1d9f-0dfa-42bc-86a3-4ed525e05fa0"/>
+  </producedTypes>
+  <name>ПеременныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переменные данные</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.Номенклатура1С77_Харьков</parentDataSource>
+  <nameInDataSource>dbo._1SCONST</nameInDataSource>
+  <keyFields>ExternalDataSource.Номенклатура1С77_Харьков.Table.ПеременныеДанные.Field.ROW_ID</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.Номенклатура1С77_Харьков.Table.ПеременныеДанные.Field.ROW_ID</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="eeddf477-4c9f-4456-82c2-7bd2e9a5f398">
+    <name>ROW_ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ROW_ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="346ab47c-9a5e-408c-9523-7082fc04c7ef">
+    <name>OBJID</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>OBJID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="5c453c57-2d44-4f80-bc75-f54616f88ab9">
+    <name>ID</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="e33e36d8-5553-4b34-a70b-9c453a5d42b5">
+    <name>DATE</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <nameInDataSource>DATE</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="8b4c3714-7043-4db9-a65c-6bf2b43a3625">
+    <name>VALUE</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>VALUE</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="dd609052-1ba6-404b-9162-1d9575410838">
+    <name>DOCID</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>DOCID</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="75c51554-b003-4185-b735-8673eafde3f5">
+    <name>TIME</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>TIME</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ac234b88-151e-461a-9f31-71b1d7a175f0">
+    <name>ACTNO</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>ACTNO</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="fef650e9-0418-4af4-9d7f-47428ace6fe7">
+    <name>LINENO_</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>LINENO_</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="7b1539fa-106a-4538-aece-dd5bc7756b68">
+    <name>TVALUE</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>TVALUE</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

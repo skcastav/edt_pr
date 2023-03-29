@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87ec3a02-0bf1-479c-a9a8-d9ab637473b1">
+  <producedTypes>
+    <managerType typeId="fb6b553a-35a2-4860-8478-809943387502" valueTypeId="eae85f85-d621-453c-91e8-e0f01098593e"/>
+    <tablesManagerType typeId="aa016d33-0ef8-4776-bddc-5a5e6afe3e21" valueTypeId="43508c30-e44e-4032-9a2d-5d92957bfd76"/>
+    <cubesManagerType typeId="f876e531-a53f-497c-95dd-1af969e73690" valueTypeId="4c19078a-36c8-4c51-a14a-2ea13dff7cb3"/>
+  </producedTypes>
+  <name>Номенклатура1С77</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура 1С 7.7</value>
+  </synonym>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.АналогиНормРасходов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ВидыДатчиков</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ВидыКанбанов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ВидыРабот</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ГруппыПоМощности</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ДвижениеМПЗ</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ДвижениеМПЗ_ТЧ</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.Документы</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ДополнительныеХарактеристикиНоменклатуры</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ЕдиницыИзмерения</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ЖурналДокументов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ИзвещениеОбИзменениях</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ИзвещенияНаМатериалы</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ИзвещенияНаНоменклатуру</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ИзготовлениеПП</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.Линейки</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.Материалы</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.МестаХранения</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.Номенклатура</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.НормыРасходов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ОснЕИМатериалов</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ОснЕИНоменклатуры</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ПараметрыПлат</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ПеременныеДанные</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.Проекты</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.Производители</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.Сотрудники</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ТехОперации</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ТехОснастка</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ТоварныеГруппы</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ТоварыДатчики</tables>
+  <tables>ExternalDataSource.Номенклатура1С77.Table.ТоварыПриборы</tables>
+</mdclass:ExternalDataSource>

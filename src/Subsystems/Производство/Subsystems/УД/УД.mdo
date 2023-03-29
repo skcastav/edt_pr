@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6372ccf-1a76-47bc-befa-624082929c67">
+  <name>УД</name>
+  <synonym>
+    <key>ru</key>
+    <value>УД</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.РабочееМестоЗапускУпаковка</content>
+  <content>DataProcessor.РабочееМестоУД_Драгметаллы</content>
+  <content>DataProcessor.РабочееМестоУД_ЗапускСтендУпаковка</content>
+  <content>DataProcessor.РабочееМестоУД_ЗапускУпаковка</content>
+  <content>DataProcessor.РабочееМестоУД_Стенд</content>
+  <content>DataProcessor.РабочееМестоПереупаковкаХарьков</content>
+  <content>DataProcessor.РабочееМестоГрупповаяПереупаковка</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

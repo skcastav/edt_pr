@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2212ce4b-525f-4bab-964a-b65ad05698e7">
+  <name>ОтправкаВебСервисДокументУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка веб сервис документ удаление</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.СРМ_ОбменВебСервис.ОтправкаВебСервисДокументУдалениеПередУдалением</handler>
+</mdclass:EventSubscription>

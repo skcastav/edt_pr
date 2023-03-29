@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79fd19a0-a8f1-4421-a082-4a7d573b3d71">
+  <producedTypes>
+    <selectionType typeId="df41c8fd-7f35-4ba4-99b6-ae06fee9fa7b" valueTypeId="fa63734f-c188-4f36-9c24-8944a584c89f"/>
+    <listType typeId="cb8e12c0-af2d-4181-a649-8981c77914bf" valueTypeId="a128e06c-93a1-4330-8eec-9c3a6c1a128f"/>
+    <managerType typeId="16c7f21f-2c58-4702-b84f-c7065fe47c93" valueTypeId="9c33e093-893b-4393-8073-4c79a3b324b8"/>
+    <recordSetType typeId="fe2251e1-da19-48de-8877-454a9475e389" valueTypeId="6e3989c9-3633-4299-b8b2-0465925f4481"/>
+    <recordKeyType typeId="c04267db-5163-453d-9f33-43e99da363dd" valueTypeId="076920d3-bdc8-410c-bd8a-70753587f13e"/>
+    <recordType typeId="9b50d899-c13e-40d2-aba0-6f868540d605" valueTypeId="e0b6bfb4-4a79-406d-8409-979f1d0e4a31"/>
+  </producedTypes>
+  <name>ПланыВыпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы выпуска</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="135cd383-bc35-4969-bac6-9eac45530a6c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3bf39ba8-8de5-4e10-b5cf-ba9b5a14c2d7">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e4a32fe5-daf5-4baf-916a-71fade732e63">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d16269a6-cb47-4e4b-91ec-bb78a2190026">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e5b9673a-7e15-4ee0-8eaa-9e8449b2abd9">
+    <name>МаршрутнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрутная карта</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.МаршрутнаяКарта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

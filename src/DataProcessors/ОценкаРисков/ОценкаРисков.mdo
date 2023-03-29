@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4647fd6-20d7-4c9d-b1b4-46a984be5a4d">
+  <producedTypes>
+    <objectType typeId="66bac9c8-38d9-4b85-acf8-7427ea533b5c" valueTypeId="bc14ae43-2f76-4ed2-911b-2f73fdf53e46"/>
+    <managerType typeId="e38f4f51-7ba4-4ad7-80ae-0a6f3a1e70fb" valueTypeId="a7974f65-70a3-4a75-b948-2e43c56340f9"/>
+  </producedTypes>
+  <name>ОценкаРисков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценка рисков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОценкаРисков.Form.Форма</defaultForm>
+  <forms uuid="069dbcf2-1061-4a71-918d-71dd3aee16e6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

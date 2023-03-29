@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35dbe570-1d6f-414c-96dd-dfe101d599e1">
+  <producedTypes>
+    <objectType typeId="422c4cc5-6b14-4e88-8c72-9085c10ea911" valueTypeId="d39ef0d4-7902-4987-837c-5e6b59858db3"/>
+    <managerType typeId="d388f599-6ad2-43b9-bd8a-0b1ea174558f" valueTypeId="d4264fcd-7fe9-43f6-bce3-f1b2a9ab1b50"/>
+  </producedTypes>
+  <name>ГрупповаяОстановкаМаршрутныхКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая остановка маршрутных карт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповаяОстановкаМаршрутныхКарт.Form.Форма</defaultForm>
+  <tabularSections uuid="e2a9f383-b7e4-414d-afad-e234c445cf48">
+    <producedTypes>
+      <objectType typeId="7144140c-e163-494d-b469-6d290942c35e" valueTypeId="1f07676c-3ace-44a4-88e6-b552c31d18ad"/>
+      <rowType typeId="ef4a1973-517b-4192-a0f9-773ab26ea132" valueTypeId="6a6b5d0f-3384-48db-9b5d-d761d730259a"/>
+    </producedTypes>
+    <name>МаршрутныеКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрутные карты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5475f5a3-81da-4c7e-b863-42cf7e8a4fa4">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="04f1a99a-86ff-43ea-9fb4-4182f35bedb7">
+      <name>МТК</name>
+      <synonym>
+        <key>ru</key>
+        <value>МТК</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.МаршрутнаяКарта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9bb128f3-442d-4640-b49e-ab1ccf99adf8">
+      <name>СтатусМТК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус МТК</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dc60292a-071e-470b-9d5f-fc15d2657835">
+      <name>Спецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спецификация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c14122eb-198b-4bd3-ad09-9b40a2ce909a">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cea20448-f459-409d-8327-44ec50dc9bad">
+      <name>СтандартныйКомментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стандартный комментарий</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтандартныеКомментарии</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0bde54e8-f617-43f6-9fae-860ed7e500dc">
+      <name>Счёт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счёт</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>60</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5feaea03-de19-493c-aa81-5a326ddac4da">
+      <name>НомерОчереди</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер очереди</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e1388fb1-506a-46d9-90fc-76699ed8a0ca">
+      <name>ИнициаторОстановки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инициатор остановки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6bc4535b-cfb4-40b2-9bbd-0ce5e914dc54">
+      <name>МПЗОстановки</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ остановки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e0d398cc-08db-4ee5-8bbf-869790d4d5a9">
+      <name>ПричинаОстановки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина остановки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПричиныОстановок</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0327a129-1db5-4df9-ad42-0bda2775c430">
+      <name>ДатаНачалаОстановки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начало</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bb9ad8db-766a-49d1-b94b-06f84fd9d0d2">
+      <name>ДатаПредполагаемогоОкончанияОстановки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пред. окончание</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b73467d0-c63d-406c-be65-234f466880fc">
+      <name>ГоловнаяМТК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Головная МТК</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.МаршрутнаяКарта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6f22896e-e2e1-4878-bfe1-8d8ea22a0ba2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

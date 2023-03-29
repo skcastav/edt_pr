@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2aa2d447-e8da-4598-9b2f-ec968e8bd9ea">
+  <name>ВнутренниеПоставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутренние поставщики</value>
+  </synonym>
+</mdclass:Role>

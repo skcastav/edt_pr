@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93a6a1ab-8c6c-4f12-a44e-1e5dff505494">
+  <producedTypes>
+    <objectType typeId="70882fbb-2a71-458b-be93-ba07cfd0c86a" valueTypeId="5c69ccb3-fd2e-4296-a811-4b51486a0ef8"/>
+    <managerType typeId="b1b67ede-378a-4037-af7c-2861b43aada2" valueTypeId="e52467d9-1669-4645-acbb-3ead4d2e11fd"/>
+  </producedTypes>
+  <name>ОтчетПоЛьготнойОчередиСквозной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сквозной отчет по льготной очереди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоЛьготнойОчередиСквозной.Form.ФормаОтчета</defaultForm>
+  <forms uuid="eb6f5145-a964-464e-b42f-ef996bd4c65b">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9f4cfb59-3393-44dc-9f30-af5b8ca722b6">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

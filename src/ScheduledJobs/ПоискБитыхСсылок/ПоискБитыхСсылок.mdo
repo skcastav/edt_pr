@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fad2fccd-72f2-4a27-961a-49adfb33cbc2">
+  <name>ПоискБитыхСсылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск битых ссылок</value>
+  </synonym>
+  <methodName>CommonModule.СРМ_ОбменВебСервис.ПоискБитыхСсылок</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<columns>
+		<size>17</size>
+	</columns>
+	<drawing>
+		<drawingType>Chart</drawingType>
+		<id>3</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>0</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>47</endRow>
+		<endRowOffset>24</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>3</beginColumnOffset>
+		<endColumn>16</endColumn>
+		<endColumnOffset>180</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<object xmlns:d6p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d6p1:Chart">
+			<d6p1:seriesCurId>1</d6p1:seriesCurId>
+			<d6p1:pointsCurId>0</d6p1:pointsCurId>
+			<d6p1:isSeriesDesign>true</d6p1:isSeriesDesign>
+			<d6p1:realSeriesCount>0</d6p1:realSeriesCount>
+			<d6p1:realExSeriesData>
+				<d6p1:id>1</d6p1:id>
+				<d6p1:color>#991919</d6p1:color>
+				<d6p1:line gap="false" width="2">
+					<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+				</d6p1:line>
+				<d6p1:marker>Rhomb</d6p1:marker>
+				<d6p1:text>
+					<v8:item>
+						<v8:lang>#</v8:lang>
+						<v8:content>Сводная</v8:content>
+					</v8:item>
+				</d6p1:text>
+				<d6p1:strIsChanged>false</d6p1:strIsChanged>
+				<d6p1:isExpand>false</d6p1:isExpand>
+				<d6p1:isIndicator>false</d6p1:isIndicator>
+				<d6p1:colorPriority>false</d6p1:colorPriority>
+			</d6p1:realExSeriesData>
+			<d6p1:isPointsDesign>true</d6p1:isPointsDesign>
+			<d6p1:realPointCount>0</d6p1:realPointCount>
+			<d6p1:curSeries>-1</d6p1:curSeries>
+			<d6p1:curPoint>0</d6p1:curPoint>
+			<d6p1:chartType>Line</d6p1:chartType>
+			<d6p1:circleLabelType>None</d6p1:circleLabelType>
+			<d6p1:labelsDelimiter>, </d6p1:labelsDelimiter>
+			<d6p1:labelsLocation>Edge</d6p1:labelsLocation>
+			<d6p1:lbFormat/>
+			<d6p1:lbpFormat/>
+			<d6p1:labelsColor>style:FormTextColor</d6p1:labelsColor>
+			<d6p1:labelsFont kind="AutoFont"/>
+			<d6p1:transparentLabelsBkg>true</d6p1:transparentLabelsBkg>
+			<d6p1:labelsBkgColor>auto</d6p1:labelsBkgColor>
+			<d6p1:labelsBorder width="1">
+				<v8ui:style xsi:type="v8ui:ControlBorderType">Single</v8ui:style>
+			</d6p1:labelsBorder>
+			<d6p1:labelsBorderColor>auto</d6p1:labelsBorderColor>
+			<d6p1:circleExpandMode>None</d6p1:circleExpandMode>
+			<d6p1:chart3Dcrd>SouthWest</d6p1:chart3Dcrd>
+			<d6p1:title>
+				<v8:item>
+					<v8:lang>#</v8:lang>
+					<v8:content>D3</v8:content>
+				</v8:item>
+			</d6p1:title>
+			<d6p1:isShowTitle>true</d6p1:isShowTitle>
+			<d6p1:isShowLegend>true</d6p1:isShowLegend>
+			<d6p1:ttlBorder width="0">
+				<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+			</d6p1:ttlBorder>
+			<d6p1:ttlBorderColor>style:BorderColor</d6p1:ttlBorderColor>
+			<d6p1:lgBorder width="0">
+				<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+			</d6p1:lgBorder>
+			<d6p1:lgBorderColor>style:BorderColor</d6p1:lgBorderColor>
+			<d6p1:chBorder width="0">
+				<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+			</d6p1:chBorder>
+			<d6p1:chBorderColor>style:BorderColor</d6p1:chBorderColor>
+			<d6p1:transparent>false</d6p1:transparent>
+			<d6p1:bkgColor>style:FormBackColor</d6p1:bkgColor>
+			<d6p1:isTrnspTtl>true</d6p1:isTrnspTtl>
+			<d6p1:ttlColor>style:FormBackColor</d6p1:ttlColor>
+			<d6p1:isTrnspLeg>true</d6p1:isTrnspLeg>
+			<d6p1:legColor>style:FormBackColor</d6p1:legColor>
+			<d6p1:isTrnspCh>false</d6p1:isTrnspCh>
+			<d6p1:chColor>#FFFFFF</d6p1:chColor>
+			<d6p1:ttlTxtColor>style:FormTextColor</d6p1:ttlTxtColor>
+			<d6p1:legTxtColor>style:FormTextColor</d6p1:legTxtColor>
+			<d6p1:chTxtColor>style:FormTextColor</d6p1:chTxtColor>
+			<d6p1:ttlFont bold="true" height="9" italic="false" kind="StyleItem" ref="style:TextFont" strikeout="false" underline="false"/>
+			<d6p1:legFont kind="StyleItem" ref="style:TextFont"/>
+			<d6p1:chFont kind="StyleItem" ref="style:TextFont"/>
+			<d6p1:isShowScale>true</d6p1:isShowScale>
+			<d6p1:isShowScaleVL>true</d6p1:isShowScaleVL>
+			<d6p1:isShowSeriesScale>true</d6p1:isShowSeriesScale>
+			<d6p1:isShowPointsScale>true</d6p1:isShowPointsScale>
+			<d6p1:isShowValuesScale>true</d6p1:isShowValuesScale>
+			<d6p1:vsFormat/>
+			<d6p1:xLabelsOrientation>Auto</d6p1:xLabelsOrientation>
+			<d6p1:scaleLine gap="false" width="1">
+				<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+			</d6p1:scaleLine>
+			<d6p1:scaleColor>#A9A9A9</d6p1:scaleColor>
+			<d6p1:isAutoSeriesName>true</d6p1:isAutoSeriesName>
+			<d6p1:isAutoPointName>true</d6p1:isAutoPointName>
+			<d6p1:maxMode>NotDefined</d6p1:maxMode>
+			<d6p1:maxSeries>4</d6p1:maxSeries>
+			<d6p1:maxSeriesPrc>30</d6p1:maxSeriesPrc>
+			<d6p1:spaceMode>Half</d6p1:spaceMode>
+			<d6p1:baseVal>0</d6p1:baseVal>
+			<d6p1:isOutline>true</d6p1:isOutline>
+			<d6p1:realPiePoint>0</d6p1:realPiePoint>
+			<d6p1:realStockSeries>0</d6p1:realStockSeries>
+			<d6p1:isLight>true</d6p1:isLight>
+			<d6p1:isGradient>false</d6p1:isGradient>
+			<d6p1:isTransposition>false</d6p1:isTransposition>
+			<d6p1:hideBaseVal>false</d6p1:hideBaseVal>
+			<d6p1:dataTable>false</d6p1:dataTable>
+			<d6p1:dtVerLines>true</d6p1:dtVerLines>
+			<d6p1:dtHorLines>true</d6p1:dtHorLines>
+			<d6p1:dtHAlign>Right</d6p1:dtHAlign>
+			<d6p1:dtFormat/>
+			<d6p1:dtKeys>true</d6p1:dtKeys>
+			<d6p1:paletteKind>Palette32</d6p1:paletteKind>
+			<d6p1:animation>DontUse</d6p1:animation>
+			<d6p1:rebuildTime>8057280</d6p1:rebuildTime>
+			<d6p1:isTransposed>false</d6p1:isTransposed>
+			<d6p1:autoTransposition>false</d6p1:autoTransposition>
+			<d6p1:legendScrollEnable>false</d6p1:legendScrollEnable>
+			<d6p1:surfaceColor>#A90000</d6p1:surfaceColor>
+			<d6p1:radarScaleType>Circle</d6p1:radarScaleType>
+			<d6p1:gaugeValuesPresentation>Needle</d6p1:gaugeValuesPresentation>
+			<d6p1:gaugeQualityBands useTextStr="false" useTooltipStr="false"/>
+			<d6p1:beginGaugeAngle>0</d6p1:beginGaugeAngle>
+			<d6p1:endGaugeAngle>180</d6p1:endGaugeAngle>
+			<d6p1:gaugeThickness>5</d6p1:gaugeThickness>
+			<d6p1:gaugeLabelsLocation>InsideScale</d6p1:gaugeLabelsLocation>
+			<d6p1:gaugeLabelsArcDirection>false</d6p1:gaugeLabelsArcDirection>
+			<d6p1:gaugeBushThickness>4</d6p1:gaugeBushThickness>
+			<d6p1:gaugeBushColor>#A9A9A9</d6p1:gaugeBushColor>
+			<d6p1:autoMaxValue>true</d6p1:autoMaxValue>
+			<d6p1:userMaxValue>0</d6p1:userMaxValue>
+			<d6p1:autoMinValue>true</d6p1:autoMinValue>
+			<d6p1:userMinValue>0</d6p1:userMinValue>
+			<d6p1:elementsIsInit>true</d6p1:elementsIsInit>
+			<d6p1:titleIsInit>true</d6p1:titleIsInit>
+			<d6p1:legendIsInit>true</d6p1:legendIsInit>
+			<d6p1:chartIsInit>true</d6p1:chartIsInit>
+			<d6p1:elementsChart>
+				<d6p1:left>0</d6p1:left>
+				<d6p1:right>0</d6p1:right>
+				<d6p1:top>0.0454545454545454</d6p1:top>
+				<d6p1:bottom>0.0557851239669421</d6p1:bottom>
+			</d6p1:elementsChart>
+			<d6p1:elementsLegend>
+				<d6p1:left>0</d6p1:left>
+				<d6p1:right>0</d6p1:right>
+				<d6p1:top>0.942148760330578</d6p1:top>
+				<d6p1:bottom>0</d6p1:bottom>
+			</d6p1:elementsLegend>
+			<d6p1:elementsTitle>
+				<d6p1:left>0.015017667844523</d6p1:left>
+				<d6p1:right>0</d6p1:right>
+				<d6p1:top>0</d6p1:top>
+				<d6p1:bottom>0.950413223140495</d6p1:bottom>
+			</d6p1:elementsTitle>
+			<d6p1:borderColor>style:BorderColor</d6p1:borderColor>
+			<d6p1:border width="0">
+				<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+			</d6p1:border>
+			<d6p1:dataSourceDescription/>
+			<d6p1:isDataSourceMode>false</d6p1:isDataSourceMode>
+			<d6p1:isRandomizedNewValues>true</d6p1:isRandomizedNewValues>
+			<d6p1:splineStrain>95</d6p1:splineStrain>
+			<d6p1:translucencePercent>0</d6p1:translucencePercent>
+			<d6p1:funnelNeckHeightPercent>10</d6p1:funnelNeckHeightPercent>
+			<d6p1:funnelNeckWidthPercent>10</d6p1:funnelNeckWidthPercent>
+			<d6p1:funnelGapSumPercent>3</d6p1:funnelGapSumPercent>
+			<d6p1:multiStageLinkLine gap="false" width="1">
+				<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
+			</d6p1:multiStageLinkLine>
+			<d6p1:multiStageLinkColor>#000000</d6p1:multiStageLinkColor>
+			<d6p1:valuesAxis/>
+			<d6p1:pointsAxis/>
+			<d6p1:legendPlacement>UseCoordinates</d6p1:legendPlacement>
+			<d6p1:plotAreaPlacement>UseCoordinates</d6p1:plotAreaPlacement>
+			<d6p1:titleAreaPlacement>UseCoordinates</d6p1:titleAreaPlacement>
+			<d6p1:colorPaletteDescription>
+				<d6p1:colorPalette>Palette32</d6p1:colorPalette>
+			</d6p1:colorPaletteDescription>
+		</object>
+	</drawing>
+	<defaultFormatIndex>2</defaultFormatIndex>
+	<height>48</height>
+	<vgRows>48</vgRows>
+	<line gap="false" width="1">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
+	</line>
+	<format>
+		<drawingBorder>0</drawingBorder>
+		<verticalAlignment>Top</verticalAlignment>
+		<backColor>style:FieldBackColor</backColor>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+</document>

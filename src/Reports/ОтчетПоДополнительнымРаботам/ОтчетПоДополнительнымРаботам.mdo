@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26179ad0-d29e-44f9-a27c-b184f3fd6a53">
+  <producedTypes>
+    <objectType typeId="e0d5e05e-fa02-476d-b0e2-81a33125d01b" valueTypeId="c7d996c6-d75d-4a2f-8ee3-1525a4501709"/>
+    <managerType typeId="0f31f6db-780b-457a-8f45-9e78e3905722" valueTypeId="d6367724-6db0-4cc1-8202-b3b84a1b0847"/>
+  </producedTypes>
+  <name>ОтчетПоДополнительнымРаботам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по дополнительным работам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоДополнительнымРаботам.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="b43d53b5-61c4-46d2-a846-c210cd7aa504">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5bcd11e0-055f-47f3-b2b3-6224d67e3f4a">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="8ed51950-b7fa-439a-98fa-9c83c7ba35ed">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="114e8b3b-15ac-4b5e-850b-30198af8085e">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="052139ef-8701-4b48-87ab-e728df7f5204">
+    <name>МакетДляДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет для документа</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

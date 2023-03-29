@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16324b5c-436e-42ed-bbe8-6390aa82c769">
+  <name>ОткрытьФайл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть файл</value>
+  </synonym>
+  <group>FormNavigationPanelSeeAlso</group>
+  <commandParameterType>
+    <types>CatalogRef.ТехОснастка</types>
+    <types>CatalogRef.Документация</types>
+    <types>CatalogRef.Материалы</types>
+    <types>CatalogRef.НормыРасходов</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть документ</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.OpenFile</picture>
+  </picture>
+  <shortcut>Ctrl+O</shortcut>
+</mdclass:CommonCommand>

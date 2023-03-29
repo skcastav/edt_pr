@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e2c662d-5fc2-42f7-9b29-cf49e532fa7d">
+  <producedTypes>
+    <objectType typeId="54eb7de7-8d9f-46c9-a234-a1d2764b85a4" valueTypeId="09a86d09-a434-43b1-885b-d462e1638c4d"/>
+    <managerType typeId="50968bbf-c26d-44c5-ba04-5833a1ff1c55" valueTypeId="6af5e0b2-6ec8-4e29-87f5-4a2893db54cd"/>
+  </producedTypes>
+  <name>РабочееМестоКанбанSMD_Подготовка</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ канбан SMD Подготовка заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоКанбанSMD_Подготовка.Form.Форма</defaultForm>
+  <forms uuid="e7b4b776-801b-4491-a66f-aafe2883e13c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

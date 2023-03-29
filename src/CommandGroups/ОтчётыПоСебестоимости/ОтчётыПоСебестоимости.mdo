@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ffc6d4c-b261-40c8-bc17-f7d72f6b2c08">
+  <name>ОтчётыПоСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёты по себестоимости</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

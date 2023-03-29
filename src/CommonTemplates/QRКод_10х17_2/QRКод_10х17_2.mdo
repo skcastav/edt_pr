@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5970f895-d68b-4d56-bda3-aa7958b80c89">
+  <name>QRКод_10х17_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>QR-код 10х17</value>
+  </synonym>
+</mdclass:CommonTemplate>

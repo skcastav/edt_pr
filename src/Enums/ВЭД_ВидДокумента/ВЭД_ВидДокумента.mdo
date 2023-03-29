@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="180bb29d-1462-4168-8e7b-0bc55ab99baf">
+  <producedTypes>
+    <refType typeId="4ba091b3-f9a5-4063-b3c2-5300da31afe4" valueTypeId="fb4790a2-d8b6-4fcc-97ba-06aff949f5ee"/>
+    <listType typeId="0ca7f5e8-dd31-42d5-b17b-6f7a5833b9ba" valueTypeId="43d73bf3-8ca1-4693-afc8-fb1585039c38"/>
+    <managerType typeId="418b9333-4b97-4629-b8ad-37b93bf28c5d" valueTypeId="390bcca7-f118-43f2-b994-be8d5349cac6"/>
+  </producedTypes>
+  <name>ВЭД_ВидДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВЭД вид документа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06d24e85-9e8e-472a-bb30-283262afb525">
+    <name>СТ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>СТ-1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2710056-5d33-41c3-991a-7d35ed00a708">
+    <name>РМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

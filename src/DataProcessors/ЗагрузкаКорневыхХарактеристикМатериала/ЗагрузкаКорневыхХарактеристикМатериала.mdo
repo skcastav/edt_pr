@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bbbe9e3-94c5-4624-b162-6300a90f93d3">
+  <producedTypes>
+    <objectType typeId="699fe5ab-5dc1-4faf-a623-8ce76a1c31ba" valueTypeId="d401aeb1-1423-40fc-8f2b-5cf781d0154d"/>
+    <managerType typeId="160282ef-1e31-41f6-87bc-c4c7eee2bb6b" valueTypeId="afc88581-79a6-4615-9fc1-52ad14288591"/>
+  </producedTypes>
+  <name>ЗагрузкаКорневыхХарактеристикМатериала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка корневых характеристик материала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКорневыхХарактеристикМатериала.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ba5e6efd-865a-4e74-b9ff-18a461109f7a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

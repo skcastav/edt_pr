@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31d08595-aaa2-4813-a19a-f908c0aa347e">
+  <name>ПС_ГТ_УкраинаСИ_У_ТРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паспорт и ГТ на средства измерения Украина (ТРМ)</value>
+  </synonym>
+</mdclass:CommonTemplate>

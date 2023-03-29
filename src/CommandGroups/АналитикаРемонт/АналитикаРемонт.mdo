@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a19b44b2-134a-45c6-bd9f-134bbc10a7e9">
+  <name>АналитикаРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ремонт и брак</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

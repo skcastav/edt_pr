@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ab39c98-2727-45df-9479-416ab0e8fa15">
+  <producedTypes>
+    <objectType typeId="e3df24a3-1790-4cca-923d-5a76a499d241" valueTypeId="2ad863d7-47c3-4a19-a1aa-e46f4f19d81b"/>
+    <managerType typeId="b1384e4f-317f-4f6e-84e0-95c841513f8b" valueTypeId="21bd2b06-e642-4d63-84c9-45ff44d47892"/>
+  </producedTypes>
+  <name>СписаниеТехПотерьНаЛинейкахИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание тех. потерь на линейках изделий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СписаниеТехПотерьНаЛинейкахИзделий.Form.Форма</defaultForm>
+  <attributes uuid="813d93a7-05c0-42ca-8cc2-481347462147">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="5008e444-ee4e-481e-abbd-af5a3cd39c03">
+    <name>Прирост</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прирост</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="94337af1-ff07-4956-9d4b-47f0d4b2e76b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec000f4f-303f-418b-bb28-7d4ce54acae9">
+  <name>Канбаны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Канбаны</value>
+  </synonym>
+</mdclass:CommonPicture>

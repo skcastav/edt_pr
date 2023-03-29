@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aad12b21-ff8a-4751-96a3-b0cebffbf19a">
+  <producedTypes>
+    <managerType typeId="db9691fe-5886-42f2-96c9-363b2906ca54" valueTypeId="a488c766-c2e1-41fe-9998-edf980f20c30"/>
+  </producedTypes>
+  <name>СписокРассылкиРаботаЛинеекЗаДень</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список рассылки работа линеек за день</value>
+  </synonym>
+  <defaultSaveForm>SettingsStorage.СписокРассылкиРаботаЛинеекЗаДень.Form.ФормаСохранения</defaultSaveForm>
+  <defaultLoadForm>SettingsStorage.СписокРассылкиРаботаЛинеекЗаДень.Form.ФормаСохранения</defaultLoadForm>
+  <forms uuid="935a2fd2-7df6-46c2-b171-723be420b46d">
+    <name>ФормаСохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сохранения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:SettingsStorage>

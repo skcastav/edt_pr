@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffb440c5-6e50-4d8b-b497-998714bdd0ce">
+  <producedTypes>
+    <managerType typeId="54c4a1fd-67fc-4e83-997f-94fac49d2dd4" valueTypeId="04e39995-56df-49b7-85b3-27479e8c78af"/>
+    <tablesManagerType typeId="280b5e6b-b6da-4c09-a3fe-9bb1c2b43f5d" valueTypeId="c5ee8b4b-a316-4804-ad95-9bc30090f8e1"/>
+    <cubesManagerType typeId="83515141-a7fa-4f9b-8b72-655f8db23cc2" valueTypeId="dfefef89-89ab-4cf4-b2a5-5eebd80300ab"/>
+  </producedTypes>
+  <name>БазаАСЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>База АСЗП</value>
+  </synonym>
+  <tables>ExternalDataSource.БазаАСЗП.Table.Проекты</tables>
+  <tables>ExternalDataSource.БазаАСЗП.Table.СтатусыПроектов</tables>
+</mdclass:ExternalDataSource>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1e34ada-1bdd-4641-8c4b-d574e15b2115">
+  <producedTypes>
+    <objectType typeId="33042765-368d-4916-9230-105006b8c316" valueTypeId="351cf5ba-806e-4180-ae06-f7aea2af0e54"/>
+    <managerType typeId="79f80cdb-2739-443e-8398-34575deebfb3" valueTypeId="20497ab3-4032-4b81-9f72-774578e5923e"/>
+  </producedTypes>
+  <name>ОбработкаЗаказовНаПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка заказов на производство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаЗаказовНаПроизводство.Form.Форма</defaultForm>
+  <attributes uuid="2b529d98-918b-427a-80fc-9f7b04d91616">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5286feaa-8ca2-4f21-9ff2-e953b7947cf7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="94a54138-6773-4341-adb3-beb737b1de1d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="796c3b86-b613-4f65-af60-950eaa47d710">
+    <name>Бирка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бирка</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

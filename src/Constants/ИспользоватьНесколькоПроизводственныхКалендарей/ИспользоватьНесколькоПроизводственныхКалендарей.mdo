@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="076898f7-72d5-41fd-8c7c-44c0dcbb04de">
+  <producedTypes>
+    <managerType typeId="b4889c9a-ef41-469c-95b5-fe4f2a1beffa" valueTypeId="576c963a-6cac-48ba-bcc5-1e7fbb73ce7b"/>
+    <valueManagerType typeId="6537a327-6ab7-46e3-84b0-c5872e34970a" valueTypeId="f872ea14-210a-499b-b1f3-54d6e9ea31ca"/>
+    <valueKeyType typeId="3377ac1b-50e4-52fe-b915-e246b4a18cf1" valueTypeId="29e60c01-0fdc-5986-bb51-71d20d50685a"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоПроизводственныхКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько производственных календарей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет необходимость выбора производственного календаря. Устанавливается автоматически при наличии более одного производственного календаря.</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Если Истина в системе используется более одного производственного календаря</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d63563fa-e955-4c20-ad36-11898d58dfd8">
+  <producedTypes>
+    <selectionType typeId="039c3728-0857-4b8c-bfd1-84a57d7c1f29" valueTypeId="f21609a5-d0d1-49a9-b1ca-c0eb3f82d01f"/>
+    <listType typeId="015bd0b7-9479-4e7b-a1e0-64425dd87416" valueTypeId="49a77146-7d86-49e9-b12a-e6044ba5b8ba"/>
+    <managerType typeId="524603ed-5650-4a35-afcd-293287eeb22d" valueTypeId="4fef9c37-15eb-4068-9465-faebcb17a256"/>
+    <recordSetType typeId="f3efe025-03bc-45bd-bfa9-1e765e82bd39" valueTypeId="1f1a83eb-d9c7-451e-84d0-c28ad17b3b3e"/>
+    <recordKeyType typeId="f6ff703c-e6c0-4f10-a1bc-dd2bd8bb4faa" valueTypeId="e90ab190-53e7-4405-a7e8-6fa9d9a7999b"/>
+    <recordType typeId="12ceed29-fbe7-4d3b-b957-8be5612e3b6b" valueTypeId="127d7a98-0214-4913-ae9a-c4992b024eae"/>
+    <recordManagerType typeId="9294ce26-07ce-4bf8-b2a3-a5e5d24d33bb" valueTypeId="a037b82e-690c-4c51-99aa-c8a430cd9fcd"/>
+  </producedTypes>
+  <name>НапряжениеБатарейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напряжение батарейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cf47733a-4c49-4cf6-b32b-38889bee5fe0">
+    <name>НапряжениеНаСтенде</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напряжение на стенде</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c15ede36-dec6-47a0-9259-c328f85b7f33">
+    <name>НапряжениеПослеБуфера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напряжение после буфера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="52b2d973-aae9-45bf-be89-226ac9ca55c4">
+    <name>ПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПЗ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

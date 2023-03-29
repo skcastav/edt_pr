@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1d99c37-2b68-4bdd-8eb9-d09a9155aa4a">
+  <producedTypes>
+    <objectType typeId="0699a48b-3d0f-47df-ab95-9bd4ff9fa074" valueTypeId="b62533b9-d325-4b55-87f3-c652619bf69a"/>
+    <managerType typeId="3ca28d86-76fb-4ef5-aa9e-83f475cdbf95" valueTypeId="c69d3a19-8331-4a12-9c3b-bd79d6497b30"/>
+  </producedTypes>
+  <name>Выравнивание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выравнивание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Выравнивание.Form.Форма</defaultForm>
+  <forms uuid="da4ad25e-9d1c-4234-a044-f014faa380c8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

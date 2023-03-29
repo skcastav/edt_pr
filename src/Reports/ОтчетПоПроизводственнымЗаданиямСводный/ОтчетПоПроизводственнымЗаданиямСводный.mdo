@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10a31a25-b59b-42dc-b065-ca8f49ffa84a">
+  <producedTypes>
+    <objectType typeId="93e63f76-2640-4dee-8da4-c1de6e6974bb" valueTypeId="133764a4-7db0-4389-90ba-a30118e9eb18"/>
+    <managerType typeId="dc710138-20e6-4fff-99ff-306c0f59ffdd" valueTypeId="9746e2cf-2d22-49f8-8f01-c35bad4b172a"/>
+  </producedTypes>
+  <name>ОтчетПоПроизводственнымЗаданиямСводный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по производственным заданиям сводный (текущие)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоПроизводственнымЗаданиямСводный.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="2b2e07ef-9e81-4567-9179-cd441df18fa6">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="523c807f-5cf7-482b-88ab-67a184df9abc">
+    <name>МТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>МТК</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.МаршрутнаяКарта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b89da04d-ccd1-4ac1-b56f-43b99dbe71e9">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="19cc934c-661c-426a-84cc-8357d823ba83">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

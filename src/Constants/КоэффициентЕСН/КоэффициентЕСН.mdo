@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="151ec8bf-76fd-462d-b55a-b3b54a668577">
+  <producedTypes>
+    <managerType typeId="42c47c9d-40f2-4ea1-9fea-ef20fab95740" valueTypeId="414a1bf4-1286-4691-9c7b-cfdff803fd94"/>
+    <valueManagerType typeId="f7d13a70-f818-4ca7-a026-6157f7f3a674" valueTypeId="0616ff93-0e6d-42eb-934d-d6a05d9682c2"/>
+    <valueKeyType typeId="ae0fa4c3-345e-57d2-b6e3-468c98926838" valueTypeId="4d042b99-fd86-553b-a399-2c9f96120e08"/>
+  </producedTypes>
+  <name>КоэффициентЕСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>К-т ЕСН</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>6</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

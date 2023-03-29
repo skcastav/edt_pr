@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a24403a6-8722-43ca-ac47-a4151f733e8d">
+  <name>АРМ_SMD_Украина</name>
+  <synonym>
+    <key>ru</key>
+    <value>SMD АРМ-ы Украина</value>
+  </synonym>
+</mdclass:Role>

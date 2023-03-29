@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7b7435b-b90f-4c33-ad34-08bfea247de4">
+  <producedTypes>
+    <objectType typeId="eb74daaa-a7a6-40f2-af09-f834b72cee68" valueTypeId="3f45a55f-bbd5-4bab-b372-78b381b7fd01"/>
+    <managerType typeId="434b1f1f-6d61-4335-b11d-855d2ed5cdb6" valueTypeId="92d24574-62b5-49dc-b2a9-d15cfc601882"/>
+  </producedTypes>
+  <name>ВыравниваниеЛюбыхДоковЗаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выравнивание любых документов за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыравниваниеЛюбыхДоковЗаПериод.Form.Форма</defaultForm>
+  <forms uuid="a6b5a4b5-33f7-4d01-9480-aed91161148b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

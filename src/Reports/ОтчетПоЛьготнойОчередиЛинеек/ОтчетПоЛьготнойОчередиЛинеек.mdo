@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ed4ef04-f432-44a7-8aa1-546a712ba489">
+  <producedTypes>
+    <objectType typeId="e5402904-7598-43b2-81ee-f265c5efae66" valueTypeId="c9244377-f92e-4eee-97ad-0faab6fc99e8"/>
+    <managerType typeId="3fd9e550-dd85-47ef-ba5d-59ef2e5039e9" valueTypeId="cb1a4c7c-0652-4f33-a987-ef31477b1da0"/>
+  </producedTypes>
+  <name>ОтчетПоЛьготнойОчередиЛинеек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по льготной очереди за период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоЛьготнойОчередиЛинеек.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="3b92282c-507b-4ad4-b69d-25104dc5150f">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3c574925-c1ab-44cd-ae70-5c2d3a6a6861">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3d138038-1887-4b9d-9bef-d5d0b239b28d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="bad14325-8709-42a6-9ab2-0798ed5c8eee">
+    <name>Макет2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет2</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

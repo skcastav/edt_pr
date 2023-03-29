@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9304246e-72e1-42a8-8117-77bb980ae82f">
+  <producedTypes>
+    <objectType typeId="266db694-075c-42cf-8d16-7a7ac3e4e45a" valueTypeId="501c5fe6-7875-462a-a88e-a415e5e2b2da"/>
+    <managerType typeId="f563408f-e440-4143-adf0-c0ac349be509" valueTypeId="91a888d6-c05a-4471-9e19-11cf5454e321"/>
+  </producedTypes>
+  <name>ВыгрузкаДанныхПоСтоимостиИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка стоимости входящих полуфабрикатов изделий по выпуску (остаткам на складах)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВыгрузкаДанныхПоСтоимостиИзделий.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="e3f527f7-e22d-4174-8bb2-af6f7a22e919">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bff97403-109d-4136-9f66-67b8e3a131f7">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2a9ece49-2ca8-4633-a008-90565708cb4c">
+    <name>ВидОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид обработки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9c5da1cf-8ff4-44f2-ae2e-5d7c7eea5e76">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="753c990a-bfac-41ef-8b77-0f5a91e07415">
+    <name>Выгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

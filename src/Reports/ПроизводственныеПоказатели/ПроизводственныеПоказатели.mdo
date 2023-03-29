@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8e81ff9-3221-49ed-af17-cfdc263e1cbd">
+  <producedTypes>
+    <objectType typeId="540b971a-c7e7-4ee3-a5ed-fbf54cf019a5" valueTypeId="dac3cbf7-7bc2-4235-acdb-e0f6818b8c87"/>
+    <managerType typeId="87027b3e-18d8-4096-bceb-84b94d78b2e3" valueTypeId="8384160e-177c-4542-8a67-e2d499a4d211"/>
+  </producedTypes>
+  <name>ПроизводственныеПоказатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные показатели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПроизводственныеПоказатели.Form.Форма</defaultForm>
+  <attributes uuid="4679cbe4-d02d-41d0-82a0-1d6c7005297c">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="eaaee9a8-13e5-499f-89c6-cb65cbcdabed">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="67e1b6ca-e37c-479a-ac97-775ab9db325d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

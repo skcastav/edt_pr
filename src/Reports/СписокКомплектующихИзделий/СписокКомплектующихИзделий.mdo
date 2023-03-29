@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b835b492-edc3-4a57-b6ec-6acbc6fd978c">
+  <producedTypes>
+    <objectType typeId="c791ea55-2477-45d7-ba30-30af77603ef3" valueTypeId="44b0a83b-fe24-410e-a7c3-d9c88dffced8"/>
+    <managerType typeId="73ec5460-b504-40e6-8aa4-6274b4a08f19" valueTypeId="e91a8014-6ded-4a06-9e7a-44d7a9257992"/>
+  </producedTypes>
+  <name>СписокКомплектующихИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список комплектующих изделий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СписокКомплектующихИзделий.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d4a1b743-ef3e-4555-b2ad-d711165665f2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c22bcb1c-f779-437e-b042-b7c2367834da">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

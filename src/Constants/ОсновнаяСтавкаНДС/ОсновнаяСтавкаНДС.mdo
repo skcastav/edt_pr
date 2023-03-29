@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d3e97b1-fa9e-4b4e-9116-83688d10763e">
+  <producedTypes>
+    <managerType typeId="533f1df8-6153-4eaa-abd4-f2265d6990d4" valueTypeId="6a9f969c-b6eb-4657-9593-46c12d622924"/>
+    <valueManagerType typeId="89319c5e-e88e-4873-ad27-7e8badcf6f18" valueTypeId="d64a30aa-f7ff-4855-a77d-4cdb2e265eeb"/>
+    <valueKeyType typeId="69829830-53c8-571d-82eb-81faa0d99213" valueTypeId="0efcceb5-d8d8-59c0-a4b6-938f8b18d883"/>
+  </producedTypes>
+  <name>ОсновнаяСтавкаНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная ставка НДС</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтавкиНДС</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

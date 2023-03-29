@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0143bf5-d729-43b3-a514-4005150eb0e3">
+  <name>Rarus_DataExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Data exchange</value>
+  </synonym>
+  <namespace>http://www.skca.ru/SKCADataExchange</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.2/data/spreadsheet</value>
+  </xdtoPackages>
+  <descriptorFileName>Rarus_DataExchange.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="bee5301c-5b29-4dbf-bcd6-ddf2603ee833">
+    <name>ВыгрузитьОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить объект</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ВыгрузитьОбъект</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="79684dde-cf69-476a-b7d4-fac821fd58c7">
+      <name>Параметры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="a6c554e4-b7ff-4fae-8db4-557a963bceb1">
+    <name>СравнитьБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сравнить базы</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>СравнитьБазы</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3f56afd3-13c2-4d75-881d-fd8acc70924e">
+      <name>Данные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="2254eca6-2cfa-419a-9963-fe3f2c15832c">
+    <name>ПолучитьБитыеСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить битые ссылки</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ПолучитьБитыеСсылки</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="fde490b8-6f92-4766-8a06-d119fd88e994">
+      <name>ДанныеОтбор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные отбор</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="6d176e80-0705-4b09-aae3-6e664fdc0625">
+    <name>ОбменПослеСбоя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен после сбоя</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ОбменПослеСбоя</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="91421f5e-0f5e-4eaa-bedd-fd22fdfaa363">
+      <name>Параметры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="ceabdf67-2086-4a5e-b8dc-7690b04a9c62">
+    <name>ВыгрузитьНоменклатураУТ11</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить номенклатура УТ11</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ВыгрузитьНоменклатураУТ11</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ba91a83f-0246-4bf0-a193-f07cf6b25543">
+      <name>Параметры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

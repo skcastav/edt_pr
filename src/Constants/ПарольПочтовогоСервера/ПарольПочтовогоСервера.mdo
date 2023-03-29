@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="748fea9d-b951-435e-837c-57778bc57fb1">
+  <producedTypes>
+    <managerType typeId="8cd97b4d-f139-47f0-8fc1-dfeb548b2838" valueTypeId="2801bdb1-9939-4752-9bbc-2ba218886631"/>
+    <valueManagerType typeId="44117300-aaad-47b2-a2ac-ad100262f542" valueTypeId="c28a352c-9d74-458f-b644-94bc4de60990"/>
+    <valueKeyType typeId="afd9f152-4b08-5c47-8703-a25f3beb547b" valueTypeId="74bbb992-e677-5e09-82b3-cda90c2a00c4"/>
+  </producedTypes>
+  <name>ПарольПочтовогоСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль почтового сервера</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>30</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

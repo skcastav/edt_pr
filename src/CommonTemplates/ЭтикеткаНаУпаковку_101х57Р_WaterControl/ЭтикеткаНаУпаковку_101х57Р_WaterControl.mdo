@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52f9a12e-191d-4e29-afab-cd8406dcbc28">
+  <name>ЭтикеткаНаУпаковку_101х57Р_WaterControl</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетка на упаковку 101х57 WC Zebra</value>
+  </synonym>
+</mdclass:CommonTemplate>

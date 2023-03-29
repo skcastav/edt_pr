@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf4d6b62-a471-4470-8d5c-3fc4c6e1ebdc">
+  <producedTypes>
+    <objectType typeId="232bf646-0dd1-40a3-8191-3976402f063f" valueTypeId="6140098e-06c9-420b-8614-8cb50058f1c6"/>
+    <managerType typeId="bf511295-8f9d-49ba-8077-05e8e8e991b3" valueTypeId="9847229e-53fd-4dca-9e27-3841ed970627"/>
+  </producedTypes>
+  <name>ОтчетПоЗНПМетрика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по ЗНП Метрика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоЗНПМетрика.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d94b5db8-336b-4eb2-9052-98138f6be107">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

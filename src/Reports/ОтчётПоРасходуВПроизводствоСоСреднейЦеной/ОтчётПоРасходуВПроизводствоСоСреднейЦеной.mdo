@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e7cb40c-f8d4-4834-8b4c-abbe202f29bf">
+  <producedTypes>
+    <objectType typeId="742b4f86-cf3f-4106-90b3-042264726e29" valueTypeId="fa70404b-bb3b-4e54-82d0-331eef534005"/>
+    <managerType typeId="d63caba6-dad4-4597-bb9c-dbcc6bd6de08" valueTypeId="56b71dab-2583-4112-a4b2-530d319fc773"/>
+  </producedTypes>
+  <name>ОтчётПоРасходуВПроизводствоСоСреднейЦеной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по расходу в производство со средней ценой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПоРасходуВПроизводствоСоСреднейЦеной.Form.ФормаОтчета</defaultForm>
+  <forms uuid="677b2409-b0e8-4c70-8c5a-55b3a0319959">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="470382c9-07e5-4e51-ac0d-96911b0c2c09">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

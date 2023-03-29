@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d3e3029-53a2-497a-bb5e-58e160722a51">
+  <name>ОтчётыПоЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёты по ЗП</value>
+  </synonym>
+</mdclass:Role>

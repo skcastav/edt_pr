@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8381ec9-19f5-49ae-b1e2-c1b3e076ea17">
+  <producedTypes>
+    <selectionType typeId="61c4bfd1-c204-4a2c-b413-f2f8289c491f" valueTypeId="d2933a2e-a3d9-4b9c-a9ad-5ea5368d1ad5"/>
+    <listType typeId="aa0b110f-40a0-4156-a367-e3971fb0078b" valueTypeId="43918f95-07bf-4ab7-b295-4b1eb94453ad"/>
+    <managerType typeId="abff8e6c-ac8b-4c1c-9ce9-354e6da62274" valueTypeId="9925994f-1e5c-4200-a602-4069ae733213"/>
+    <recordSetType typeId="e020056c-4c08-4749-9eda-ed7ccdcb6d69" valueTypeId="b7c176b3-ac3a-408e-ad64-a9732149dbf1"/>
+    <recordKeyType typeId="a8909a51-be6d-49ad-b6d0-d287c26f342b" valueTypeId="f119e59e-60ec-4df0-bd15-91f5cb84cc90"/>
+    <recordType typeId="3718b4b9-18d3-497b-ad73-2458b826656a" valueTypeId="f92db181-f4ff-44a5-8e9b-9940fc832406"/>
+    <recordManagerType typeId="851fb072-07cd-4c3e-b414-f2b61a252647" valueTypeId="4b4be47f-b0a7-447f-9e62-70c633c01b08"/>
+  </producedTypes>
+  <name>ПараметрыИзделийУЛИШИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры изделий УЛИШИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c71d2b1f-0755-4553-98c3-b81d169fb769">
+    <name>ВидТары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид тары</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыТары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="33144084-5730-4b37-8d9b-36060f0c409a">
+    <name>Прессформа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прессформа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехОснастка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5bd7e45b-ce0c-4ab8-b13c-d55b741b1115">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЦветаИзделий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="97c057c9-e4d0-4d68-a309-9463bba05a38">
+    <name>БазоваяОтливка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовая отливка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="cd7f4fa0-a0a7-4475-b204-f24ee87067a7">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48fcf967-e52d-4017-a8fa-82702a342129">
+  <producedTypes>
+    <objectType typeId="d0a41402-48b0-4981-b8a2-05c2a5c1e1b5" valueTypeId="7bdd4557-d517-475f-93ea-f5b1dbda1b1f"/>
+    <managerType typeId="90b252e4-42eb-4b4c-b6f1-84eadf6626ec" valueTypeId="899fb317-f46e-48a1-9c43-f9a0f42e2c0b"/>
+  </producedTypes>
+  <name>КопированиеСпецификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копирование спецификации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КопированиеСпецификации.Form.Форма</defaultForm>
+  <attributes uuid="65d83561-d38a-4b81-b877-831249d9aaa9">
+    <name>Нумератор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумератор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НумераторСпецификаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5727f527-3848-4448-b92a-4fd21bc7dbd2">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b280b607-158d-4f41-b5b3-150fed265c73">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7684b3dd-8d14-4860-a300-319d6fda657f">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыСпецификаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c2294ad7-fc08-4188-aec8-a89a11aa80a8">
+    <name>Обозначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обозначение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2871b77-97ee-424f-a751-d223808cc388">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6f53495b-5494-4fa6-aee9-1d4efa8a37cf">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d6ef427e-c9ee-48d6-b4e8-162c5c9f3e2b">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="1256d414-e063-449a-83e8-32a6a9917544">
+    <producedTypes>
+      <objectType typeId="27e2ad17-6169-4c25-9520-ab4ee555dafc" valueTypeId="aa4519f8-9ac4-48a5-a7d5-a444a812b88a"/>
+      <rowType typeId="e24809e7-21ca-4324-8be1-9674593e63fb" valueTypeId="a0a5a07f-35c0-4585-a685-53c439a73589"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <attributes uuid="27d095ab-f107-47ce-94cf-68392e9b4917">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cacd08d6-0cc2-4d54-98d4-3bc5d963b8a2">
+      <name>ИсходнаяСпецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исходная спецификация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7d99be8b-4a88-4006-9231-dd5979efd5c4">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c9f8343c-eca4-4742-819a-139d21714582">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

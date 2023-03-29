@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2910e2e8-7167-437f-bbce-1a22d0ec2fa4">
+  <producedTypes>
+    <objectType typeId="00ce5808-ce45-43c0-92ea-482e2fe1c5ee" valueTypeId="815f7ec3-ff13-4e5f-a881-f4ff4f8152e5"/>
+    <managerType typeId="26d10f62-0517-4814-a8fa-5535b03c02d8" valueTypeId="3a84948d-4193-46a4-9028-ceb57dcf6369"/>
+  </producedTypes>
+  <name>УдалениеБитыхСсылокЗаписейРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление битых ссылок записей регистра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УдалениеБитыхСсылокЗаписейРегистра.Form.Форма</defaultForm>
+  <forms uuid="d613793a-b4ef-4917-8084-7ddfbf385139">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

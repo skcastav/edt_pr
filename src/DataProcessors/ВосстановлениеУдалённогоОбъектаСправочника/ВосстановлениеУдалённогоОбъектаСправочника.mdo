@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81af23a1-ce6e-4ce2-a47c-be99dcf238d2">
+  <producedTypes>
+    <objectType typeId="eff2034c-3b8a-4d17-a161-4437a6eb2759" valueTypeId="12251152-2086-4406-b960-03f540cfca50"/>
+    <managerType typeId="54e2f4c3-5ce5-48c0-99c2-d31412b34c6a" valueTypeId="cebebbd3-d9c0-4a31-9b89-61e22a027e3d"/>
+  </producedTypes>
+  <name>ВосстановлениеУдалённогоОбъектаСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Восстановление удалённого объекта справочника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВосстановлениеУдалённогоОбъектаСправочника.Form.Форма</defaultForm>
+  <forms uuid="d9966fc1-08d1-4db6-ab05-46352983e5de">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

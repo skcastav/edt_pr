@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d87af15-d1e3-4d6a-8677-b4b96798822f">
+  <producedTypes>
+    <objectType typeId="d5538f56-d269-49e4-9bcf-69655007cb21" valueTypeId="d4a7343e-7789-474a-bcb5-d93775680ccf"/>
+    <managerType typeId="444ba964-9a69-4485-9f92-5d3eedc25281" valueTypeId="daa0388b-bcf2-4a65-b825-901dbf9e0fd8"/>
+  </producedTypes>
+  <name>ОтправкаВРемонтВыходныхПолуфабрикатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка в ремонт выходных полуфабрикатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОтправкаВРемонтВыходныхПолуфабрикатов.Form.Форма</defaultForm>
+  <attributes uuid="56356e56-82e7-44b4-bd58-187992eb7c8b">
+    <name>Линейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линейки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ea871725-52fd-4c58-a6a0-c3a46485a253">
+    <name>ПроизводственноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственное задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Линейка</name>
+      <field>DataProcessor.ОтправкаВРемонтВыходныхПолуфабрикатов.Attribute.Линейка</field>
+    </choiceParameterLinks>
+  </attributes>
+  <forms uuid="c58e0b9f-a103-4d7e-b68f-b5dc7b337b67">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

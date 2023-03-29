@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2819447c-de62-4ef2-84e3-cf5df508bdde">
+  <producedTypes>
+    <objectType typeId="6420ea4d-93c9-47a3-a25b-08481f10f198" valueTypeId="f9058b5d-5ac7-40ff-a2e5-d244ac67d9e6"/>
+    <managerType typeId="97b927fa-0e46-4d62-a8df-9d36855a5028" valueTypeId="cff653eb-e740-4d3f-9a36-e4e5ba440b90"/>
+  </producedTypes>
+  <name>ОстановкаКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остановка канбанов поставщиком</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОстановкаКанбанов.Form.Форма</defaultForm>
+  <attributes uuid="d280e2da-c292-4dfc-bb66-ba86fd42dd70">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="76fe1114-4438-4b59-997d-041c096f411b">
+    <name>ПричинаОстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина остановки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПричиныОстановок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="16b05e4d-34e4-43b2-a56c-51b9de332e7e">
+    <producedTypes>
+      <objectType typeId="180f4a11-6b62-40b5-99c6-7e87e4956d6c" valueTypeId="5c107272-24f2-47c6-b45c-ca745bad5472"/>
+      <rowType typeId="9ad10a6e-57d9-427e-825f-dd78cd638bc8" valueTypeId="fd6b542f-0142-465c-b090-6fd74912cb38"/>
+    </producedTypes>
+    <name>Канбаны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канбаны</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4c3f5364-3d85-44f0-954e-d3cda4fdc2eb">
+      <name>МПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bd83064a-87c0-4ec7-ab04-52bf933abb26">
+      <name>ПричинаОстановки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина остановки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПричиныОстановок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7da36954-7210-443c-9e3d-f8001a9bbc7b">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5d1c6d7d-9688-42aa-939d-b3264a281725">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

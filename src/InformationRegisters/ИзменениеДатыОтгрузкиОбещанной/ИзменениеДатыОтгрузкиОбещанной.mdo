@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cea74f6d-7ea9-41b7-9905-7a55e1f2e7e8">
+  <producedTypes>
+    <selectionType typeId="3cf4dc07-95ac-45ba-beb2-809d2adf04a5" valueTypeId="9196e22c-15ed-4947-8952-9a7dad0a78f2"/>
+    <listType typeId="4e4f9b66-bf2f-4147-80f1-08725fa2c680" valueTypeId="dec0be68-20f8-4d44-9527-804c5d880497"/>
+    <managerType typeId="6f585283-4058-4845-b9c6-9913b4d015ed" valueTypeId="c798dbf3-2ec7-4760-bf75-ca03388db811"/>
+    <recordSetType typeId="83ba03b1-a76f-45c9-8c10-3b7b8d4f259c" valueTypeId="dc9cd7f7-e62c-4e6c-86c0-6428e76610a8"/>
+    <recordKeyType typeId="3a379168-2fd1-4453-adbc-7ee3c2e09110" valueTypeId="afb88317-51b5-46d4-a89c-6010ba28a432"/>
+    <recordType typeId="39252b60-3d8d-4ff7-9ec2-2d39a8550cf5" valueTypeId="e5c5def7-3b7c-4e43-a746-fda82355fb87"/>
+    <recordManagerType typeId="694f21d3-f3ef-45db-9605-64ee5367120e" valueTypeId="0a94a20f-1364-4027-a981-b50db6e9a731"/>
+  </producedTypes>
+  <name>ИзменениеДатыОтгрузкиОбещанной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение обещанной даты отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a5deb44b-5ea4-4ed2-96ae-348d79614d80">
+    <name>ДатаОтгрузкиОбещанная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обещанная дата отгрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e6bd83cd-ab5b-4a31-a7e3-2d4f4d113a08">
+    <name>ДатаОтгрузкиНовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая дата отгрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a80f9c5a-dcf5-49c9-8f95-93350b876ef9">
+    <name>Причина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПричиныУвеличенияСроковПоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6386a180-0fd6-4254-8906-a1144d5c57c4">
+    <name>ДатаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обработки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="78280d2e-1b45-4e68-81f3-da0d7992e68e">
+    <name>ЗНП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗНП</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a2228df8-ad1f-45cb-8e46-b7844dad7d89">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

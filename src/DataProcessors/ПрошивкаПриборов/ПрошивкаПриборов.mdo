@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9630b222-392e-4687-b268-ff962ed1380f">
+  <producedTypes>
+    <objectType typeId="11a5c780-70ad-459c-8a05-25ee6cca2aeb" valueTypeId="b5ed9066-19c8-4a89-b96b-10e6818c3388"/>
+    <managerType typeId="a9804374-6a3c-41fc-bf4b-45858638f4cd" valueTypeId="66959217-da14-4dee-bf95-f620ed82dbd9"/>
+  </producedTypes>
+  <name>ПрошивкаПриборов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прошивка приборов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПрошивкаПриборов.Form.Форма</defaultForm>
+  <forms uuid="1b4060a6-0a53-473a-921a-0d62259f0efe">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

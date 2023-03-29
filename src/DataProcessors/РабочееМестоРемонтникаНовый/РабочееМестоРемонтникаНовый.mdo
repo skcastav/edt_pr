@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d38fa24b-ffb4-456a-8315-e48e17300574">
+  <producedTypes>
+    <objectType typeId="2d7b2a46-3a06-4a17-b132-f5490b3b0347" valueTypeId="15ac7c19-8ecb-4771-9495-0c27ac4ce98c"/>
+    <managerType typeId="f3014b6b-f2be-445b-b37c-23215166bb2f" valueTypeId="165c6df1-f861-4a12-9810-a2bbcd1b189b"/>
+  </producedTypes>
+  <name>РабочееМестоРемонтникаНовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ Ремонт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоРемонтникаНовый.Form.Форма</defaultForm>
+  <attributes uuid="e1b25f32-826e-4890-9242-cfabc3a05269">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dfaedefd-f4ea-4916-ae20-4ffa2bb117de">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="509e3602-23bd-4e12-8228-c1b66cdaddf8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

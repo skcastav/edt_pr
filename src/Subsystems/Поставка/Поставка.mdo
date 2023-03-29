@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9109de1b-2fd3-42b8-97a8-c13e6a3be317">
+  <name>Поставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поставка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Продажи</picture>
+  </picture>
+  <content>Report.ОтчётПоРегиструЗаказыНаПроизводство</content>
+  <content>DataProcessor.ОбработкаЗаказовНаПроизводство</content>
+  <content>Report.ВизуализацияЗаказовНаПроизводство</content>
+  <content>DataProcessor.ОбработкаКрупныхЗаказов</content>
+  <content>Report.ОтчётПоКоличествуСозданныхМТКПоДатам</content>
+  <content>DataProcessor.СозданиеНакладныхНаСборку</content>
+  <content>DataProcessor.РабочееМестоСборщик</content>
+  <content>Report.СостояниеЗаказаНаПроизводство</content>
+  <content>DataProcessor.ПечатьНомеровТары</content>
+  <content>Report.ОтчётПоННС</content>
+  <content>DataProcessor.СозданиеНакладныхНаСборкуХарьков</content>
+  <content>DataProcessor.ОбработкаКанбанныхПозиций</content>
+  <content>Report.ОтчётОТекущемСостоянииДелНаЛинейках</content>
+  <content>Report.ОтчетПоЗНПМетрика</content>
+  <content>Report.ОтчётПоСвободнымОстаткамПродукции</content>
+  <content>Report.ОтчётПоРегиструДолги</content>
+  <content>DataProcessor.РабочееМестоКомплектовщик</content>
+  <content>DataProcessor.РабочееМестоСборщикХарьков</content>
+  <content>Report.ОтчётПоННСХарьков</content>
+  <content>Report.ОтчетПоРегиструКрупныеЗаказы</content>
+  <content>DataProcessor.РабочееМестоПеремещенияПодЗаказ</content>
+  <content>DataProcessor.ПроверкаИзмененийДатыОтгрузкиОбещанной</content>
+  <content>DataProcessor.ИзменениеДатыОтгрузкиОбещанной</content>
+  <content>Report.ОтчётПоРегиструИзменениеДатыОтгрузкиОбещанной</content>
+  <content>Report.ОтчётПоСборкеДоставкеИтоговый</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+</mdclass:Subsystem>

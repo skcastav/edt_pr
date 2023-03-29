@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f50111fc-6a4f-4525-8d79-27a0dcf5b508">
+  <name>ВыгрузкаРезультатовЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка результатов запросов</value>
+  </synonym>
+  <methodName>CommonModule.СРМ_ОбменВебСервис.ВыгрузкаРезультатовЗапросов</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

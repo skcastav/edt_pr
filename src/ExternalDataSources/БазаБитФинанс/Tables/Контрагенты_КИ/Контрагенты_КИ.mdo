@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0d0fefb-9655-418a-ad00-5c9fa5804024">
+  <producedTypes>
+    <refType typeId="35353978-09b5-4a09-b9af-f735e1f7e9b9" valueTypeId="b1ee5d73-8111-41da-a092-5663cabbc326"/>
+    <listType typeId="9c59b69b-1d8c-4ebc-9ad7-04cbcbf9a0c7" valueTypeId="ec52f236-d020-4869-b688-c5a84a04de32"/>
+    <objectType typeId="362e7399-0ef3-45e1-b7b6-da6f49b06775" valueTypeId="d6aa1e86-b3c3-48c8-b22f-28830e2728a7"/>
+    <managerType typeId="26930049-3f22-4ed3-82fa-97be4b06b247" valueTypeId="6d30f6c4-cb69-44b4-8ff0-cf6fe1a4c630"/>
+    <recordManagerType typeId="35344ba6-57a9-41fb-9732-36d1bbb15fc1" valueTypeId="cb4c138d-1e8c-4522-8215-6ca27d56c385"/>
+    <recordSetType typeId="e307b586-4cdd-482b-a7be-b683cdf9b1e3" valueTypeId="8aa39011-95a1-43e1-8e28-d0c02c8343aa"/>
+    <recordType typeId="f127152f-7dd8-4db3-9882-9194204bb9de" valueTypeId="310f18e7-a10e-412a-b6cb-e203da751205"/>
+    <recordKeyType typeId="ae4841fb-9659-4c16-9822-1d4f77cddc01" valueTypeId="07d45391-8513-4a1f-9bbf-a2032f19fde4"/>
+  </producedTypes>
+  <name>Контрагенты_КИ</name>
+  <parentDataSource>ExternalDataSource.БазаБитФинанс</parentDataSource>
+  <nameInDataSource>dbo._Reference81_VT1835</nameInDataSource>
+  <keyFields>ExternalDataSource.БазаБитФинанс.Table.Контрагенты_КИ.Field._Reference81_IDRRef</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="9e9787d5-07d9-463c-a017-b6f2103fdc7f">
+    <name>_Reference81_IDRRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Reference81_IDRRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="0d573581-ee1a-478a-832d-dde852ca12b8">
+    <name>Вид</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Fld1838RRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="dbcec426-493b-478a-bff5-02a5b128c424">
+    <name>Представление</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Fld1839</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

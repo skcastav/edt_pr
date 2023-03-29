@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3524f230-dbed-4eb3-84b9-8cf3d6026925">
+  <producedTypes>
+    <refType typeId="0fca0e9b-44e7-44a2-b718-7eb8ab7ec793" valueTypeId="4585c50e-c7e0-4e28-aeac-66d72da1968d"/>
+    <listType typeId="32561e73-60df-485a-9a9c-f87fe35aca81" valueTypeId="f059c599-a296-4934-8b8b-c80eefba5e98"/>
+    <objectType typeId="1619bb6f-0c17-4ac8-b9cc-c665dc0818bc" valueTypeId="b0f68356-3375-4d63-b2df-6fa00a153123"/>
+    <managerType typeId="1795eecf-4167-4578-837d-294b12fe0598" valueTypeId="5dc5a139-985b-4ac6-b373-b59c34b45845"/>
+    <recordManagerType typeId="d57122e6-c8c9-486e-a4e0-e738d8091954" valueTypeId="2df4902a-37ce-46ee-8f1f-1046bc72c8eb"/>
+    <recordSetType typeId="98028adf-9683-4bec-853b-98cf225bc887" valueTypeId="450d134c-7cf6-4884-a908-c423c578c0ef"/>
+    <recordType typeId="2b323b12-fcd2-4936-96f4-70620e8359b0" valueTypeId="74508aa3-9514-47ab-91ce-ecb9fbaf280b"/>
+    <recordKeyType typeId="322753ee-ca80-484a-b97c-df847b392103" valueTypeId="9a20740a-9a04-4e84-8c43-63a0515baeb5"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <parentDataSource>ExternalDataSource.БазаСбыта</parentDataSource>
+  <nameInDataSource>Sales.dbo._Reference133</nameInDataSource>
+  <keyFields>ExternalDataSource.БазаСбыта.Table.Контрагенты.Field._Fld3244RRef</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <tableFields uuid="8821a56c-8951-48c9-90c7-a882f619bc62">
+    <name>_Fld3244RRef</name>
+    <type>
+      <types>BinaryData</types>
+      <binaryQualifiers>
+        <length>16</length>
+        <fixed>true</fixed>
+      </binaryQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>_Fld3244RRef</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="bc98c31a-1c30-4d3b-a466-3d4c7da93f9b">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Fld3246</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="19f48bb2-a81a-47a5-bc0d-06b9b8feb6d5">
+    <name>КПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Fld3248</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="ac939521-0dd4-4b21-bbff-d6411b665c90">
+    <name>ПолноеНаименование</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>_Fld3239</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

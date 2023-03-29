@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fd13f97-3dca-46f6-941b-759f3c4d129c">
+  <producedTypes>
+    <objectType typeId="388113ef-e38a-4b7d-864d-6f4b8a0761bd" valueTypeId="cb774b8b-eefe-4296-b354-3aecb9453bef"/>
+    <refType typeId="044f5aa6-d13f-49ca-a27a-db9ba5afa3af" valueTypeId="36e3013f-f206-4174-a3a9-2475be8fa1c0"/>
+    <selectionType typeId="6b342c1f-eddb-4ead-aea0-34ad24fc6cfa" valueTypeId="85cfcbf1-61f5-4916-94de-69c54ba8ffb0"/>
+    <listType typeId="46f0512c-7eb1-48ee-b589-29b18ee7ef7f" valueTypeId="ae397f89-d043-4998-802e-7a99aeea7e07"/>
+    <managerType typeId="f1e31e0b-bb35-4b76-b6f0-46a7569b67b6" valueTypeId="21127324-18a5-4750-ae7e-bfb307be7039"/>
+  </producedTypes>
+  <name>ДвижениеМПЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение МПЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДвижениеМПЗ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ДвижениеМПЗ</basedOn>
+  <basedOn>Document.ЗаявкаОтПокупателя</basedOn>
+  <basedOn>Document.ПоступлениеМПЗ</basedOn>
+  <basedOn>Document.ПоступлениеМПЗПрочее</basedOn>
+  <basedOn>Document.ВыпускПродукцииКанбан</basedOn>
+  <basedOn>Document.МаршрутнаяКарта</basedOn>
+  <basedOn>Document.ЗаказНаПроизводство</basedOn>
+  <basedOn>Document.ПоступлениеИзПереработки</basedOn>
+  <basedOn>Document.Перепрогон</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Движения МПЗ</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДвижениеМПЗ.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ДвижениеМПЗ.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.МестаХранения</registerRecords>
+  <registerRecords>AccumulationRegister.ЗаказыНаПроизводство</registerRecords>
+  <registerRecords>AccumulationRegister.РезервированиеГП</registerRecords>
+  <registerRecords>AccumulationRegister.Долги</registerRecords>
+  <registerRecords>AccumulationRegister.БракПроизводства</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e167c736-4e8a-4804-b026-ca1e22e0c2d9">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ДвижениеМПЗ</types>
+      <types>DocumentRef.Перепрогон</types>
+      <types>DocumentRef.РемонтнаяКарта</types>
+      <types>DocumentRef.ПроизводственноеЗадание</types>
+      <types>DocumentRef.ПоступлениеМПЗПрочее</types>
+      <types>DocumentRef.ВыпускПродукцииКанбан</types>
+      <types>DocumentRef.ПоступлениеМПЗ</types>
+      <types>DocumentRef.ЗаявкаОтПокупателя</types>
+      <types>DocumentRef.МаршрутнаяКарта</types>
+      <types>DocumentRef.ПоступлениеИзПереработки</types>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1401882d-ff83-475a-8396-e348b225f916">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cdbb8b1e-cb93-4e83-81bb-31cb00feddcb">
+    <name>МестоХраненияВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения в</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fdf88d7b-9079-4690-9499-04386220292f">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="440a50ba-ad25-4c6b-a208-2c1c18c3d265">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМестаЛинеек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a744e3ba-e519-482e-a255-8cca20dc5eb3">
+    <name>ВидБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид брака</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КомментарииНеисправностей</types>
+      <types>CatalogRef.ВидыБрака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7ecbf71-abf3-489f-ad2b-8402aa5d08b4">
+    <name>Выгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5c13a66-7111-4452-aee7-78ec755132bb">
+    <name>ЭтапЖизненногоЦикла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап жизненного цикла</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭтапыЖизненногоЦикла</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f532b42-9b2d-4016-bb79-c49d1346aca3">
+    <name>НаСборке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На сборке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82d05bb8-4853-4a39-94eb-b1e2b7f5eabf">
+    <name>ВозвратнаяТара</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ в.т.</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5193f5e8-e9c8-4026-9eb3-287e0157d6ac">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3f9b1cc2-babf-439e-8a08-1c1e2d4981b3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad652162-cbe0-4154-987d-a45264d91af9">
+    <name>ФормаПерепрогона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма перепрогона</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe8a8ab8-f3e9-4077-bd68-6ee86ea7ca6e">
+    <name>ФормаЭтикеткиСМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма этикетки СМД</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e5ba26ad-598d-4063-bf09-7ee8228db4b5">
+    <producedTypes>
+      <objectType typeId="bec070ae-3353-4a2d-85f9-e4ab01b5d1ce" valueTypeId="f88c30e2-0113-4e7a-9019-ea8e710a132a"/>
+      <rowType typeId="9009f3ac-993e-4324-a9fc-e4bfa4b85552" valueTypeId="32c69b52-7d50-4ed4-b6c4-428fe7e71bab"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="f14befc7-87fa-41b7-97c1-6c6f032430e5">
+      <name>ВидМПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид МПЗ</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыМПЗ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="d38567de-ac48-4f4d-8a97-3fb90f3a1fc8">
+      <name>МПЗ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МПЗ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="36f390f4-3f3b-43a5-9162-20dbedb71686">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="f82661a6-2165-4d7a-8819-65334b6377e2">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОсновныеЕдиницыИзмерений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ДвижениеМПЗ.TabularSection.ТабличнаяЧасть.Attribute.МПЗ</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <templates uuid="c03ee654-fc91-417d-b98e-d40d16690f24">
+    <name>ПриходноРасходнаяНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приходно-расходная накладная</value>
+    </synonym>
+  </templates>
+  <templates uuid="524acf2a-2b61-4177-95d4-78d7ea9c790a">
+    <name>ЭтикеткаSMD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка SMD</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

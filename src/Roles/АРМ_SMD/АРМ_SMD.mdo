@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="426ce9cf-5aab-44f3-8659-98ebc1e6a1dd">
+  <name>АРМ_SMD</name>
+  <synonym>
+    <key>ru</key>
+    <value>SMD АРМ-ы</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62e42a1e-570d-4d8c-959f-29492d85ed99">
+  <producedTypes>
+    <objectType typeId="c7ac5fa6-2f70-4fe4-ab56-785119c1b42d" valueTypeId="a8526cb1-b493-4501-8409-049cd7126bae"/>
+    <managerType typeId="90749110-21d5-4531-a1c0-0cb85cf43265" valueTypeId="0ab2ad6a-afca-47d5-b555-1de32a12076d"/>
+  </producedTypes>
+  <name>СводныйОтчётПоОборотамКанбанов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводный отчёт по оборотам канбанов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СводныйОтчётПоОборотамКанбанов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="a1b80e12-4a05-4a57-9049-86583b8e9084">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

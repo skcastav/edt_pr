@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8be6965-5fa8-4c7e-9896-e39324ee5819">
+  <producedTypes>
+    <refType typeId="c61e24e8-570a-4614-9205-40c894dc2cf1" valueTypeId="5159f6f8-1d40-4c2c-b0eb-d1938ec1ee0c"/>
+    <listType typeId="dd04f25c-129c-4b29-9a77-4f2f06c74bb6" valueTypeId="d0c5db01-ae1a-4366-b878-b5b35e6eb7a0"/>
+    <managerType typeId="dc88f24e-c98c-4c9d-8094-ed764b7f29eb" valueTypeId="734cb294-8b17-4c2d-9b3d-69ac1719a566"/>
+  </producedTypes>
+  <name>СтатусыМТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы МТК</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9a8d4564-868e-4510-8f51-9fe755220716">
+    <name>ОжиданиеЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание запуска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="615a602b-f0c2-4e1b-b719-f5fc88ab3b91">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="539996df-d419-4888-82e1-c9c0a0e33306">
+    <name>Остановлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91fa7ad8-d229-440e-976f-647c8f91fce8">
+    <name>Завершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff2b04ba-eff0-4291-9c3a-56f96bce2191">
+    <name>ЛьготнаяОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Льготная очередь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

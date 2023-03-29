@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc7b3acf-a338-4b19-adcd-67d2f97ae856">
+  <name>СписаниеГотовойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание готовой продукции</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.СписаниеГотовойПродукции</methodName>
+  <description>Списание готовой продукции</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

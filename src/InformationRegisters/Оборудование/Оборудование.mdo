@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25e61968-d41b-4c14-983a-58b297daeba0">
+  <producedTypes>
+    <selectionType typeId="841ec05c-858b-466a-a202-dc850d776f50" valueTypeId="7a292850-6369-4d68-9bf8-66ba8c8dfe42"/>
+    <listType typeId="650d3e96-35f6-4aa3-a21a-3048f04ca514" valueTypeId="4f6e4067-074c-41e8-b7a9-f450e58af2e8"/>
+    <managerType typeId="4e52e14b-ee8d-4b66-bcc1-490f08d26ba5" valueTypeId="d46d131e-6ddc-4c10-8ab3-e84a15f03168"/>
+    <recordSetType typeId="b5ba9a9a-4cde-4895-b4fa-9a7a389a076d" valueTypeId="fdc6b78b-d54c-4c73-b61c-564034149934"/>
+    <recordKeyType typeId="a13b3ab7-3afd-4bb2-a6d5-f4de0e038126" valueTypeId="31f09d61-2b3a-4220-a4dc-ed40587b0096"/>
+    <recordType typeId="c736e478-e90e-4ba1-8b96-813a502165ec" valueTypeId="fbc3c4f4-1013-4941-ac15-386e00964e72"/>
+    <recordManagerType typeId="493754f2-b8ee-4305-8e91-830123411f4f" valueTypeId="1a6942cc-60dd-48fe-b423-dfa6f441eafb"/>
+  </producedTypes>
+  <name>Оборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a6cb4d6a-0127-469b-88a3-b0c187a829a9">
+    <name>СтоимостьМЧПлановая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая стоимость машино-часа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9b42e586-f2f2-4fd4-87ec-24be827c2ff9">
+    <name>СтоимостьМЧРасчётная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчётная стоимость машино-часа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="767bed91-6373-4254-b76d-79c067a106cd">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехОснастка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

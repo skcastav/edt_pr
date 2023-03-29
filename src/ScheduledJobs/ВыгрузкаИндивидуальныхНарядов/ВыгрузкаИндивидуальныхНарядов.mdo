@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd80538-1a79-4d34-abf4-64ea72c6a6d0">
+  <name>ВыгрузкаИндивидуальныхНарядов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка индивидуальных нарядов</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодульРегламентныеЗадания.ВыгрузкаИндивидуальныхНарядов</methodName>
+  <description>Выгрузка индивидуальных нарядов</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0d4bb2e-b93b-47aa-a0f1-88fdbe6f9374">
+  <name>ОтправкаВебСервисРегистр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка веб сервис регистр</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СРМ_ОбменВебСервис.ОтправкаВебСервисРегистрыПриЗаписи</handler>
+</mdclass:EventSubscription>

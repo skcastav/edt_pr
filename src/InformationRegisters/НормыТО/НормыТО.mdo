@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e2495f6-f35b-473a-ab9b-9e3eac0061f2">
+  <producedTypes>
+    <selectionType typeId="1177231f-66c3-44ec-9454-dc04e5626931" valueTypeId="4ef48c84-cb6f-4793-aec5-681b207b39c2"/>
+    <listType typeId="b4869cea-e9b0-489c-babc-1c61d10f5a6b" valueTypeId="0a537f4b-0856-4ffd-a2e1-ea9a6ff8fa10"/>
+    <managerType typeId="ba88c33d-22ee-4dfc-9128-1b8a9e2bfc4a" valueTypeId="7292497b-ed17-4d35-ba08-8ecca4df3afb"/>
+    <recordSetType typeId="1f468019-7091-45bb-9c42-97a74c30608f" valueTypeId="66937478-bede-4ab3-899f-cafdbf74c83d"/>
+    <recordKeyType typeId="a824dab1-75a4-4bee-b379-d076147d2048" valueTypeId="a1fdd4da-a0f4-4453-a1d2-5d68c61e0da3"/>
+    <recordType typeId="39488441-a2c3-4814-b6af-ea35fcca4182" valueTypeId="553ec70a-2ec0-4591-a842-9d08ad8f70c6"/>
+    <recordManagerType typeId="bb2bbda9-250b-469a-a218-2077ed19b4c2" valueTypeId="a72065ac-3289-420d-837c-c482dbd9b942"/>
+  </producedTypes>
+  <name>НормыТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы ТО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="83d9807e-70ca-46f2-aba9-d99ae9d3f97a">
+    <name>Норма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="583d60e8-77a0-41fe-9bd3-3bc823c7c4ef">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="435b81b2-dee3-4f46-b567-e207cbb474b6">
+    <name>МашинноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Машинное время</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="45876bf8-0a81-43c4-b094-bdde57e1a7f3">
+    <name>НормаВремениНаНастройку</name>
+    <synonym>
+      <key>ru</key>
+      <value>НВ на настройку, мин/партию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d809aa8c-91eb-4cb4-813d-c71bf2f260ea">
+    <name>НормаВремениНаОбдув</name>
+    <synonym>
+      <key>ru</key>
+      <value>НВ на 1 шт (обдув), мин/шт.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="df28653e-b569-4fd2-898f-b70234eec26e">
+    <name>ТехОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТехОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

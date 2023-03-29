@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27b1e226-7798-47bf-b625-fa8b054bc49c">
+  <name>Бирка_ЗаменаКлассаДопуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бирка замена класса допуска</value>
+  </synonym>
+</mdclass:CommonTemplate>
